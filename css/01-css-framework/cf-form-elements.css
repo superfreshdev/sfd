@@ -1,0 +1,143 @@
+/* 
+    cf-form-elements.css
+
+    define layouts on control elements like buttons,
+    input textfields , ... 
+
+*/
+
+
+/* ------------------------------------------------------------ */
+/* Radio Labels
+/* ------------------------------------------------------------ */
+
+/* -------------------------------- */ 
+/* Radio Label - Header */
+/* -------------------------------- */ 
+
+/* -------------------------------- */ 
+/* Radio Label - Lists */
+/* -------------------------------- */ 
+
+
+/* ------------------------------------------------------------ */
+/* Buttons 
+/* ------------------------------------------------------------ */
+
+/* default sizes ( small , medium , default ) of button */
+.btn-default-style-sfd,
+.btn-medium-style-sfd,
+.btn-small-style-sfd {
+
+    /* overwrite default btn browser style */
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0px;
+    border-radius: .3em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+}
+
+.btn-default-style-sfd:hover,
+.btn-medium-style-sfd:hover,
+.btn-small-style-sfd:hover {
+    transition: .4s all;
+    background-color: var(--c-p-mg);
+}
+
+/* default - Buttons */
+.btn-default-style-sfd {
+    padding: .8em .8em;
+}
+
+/* medium - Buttons */
+.btn-medium-style-sfd {
+
+}
+
+/* small - Buttons */
+.btn-small-style-sfd {
+    
+}
+
+
+/* --------------------------------------------------------- */
+/* Buttons Handle Style 
+/* --------------------------------------------------------- */
+
+.btn-default-action-sfd {
+    background-color: var(--c-s-dg);
+    color:var(--c-w);
+}
+
+.btn-close-style-sfd {
+    background-color: var(--c-p-red);
+    color:var(--c-w);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------- */ 
+/* Header - Buttons */
+/* -------------------------------- */ 
+
+.button-h-sfd {
+
+    /* button default font-size: 13,33px */
+    /* we need to overwrite */
+    font-size: .9rem;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    padding: 0em 1.2em;
+    height: 3em;
+    cursor: pointer;
+
+    font-weight: bold;
+    /* background-color: grey; */
+    /* background-color: transparent; */
+    background-color:#212121;
+    /* --medium-grey-3: #979A9A; */
+    
+    border-radius: .4em;
+    /* overwrite border on default button */
+    border: 1px solid #979A9A;;
+    color:#979A9A;
+
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(245, 245, 245, 0.1) 0px 0px 0px 1; */
+   
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+
+.button-h-sfd:hover {
+
+    transition: .1s all;
+    background-color: var(--c-p-lb);
+
+}
+

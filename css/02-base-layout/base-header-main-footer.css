@@ -1,0 +1,423 @@
+/* 
+    base-header-main-footer.css
+
+    > define the base layout of the 
+    base header , base main , base footer.
+
+*/
+
+
+/* ------------------------------------------------------------------------ */
+/* | 01 - 03 | Base Header 
+/* ------------------------------------------------------------------------ */
+
+#base-header-layout {
+
+    /* mobile height  */
+
+    /* desktop height  */
+    height: 6em;
+
+    display: flex;
+    justify-content: center;
+
+    /* sfd colors */
+    background-color: var(--c-sfd-dark-anthracite);
+
+    /* border-bottom: 3px solid var(--c-sfd-light-brown); */
+   
+}
+
+/* -------------------------------------------------------------- */
+/* Nav | Base Header
+/* -------------------------------------------------------------- */
+
+#nav-base-header {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    /* mobile */
+
+    /* desktop */
+ 
+    /* background-color: green; */
+
+}
+
+/* -------------------------------------------- */ 
+/* Company Label | Base Header
+/* -------------------------------------------- */ 
+
+#lbl-radio-home-about-base-header  {
+
+    /* desktop  */
+    /* font-size: 1.8em; */
+
+
+    cursor: pointer;
+
+    padding: .4em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+
+    border-radius: .4em;
+
+    background-color: var(--c-sfd-light-anthracite);
+    color: var(--c-sfd-light-brown);
+
+}
+
+/* ---------------------------------------------------------- */
+/* Mobile - First 
+/* ---------------------------------------------------------- */
+
+/* --------------------- */
+/* Unshown 
+/* --------------------- */
+
+/* logo text not for default about page  */
+#lbl-radio-home-about-base-header > div:nth-of-type(2) {
+
+    display: none;
+}
+
+/* img logo only show by desktop  */
+#lbl-radio-home-about-base-header > img:nth-of-type(1) {
+
+    /* mobile unshown  */
+    display: none;
+
+    width: 3em;
+    height: 3em;
+    border-radius: .4em;
+
+}
+
+/* --------------------- */
+/* Style
+/* --------------------- */
+
+
+#lbl-radio-home-about-base-header  > div:nth-of-type(1) {
+
+    font-size: .8em;
+    width: 9em;
+    line-height: 1.2em;
+    /* font-size: 1.3em; */
+    font-weight: bold;
+    color: var(--c-sfd-light-brown);
+  
+
+}
+
+/* 2xdivs inside div container */
+#lbl-radio-home-about-base-header > div:nth-of-type(1) > div:nth-of-type(1) {
+
+    color: var(--c-cf-white);
+
+}
+
+#lbl-radio-home-about-base-header  > div:nth-of-type(1) > div:nth-of-type(2) {
+    
+    color: var(--c-sfd-light-brown);
+    font-size: .9em;
+
+}
+
+/* -------------------------------------------------------------- */
+/* Page Nav Panel | Base Header | 
+/* > Layout Part [1/2] 
+/* -------------------------------------------------------------- */
+
+#page-nav-panel-base-header {
+
+    /* reset default ul sets */
+    padding:0;
+    margin:0;
+    list-style-type: none;
+ 
+    display: flex;
+    align-items: center;
+
+    /* font-size: 1.2em; */
+
+}
+
+/* -------------------------------------- */
+/* li ( 1-layer )
+/* -------------------------------------- */
+
+.li-first-layer {
+
+    cursor: pointer;
+    height: 2.6em;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: .4em;
+    border: 1px solid var(--c-sfd-light-grey);
+
+    font-weight: bold;
+    color: var(--c-sfd-light-grey);
+
+}
+
+.li-first-layer:hover {
+
+    transition: .4s all ease;
+    background-color: var(--c-sfd-light-brown); 
+    color:var(--c-black);
+
+}
+
+/* -------------------------------------- */
+/* label ( 1-layer )
+/* -------------------------------------- */
+
+.li-first-layer > label {
+
+    cursor: pointer;
+
+    /* stretch 100% in parent container li */
+    width: 100%;
+    height: 100%; 
+    padding: 0em .8em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+}
+
+/* -------------------------------------- */
+/* img label ( 1-layer )
+/* -------------------------------------- */
+
+/*
+    Info about img label: 
+    > not every img label need 
+    the same size to show it correctly 
+
+*/
+
+/* default img icon size of page nav panel  */
+.img-icon-lbl-page-nav-panel {
+
+    height: 1.4em;
+}
+
+/* img icon of docs & news  */
+/* img-icon-lbl-docs-news-page-nav-panel */
+.img-icon-lbl-docs-news-page-nav-panel {
+    
+    height: 1.25em;
+}
+
+/* optimize perfect pos of projects img icon */
+.modify-pos-img-icon-lbl-projects-page-nav-panel {
+
+    position: relative;
+    top:.1em
+}
+
+
+/* -------------------------------------- */
+/* li (1-layer) spacers 
+/* -------------------------------------- */
+
+.li-first-layer-spacers  {
+
+    padding: 0em .3em;
+
+    font-weight: bold;
+    color: var(--c-cf-white);
+    
+}
+
+
+/* -------------------------------------------------------------- */
+/* List Label Panel | Base Header | 
+/* > Radio Handling Part [2/2] 
+/* -------------------------------------------------------------- */
+
+/* default unshown radio circle buttons */
+#radio-home-about,
+#radio-projects,
+#radio-docs,
+#radio-news,
+#radio-about { display: none; }
+
+/* default unshown black lbl img */
+#lbl-radio-projects-base-header > img:nth-of-type(2),
+#lbl-radio-docs-base-header > img:nth-of-type(2),
+#lbl-radio-news-base-header > img:nth-of-type(2),
+#lbl-radio-about-base-header > img:nth-of-type(2) {
+    display: none;
+}
+
+
+/* ------------------------------------------------------- */
+/* Hover - Handling [ 1 / 2 ]
+/* ------------------------------------------------------- */
+
+/* Hover show black img */
+#page-nav-panel-base-header > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(2),
+#page-nav-panel-base-header > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(2),
+#page-nav-panel-base-header > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(2),
+#page-nav-panel-base-header > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(2) {
+
+    display: block;
+}
+
+/* Hover unshown grey img */
+#page-nav-panel-base-header > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(1),
+#page-nav-panel-base-header > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(1),
+#page-nav-panel-base-header > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(1),
+#page-nav-panel-base-header > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(1) {
+
+    display: none;
+}
+
+/* ------------------------------------------------------- */
+/* Checked - Handling [ 2 / 2 ]
+/* ------------------------------------------------------- */
+
+/* default radio checked */
+#radio-projects:checked ~ #base-header-layout #page-nav-panel-base-header > li:nth-of-type(1) ,
+#radio-docs:checked ~ #base-header-layout #page-nav-panel-base-header > li:nth-of-type(3),
+#radio-news:checked ~ #base-header-layout #page-nav-panel-base-header > li:nth-of-type(5),
+#radio-about:checked ~ #base-header-layout #page-nav-panel-base-header > li:nth-of-type(7),
+#radio-home-about:checked ~ #base-header-layout #page-nav-panel-base-header > li:nth-of-type(7) {
+
+    background-color: var(--c-sfd-light-brown);
+    color: var(--c-cf-black);
+
+}
+
+/* default unshown grey img | if radio is checked */
+#radio-home-about:checked ~ #base-header-layout #lbl-radio-about-base-header > img:nth-of-type(1),
+#radio-projects:checked ~ #base-header-layout #lbl-radio-projects-base-header > img:nth-of-type(1),
+#radio-docs:checked ~ #base-header-layout #lbl-radio-docs-base-header > img:nth-of-type(1),
+#radio-news:checked ~ #base-header-layout #lbl-radio-news-base-header > img:nth-of-type(1),
+#radio-about:checked ~ #base-header-layout #lbl-radio-about-base-header > img:nth-of-type(1) {
+
+    display: none;
+
+}
+/* default show black img | if radio is checked */
+#radio-home-about:checked ~ #base-header-layout #lbl-radio-about-base-header > img:nth-of-type(2), 
+#radio-projects:checked ~ #base-header-layout #lbl-radio-projects-base-header > img:nth-of-type(2),
+#radio-docs:checked ~ #base-header-layout #lbl-radio-docs-base-header > img:nth-of-type(2),
+#radio-news:checked ~ #base-header-layout #lbl-radio-news-base-header > img:nth-of-type(2),
+#radio-about:checked ~ #base-header-layout #lbl-radio-about-base-header > img:nth-of-type(2) {
+
+    display: block;
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* 02 - 03 | Base Main
+/* ------------------------------------------------------------------------ */
+
+
+#base-main-layout {
+
+    /* height: 100%;  */
+    background-color: red;
+ 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 03 - 03 | Base Footer
+/* ------------------------------------------------------------------------ */
+
+#base-footer-layout {
+
+    padding: 2.8em .8em;
+
+    display: flex;
+    justify-content: center;
+
+    /* align-self: flex-start; */
+
+    /* height: 100%; */
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color: var(--c-cf-white);
+     
+}
+
+#base-footer-layout  > div:nth-of-type(1) {
+ 
+    /* desktop version */
+    
+    /* width: 92em; */
+
+    border: 0px 1px 0px 1px solid var(--c-cf-white);
+
+    background-color: rgb(23, 75, 75);
+
+    /* display: grid;
+    grid: auto auto auto / 1fr;
+    row-gap: 2em;
+    align-self: flex-start; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Müll */
+#links-panel-footer-sfd {
+
+    width: 72em;
+
+    /* background-color: rebeccapurple; */
+
+    display: flex;
+    align-self: flex-start;
+    gap: 3em;
+    flex-wrap: wrap;
+
+}
+
+
+.links-container-footer-sfd {
+
+    border: 1px solid gainsboro;
+    border-radius: .3em;
+
+    padding: 1em;
+
+}

@@ -1,0 +1,32 @@
+/* 
+    cf-colors.css
+
+    define default css colors which u can use in all your webpages.
+
+*/
+
+
+/* ------------------------------------------------------- */
+/* cf - Colors
+/* ------------------------------------------------------- */
+
+:root {
+
+    /* ------------------------------ */
+    /* Base Colors 
+    /* ------------------------------ */
+
+    --c-cf-red: red;
+    --c-cf-blue: blue;
+    --c-cf-yellow: yellow;
+    --c-cf-orange: orange;
+    --c-cf-violet: violet;
+    --c-cf-magenta: magenta;
+    --c-cf-pink: pink;
+    --c-cf-brown: brown;
+    --c-cf-green: green;
+    --c-cf-white: white;
+    --c-cf-black: black;
+    --c-cf-grey: grey;
+
+}

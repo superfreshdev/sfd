@@ -1,0 +1,55 @@
+/* 
+    cf-text-view-layouts.css
+
+    define all parts of text view layouts which 
+    looks cleaner & sexier than the default.
+
+    For example some html tags had an default 
+    padding / margin layout. That is what we changed by
+    own css names.
+
+*/
+
+/* --------------------------------------------------------------- */
+/* Text
+/* --------------------------------------------------------------- */
+
+.txt-b { font-weight: bold; }
+.txt-i { font-style: italic; }
+.txt-bi { 
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* --------------------------------------------------------------- */
+/* UL / OL & LI (1-layer)
+/* --------------------------------------------------------------- */
+
+.ul-ol-clean-layout,
+.ul-ol-no-list-style-types-clean-layout {
+
+    /* delete default sets of ul/ol */
+    padding:0;
+    margin:0;
+    /* list-style-type: none; */
+
+}
+
+.ul-ol-no-list-style-types-clean-layout {
+
+    list-style-type: none;
+
+}
+
+/* clean with margin-left 2em */
+.ul-ol-clean-layout-m-l-2em {
+
+    padding:0em;
+    margin: 0em 0em 0em 2em;
+   
+}
+
+
+/* --------------------------------------------------------------- */
+/* p-Tag ( could be coming in future ) 
+/* --------------------------------------------------------------- */

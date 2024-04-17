@@ -1,0 +1,109 @@
+/* 
+    cf-flex-grid-pos.css
+
+    define reusable css stles for simple 
+    layouts , styles , ... 
+
+*/
+
+
+/* ------------------------------------------------------- */
+/* Grid , Flex - Layouts 
+/* ------------------------------------------------------- */
+
+.flex { display: flex; }
+.grid { display: grid; }
+
+/* wrap */
+.fw-w { flex-wrap: wrap; }
+
+
+
+/* align-items */
+.ai-c { align-items: center; }
+.ai-r { align-items: right; }
+.ai-l { align-items: left; }
+
+/* align-content */
+.ac-c { align-content: center; }
+.ac-r { align-content: right; }
+
+/* align-self */
+
+/* justify-content */
+.jc-c { justify-content: center; }
+.jc-r { justify-content: right; }
+.jc-l { justify-content: left; }
+.jc-sb { justify-content: space-between; }
+
+/* column-gap */
+.cg-0-3em { column-gap: .3em; }
+.cg-0-5em { column-gap: .5em; }
+.cg-0-8em { column-gap: .8em; }
+.cg-1em { column-gap: 1em; }
+
+/* row-gap */
+.rg-0-3em { row-gap: .3em; }
+.rg-0-5em { row-gap: .5em; }
+.rg-0-8em { row-gap: .8em; }
+.rg-1em { row-gap: 1em; }
+
+
+/* ------------------------------------------------------- */
+/* Flex 'good combined' layouts
+/* ------------------------------------------------------- */
+
+.flex-cg03 {
+
+    display: flex;
+    column-gap: .3em;
+}
+
+.flex-aic-cg03 {
+
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+}
+
+.flex-aic-cg06 {
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+}
+
+.flex-aic-cg1-2 {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1.2em;
+}
+
+/* ------------------------------------------------------- */
+/* Font Styles  
+/* ------------------------------------------------------- */
+
+.f-b { font-weight: bold; }
+.f-i { font-style: italic; }
+.f-bi { font-weight: bold; font-style: italic; }
+
+
+
+/* ------------------------------------------------------- */
+/* Positions
+/* ------------------------------------------------------- */
+
+.pos-rel { position: relative;}
+
+.pos-rel-t-0em { 
+    position: relative;
+    top:0em;
+}
+
+
+.t-0em { top: 0em; }
+.t-1em { top: 1em; }
+
+.l-0em { left: 0em; }
+.r-0em { left: rem; }
