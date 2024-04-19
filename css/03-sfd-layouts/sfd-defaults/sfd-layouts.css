@@ -19,14 +19,17 @@
 #company-logo-sfd {
 
     cursor: pointer;
+
     border-radius: .4em;
-    
-    height: 3em;
+    background-color: var(--c-sfd-light-anthracite);
+   
    
 
-    background-color: var(--c-sfd-light-anthracite);
+   
 
     /* mobile  */
+
+    height: 3em;
 
     display: flex;
     align-items: center;
@@ -71,7 +74,10 @@
     padding: 0em .6em;
 
     color: var(--c-sfd-light-brown);
-    line-height: 1.1em;
+
+    color: var(--c-sfd-light-brown-darker);
+
+    line-height: 1em;
 
     /* display: none; */
 
