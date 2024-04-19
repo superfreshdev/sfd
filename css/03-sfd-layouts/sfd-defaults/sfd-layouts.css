@@ -22,7 +22,7 @@
     border-radius: .4em;
     
     height: 3em;
-    padding: .1em .6em 0em .3em;
+   
 
     background-color: var(--c-sfd-light-anthracite);
 
@@ -40,8 +40,9 @@
 #img-company-logo {
 
     /* mobile */
-    height: 1.2em;
-    /* display: none; */
+    height: 1.3em;
+
+    display: none;
 
     /* desktop */
 
@@ -67,10 +68,12 @@
 #about-version-company-logo {
 
    
+    padding: 0em .6em;
+
     color: var(--c-sfd-light-brown);
     line-height: 1.1em;
 
-    display: none;
+    /* display: none; */
 
     /* mobile */
   
@@ -81,7 +84,11 @@
 
 #other-version-company-logo {
 
+    padding: 0em .6em;
+
     line-height: 1.1em;
+
+    display: none;
 
     /* mobile */
     
@@ -96,7 +103,8 @@
     font-weight: bold;
 
     /* mobile */
-    font-size: .9em;
+    /* font-size: .9em; */
+
     /* desktop */
 
 
@@ -116,6 +124,192 @@
     /* desktop */
 
 }
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Header | Nav Header 
+/* ------------------------------------------------------------------- */
+
+#nav-header-sfd {
+
+    padding:0;
+    margin:0;
+    list-style-type: none;
+ 
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* -------------------------------------- */
+/* li ( 1-layer )
+/* -------------------------------------- */
+
+.li-first-layer {
+
+    cursor: pointer;
+    height: 3em;
+    width: 3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .4em;
+    border: 1px solid var(--c-sfd-light-grey);
+
+    font-weight: bold;
+    color: var(--c-sfd-light-grey);
+
+}
+
+.li-first-layer:hover {
+
+    transition: .4s all ease;
+    background-color: var(--c-sfd-light-brown); 
+    color:var(--c-black);
+
+}
+
+/* -------------------------------------- */
+/* label ( 1-layer )
+/* -------------------------------------- */
+
+.li-first-layer > label {
+
+    cursor: pointer;
+
+    /* stretch 100% in parent container li */
+    width: 100%;
+    height: 100%; 
+    padding: 0em .8em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+}
+
+
+/* -------------------------------------- */
+/* img label ( 1-layer )
+/* -------------------------------------- */
+
+/*
+    Info about img label: 
+    > not every img label need 
+    the same size to show it correctly 
+
+*/
+
+/* default img icon size of page nav panel  */
+.img-icon-lbl-page-nav-panel {
+
+    height: 1.4em;
+}
+
+/* img icon of docs & news  */
+/* img-icon-lbl-docs-news-page-nav-panel */
+.img-icon-lbl-docs-news-page-nav-panel {
+    
+    height: 1.25em;
+}
+
+/* optimize perfect pos of projects img icon */
+.modify-pos-img-icon-lbl-projects-page-nav-panel {
+
+    position: relative;
+    top:.1em
+}
+
+
+/* -------------------------------------- */
+/* li (1-layer) spacers 
+/* -------------------------------------- */
+
+.li-first-layer-spacers  {
+
+    padding: 0em .3em;
+
+    font-weight: bold;
+    color: var(--c-cf-white);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---------------------------------------------------------- */
 /* Mobile - First 
@@ -171,22 +365,6 @@
     
     color: var(--c-sfd-light-brown);
     font-size: .9em;
-
-}
-
-
-/* ------------------------------------------------------------------- */
-/* Header | Nav Header 
-/* ------------------------------------------------------------------- */
-
-#nav-header-sfd {
-
-    padding:0;
-    margin:0;
-    list-style-type: none;
- 
-    display: flex;
-    align-items: center;
 
 }
 

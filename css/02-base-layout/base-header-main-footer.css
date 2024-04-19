@@ -13,10 +13,19 @@
 
 #header-base {
 
+    opacity: 99;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+   
+
     /* mobile */
+    height: 6em;
+
 
     /* desktop */
-    height: 6em;
+   
 
     display: flex;
     justify-content: center;
@@ -50,108 +59,12 @@
 
 
 
+
+
 /* aufräumen */
 
-#page-nav-panel-base-header {
-
-    /* reset default ul sets */
-  
-
-    /* font-size: 1.2em; */
-
-}
-
-/* -------------------------------------- */
-/* li ( 1-layer )
-/* -------------------------------------- */
-
-.li-first-layer {
-
-    cursor: pointer;
-    height: 2.6em;
-
-    display: flex;
-    align-items: center;
-
-    border-radius: .4em;
-    border: 1px solid var(--c-sfd-light-grey);
-
-    font-weight: bold;
-    color: var(--c-sfd-light-grey);
-
-}
-
-.li-first-layer:hover {
-
-    transition: .4s all ease;
-    background-color: var(--c-sfd-light-brown); 
-    color:var(--c-black);
-
-}
-
-/* -------------------------------------- */
-/* label ( 1-layer )
-/* -------------------------------------- */
-
-.li-first-layer > label {
-
-    cursor: pointer;
-
-    /* stretch 100% in parent container li */
-    width: 100%;
-    height: 100%; 
-    padding: 0em .8em;
-
-    display: flex;
-    align-items: center;
-    column-gap: .6em;
-
-}
-
-/* -------------------------------------- */
-/* img label ( 1-layer )
-/* -------------------------------------- */
-
-/*
-    Info about img label: 
-    > not every img label need 
-    the same size to show it correctly 
-
-*/
-
-/* default img icon size of page nav panel  */
-.img-icon-lbl-page-nav-panel {
-
-    height: 1.4em;
-}
-
-/* img icon of docs & news  */
-/* img-icon-lbl-docs-news-page-nav-panel */
-.img-icon-lbl-docs-news-page-nav-panel {
-    
-    height: 1.25em;
-}
-
-/* optimize perfect pos of projects img icon */
-.modify-pos-img-icon-lbl-projects-page-nav-panel {
-
-    position: relative;
-    top:.1em
-}
 
 
-/* -------------------------------------- */
-/* li (1-layer) spacers 
-/* -------------------------------------- */
-
-.li-first-layer-spacers  {
-
-    padding: 0em .3em;
-
-    font-weight: bold;
-    color: var(--c-cf-white);
-    
-}
 
 
 /* -------------------------------------------------------------- */
@@ -180,19 +93,19 @@
 /* ------------------------------------------------------- */
 
 /* Hover show black img */
-#page-nav-panel-base-header > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(2),
-#page-nav-panel-base-header > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(2),
-#page-nav-panel-base-header > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(2),
-#page-nav-panel-base-header > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(2) {
+#nav-header-sfd > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(2),
+#nav-header-sfd > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(2),
+#nav-header-sfd > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(2),
+#nav-header-sfd > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(2) {
 
     display: block;
 }
 
 /* Hover unshown grey img */
-#page-nav-panel-base-header > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(1),
-#page-nav-panel-base-header > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(1),
-#page-nav-panel-base-header > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(1),
-#page-nav-panel-base-header > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(1) {
+#nav-header-sfd > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(1),
+#nav-header-sfd > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(1),
+#nav-header-sfd > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(1),
+#nav-header-sfd > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(1) {
 
     display: none;
 }
@@ -202,11 +115,11 @@
 /* ------------------------------------------------------- */
 
 /* default radio checked */
-#radio-projects:checked ~ #header-base #page-nav-panel-base-header > li:nth-of-type(1) ,
-#radio-docs:checked ~ #header-base #page-nav-panel-base-header > li:nth-of-type(3),
-#radio-news:checked ~ #header-base #page-nav-panel-base-header > li:nth-of-type(5),
-#radio-about:checked ~ #header-base #page-nav-panel-base-header > li:nth-of-type(7),
-#radio-home-about:checked ~ #header-base #page-nav-panel-base-header > li:nth-of-type(7) {
+#radio-projects:checked ~ #header-base #nav-header-sfd > li:nth-of-type(1) ,
+#radio-docs:checked ~ #header-base #nav-header-sfd > li:nth-of-type(3),
+#radio-news:checked ~ #header-base #nav-header-sfd > li:nth-of-type(5),
+#radio-about:checked ~ #header-base #nav-header-sfd > li:nth-of-type(7),
+#radio-home-about:checked ~ #header-base #nav-header-sfd > li:nth-of-type(7) {
 
     background-color: var(--c-sfd-light-brown);
     color: var(--c-cf-black);
@@ -239,12 +152,23 @@
 /* ------------------------------------------------------------------------ */
 
 
-#base-main-layout {
+#main-base {
 
     /* height: 100%;  */
     background-color: red;
+
+
+    /* mobile */
+    margin-top: 6em;
+    
+
+    /* desktop */
  
 }
+
+
+
+
 
 /* ------------------------------------------------------------------------ */
 /* 03 - 03 | Base Footer

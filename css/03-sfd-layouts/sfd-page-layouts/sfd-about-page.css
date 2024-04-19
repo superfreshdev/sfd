@@ -114,7 +114,7 @@
     
     color: var(--c-sfd-light-grey);
     font-weight: bold;
-    opacity: .6;
+    /* opacity: .6; */
 
 }
 
