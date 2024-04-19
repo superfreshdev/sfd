@@ -36,7 +36,8 @@
 #img-company-logo {
 
     /* mobile */
-    height: 1.6em;
+    height: 1.3em;
+    display: none;
 
     /* desktop */
 
@@ -65,6 +66,8 @@
     color: var(--c-sfd-light-brown);
     line-height: 1.3em;
 
+    display: none;
+
     /* mobile */
   
 
@@ -74,8 +77,36 @@
 
 #other-version-company-logo {
 
+    line-height: 1.1em;
+
     /* mobile */
-    display: none;
+    
+
+    /* desktop */
+
+}
+
+#other-version-company-logo > div:nth-of-type(1) {
+
+    color: var(--c-sfd-light-brown);
+
+    /* mobile */
+    font-size: .8em;
+
+    /* desktop */
+
+
+
+}
+
+#other-version-company-logo > div:nth-of-type(2) {
+
+    color: var(--c-cf-white);
+    font-weight: bold;
+
+    /* mobile */
+    font-size: 1.1em;
+    
 
     /* desktop */
 
