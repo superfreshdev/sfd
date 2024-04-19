@@ -29,7 +29,7 @@
 
     /* mobile  */
 
-    height: 2.9em;
+    height: 3em;
 
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
 #about-version-company-logo {
 
    
-    padding: 0em .6em;
+    padding: .1em .6em 0em.6em;
 
     color: var(--c-sfd-light-brown);
 
@@ -157,8 +157,8 @@
 .li-first-layer {
 
     cursor: pointer;
-    height: 2.9em;
-    width: 2.9em;
+    height: 3em;
+    width: 3em;
 
     display: flex;
     align-items: center;
