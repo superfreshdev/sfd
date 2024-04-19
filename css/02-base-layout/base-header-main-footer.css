@@ -50,20 +50,12 @@
 
 
 
-/* -------------------------------------------------------------- */
-/* Page Nav Panel | Base Header | 
-/* > Layout Part [1/2] 
-/* -------------------------------------------------------------- */
+/* aufräumen */
 
 #page-nav-panel-base-header {
 
     /* reset default ul sets */
-    padding:0;
-    margin:0;
-    list-style-type: none;
- 
-    display: flex;
-    align-items: center;
+  
 
     /* font-size: 1.2em; */
 
