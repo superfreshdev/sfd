@@ -15,6 +15,9 @@ html , body {
 /* give our body an own css id name  */
 #base-body-layout {
 
+    position: relative;
+    /* top:0; */
+
     /* because to stretch max height content */
     min-height: 100vh;
 
