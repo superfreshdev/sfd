@@ -1,0 +1,277 @@
+/*
+
+    sfd-layouts.css
+
+    > define all sfd layouts which define my 
+    personally look of my webpage superfreshdev.
+    For example my layout for company logo , nav header , ... 
+
+*/
+
+
+
+/* ------------------------------------------------------------------- */
+/* Header | Company Logo 
+/* ------------------------------------------------------------------- */
+
+/* click listener gelöst werden ?  */
+
+#company-logo-sfd {
+
+    cursor: pointer;
+    border-radius: .4em;
+    padding: .4em 1em .4em .6em;
+    background-color: var(--c-sfd-light-anthracite);
+
+    /* mobile  */
+
+    display: flex;
+    align-items: center;
+    column-gap: .8em;
+
+    /* desktop  */
+
+}
+
+#img-company-logo {
+
+    /* mobile */
+    height: 1.6em;
+
+    /* desktop */
+
+    
+}
+
+/* #lbl-radio-home-about-base-header */
+
+
+#text-layout-company-logo-sfd {
+
+    /* mobile */
+   
+
+    /* desktop */
+
+
+}
+
+
+
+
+#about-version-company-logo {
+
+   
+    color: var(--c-sfd-light-brown);
+    line-height: 1.3em;
+
+    /* mobile */
+  
+
+    /* desktop */
+
+}
+
+#other-version-company-logo {
+
+    /* mobile */
+    display: none;
+
+    /* desktop */
+
+}
+
+/* ---------------------------------------------------------- */
+/* Mobile - First 
+/* ---------------------------------------------------------- */
+
+/* --------------------- */
+/* Unshown 
+/* --------------------- */
+
+/* logo text not for default about page  */
+#lbl-radio-home-about-base-header > div:nth-of-type(2) {
+
+    display: none;
+}
+
+/* img logo only show by desktop  */
+#lbl-radio-home-about-base-header > img:nth-of-type(1) {
+
+    /* mobile unshown  */
+    display: none;
+
+    width: 3em;
+    height: 3em;
+    border-radius: .4em;
+
+}
+
+/* --------------------- */
+/* Style
+/* --------------------- */
+
+
+#lbl-radio-home-about-base-header  > div:nth-of-type(1) {
+
+    font-size: .8em;
+    width: 9em;
+    line-height: 1.2em;
+    /* font-size: 1.3em; */
+    font-weight: bold;
+    color: var(--c-sfd-light-brown);
+  
+
+}
+
+/* 2xdivs inside div container */
+#lbl-radio-home-about-base-header > div:nth-of-type(1) > div:nth-of-type(1) {
+
+    color: var(--c-cf-white);
+
+}
+
+#lbl-radio-home-about-base-header  > div:nth-of-type(1) > div:nth-of-type(2) {
+    
+    color: var(--c-sfd-light-brown);
+    font-size: .9em;
+
+}
+
+
+/* ------------------------------------------------------------------- */
+/* Header | Nav Header 
+/* ------------------------------------------------------------------- */
+
+#nav-header-sfd {
+
+
+}
+
+
+/* ------------------------------------------------------------------- */
+/* Main | Row Layouts for content 
+/* ------------------------------------------------------------------- */
+
+.row-sfd {
+
+    position: relative;
+
+    /* important to give orientation where element starts */
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.row-content-area-sfd {
+
+    /* mobile  */
+    padding: .8em .8em;
+    width: 100%;
+
+    /* desktop  */
+    /* padding: 2.8em .8em; */
+
+}
+
+
+.row-fullsize-content-area-sfd {
+
+    /* mobile  */
+    position: relative;
+    top:0em;
+
+    width: 82em;
+    height: 24em;
+
+    padding: 0;
+
+    /* desktop  */
+    /* padding: 2.8em .8em; */
+
+}
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* Ist Müll kann weg 
+/* ----------------------------------------------------------------------------------------- */
+
+.line-100p-light-brown-container {
+
+    width: 100%;
+    height: 33px;
+
+    position: absolute;
+    bottom: 0px;
+
+    display: none;
+
+    background-color: var(--c-sfd-light-brown);
+    background-color: var(--c-sfd-dark-grey);
+
+}
+
+#my-container {
+
+    /* background-color: green; */
+    background-color: white;
+    background-color: var(--c-sfd-dark-anthracite);
+
+    position: relative;
+    /* top:-1em; */
+    /* top:-32em; */
+    /* bottom: 0; */
+
+    height: 22em;
+ 
+
+    display: flex;
+    justify-content: center;
+
+    /* border-bottom: 2px solid #212121; */
+
+
+
+}
+
+#my-image {
+
+    width: 82em;
+    position: absolute;
+}
+
+
+.my-quote-container {
+
+    
+    border-radius: .4em;
+    padding: .3em .6em;
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

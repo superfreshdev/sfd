@@ -18,7 +18,7 @@
     <!-- --------------------------------------------------------------------------- -->
 
     <!-- ----------------------------------------- -->
-    <!-- css-framework (cf)                        -->
+    <!-- 01 | CSS-Framework (cf)                   -->
     <!-- ----------------------------------------- -->
 
     <link rel="stylesheet" href="css/01-css-framework/cf-colors.css">
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/01-css-framework/cf-text-view-layouts.css">
 
     <!-- ----------------------------------------- -->
-    <!-- base-layout                               -->
+    <!-- 02 | Base Layout                         -->
     <!-- ----------------------------------------- -->
 
     <!-- html , body -->
@@ -37,37 +37,43 @@
     <link rel="stylesheet" href="css/02-base-layout/base-header-main-footer.css">
 
     <!-- ----------------------------------------- -->
-    <!-- sfd-defaults | sfd-layouts                -->
+    <!-- 03 | Sfd Layouts                          -->
     <!-- ----------------------------------------- -->
 
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-colors.css">
-    <!-- [ !!! Check if u need this ??? ]-->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-text-styles.css">
+        <!-- ----------------------------------------- -->
+        <!-- 3.1 | sfd defaults                        -->
+        <!-- ----------------------------------------- -->
 
-    <!-- ----------------------------------------- -->
-    <!-- sfd-page-layouts | sfd-layouts            -->
-    <!-- ----------------------------------------- -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-colors.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-layouts.css">
 
-    <!-- sfd - default layout -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-default-layout.css">
-    <!-- sfd - about layout -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about-layout.css">
-    <!-- sfd - news layout -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-news-layout.css">
-    <!-- sfd - docs layout -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-docs-layouts.css">
-    <!-- sfd - projects layout -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-projects-layout.css">
+        <!-- [ !!! Check if u need this ??? ]-->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-text-styles.css">
 
-    <!-- ----------------------------------------- -->
-    <!-- sfd-feature-layouts | sfd-layouts         -->
-    <!-- ----------------------------------------- -->
+        <!-- ----------------------------------------- -->
+        <!-- 3.2 | sfd pages                           -->
+        <!-- ----------------------------------------- -->
 
-    <!-- sfd content containers -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-feature-layouts/sfd-txt-media-content-container.css">
-    <!-- sfd gallery img slider -->
-    <link rel="stylesheet" href="css/03-sfd-layouts/sfd-feature-layouts/sfd-gallery-img-slider.css">
-    
+        <!-- sfd - default layout -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-default-pages.css">
+        <!-- sfd - about layout -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-about-page.css">
+        <!-- sfd - news layout -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-news-page.css">
+        <!-- sfd - docs layout -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-docs-page.css">
+        <!-- sfd - projects layout -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-projects-page.css">
+
+        <!-- ----------------------------------------- -->
+        <!-- 3.3 | sfd features                        -->
+        <!-- ----------------------------------------- -->
+
+        <!-- sfd content containers -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-feature-layouts/sfd-txt-media-content-container.css">
+        <!-- sfd gallery img slider -->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-feature-layouts/sfd-gallery-img-slider.css">
+        
 
     <!-- ----------------------------------------- -->
     <!-- Saved Cool Emojies                        -->
@@ -153,37 +159,56 @@
     </audio>
 
     <!-- -------------------------------------------------------------------------- -->
-    <!-- Base Header                                                                -->
+    <!-- Header Base                                                                -->
     <!-- -------------------------------------------------------------------------- -->
-    <header id="base-header-layout">
+
+    <header id="header-base">
         
         <!-- ---------------------------------------------- -->
-        <!-- Nav | Base Header                              -->
+        <!-- Nav Header | Base                              -->
         <!-- ---------------------------------------------- -->
-        <nav id="nav-base-header" class="row-content-container">
+        <nav id="nav-header-base" class="row-content-area-sfd">
 
             <!-- ---------------------------------------------- -->
-            <!-- Company Label | Base Header                    -->
+            <!-- Company Logo | sfd layouts                     -->
             <!-- ---------------------------------------------- -->
-            <label for="radio-home-about" id="lbl-radio-home-about-base-header" title="» About - SuperfreshDEV" >
-              
-                <!-- view on about page -->
-                <div>Fullstack<br>Software Developer.</div>  
 
-                <!-- view on other pages -->
-                <img src="media/img/01_header/quadratisch-me.PNG" alt="img">
+            <label for="radio-home-about" id="company-logo-sfd" title="» About - SuperfreshDEV" >
 
-                <div>
-                    <div>SuperfreshDEV</div>
-                    <div>Fullstack-Software Developer.</div>                  
-                </div>
+                <!-- -------------------------------------- --> 
+                <!-- img wave                               -->
+                <!-- -------------------------------------- --> 
+                <img src="media/img/00_general/emojies/wave.png" id="img-company-logo" alt="img">
+
+                <!-- -------------------------------------- --> 
+                <!-- text layout                            -->
+                <!-- -------------------------------------- --> 
+                <div id="text-layout-company-logo-sfd">
+
+                    <!-- about version  -->
+                    <div id="about-version-company-logo">
+                        <div>Fullstack</div>
+                        <div>Software Developer.</div>
+                    </div>
+
+                    <!-- other version  -->
+                    <div id="other-version-company-logo">
+                        <div>SuperfreshDEV</div>
+                        <div>» think different.</div>
+                        <div>» Fullstack Software Developer.</div>
+                    </div>
+
+                </div> 
+
 
             </label>
            
             <!-- ---------------------------------------------- -->
-            <!-- Page Nav Panel | Base Header                   -->
+            <!-- Header Navigation | sfd layouts                -->
             <!-- ---------------------------------------------- -->
-            <ul id="page-nav-panel-base-header">
+           
+            <!-- page-nav-panel-base-header -->
+            <ul id="nav-header-sfd">
 
                 <!-- ----------------------------- -->
                 <!-- Projects | Li Label           -->
@@ -277,8 +302,22 @@
     </header>
 
     <!-- -------------------------------------------------------------------------- -->
-    <!-- Base Main                                                                  -->
+    <!-- Main Base                                                                 -->
     <!-- -------------------------------------------------------------------------- -->
+     <!-- 
+
+            1. main-base
+            2. page-about
+                [page-default]
+                row-sfd , row-content-area-sfd ,  -> 
+
+                2.1 welcome-title , welcome-layout , date-layout 
+                2.2 my-business-card , my-tech-skills-box ( my-tech-box ), my-img-contact-box
+                2.3
+
+              
+
+    -->
     <main id="base-main-layout">
     
         <!-- -----------------------------------------------------------------------  -->
@@ -288,7 +327,7 @@
 
         
             <!-- -------------------------------------------------------------------------- -->
-            <!-- Title Weclome | Container  ( Row )                                         -->
+            <!-- Row | Title Welcome                                                        -->
             <!-- -------------------------------------------------------------------------- -->
            
             <div id="row-title-welcome-container" class="row-container">
@@ -296,13 +335,13 @@
                 <div class="row-content-container">
 
                     <!-- ------------------------------------------------------ -->
-                    <!-- Title Welcome | Layout  -->
+                    <!-- Layout | Title Welcome  -->
                     <!-- ------------------------------------------------------ -->
                     <div id="title-welcome-layout">
 
 
                         <!-- ------------------------------------------------------ -->
-                        <!-- Title Welcome | Box  -->
+                        <!-- Container | Title Welcome  -->
                         <!-- ------------------------------------------------------ -->
                         <div id="title-welcome-box">
 
@@ -321,7 +360,7 @@
                         </div>
 
                         <!-- ------------------------------------------------------ -->
-                        <!-- Time | Box  -->
+                        <!-- Container | Date  -->
                         <!-- ------------------------------------------------------ -->
                         <div id="time-box">
 
@@ -338,21 +377,30 @@
             </div>
       
             <!-- -------------------------------------------------------------------------- -->
-            <!-- My Business Card | Container ( Row )                                       -->
+            <!-- Row | My Business Card                                                     -->
             <!-- -------------------------------------------------------------------------- -->
+
+            <!-- 
+
+                grid layout 
+                order 
+                read more about under image
+                layout verschachtelungen kürzer halten
+
+            -->
            
             <div id="row-my-business-card-container" class="row-container" style="display: none;">
 
                 <div class="row-content-container">
 
                     <!-- ------------------------------------------------------ -->
-                    <!-- Welcome About | Container  -->
+                    <!-- Layout | My Business Card  -->
                     <!-- ------------------------------------------------------ -->
                     <div id="welcome-about-container" >
 
 
                         <!-- ------------------------------------------------------- -->
-                        <!-- Welcome About | Layout                                  -->
+                        <!-- Container | My Tech Skills                              -->
                         <!-- ------------------------------------------------------- -->                        
                         <div id="welcome-about-layout" >
 
@@ -648,7 +696,7 @@
 
 
                         <!-- ------------------------------------------------------- -->
-                        <!-- Img Contant | Layout                                  -->
+                        <!-- Container | My Img Contact                              -->
                         <!-- ------------------------------------------------------- -->  
                         <div id="welcome-img-contact-layout">
 
@@ -1237,7 +1285,7 @@
     </main>
 
     <!-- -------------------------------------------------------------------------- -->
-    <!-- Base Footer                                                                -->
+    <!-- Footer Base                                                                -->
     <!-- -------------------------------------------------------------------------- -->
     <footer id="base-footer-layout">
 
