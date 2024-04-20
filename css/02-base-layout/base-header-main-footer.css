@@ -41,7 +41,7 @@
 /* Nav Header | Base 
 /* -------------------------------------------------------------- */
 
-#nav-header-base {
+#header-container-base {
  
     display: flex;
     align-items: center;
@@ -49,9 +49,13 @@
 
     width: 100%;
 
-    /* mobile */
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
 
-    /* desktop */
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
  
     /* background-color: green; */
 

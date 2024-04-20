@@ -11,10 +11,8 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Header | Company Logo 
+/* Header | Company Logo | sfd
 /* ------------------------------------------------------------------- */
-
-/* click listener gelöst werden ?  */
 
 #company-logo-sfd {
 
@@ -23,11 +21,9 @@
     border-radius: .4em;
     background-color: var(--c-sfd-light-anthracite);
    
-   
-
-   
-
+    /* -------------------- */ 
     /* mobile  */
+    /* -------------------- */ 
 
     height: 3em;
 
@@ -36,37 +32,29 @@
     justify-content: center;
     column-gap: .6em;
 
+    /* -------------------- */ 
     /* desktop  */
+    /* -------------------- */ 
 
 }
 
 #img-company-logo {
 
-    /* mobile */
     height: 1.3em;
-
     display: none;
 
-    /* desktop */
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+
+   
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
 
     
 }
-
-/* #lbl-radio-home-about-base-header */
-
-
-#text-layout-company-logo-sfd {
-
-    /* mobile */
-   
-
-    /* desktop */
-
-
-}
-
-
-
 
 #about-version-company-logo {
 
@@ -81,25 +69,31 @@
 
     /* display: none; */
 
-    /* mobile */
-  
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
 
-    /* desktop */
+  
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
 
 }
 
 #other-version-company-logo {
 
     padding: 0em .6em;
-
     line-height: 1.1em;
-
     display: none;
 
-    /* mobile */
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
     
 
-    /* desktop */
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
 
 }
 
@@ -108,10 +102,15 @@
     color: var(--c-cf-white);
     font-weight: bold;
 
-    /* mobile */
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+    
     /* font-size: .9em; */
 
-    /* desktop */
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
 
 
 
@@ -122,12 +121,16 @@
    
     color: var(--c-sfd-light-grey);
 
-    /* mobile */
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
     font-size: .8em;
 
     
 
-    /* desktop */
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
 
 }
 
@@ -135,10 +138,10 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Header | Nav Header 
+/* Header | Nav Page Container | sfd
 /* ------------------------------------------------------------------- */
 
-#nav-header-sfd {
+#nav-page-container-sfd {
 
     padding:0;
     margin:0;
@@ -275,19 +278,8 @@
     left: 0;
     right: 0;
 
-    /* bottom: 0; */
-
-
   
-
-   
-    /* z-index: 1; */
-
-    /* width: 100%; */
-    /* height: 22em; */
-
     font-size: 1rem;
-
 
     background-color: green;
     background-color: var(--c-sfd-light-grey);
@@ -299,26 +291,39 @@
     height: 100%;
 
     display: grid;
-    
     align-content: flex-start;
+    row-gap: 2.3em;
 
-    row-gap: .8em;
+    /* align-content: space-between; */
 
     padding: 2em 2em;
 
 }
 
-#mobile-open-nav-header input {
+#mobile-open-nav-container {
+
+    /* height: 100%; */
+
+    display: grid;
+    
+    align-content: flex-start;
+
+    row-gap: .8em;
+}
+
+
+
+#mobile-open-nav-container input {
 
     display: none;
 }
 
-#mobile-open-nav-header img {
+#mobile-open-nav-container img {
 
     height: 2em;
 }
 
-#mobile-open-nav-header > div {
+#mobile-open-nav-container > div {
 
     height: 4em;
 
@@ -341,14 +346,14 @@
 
 }
 
-#mobile-open-nav-header > div > label {
+#mobile-open-nav-container > div > label {
 
     display: flex;
     align-items: center;
     column-gap: 1em;
 }
 
-#mobile-open-nav-header > div:nth-of-type(1) {
+#mobile-open-nav-container > div:nth-of-type(1) {
 
     background-color: var(--c-sfd-light-brown);
     color:black;
@@ -357,6 +362,28 @@
 
 
 
+
+
+#mobile-open-img-container {
+
+    background-color: red;
+    background-color: var(--c-sfd-dark-grey);
+    border-radius: 50%;
+    border-radius: .4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 6em;
+    height: 6em;
+
+    opacity: .6;
+}
+
+#mobile-open-img-container img {
+
+    height: 4em;
+}
 
 
 

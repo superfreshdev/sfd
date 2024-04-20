@@ -150,3 +150,97 @@ big , medium , small
 svg {
     border: 1px solid blue;
   }
+
+
+
+  ------------
+
+
+   <!-- ----------------------------- -->
+                <!-- Projects | Li Label           -->
+                <!-- ----------------------------- -->
+                <li class="li-first-layer" style="display: none;">
+
+                    <label for="radio-projects" id="lbl-radio-projects-base-header">
+
+                        <img src="media/img/01_header/rocket-check-medium-grey-3.png" class="img-icon-lbl-page-nav-panel modify-pos-img-icon-lbl-projects-page-nav-panel" alt="img">
+                        <img src="media/img/01_header/rocket-black-check.svg" class="img-icon-lbl-page-nav-panel modify-pos-img-icon-lbl-projects-page-nav-panel" alt="img">
+                    
+                        <div>Project's</div>
+
+                    </label>
+
+                </li>
+
+                <li class="li-first-layer-spacers" style="display: none;">‹›</li>
+                
+                <!-- ----------------------------- -->
+                <!-- Docs | Li Label               -->
+                <!-- ----------------------------- -->
+                <li class="li-first-layer" style="display: none;">
+
+                    <label for="radio-docs" id="lbl-radio-docs-base-header">
+
+                        <img src="media/img/01_header/books-medium-grey-3.png" class="img-icon-lbl-docs-news-page-nav-panel" alt="img">
+                        <img src="media/img/01_header/books-black.svg" class="img-icon-lbl-docs-news-page-nav-panel" alt="img">
+
+                        <div>Doc's</div>
+
+                    </label>
+
+                </li>
+
+                <li class="li-first-layer-spacers" style="display: none;">‹›</li>
+
+                <!-- ----------------------------- -->
+                <!-- News | Li Label               -->
+                <!-- ----------------------------- -->
+                <li class="li-first-layer" style="display: none;">
+
+                    <label for="radio-news" id="lbl-radio-news-base-header">
+
+                        <img src="media/img/01_header/flash-grey.png" class="img-icon-lbl-docs-news-page-nav-panel" alt="img">
+                        <img src="media/img/01_header/flash-black.png" class="img-icon-lbl-docs-news-page-nav-panel" alt="img">
+
+                        <div>New's</div>
+
+                    </label>
+
+                </li>
+
+                <li class="li-first-layer-spacers" style="display: none;">‹›</li>
+
+                <!-- ----------------------------- -->
+                <!-- About | Li Label              -->
+                <!-- ----------------------------- -->
+                <li class="li-first-layer" style="display: none;">
+
+                    <label for="radio-about" id="lbl-radio-about-base-header">
+
+                        <img src="media/img/01_header/neu-medium-grey-3.png" class="img-icon-lbl-page-nav-panel" alt="img">
+                        <img src="media/img/01_header/neu-black.png" class="img-icon-lbl-page-nav-panel" alt="img">
+
+                        <div style="display: none;">About</div>
+
+                    </label>
+
+                </li>
+
+                <li class="li-first-layer-spacers" style="display: none;">‹›</li>
+
+                <!-- -------------------------------------------- -->
+                <!-- Hamburger | Only Mobile                      -->
+                <!-- -------------------------------------------- -->
+                <!-- hamburger-nav-header  -->
+                <li class="li-first-layer" style="display: none;">
+
+                    <label for="radio-about-hamburger" id="lbl-radio-about-base-header-hamburger" style="opacity: .8;">
+
+                        <img src="media/img/00_general/icons/tmp-icons/speisekarte.png" class="img-icon-lbl-page-nav-panel" alt="img">
+                        <!-- <img src="media/img/00_general/icons/tmp-icons/speisekarte.png" class="img-icon-lbl-page-nav-panel" alt="img"> -->
+
+                        <div style="display: none;">About</div>
+
+                    </label>
+
+                </li>
