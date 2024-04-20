@@ -391,7 +391,7 @@
     width: 6em;
     height: 6em;
 
-    opacity: .6;
+    /* opacity: .6; */
 }
 
 #mobile-open-img-container img {
