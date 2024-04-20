@@ -304,6 +304,9 @@
 
     /* height: 100%; */
 
+   
+
+
     display: grid;
     
     align-content: flex-start;
@@ -351,6 +354,17 @@
     display: flex;
     align-items: center;
     column-gap: 1em;
+}
+
+#mobile-open-nav-container > div > label > div:first-of-type {
+
+    /* background-color: green; */
+
+    width: 2em;
+    height: 100%;
+
+    /* display: none; */
+
 }
 
 #mobile-open-nav-container > div:nth-of-type(1) {
