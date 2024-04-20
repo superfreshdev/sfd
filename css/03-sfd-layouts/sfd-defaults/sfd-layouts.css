@@ -388,15 +388,15 @@
     align-items: center;
     justify-content: center;
 
-    width: 6em;
-    height: 6em;
+    width: calc(6em + 3vw);
+    height: calc(6em + 3vw);
 
     /* opacity: .6; */
 }
 
 #mobile-open-img-container img {
 
-    height: 4em;
+    height: calc(4em + 3vw)
 }
 
 
