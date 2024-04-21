@@ -177,7 +177,7 @@
             z-index: -1;
 
             display: grid;
-            row-gap: calc(1em + 2vh);
+            row-gap: calc(1.3em + .8vh);
 
             align-content: flex-start;
 
