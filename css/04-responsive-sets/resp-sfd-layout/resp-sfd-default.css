@@ -85,6 +85,35 @@
 
         }
 
+        
+        /* default mobile nav header label container  */
+        #nav-header-page-label-container-sfd {
+
+            position: absolute;
+            top: 6em;
+            left:0;
+            right:0;
+
+        
+            padding: 2em 3em;
+            
+            opacity: 0;
+            z-index: -1;
+
+            display: grid;
+            align-content: flex-start;
+
+            row-gap: .6em;
+
+            /* überlegung ob das sein muss ? es ist absolute & hat kein parent orientierungspunkt direkt 
+            darf aber keine verticalle scrollbar erzeugen  */
+            height: 100vh;
+
+            background-color: var(--c-sfd-light-grey);
+
+            transition: all .4s ease;
+        }
+
 
         /* ------------------------------- */
         /* checked state                   */
@@ -115,7 +144,9 @@
 
         }
 
+        /* -------------------------------- */ 
         /* chreate animation  */
+        /* -------------------------------- */ 
         #chk-hamburger-nav-label:checked ~ #header-base #mobile-hamburger-line-box > .hamburger-line:nth-of-type(1) {
 
             transform: translate(0, .7em) rotate(-45deg);
@@ -133,48 +164,45 @@
     
         }
 
-}
 
+        /* ---------------------------------------------------------- */ 
+        /* show mobile page labels container                          */
+        /* ---------------------------------------------------------- */ 
+        #chk-hamburger-nav-label:checked ~ #header-base #nav-header-page-label-container-sfd {
 
+            opacity: 1;
+            z-index: 99;
+           
+           
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------------------------------- */
-/*  Nav Header Page Label | Header | sfd
-/* ------------------------------------------------------------------- */
-
-#nav-header-page-label-container-sfd {
-
-    padding:0;
-    margin:0;
-    list-style-type: none;
- 
-    display: flex;
-    align-items: center;
-
-    display: none;
+        }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------------------------- */
