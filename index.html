@@ -110,87 +110,19 @@
     <body id="base-body-layout">
 
 
-        <!-- ---------------------------------------------- -->
-        <!-- Mobile | Open Nav Header                       -->
-        <!-- ---------------------------------------------- -->
-        <div id="mobile-open-nav-header" style="display: none;">
-
-
-            <div id="mobile-open-nav-container">
-
-                <div>
-                    <input type="radio" id="radio-mobile-about" name="name-radio-base-header">
-                    <label for="radio-mobile-about">
-                        
-                        <div>
-                            <img src="media/img/01_header/neu-black.png">
-                        </div>
     
-                        <div>About Me</div>
-    
-                    </label>
-                </div>
-    
-                <div>
-                    <input type="radio" id="radio-mobile-news" name="name-radio-base-header">
-                    <label for="radio-mobile-news">
-                        
-                        <div>
-                            <img src="media/img/01_header/flash-grey.png">
-                        </div>
-    
-                        <div>News</div>
-    
-                    </label>
-                </div>
-    
-                <div>
-                    <input type="radio" id="radio-mobile-docs" name="name-radio-base-header">
-                    <label for="radio-mobile-docs">
-                       
-                        <div>
-                            <img src="media/img/01_header/books-medium-grey-3.png">
-                        </div>
-
-                        <div>Docs</div>
-    
-                    </label>
-                </div>
-    
-                <div>
-                    <input type="radio" id="radio-mobile-projects" name="name-radio-base-header">
-                    <label for="radio-mobile-projects">
-                        
-    
-                        <div>
-                            <img src="media/img/01_header/rocket-check-medium-grey-3.png">
-                        </div>
-                        
-
-                        <div>Projects</div>
-    
-    
-                    </label>
-                </div>
-
-            </div>
-
-            <div class="flex jc-c">
-           
-                <div id="mobile-open-img-container">
-                    <img src="media/img/00_general/me-cartoon/me-think.png" alt="img">
-                </div>
-
-             </div>
-
-        
-    
-        </div>
-    
+   
 
     <!-- -------------------------------------------- -->
-    <!-- Radio Buttons - Base Header                  -->
+    <!-- Radio Buttons | Base Header                  -->
     <!-- -------------------------------------------- -->
+
+    <!-- neu  -->
+
+    <input type="radio" id="radio-page-about" name="name-radio-page-about" checked>
+
+
+    <!-- alt  -->
 
     <input type="radio" id="radio-home-about" name="name-radio-base-header">
 
@@ -200,15 +132,15 @@
     <input type="radio" id="radio-about" name="name-radio-base-header" checked>
 
     <!-- -------------------------------------------- -->
-    <!-- kann weg | Checkbox - Header                 -->
+    <!-- Checkbox | Header ( sfd element )            -->
     <!-- -------------------------------------------- -->
 
     <!-- checkbox -> hamburger nav label  -->
-    <input type="checkbox" id="chk-hamburger-nav-label" name="name-chk-hamburger-nav-label">
+    <input type="checkbox" id="chk-menue-header-nav-sfd" name="name-chk-menue-header-nav-sfd">
 
     <!-- kann zu layout Elementen , wird über js gelöst -->
-    <input type="checkbox" id="chk-lbl-audio-violine-welcome-about" name="chk-audio-violine-welcome-about" style="display: none;">    
-    <input type="checkbox" id="chk-lbl-audio-quote-welcome-about" name="chk-audio-quote-welcome-about" style="display: none;">
+    <!-- <input type="checkbox" id="chk-lbl-audio-violine-welcome-about" name="chk-audio-violine-welcome-about" style="display: none;">    
+    <input type="checkbox" id="chk-lbl-audio-quote-welcome-about" name="chk-audio-quote-welcome-about" style="display: none;"> -->
    
 
     <!-- -------------------------------------------------------- -->
@@ -292,15 +224,16 @@
                 
 
             <!-- --------------------------------------------------------------------------- -->
-            <!-- [Mobile] | Open Close Nav Container | resp sfd layouts                        -->
+            <!-- Mobile | Open Header Nav | resp sfd layouts                                 -->
             <!-- --------------------------------------------------------------------------- -->
-        
-            <div id="mobile-open-close-nav-container-sfd">
+    
+            <div id="mobile-open-header-nav">
 
 
                 <!-- ------------------------------------------ -->
-                <!-- Page Setted Info Box | -->
+                <!-- Page Setted Info Box                       -->
                 <!-- ------------------------------------------ -->
+
                 <div id="page-setted-info-box-sfd">
                     <img src="media/img/01_header/neu-black.png" alt="img">
                 </div>
@@ -308,15 +241,18 @@
                 <!-- Seperator -->
                 <div class="seperator-header-label-sfd">‹›</div>
 
-                <!-- ------------------------------------------ -->
-                <!-- Hamburger Label | CSS Animated -->
-                <!-- ------------------------------------------ -->
-                <div id="mobile-hamburger-nav-container-sfd">
+                <!-- ------------------------------------------------- -->
+                <!-- Menue Nav Header Label ( Hamburger Icon )         -->
+                <!-- ------------------------------------------------- -->
+
+                <div id="mobile-menue-header-nav-sfd">
                     
-                    <label for="chk-hamburger-nav-label" id="mobile-hamburger-line-box"  name="name-chk-hamburger-nav-label">
-                        <div class="hamburger-line"></div>
-                        <div class="hamburger-line"></div>
-                        <div class="hamburger-line"></div>
+                    <label for="chk-menue-header-nav-sfd" id="mobile-menue-header-nav-box-sfd"  name="name-chk-menue-header-nav-sfd">
+
+                        <div class="menue-nav-stripe-sfd"></div>
+                        <div class="menue-nav-stripe-sfd"></div>
+                        <div class="menue-nav-stripe-sfd"></div>
+
                     </label>
 
                 </div>
@@ -325,24 +261,23 @@
 
 
             <!-- --------------------------------------------------------------------------- -->
-            <!-- [Mobile/Desktop] | Header Page Label Container | resp sfd layouts       -->
+            <!-- Mobile/Desktop | Header Nav Container | resp sfd layouts                    -->
             <!-- --------------------------------------------------------------------------- -->
 
-            <div id="header-page-label-container-sfd">
+            <div id="header-nav-container-sfd">
 
 
                 <!-- ---------------------------------------------------------- -->
-                <!-- Nav | Page Label Container                                 -->
+                <!-- Mobile/Desktop | Nav Page Container                        -->
                 <!-- ---------------------------------------------------------- -->
-                <nav id="nav-page-label-container">
+                <nav id="nav-page-container">
 
                     <!-- --------------------------------- -->
                     <!-- About | Label Item                -->
                     <!-- --------------------------------- -->
-                    <div class="page-label-item-container">
+                    <div id="about-label-header-container" class="page-label-item-container">
 
-                        <input type="radio" id="radio-page-about" name="name-radio-page-about">
-                        <label for="radio-page-about" class="lbl-page-item-sfd">
+                        <label for="radio-page-about" class="lbl-page-item-sfd"  name="name-radio-page-about">
 
                             <img src="media/img/01_header/neu-black.png" class="img-nav-label-item" alt="img">
                             <div>About</div>
@@ -405,11 +340,11 @@
                 </nav>
 
                 <!-- ---------------------------------------------------------- -->
-                <!-- Mobile | Image Header Page Label Container                 -->
+                <!-- Mobile | Img Container                                     -->
                 <!-- ---------------------------------------------------------- -->
-                <div class="flex jc-c">
+                <div id="mobile-img-container-header-nav">
 
-                    <div id="mobile-img-header-page-label-container">
+                    <div>
                         <img src="media/img/00_general/me-cartoon/me-think.png" alt="" >
                     </div>
 
