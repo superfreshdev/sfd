@@ -214,8 +214,15 @@
         /* ------------------------------------------ */
 
         /* default unshown radio box  */
-        #radio-page-about { 
+        #radio-page-about,
+        #radio-page-news, 
+        #radio-page-docs,
+        #radio-page-projects { 
 
+            /* display: none; */
+            /* z-index: 1;
+            height: 1em; */
+            /* visibility: hidden; */
             display: none;
 
         }
@@ -239,6 +246,15 @@
             /* #defin */
             color:rgb(187, 187, 187);
 
+            transition: all .4s;
+
+        }
+
+        .page-label-item-container:hover {
+
+            background-color: var(--c-sfd-light-brown);
+            color:var(--c-black);
+
         }
 
         .lbl-page-item-sfd {
@@ -254,7 +270,11 @@
             height: 2em;
         }
 
-        #radio-page-about:checked ~ #header-base #nav-page-container #about-label-header-container {
+        #radio-page-about:checked + #about-label-header-container,
+        #radio-page-news:checked + #news-label-header-container,
+        #radio-page-docs:checked + #docs-label-header-container,
+        #radio-page-projects:checked + #projects-label-header-container
+         {
 
             background-color: var(--c-sfd-light-brown);
             color:var(--c-black);
