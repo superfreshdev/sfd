@@ -14,22 +14,30 @@
 @media ( max-width: 600px ) {
 
 
-    /* ------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------- */
     /* Header 
-    /* ------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------- */
 
-    #mobile-open-close-nav-container-sfd {
+        /* ------------------------------------------------------------------------------------------------- */
+        /* [1/3] - Company Logo Container 
+        /* ------------------------------------------------------------------------------------------------- */
 
-        display: flex;
-        align-items: center;
-        column-gap: .3em;
+        /* ------------------------------------------------------------------------------------------------- */
+        /* [2/3] - Mobile Open Close Nav Container 
+        /* ------------------------------------------------------------------------------------------------- */
 
-       
-    }
+        #mobile-open-close-nav-container-sfd {
 
-        /* ----------------------------------- */
-        /* page setted info box  */
-        /* ----------------------------------- */
+            display: flex;
+            align-items: center;
+            column-gap: .3em;
+
+        
+        }
+
+        /* ----------------------------------------------- */
+        /* Page Setted Info Box                            */
+        /* ----------------------------------------------- */
         #page-setted-info-box-sfd {
 
                 height: 3em;
@@ -53,11 +61,11 @@
         }
 
        
-        /* ----------------------------------- */
-        /* hamburger container                 */
-        /* ----------------------------------- */
+        /* --------------------------------------------------------------------------- */
+        /* Hamburger Nav Header Handler                                                */
+        /* --------------------------------------------------------------------------- */
 
-        /* default unshown checkbox icon element  */
+        /* default unshown checkbox */
         #chk-hamburger-nav-label { display: none; }
   
         #mobile-hamburger-nav-container-sfd {
@@ -85,40 +93,22 @@
 
         }
 
-        
-        /* default mobile nav header label container  */
-        #nav-header-page-label-container-sfd {
+        .hamburger-line {
 
-            position: absolute;
-            top: 6em;
-            left:0;
-            right:0;
+            width: 1.8em;
+            height: .3em;
 
-        
-            padding: 2em 3em;
-            
-            opacity: 0;
-            z-index: -1;
-
-            display: grid;
-            align-content: flex-start;
-
-            row-gap: .6em;
-
-            /* überlegung ob das sein muss ? es ist absolute & hat kein parent orientierungspunkt direkt 
-            darf aber keine verticalle scrollbar erzeugen  */
-            height: 100vh;
-
+            border-radius: .3em;
             background-color: var(--c-sfd-light-grey);
 
-            transition: all .4s ease;
+            transition: all .4s;
+
         }
 
 
-        /* ------------------------------- */
-        /* checked state                   */
-        /* ------------------------------- */
-
+        /* --------------------------------------------------------------------------- */
+        /* Checked Hamburger State                                                     */
+        /* --------------------------------------------------------------------------- */
 
         #chk-hamburger-nav-label:checked ~ #header-base #mobile-hamburger-nav-container-sfd {
 
@@ -132,21 +122,10 @@
 
         }
 
-        .hamburger-line {
-
-            width: 1.8em;
-            height: .3em;
-
-            border-radius: .3em;
-            background-color: var(--c-sfd-light-grey);
-
-            transition: all .4s;
-
-        }
-
         /* -------------------------------- */ 
-        /* chreate animation  */
+        /* Hamburger Animation              */
         /* -------------------------------- */ 
+
         #chk-hamburger-nav-label:checked ~ #header-base #mobile-hamburger-line-box > .hamburger-line:nth-of-type(1) {
 
             transform: translate(0, .7em) rotate(-45deg);
@@ -164,20 +143,164 @@
     
         }
 
+        /* ---------------------------------------------------------- */ 
+        /* Show Nav Header Label Container                            */
+        /* ---------------------------------------------------------- */ 
 
-        /* ---------------------------------------------------------- */ 
-        /* show mobile page labels container                          */
-        /* ---------------------------------------------------------- */ 
-        #chk-hamburger-nav-label:checked ~ #header-base #nav-header-page-label-container-sfd {
+        #chk-hamburger-nav-label:checked ~ #header-base #header-page-label-container-sfd {
 
             opacity: 1;
             z-index: 99;
-           
-           
+             
+        }
+
+
+
+
+        
+        /* ------------------------------------------------------------------------------------------------- */
+        /* [3/3] - Header Page Label Container 
+        /* ------------------------------------------------------------------------------------------------- */
+        
+        /* default mobile nav header label container  */
+        #header-page-label-container-sfd {
+
+            position: absolute;
+            top: 6em;
+            left:0;
+            right:0;
+
+        
+            padding: 2em 2em;
+            
+            opacity: 0;
+            z-index: -1;
+
+            display: grid;
+            row-gap: 3.5em;
+
+            align-content: flex-start;
+
+            /* überlegung ob das sein muss ? es ist absolute & hat kein parent orientierungspunkt direkt 
+            darf aber keine verticalle scrollbar erzeugen  */
+            height: 100vh;
+
+            background-color: var(--c-sfd-light-grey);
+
+            transition: all .4s ease;
+        }
+
+        
+     
+
+        /* -------------------------------------------------------------- */
+        /* Nav Page Label Container
+        * -------------------------------------------------------------- */
+
+        #nav-page-label-container {
+
+            display: grid;
+            row-gap: 1em;
 
         }
 
+        /* default mobile unshown seperator  */
+        #nav-page-label-container > .header-nav-label-item-seperator {
+
+            display: none;
+        }
+
+       
+
+        /* ------------------------------------------ */
+        /* Label Container
+        /* ------------------------------------------ */
+
+        /* default unshown radio box  */
+        .page-label-item-container input { 
+            display: none;
+        }
+
+        .page-label-item-container {
+
+            cursor: pointer;
+
+            display: flex;
+            align-items: center;
+           
+            padding: 1em 1em;
+
+            border-radius: .4em;
+            background-color: var(--c-sfd-dark-grey);
+
+            font-weight: bold;
+            color: var(--c-sfd-light-grey);
+
+            /* #defin */
+            color:rgb(187, 187, 187);
+
+        }
+
+        .lbl-page-item-sfd {
+
+            display: flex;
+            align-items: center;
+            column-gap: 1em;
+
+        }
+
+        .lbl-page-item-sfd img {
+
+            height: 2em;
+        }
+
+        /* individuell img header icon  */
+
+
+        /* ------------------------------------------ */
+        /* Img Header Page Label Container 
+        /* ------------------------------------------ */
+
+        #mobile-img-header-page-label-container {
+
+            background-color: red;
+            background-color: var(--c-sfd-dark-grey);
+            border-radius: 50%;
+            border-radius: .4em;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+           
+        
+            width: calc(6em + 3vw);
+            height: calc(6em + 3vw);
+        
+
+        }
+
+        #mobile-img-header-page-label-container img {
+
+            height: calc(4em + 6vw)
+
+        }
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
