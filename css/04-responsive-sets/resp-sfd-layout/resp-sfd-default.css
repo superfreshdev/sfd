@@ -68,7 +68,7 @@
         #chk-menue-header-nav-sfd { display: none; }
   
 
-        #mobile-menue-header-nav-sfd {
+        #mobile-lbl-menue-header-nav-sfd {
             
             cursor: pointer;
 
@@ -88,12 +88,10 @@
 
         #mobile-menue-header-nav-box-sfd {
 
-            cursor: pointer;
-
-            /* height: 100%;
-            width: 100%; */
+            /* cursor: pointer; */
 
             display: grid;
+            align-content: center;
             row-gap: .35em; 
 
             /* display: grid;
@@ -118,13 +116,13 @@
         /* Checked | Menue Header Nav                                                  */
         /* --------------------------------------------------------------------------- */
 
-        #chk-menue-header-nav-sfd:checked ~ #header-base #mobile-menue-header-nav-sfd {
+        #chk-menue-header-nav-sfd:checked ~ #header-base #mobile-lbl-menue-header-nav-sfd {
 
             background-color: var(--c-sfd-red);
             border: .2em solid var(--c-sfd-red);
         }
 
-        #chk-menue-header-nav-sfd:checked ~ #header-base #mobile-menue-header-nav-sfd .menue-nav-stripe-sfd {
+        #chk-menue-header-nav-sfd:checked ~ #header-base #mobile-menue-header-nav-box-sfd .menue-nav-stripe-sfd {
 
             background-color: var(--c-sfd-dark-white);
 
