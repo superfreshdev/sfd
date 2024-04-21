@@ -161,62 +161,6 @@
 
 
 
-/* ---------------------------------------------------------- */
-/* Mobile - First 
-/* ---------------------------------------------------------- */
-
-/* --------------------- */
-/* Unshown 
-/* --------------------- */
-
-/* logo text not for default about page  */
-#lbl-radio-home-about-base-header > div:nth-of-type(2) {
-
-    display: none;
-}
-
-/* img logo only show by desktop  */
-#lbl-radio-home-about-base-header > img:nth-of-type(1) {
-
-    /* mobile unshown  */
-    display: none;
-
-    width: 3em;
-    height: 3em;
-    border-radius: .4em;
-
-}
-
-/* --------------------- */
-/* Style
-/* --------------------- */
-
-
-#lbl-radio-home-about-base-header  > div:nth-of-type(1) {
-
-    font-size: .8em;
-    width: 9em;
-    line-height: 1.2em;
-    /* font-size: 1.3em; */
-    font-weight: bold;
-    color: var(--c-sfd-light-brown);
-  
-
-}
-
-/* 2xdivs inside div container */
-#lbl-radio-home-about-base-header > div:nth-of-type(1) > div:nth-of-type(1) {
-
-    color: var(--c-cf-white);
-
-}
-
-#lbl-radio-home-about-base-header  > div:nth-of-type(1) > div:nth-of-type(2) {
-    
-    color: var(--c-sfd-light-brown);
-    font-size: .9em;
-
-}
 
 
 
