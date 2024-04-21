@@ -118,7 +118,8 @@
         /* chreate animation  */
         #chk-hamburger-nav-label:checked ~ #header-base #mobile-hamburger-line-box > .hamburger-line:nth-of-type(1) {
 
-            transform: translate(0, .6em) rotate(-45deg);
+            transform: translate(0, .7em) rotate(-45deg);
+
         }
 
         #chk-hamburger-nav-label:checked ~ #header-base #mobile-hamburger-line-box > .hamburger-line:nth-of-type(2) {
@@ -128,7 +129,8 @@
 
         #chk-hamburger-nav-label:checked ~ #header-base #mobile-hamburger-line-box > .hamburger-line:nth-of-type(3) {
             
-            transform: translate(0, -.7em) rotate(45deg);
+            transform: translate(0, -.6em) rotate(45deg);
+    
         }
 
 }
