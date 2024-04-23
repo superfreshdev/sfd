@@ -78,6 +78,8 @@
 
     color: var(--c-sfd-light-brown-darker);
 
+    color:grey;
+
     line-height: 1em;
 
     /* display: none; */

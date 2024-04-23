@@ -13,7 +13,7 @@
 
 #header-base {
 
-    opacity: 99;
+    z-index: 99;
 
     position: fixed;
     left: 0;
@@ -77,7 +77,6 @@
 /* -------------------------------------------------------------- */
 
 /* default unshown radio circle buttons */
-#radio-home-about,
 #radio-projects,
 #radio-docs,
 #radio-news,
@@ -122,8 +121,7 @@
 #radio-projects:checked ~ #header-base #nav-header-sfd > li:nth-of-type(1) ,
 #radio-docs:checked ~ #header-base #nav-header-sfd > li:nth-of-type(3),
 #radio-news:checked ~ #header-base #nav-header-sfd > li:nth-of-type(5),
-#radio-about:checked ~ #header-base #nav-header-sfd > li:nth-of-type(7),
-#radio-home-about:checked ~ #header-base #nav-header-sfd > li:nth-of-type(7) {
+#radio-about:checked ~ #header-base #nav-header-sfd > li:nth-of-type(7){
 
     background-color: var(--c-sfd-light-brown);
     color: var(--c-cf-black);
@@ -131,7 +129,6 @@
 }
 
 /* default unshown grey img | if radio is checked */
-#radio-home-about:checked ~ #header-base #lbl-radio-about-base-header > img:nth-of-type(1),
 #radio-projects:checked ~ #header-base #lbl-radio-projects-base-header > img:nth-of-type(1),
 #radio-docs:checked ~ #header-base #lbl-radio-docs-base-header > img:nth-of-type(1),
 #radio-news:checked ~ #header-base #lbl-radio-news-base-header > img:nth-of-type(1),
@@ -140,8 +137,7 @@
     display: none;
 
 }
-/* default show black img | if radio is checked */
-#radio-home-about:checked ~ #header-base #lbl-radio-about-base-header > img:nth-of-type(2), 
+/* default show black img | if radio is checked */ 
 #radio-projects:checked ~ #header-base #lbl-radio-projects-base-header > img:nth-of-type(2),
 #radio-docs:checked ~ #header-base #lbl-radio-docs-base-header > img:nth-of-type(2),
 #radio-news:checked ~ #header-base #lbl-radio-news-base-header > img:nth-of-type(2),

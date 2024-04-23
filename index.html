@@ -120,15 +120,15 @@
     <!-- neu  -->
 
     <input type="radio" id="radio-page-about" name="name-radio-header-page" checked>
-    <input type="radio" id="radio-page-news" name="name-radio-header-page">
-    <input type="radio" id="radio-page-docs" name="name-radio-header-page">
+    <input type="radio" id="radio-page-news" name="name-radio-header-page" >
+    <input type="radio" id="radio-page-docs" name="name-radio-header-page" >
     <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
 
     <!-- alt  -->
 
-    <!-- <input type="radio" id="radio-home-about" name="name-radio-base-header">
-
+   
+    <!-- 
     <input type="radio" id="radio-projects" name="name-radio-base-header">
     <input type="radio" id="radio-docs" name="name-radio-base-header">
     <input type="radio" id="radio-news" name="name-radio-base-header">
@@ -238,7 +238,7 @@
                 <!-- ------------------------------------------ -->
 
                 <div id="page-setted-info-box-sfd">
-                    <img src="media/img/01_header/neu-black.png" alt="img">
+                    <img src="" id="img-page-setted-info-box-sfd" alt="img">
                 </div>
 
                 <!-- Seperator -->
@@ -255,7 +255,7 @@
                         <div class="menue-nav-stripe-sfd"></div>
                         <div class="menue-nav-stripe-sfd"></div>
                         <div class="menue-nav-stripe-sfd"></div> 
-                        
+
                     </div>
                    
 
@@ -279,76 +279,66 @@
 
                     
                     <!-- --------------------------------- -->
-                    <!-- About | Label Item                -->
+                    <!-- About Label |                      -->
                     <!-- --------------------------------- -->
                     
-                    <div id="about-label-header-container" class="page-label-item-container">
+                    <label for="radio-page-about" id="js-lbl-radio-page-about" class="lbl-header-page-sfd" name="name-radio-header-page">
 
+                        <div>
+                            <img src="" id="js-img-about-header-nav-label" alt="img">
+                        </div>
 
-                        <label for="radio-page-about" class="lbl-page-item-sfd" name="name-radio-header-page">
+                        <div>About</div>
 
-                            <img src="media/img/01_header/neu-black.png" class="img-nav-label-item" alt="img">
-                            <div>About</div>
+                    </label>
 
-                        </label>
-
-                    </div>
 
                     <!-- Seperator -->
                     <div class="header-nav-label-item-seperator">‹›</div>
 
                     <!-- --------------------------------- -->
-                    <!-- News | Label Item                -->
+                    <!-- News Label |                      -->
                     <!-- --------------------------------- -->
                     
-                    <div id="news-label-header-container" class="page-label-item-container">
+                    <label for="radio-page-news" id="js-lbl-radio-page-news" class="lbl-header-page-sfd" name="name-radio-header-page">
 
-                        
-                       
+                        <div>
+                            <img src="" id="js-img-news-header-nav-label" alt="img">
+                        </div>
 
-                        <label for="radio-page-news" class="lbl-page-item-sfd" name="name-radio-header-page">
+                        <div>News</div>
 
-                            <img src="media/img/01_header/flash-grey.png" class="img-nav-label-item" alt="img">
-                            <div>News</div>
-
-                        </label>
-
-                    </div>
+                    </label>
 
                     <!-- --------------------------------- -->
-                    <!-- Docs | Label Item                 -->
+                    <!-- Docs Label |                      -->
                     <!-- --------------------------------- -->
+
+                    <label for="radio-page-docs" id="js-lbl-radio-page-docs" class="lbl-header-page-sfd" name="name-radio-header-page">
+
+                        <div>
+                            <img src="" id="js-img-docs-header-nav-label" alt="img">
+                        </div>
+
+                        <div>Docs</div>
+
+                    </label>
                     
-                    <div id="docs-label-header-container" class="page-label-item-container">
-
-                        
-                        <label for="radio-page-docs" class="lbl-page-item-sfd" name="name-radio-header-page">
-
-                            <img src="media/img/01_header/books-medium-grey-3.png" class="img-nav-label-item" alt="img">
-                            <div>Docs</div>
-
-                        </label>
-
-                    </div>
-
-                    <!-- --------------------------------- -->
-                    <!-- Projects | Label Item             -->
-                    <!-- --------------------------------- -->
                     
-                    <div id="projects-label-header-container" class="page-label-item-container">
-          
-                        
-                        <label for="radio-page-projects" class="lbl-page-item-sfd" name="name-radio-header-page">
+                    <!-- --------------------------------- -->
+                    <!-- Projects Label |                  -->
+                    <!-- --------------------------------- -->
 
-                            <img src="media/img/01_header/rocket-check-medium-grey-3.png" class="img-nav-label-item" alt="img">
-                            <div>Projects</div>
+                    <label for="radio-page-projects" id="js-lbl-radio-page-projects" class="lbl-header-page-sfd" name="name-radio-header-page">
 
-                        </label>
+                        <div>
+                            <img src="" id="js-img-projects-header-nav-label" alt="img">
+                        </div>
 
-                    </div>
+                        <div>Projects</div>
 
-
-
+                    </label>
+                    
 
                 </nav>
 
@@ -391,9 +381,9 @@
             <!-- Row | Title Welcome                                                        -->
             <!-- -------------------------------------------------------------------------- -->
            
-            <div id="row-title-welcome-container" class="row-container">
+            <div id="row-title-welcome-container" class="row-sfd">
 
-                <div class="row-content-container">
+                <div class="row-content-area-sfd">
 
                     <!-- ------------------------------------------------------ -->
                     <!-- Layout | Title Welcome  -->
@@ -426,7 +416,7 @@
                         <div id="time-box">
 
                             <span>today,</span>
-                            <span id="js-date">XXX</span>
+                            <span id="js-date">[...]</span>
 
                         </div>
 
@@ -440,6 +430,44 @@
             <!-- ------------------------------------------------------------------------------- -->
             <!-- Prototyp Text -->
             <!-- ------------------------------------------------------------------------------- -->
+        
+            <div>
+                Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
+                war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
+                Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
+                Operation gegen die chinesischen Truppen unter­nommen hatten, gingen ab Mitte April 1944 zur
+                Offensive über, wobei sie binnen weniger Monate große Teile der chinesischen Armee in den drei 
+                südlichen Provinzen Guangxi, Hunan und Henan ein­kesselten und vernichteten. Die japanischen Truppen 
+                hatten bis Dezember 1944, als der Vormarsch der beteiligten Armeen vor der heftig
+                    verteidigten Stadt Nanning ins Stocken kam, mehrere wichtige Städte eingenommen. 
+                    Die taktischen Ziele der Operation wurden vom Kaiserlichen Hauptquartier deswegen als weitgehend
+                    erreicht betrachtet. Langfristig erwies sich die Operation als nahezu wertlos, da trotz 
+                    der Eroberung der wichtigen süd­chinesischen Flug­plätze, von wo aus die amerikanischen B-29-Bomber 
+                    Luftangriffe gegen Japan flogen, die Bombardierung des japanischen Festlandes von den kurz zuvor 
+                    eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
+                    Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
+                    Indochina und Burma erwies sich aufgrund umfassender
+            </div>
+
+            <br><br><br>
+
+            <div>
+                Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
+                war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
+                Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
+                Operation gegen die chinesischen Truppen unter­nommen hatten, gingen ab Mitte April 1944 zur
+                Offensive über, wobei sie binnen weniger Monate große Teile der chinesischen Armee in den drei 
+                südlichen Provinzen Guangxi, Hunan und Henan ein­kesselten und vernichteten. Die japanischen Truppen 
+                hatten bis Dezember 1944, als der Vormarsch der beteiligten Armeen vor der heftig
+                    verteidigten Stadt Nanning ins Stocken kam, mehrere wichtige Städte eingenommen. 
+                    Die taktischen Ziele der Operation wurden vom Kaiserlichen Hauptquartier deswegen als weitgehend
+                    erreicht betrachtet. Langfristig erwies sich die Operation als nahezu wertlos, da trotz 
+                    der Eroberung der wichtigen süd­chinesischen Flug­plätze, von wo aus die amerikanischen B-29-Bomber 
+                    Luftangriffe gegen Japan flogen, die Bombardierung des japanischen Festlandes von den kurz zuvor 
+                    eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
+                    Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
+                    Indochina und Burma erwies sich aufgrund umfassender
+            </div>
 
                 <!-- <div>
                     Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
@@ -986,7 +1014,7 @@
                                                 <h2>For what stands my Website ?</h2>
         
                                                 <div class="flex-aic-cg03 link-black-sfd">
-                                                    <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img">
+                                                    <img src="media/img/00_general/emojies/biceps.png" class="img-icon-txt-media" alt="img">
                                                     <div>Read Text </div>
                                                 </div>
         
@@ -994,7 +1022,7 @@
         
                                             <div class="lbl-dark-showMoreLess-sfd-container">
                                                 <div>Show More</div>
-                                                <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img">
+                                                <img src="media/img/00_general/emojies/biceps.png" class="img-icon-txt-media" alt="img">
                                             </div>
     
     
@@ -1023,7 +1051,7 @@
                                                 <h2>Why I call it SuperfreshDEV ?</h2>
         
                                                 <div class="flex-aic-cg03 link-black-sfd">
-                                                    <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img">
+                                                    <!-- <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img"> -->
                                                     <div>Read Text </div>
                                                 </div>
         
@@ -1031,7 +1059,7 @@
         
                                             <div class="lbl-dark-showMoreLess-sfd-container">
                                                 <div>Show More</div>
-                                                <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img">
+                                                <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
                                             </div>
     
                                             
@@ -1092,7 +1120,7 @@
         
                                             <div class="lbl-dark-showMoreLess-sfd-container">
                                                 <div>Show More</div>
-                                                <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img">
+                                                <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
                                             </div>
     
                                         </div>
@@ -1270,7 +1298,7 @@
                                             <h2>👨‍💻​ About Me 🎻 Me as Hobby Violnist 💪 Me in Sport 👥 Friends & Family ​✈️ Travel || ​​ For what stands my Website ?</h2>
     
                                             <div class="flex-aic-cg03 link-black-sfd">
-                                                <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img">
+                                                <!-- <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img"> -->
                                                 <div>Read Text </div>
                                             </div>
     
@@ -1278,7 +1306,7 @@
     
                                         <div class="lbl-dark-showMoreLess-sfd-container">
                                             <div>Show More</div>
-                                            <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img">
+                                            <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
                                         </div>
 
 
@@ -1307,7 +1335,7 @@
                                             <h2>Why I call it SuperfreshDEV ?</h2>
     
                                             <div class="flex-aic-cg03 link-black-sfd">
-                                                <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img">
+                                                <!-- <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img"> -->
                                                 <div>Read Text </div>
                                             </div>
     
@@ -1315,7 +1343,7 @@
     
                                         <div class="lbl-dark-showMoreLess-sfd-container">
                                             <div>Show More</div>
-                                            <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img">
+                                            <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
                                         </div>
 
                                         
@@ -1376,7 +1404,7 @@
     
                                         <div class="lbl-dark-showMoreLess-sfd-container">
                                             <div>Show More</div>
-                                            <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img">
+                                            <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
                                         </div>
 
                                     </div>
@@ -1418,8 +1446,53 @@
         <!-- -----------------------------------------------------------------------  -->
         <div id="page-news-container">
 
-            <div>
-                News - Container 
+            
+            <div id="keine-ahnung" class="row-sfd">
+
+                <div class="row-content-area-sfd">
+
+
+                    <!-- -------------------------------------------------------- -->
+                    <!-- New Content Container 1 -->
+                    <!-- -------------------------------------------------------- -->
+                    <div>
+                        Welcome To My News <br><br>
+                        HAHAH
+                    </div>
+
+                    <!-- -------------------------------------------------------- -->
+                    <!-- New Content Container 2 -->
+                    <!-- -------------------------------------------------------- -->
+                    <div>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br><br>
+
+                        <div>
+                            Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
+                            war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
+                            Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
+                            Operation gegen die chinesischen Truppen unter­nommen hatten, gingen ab Mitte April 1944 zur
+                            Offensive über, wobei sie binnen weniger Monate große Teile der chinesischen Armee in den drei 
+                            südlichen Provinzen Guangxi, Hunan und Henan ein­kesselten und vernichteten. Die japanischen Truppen 
+                            hatten bis Dezember 1944, als der Vormarsch der beteiligten Armeen vor der heftig
+                                verteidigten Stadt Nanning ins Stocken kam, mehrere wichtige Städte eingenommen. 
+                                Die taktischen Ziele der Operation wurden vom Kaiserlichen Hauptquartier deswegen als weitgehend
+                                erreicht betrachtet. Langfristig erwies sich die Operation als nahezu wertlos, da trotz 
+                                der Eroberung der wichtigen süd­chinesischen Flug­plätze, von wo aus die amerikanischen B-29-Bomber 
+                                Luftangriffe gegen Japan flogen, die Bombardierung des japanischen Festlandes von den kurz zuvor 
+                                eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
+                                Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
+                                Indochina und Burma erwies sich aufgrund umfassender
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
             </div>
 
         </div>
@@ -1429,8 +1502,52 @@
         <!-- -----------------------------------------------------------------------  -->
         <div id="page-docs-container">
 
-            <div>
-                Docs - Container 
+            <div id="keine-ahnung" class="row-sfd">
+
+                <div class="row-content-area-sfd">
+
+
+                    <!-- -------------------------------------------------------- -->
+                    <!-- New Content Container 1 -->
+                    <!-- -------------------------------------------------------- -->
+                    <div>
+                        Welcome To My Docs<br><br>
+                        HAHAH
+                    </div>
+
+                    <!-- -------------------------------------------------------- -->
+                    <!-- New Content Container 2 -->
+                    <!-- -------------------------------------------------------- -->
+                    <div>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br><br>
+
+                        <div>
+                            Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
+                            war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
+                            Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
+                            Operation gegen die chinesischen Truppen unter­nommen hatten, gingen ab Mitte April 1944 zur
+                            Offensive über, wobei sie binnen weniger Monate große Teile der chinesischen Armee in den drei 
+                            südlichen Provinzen Guangxi, Hunan und Henan ein­kesselten und vernichteten. Die japanischen Truppen 
+                            hatten bis Dezember 1944, als der Vormarsch der beteiligten Armeen vor der heftig
+                                verteidigten Stadt Nanning ins Stocken kam, mehrere wichtige Städte eingenommen. 
+                                Die taktischen Ziele der Operation wurden vom Kaiserlichen Hauptquartier deswegen als weitgehend
+                                erreicht betrachtet. Langfristig erwies sich die Operation als nahezu wertlos, da trotz 
+                                der Eroberung der wichtigen süd­chinesischen Flug­plätze, von wo aus die amerikanischen B-29-Bomber 
+                                Luftangriffe gegen Japan flogen, die Bombardierung des japanischen Festlandes von den kurz zuvor 
+                                eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
+                                Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
+                                Indochina und Burma erwies sich aufgrund umfassender
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
             </div>
 
         </div>
@@ -1440,8 +1557,52 @@
         <!-- -----------------------------------------------------------------------  -->
         <div id="page-projects-container">
 
-            <div>
-                Projects - Container 
+            <div id="keine-ahnung" class="row-sfd">
+
+                <div class="row-content-area-sfd">
+
+
+                    <!-- -------------------------------------------------------- -->
+                    <!-- New Content Container 1 -->
+                    <!-- -------------------------------------------------------- -->
+                    <div>
+                        Welcome To My Projects <br><br>
+                        HAHAH
+                    </div>
+
+                    <!-- -------------------------------------------------------- -->
+                    <!-- New Content Container 2 -->
+                    <!-- -------------------------------------------------------- -->
+                    <div>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br>
+                        News Content Containe 2 <br><br>
+
+                        <div>
+                            Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
+                            war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
+                            Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
+                            Operation gegen die chinesischen Truppen unter­nommen hatten, gingen ab Mitte April 1944 zur
+                            Offensive über, wobei sie binnen weniger Monate große Teile der chinesischen Armee in den drei 
+                            südlichen Provinzen Guangxi, Hunan und Henan ein­kesselten und vernichteten. Die japanischen Truppen 
+                            hatten bis Dezember 1944, als der Vormarsch der beteiligten Armeen vor der heftig
+                                verteidigten Stadt Nanning ins Stocken kam, mehrere wichtige Städte eingenommen. 
+                                Die taktischen Ziele der Operation wurden vom Kaiserlichen Hauptquartier deswegen als weitgehend
+                                erreicht betrachtet. Langfristig erwies sich die Operation als nahezu wertlos, da trotz 
+                                der Eroberung der wichtigen süd­chinesischen Flug­plätze, von wo aus die amerikanischen B-29-Bomber 
+                                Luftangriffe gegen Japan flogen, die Bombardierung des japanischen Festlandes von den kurz zuvor 
+                                eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
+                                Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
+                                Indochina und Burma erwies sich aufgrund umfassender
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
             </div>
 
         </div>
@@ -1451,6 +1612,7 @@
     <!-- -------------------------------------------------------------------------- -->
     <!-- Footer Base                                                                -->
     <!-- -------------------------------------------------------------------------- -->
+
     <footer id="base-footer-layout">
 
         <div>
@@ -1473,36 +1635,39 @@
     <!-- --------------------------------------------------------------------------- -->
 
     <!-- ----------------------------------------- -->
-    <!-- useful lib | js sfd                       -->
+    <!-- useful lib |  sfd                         -->
     <!-- ----------------------------------------- -->
 
-    <!-- <script src="js/js-sfd-useful-lib/sfd-secure-handlings.js"></script> -->
-    <script src="js/js-sfd-useful-lib/tmp-sfd-operations.js"></script>
+    <script src="js/03-js-sfd-useful-lib/sfd-secure-handlings.js"></script> 
+    <script src="js/03-js-sfd-useful-lib/sfd-useful-operations.js"></script>
+    
 
     <!-- ----------------------------------------- -->
-    <!-- feature layouts | js sfd                  -->
+    <!-- feature layouts | sfd                     -->
     <!-- ----------------------------------------- -->
 
     <!-- "read text" audio play stop -->
-    <!-- <script src="js/js-sfd-feature-layouts/define-sfd-labels-audio-for-play-stop.js"></script> -->
+    <!-- <script src="js/02-js-sfd-layouts/js-sfd-feature-layouts/define-sfd-labels-audio-for-play-stop.js"></script> -->
     <!-- open close container -->
-    <!-- <script src="js/js-sfd-feature-layouts/define-sfd-labels-for-open-close-container.js"></script> -->
+    <!-- <script src="js/02-js-sfd-layouts/js-sfd-feature-layouts/define-sfd-labels-for-open-close-container.js"></script> -->
     <!-- gallery img slider -->
-    <!-- <script src="js/js-sfd-feature-layouts/define-sfd-gallery-img-sliders.js"></script> -->
+    <!-- <script src="js/02-js-sfd-layouts/js-sfd-feature-layouts/define-sfd-gallery-img-sliders.js"></script> -->
 
+    <!-- ----------------------------------------- -->
+    <!-- responsive | sfd                          -->
+    <!-- ----------------------------------------- -->
 
-
-    <!-- <script src="js/js-tmp/windowsOnLoad.js"></script> -->
-    <!-- <script src="js/js-tmp/execute-audio.js"></script> -->
-    <!-- <script src="js/js-functions/handle.js"></script> -->    
+    <!-- define handler handlings  -->
+    <script src="js/01-js-responsive-sfd/define-header-handlings-sfd.js"></script>
 
 
     <!-- ----------------------------------------- -->
-    <!-- start setter | js sfd                  -->
+    <!-- Starter | sfd webpage                     -->
     <!-- ----------------------------------------- -->
 
-    <script src="js/js-sfd-start-setter.js"></script>
+    <!-- <script src="js/starter-sfd-webpage.js"></script> -->
 
+   
     </body>
 
 </html>

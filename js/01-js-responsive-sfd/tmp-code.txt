@@ -1,0 +1,112 @@
+
+/* -------------------------------------------------------------------------------------------- */
+/* define | add Change Handler for Page Navigation */
+/* -------------------------------------------------------------------------------------------- */
+
+function addChangeHandlersForPageNavigation( strRadioIds , strPageContainers , strImgSrcCouplesOfHeaderLabel ) {
+
+
+    // no secure handling !!! - do it later
+
+    console.log("-------------------------------------------------");
+
+    for( let i=0; i < strRadioIds.length; i++ ) {
+
+
+        /* ------------------------------------------------------ */
+        // add | change listener on radio header nav labels        
+        /* ------------------------------------------------------ */
+        document.getElementById( strRadioIds[i] ).addEventListener( "change" , ()=> {
+
+
+            if( document.getElementById( strRadioIds[i] ).checked == true ) {
+
+                console.log( strRadioIds[i] + " = true " )
+
+                changeAttributeOnDomElement( document.querySelector("label[for=\"" + strRadioIds[i]  + "\"]" + " > div:nth-of-type(1) > img") ,  "src" , getArraysOfConcatedString( strImgSrcCouplesOfHeaderLabel[i] , ";" )[1]  ) 
+            
+            } else {
+                    
+                console.log( strRadioIds[i] + " = false " )
+
+
+                // changeAttributeOnDomElement( document.querySelector("label[for=\"" + strRadioIds[i] + "\"]" + " > div:nth-of-type(1) > img") ,  "src" , getArraysOfConcatedString( strImgSrcCouplesOfHeaderLabel[i] , ";" )[1]  ) 
+
+                changeAttributeOnDomElement( document.querySelector("label[for=\"" + strRadioIds[i] + "\"]" + " > div:nth-of-type(1) > img") ,  "src" , getArraysOfConcatedString( strImgSrcCouplesOfHeaderLabel[i] , ";" )[0]  ) 
+            
+            }
+          
+        
+        
+        })
+
+    }
+
+    console.log("-------------------------------------------------");
+
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* Müll /
+/* -------------------------------------------------------------------------------------------- */
+
+
+// for( let i=0; i < strImgSrcCouplesOfHeaderLabel.length; i++ ) {
+
+//     console.log(i + " || " + getArraysOfConcatedString( strImgSrcCouplesOfHeaderLabel[i] , ";" ))
+
+// }
+
+
+// addChangeHandlersForPageNavigation ( strRadioHeaders , strPageContainers , strImgSrcCouplesOfHeaderLabel )
+
+
+
+
+
+
+
+
+
+
+
+
+// Müll 
+
+
+function setFirstPage( strRadioHeaders , strImgSrcCouplesOfHeaderLabel ) {
+
+    for( let i=0; i < strRadioHeaders.length; i++ ) {
+
+
+        if( document.getElementById( strRadioHeaders[i] ).checked == true ) {
+
+            // change img ressource to black
+            changeAttributeOnDomElement( document.querySelector("label[for=\"" + strRadioHeaders[i] + "\"]" + " > div:nth-of-type(1) > img") ,  "src" , getArraysOfConcatedString( strImgSrcCouplesOfHeaderLabel[i] , ";" )[1]  ) 
+
+        } else {
+
+
+            // default img ressource are grey
+            changeAttributeOnDomElement( document.querySelector("label[for=\"" + strRadioHeaders[i] + "\"]" + " > div:nth-of-type(1) > img") ,  "src" , getArraysOfConcatedString( strImgSrcCouplesOfHeaderLabel[i] , ";" )[0] ) 
+
+
+        }
+
+       
+
+    }
+
+}
+
+
+
+
+
+

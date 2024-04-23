@@ -17,6 +17,8 @@
 
     display: grid;
     grid: auto auto / 1fr;
+
+    /* display: none; */
     
 }
 
@@ -127,7 +129,7 @@
 
    /* mobile */
     /* font-size: 1.3em; */
-    display: none;
+    /* display: none; */
 
     /* desktop  */
     /* font-size: 1.5em; */

@@ -7,13 +7,8 @@
 */
 
 /* default unshown pages on start - projects, docs , news */
-#page-projects-container,
-#page-docs-container,
-#page-news-container {
 
-    display: none;
 
-}
 
 
 

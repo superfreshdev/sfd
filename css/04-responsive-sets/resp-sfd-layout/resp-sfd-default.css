@@ -157,6 +157,7 @@
 
             opacity: 1;
             z-index: 99;
+           
              
         }
 
@@ -237,22 +238,19 @@
 
         }
 
-
-        .page-label-item-container {
+        .lbl-header-page-sfd {
 
             cursor: pointer;
 
+            padding: 1em 1.5em;
+
             display: flex;
             align-items: center;
-           
-            padding: 1em 1em;
-
-            border-radius: .4em;
-            background-color: var(--c-sfd-dark-grey);
+            column-gap: 1em;
 
             font-weight: bold;
-            color: var(--c-sfd-light-grey);
-
+            border-radius: .4em;
+            background-color: var(--c-sfd-dark-grey);
             /* #defin */
             color:rgb(187, 187, 187);
 
@@ -260,38 +258,36 @@
 
         }
 
-        .page-label-item-container > label {
 
-            height: 100%;
-            width: 100%;
-
-            cursor: pointer;
-        }
-
-        .page-label-item-container:hover {
+        .lbl-header-page-sfd:hover {
 
             background-color: var(--c-sfd-light-brown);
             color:var(--c-black);
 
         }
 
-        .lbl-page-item-sfd {
+        .lbl-header-page-sfd > div:nth-of-type(1) {
+
+            /* background-color: red; */
+            
+            width: 2.5em;
+            height: 100%;
 
             display: flex;
             align-items: center;
-            column-gap: 1em;
+            
 
         }
 
-        .lbl-page-item-sfd img {
+        .lbl-header-page-sfd img {
 
             height: 2em;
         }
 
-        #radio-page-about:checked ~ #header-base > #header-container-base #about-label-header-container,
-        #radio-page-news:checked ~ #header-base > #header-container-base #news-label-header-container,
-        #radio-page-docs:checked ~ #header-base > #header-container-base #docs-label-header-container,
-        #radio-page-projects:checked ~ #header-base > #header-container-base #projects-label-header-container
+        #radio-page-about:checked ~ #header-base > #header-container-base label[for="radio-page-about"],
+        #radio-page-news:checked ~ #header-base > #header-container-base label[for="radio-page-news"],
+        #radio-page-docs:checked ~ #header-base > #header-container-base label[for="radio-page-docs"],
+        #radio-page-projects:checked ~ #header-base > #header-container-base label[for="radio-page-projects"]
         {
 
             background-color: var(--c-sfd-light-brown);

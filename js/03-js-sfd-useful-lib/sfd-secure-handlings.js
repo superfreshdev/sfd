@@ -1,23 +1,23 @@
-/* ------------------------------------------------------------------------------------------ */
-/* [File] - [JS Lib Functions] - sfd-secure-handlings.js 
-/* ------------------------------------------------------------------------------------------ */
-/*  
+/*
+
+    [JS sfd Lib ] - sfd-secure-handlings.js
+
     > defines many useful functions which will be often use for 
     security checks , handlings , getting & settings datas , ... .
     This js-file helps you to dont repeat your code. 
 
     This file is perfect to add / modify useful js function which u often use.
 
-/* ------------------------------------------------------------------------------------------ */
+*/
 console.log("### [JS-Lib] - sfd-secure-handlings.js ");
 
 
 
 /* ------------------------------------------------------------------------------------------- */ 
-/* Check | DomElement/s 
+/* Check | DomElements & Data Type of DomElements
 /* ------------------------------------------------------------------------------------------- */ 
 
-// Check Exist - Maximum 1 DomElement 
+// Check Exist - Given DomElement
 function checkExistDomElement( domElement ) {
 
     if( domElement != undefined ) {
@@ -33,7 +33,7 @@ function checkExistDomElement( domElement ) {
     }
 }
 
-// Check Exist - Minimum 1 DomElement ( only accept if all DomElement/s are existing )
+// Check Exist - All DomElements ( only accept if all DomElements are existing )
 function checkExistDomElements( domElements ) {
 
     console.log("lll = " + domElements )
@@ -117,12 +117,12 @@ function checkExistDomElements( domElements ) {
    
 }
 
-// Check Element is not null  
+// Check - DomElement is not null  
 function checkDomElementIsNotNull( domElement ) {
     return ( domElement != null );
 }
 
-// Check 1x Element is Data Type of DomElement ( e.g [object HTML] )
+// Check - Given Element is 'Data Type' of DomElement ( e.g [object HTML] )
 function checkElementIsDataTypeOfDomElement ( element ) {
 
     // console.log("DomElement DataType is = " + String(element) )
@@ -140,26 +140,27 @@ function checkElementIsDataTypeOfDomElement ( element ) {
 
 }
 
-// Check minimum 1x Element is Data Type of DomElement ( e.g [object HTML] )
+// Check - All given Elements are 'Data Types' of DomElement ( e.g [object HTML] )
 function checkElementsAreDataTypeOfDomElements ( elements ) {
 
     for( let i=0; i < elements.length; i++ ) {
 
-        console.log("checkElements = " + elements[i] )
+        // console.log("checkElements = " + elements[i] )
 
-        if( checkElementIsDataTypeOfDomElement ( elements[i] ) ) {
+        if( checkElementIsDataTypeOfDomElement ( elements[i] ) == false ) {
 
-            // minimum 1 found of data type of domElement
-            // console.log("[Info|checkElementsAreDataTypeOfDomElements] - Data Type of DomElement found.")
-            return true;
+             return false;
 
         }
     }
 
     // all elements have the data type of domElement
-    return false;
+    return true;
 
 }
+
+
+
 
 
 
@@ -211,17 +212,17 @@ function checkOnlyAllowStringArrayElements( strArray ) {
             // Step 3 - Check array elements are not type of DomElements
             if( checkElementsAreDataTypeOfDomElements( strArray ) ) {
 
-               // Check failed
-               console.log("[Error|checkOnlyAllrowStringArrayElements] - Your given Array has Elements which are types of DomElements." )
-               console.log("This case is not allowed." )
-               return false;
+                // Check is correct
+                console.log("[ correct - no type of DomElements found ]")
+                return true;    
 
             } 
             else {
 
-                // Check is correct
-                console.log("[ correct - no type of DomElements found ]")
-                return true;
+               // Check failed
+               console.log("[Error|checkOnlyAllrowStringArrayElements] - Your given Array has Elements which are types of DomElements." )
+               console.log("This case is not allowed." )
+               return false;
                
             }
 
@@ -245,6 +246,8 @@ function checkOnlyAllowStringArrayElements( strArray ) {
 
 
 
+
+
 /* ------------------------------------------------------------------------------------------- */ 
 /* Get | Array  
 /* ------------------------------------------------------------------------------------------- */ 
@@ -263,12 +266,13 @@ function hasArrayElements ( array ) {
 
 
 
+
 /* ------------------------------------------------------------------------------------------- */ 
-/* Operations | Array 
+/* Secure Operation | Array 
 /* ------------------------------------------------------------------------------------------- */ 
 
 // Check String Array on Rendundancy Elements  
-function checkStrArrayElementsOnRedundancy( strArray ) {
+function checkStrArrayElementsOnRedundancy ( strArray ) {
 
     // check - input is array & array minimum length = 1
     if( checkIsArrayObject( strArray ) && hasArrayElements( strArray ) ) {
@@ -308,90 +312,8 @@ function checkStrArrayElementsOnRedundancy( strArray ) {
 
 }
 
-// Create Array DomElements by given String Array with strDomType
-// ( strDomType = [ "id" | "class" | "qs" | "qsa" ] )
-function getCreateArrayOfDomElementsByStringArray( strArray , strDomType ) {
-    
-    let domElements = [];
-
-    // check given strDomType 
-    switch( strDomType ) {
-
-        case "id":
-
-            for( let i=0; i < strArray.length; i++ ) {
-
-                // check if string Array exist as domElement
-                if( checkExistDomElement( document.getElementById( strArray[i] )) ) {
-
-                    domElements.push( document.getElementById( strArray[i] ) )
-
-                }
-               
-            }
-
-            break;
-
-        case "class":
-
-            for( let i=0; i < strArray.length; i++ ) {
-
-                if( checkExistDomElement( document.getElementsByClassName( strArray[i])) ) {
-
-                    domElements.push( document.getElementsByClassName( strArray[i] ) )
-
-                }
-
-                
-            }
-
-            break;
-
-        case "qs":
-
-            for( let i=0; i < strArray.length; i++ ) {
-
-                if( checkExistDomElement( document.querySelector( strArray[i] )) ) {
-
-                    domElements.push( document.querySelector( strArray[i] ) )
-
-                }
-                
-            }
-
-            break;
-        
-        case "qsa":
-
-            for( let i=0; i < strArray.length; i++ ) {
-
-                if( checkExistDomElement( document.querySelectorAll( strArray[i] )) ) {
-
-                    domElements.push( document.querySelectorAll( strArray[i] ) )
-
-                }
-
-            }
-
-            break;
-
-        default: 
-
-            console.log("[Error|createArrayOfDomElementsByStringArray] - Wrong strDomType , u given = " + strDomType )
-            break;
-
-    }
-
-    return domElements;
-
-}
-
-
-
-// ---------------------------------------------
-// Prüfen ob weg kann ????????????????????????????????????????????????
-// ---------------------------------------------
-function checkStringArrayElementsExistAsDomElements( strArray , strDomType ) {
+// check string array as existing DomElements by given css selector typ strDomType
+function checkStrArrayElementsExistAsDomElements ( strArray , strDomType ) {
 
     let domElementsNotFound = [];
 
@@ -451,6 +373,10 @@ function checkStringArrayElementsExistAsDomElements( strArray , strDomType ) {
 
     }
 
+    /* ---------------------------------------------- */
+    /* All Strings Found as DomElements ? 
+    /* ---------------------------------------------- */
+
     if( domElementsNotFound.length === 0 ) {
 
         // all domElements exists
@@ -470,6 +396,7 @@ function checkStringArrayElementsExistAsDomElements( strArray , strDomType ) {
 
 
 
+
 /* ------------------------------------------------------------------------------------------- */ 
 /* Get | Type of Element
 /* ------------------------------------------------------------------------------------------- */ 
@@ -481,27 +408,6 @@ function getTypeOfElement( element ) {
 
 
 
-
-
-/* ---------------------------------------------------------------------------------------------------------------- */
-/* Console Log Outputs | 
-/* ---------------------------------------------------------------------------------------------------------------- */
-
-// Console Log - Array 
-function consoleLogArray( array ) {
-
-    if( array.length > 0 && array.length != undefined && array != null ) {
-
-        for( let i=0; i <  array.length; i++ ) {
-            console.log((i+1) + " - " + array[i] )
-        }
-
-    } else {
-
-        console.log("[Error|consoleLogArray] - Cant Output of given array because of ( length = 0 / array is undefined / null). ")
-    }
-
-}
 
 
 
