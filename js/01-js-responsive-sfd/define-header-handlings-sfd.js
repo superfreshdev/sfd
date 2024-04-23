@@ -23,7 +23,7 @@ const objDataHeaderPageNavigation = [
     {
 
         idRadioBox: "radio-page-about",
-        idHeaderLabel: "",
+        idHeaderLabel: "js-lbl-radio-page-about",
 
         idImgHeaderLabel: "js-img-about-header-nav-label",
 
@@ -41,7 +41,7 @@ const objDataHeaderPageNavigation = [
     {
 
         idRadioBox: "radio-page-news",
-        idHeaderLabel: "",
+        idHeaderLabel: "js-lbl-radio-page-news",
 
         idImgHeaderLabel: "js-img-news-header-nav-label",
 
@@ -59,7 +59,7 @@ const objDataHeaderPageNavigation = [
     {
 
         idRadioBox: "radio-page-docs",
-        idHeaderLabel: "",
+        idHeaderLabel: "js-lbl-radio-page-docs",
 
         idImgHeaderLabel: "js-img-docs-header-nav-label",
 
@@ -77,7 +77,7 @@ const objDataHeaderPageNavigation = [
     {
 
         idRadioBox: "radio-page-projects",
-        idHeaderLabel: "",
+        idHeaderLabel: "js-lbl-radio-page-projects",
 
         idImgHeaderLabel: "js-img-projects-header-nav-label",
 
@@ -130,7 +130,11 @@ function defineStartFirstPage () {
 
         for( let i=0; i < objDataHeaderPageNavigation.length; i++ ) {
 
-        
+            
+            /* ------------------------------------------------ */
+            /* Default Set | First Page
+            /* ------------------------------------------------ */
+            
             if( document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).checked == true ) {
 
                 console.log( objDataHeaderPageNavigation[i].idRadioBox  + " is checked")
@@ -154,11 +158,52 @@ function defineStartFirstPage () {
 
             }
 
-          
+
+            /* -------------------------------------- */
+            /* Add | Mouse Over Handler ( Hover )
+            /* -------------------------------------- */
+            document.getElementById( objDataHeaderPageNavigation[i].idHeaderLabel ).addEventListener( "mouseover" , ()=> {
+
+                // alert("Go Fuck You")
+                if( document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).checked == false ) {
+
+                    document.getElementById( objDataHeaderPageNavigation[i].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcBlack;
+
+                } 
+                
+
+            })
+
+            /* -------------------------------------- */
+            /* Add | Mouse Out Handler ( Hover )
+            /* -------------------------------------- */
+            document.getElementById( objDataHeaderPageNavigation[i].idHeaderLabel ).addEventListener( "mouseout" , ()=> {
+
+                // alert("Go Fuck You")
+                if( document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).checked == false ) {
+
+                    document.getElementById( objDataHeaderPageNavigation[i].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcGrey;
+
+                } 
+                
+
+            })
+
+            /* ------------------------------------------------ */
+            /* Add | Change Listener ( Header Nav Label )
+            /* ------------------------------------------------ */
+
+        
         }
 
     console.log("#########################");
 } 
+
+
+
+
+
+
 
 
 
