@@ -116,6 +116,8 @@ var pageContainerDomElements = [];
 /* Execution |                                                                                  */
 /* -------------------------------------------------------------------------------------------- */
 
+var pageIndexBefore = -1;
+
 defineStartFirstPage ();
 
 
@@ -137,7 +139,11 @@ function defineStartFirstPage () {
             
             if( document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).checked == true ) {
 
+
                 console.log( objDataHeaderPageNavigation[i].idRadioBox  + " is checked")
+                
+                // set page index to change later by other showing page
+                pageIndexBefore = i; 
 
                 // set img black
                 document.getElementById( objDataHeaderPageNavigation[i].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcBlack;
@@ -192,13 +198,71 @@ function defineStartFirstPage () {
             /* ------------------------------------------------ */
             /* Add | Change Listener ( Header Nav Label )
             /* ------------------------------------------------ */
+            document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).addEventListener( "change" , ()=> {
 
+                if( document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).checked == true ) {
+
+                    console.log("Marko = " + pageIndexBefore)
+
+                    /* ----------------------------------------------------- */
+                    /* Set Img for Setted Page Info Box 
+                    /* ----------------------------------------------------- */
+                    imgDomElementOfPageSettedInfoBoxSfd.src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcBlack;
+
+                    /* ----------------------------------------------------- */
+                    /* Unshown old / show new img
+                    /* ----------------------------------------------------- */
+
+                    // set img grey to old header nav label ( unchecked mode )
+                    document.getElementById( objDataHeaderPageNavigation[pageIndexBefore].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[pageIndexBefore].srcImgHeaderLabel.imgSrcGrey;
+
+                    // set new img black to new header nav label ( checked mode )
+                    document.getElementById( objDataHeaderPageNavigation[i].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcBlack;
+
+                    /* ----------------------------------------------------- */
+                    /* Unshown old / show new page 
+                    /* ----------------------------------------------------- */
+                   
+                    // unshown old page
+                    document.getElementById( objDataHeaderPageNavigation[pageIndexBefore].pageContainer ).style.display = "none";
+                    // show new page
+                    document.getElementById( objDataHeaderPageNavigation[i].pageContainer ).style.display = "grid";
+
+                    // set new page before 
+                    pageIndexBefore = i;
+
+                } 
+
+            });
         
         }
 
     console.log("#########################");
 } 
 
+
+function resetNewPage( radioIDDomElements ) {
+
+
+    for( let i=0; i < radioIDDomElements.length; i++ ) {
+
+
+        if( radioIDDomElements[i].checked == true ) {
+
+            // set new page container
+            document.getElementById( objDataHeaderPageNavigation[i].pageContainer ).style.display = "grid";
+    
+        } else {
+    
+            // unshown other page container
+            document.getElementById( objDataHeaderPageNavigation[i].pageContainer ).style.display = "none";
+        }
+
+    }
+
+   
+
+}
 
 
 
