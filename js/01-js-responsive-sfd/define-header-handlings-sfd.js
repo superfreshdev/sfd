@@ -197,6 +197,50 @@ function defineStartFirstPage () {
 
             })
 
+
+            /* ------------------------------------------------ */
+            /* Add | Click Listener ( Header Nav Label )
+            /* ------------------------------------------------ */
+            document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).addEventListener( "click" , ()=> {
+
+                if( document.getElementById( objDataHeaderPageNavigation[i].idRadioBox ).checked == true ) {
+
+                    console.log("Click = " + pageIndexBefore)
+
+                    /* ----------------------------------------------------- */
+                    /* Set Img for Setted Page Info Box 
+                    /* ----------------------------------------------------- */
+                    imgDomElementOfPageSettedInfoBoxSfd.src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcBlack;
+
+                    /* ----------------------------------------------------- */
+                    /* Unshown old / show new img
+                    /* ----------------------------------------------------- */
+
+                    // set img grey to old header nav label ( unchecked mode )
+                    document.getElementById( objDataHeaderPageNavigation[pageIndexBefore].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[pageIndexBefore].srcImgHeaderLabel.imgSrcGrey;
+
+                    // set new img black to new header nav label ( checked mode )
+                    document.getElementById( objDataHeaderPageNavigation[i].idImgHeaderLabel ).src = defaultImgSrcHeaderNavlabel+objDataHeaderPageNavigation[i].srcImgHeaderLabel.imgSrcBlack;
+
+                    /* ----------------------------------------------------- */
+                    /* Unshown old / show new page 
+                    /* ----------------------------------------------------- */
+                   
+                    // unshown old page
+                    document.getElementById( objDataHeaderPageNavigation[pageIndexBefore].pageContainer ).style.display = "none";
+                    // show new page
+                    document.getElementById( objDataHeaderPageNavigation[i].pageContainer ).style.display = "grid";
+
+                    // unshown mobile header nav container 
+                    chkMobileMenueNav.checked = false;
+
+                    // set new page before 
+                    pageIndexBefore = i;
+                }
+
+            })
+
+
             /* ------------------------------------------------ */
             /* Add | Change Listener ( Header Nav Label )
             /* ------------------------------------------------ */
