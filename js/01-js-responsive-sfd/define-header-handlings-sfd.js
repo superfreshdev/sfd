@@ -32,7 +32,7 @@ const objDataHeaderPageNavigation = [
         srcImgHeaderLabel: {
                 
                 imgSrcGrey: "about-grey.png",
-                imgSrcBlack: "about-black.png"
+                imgSrcBlack: "lila.png"
 
         },
        
