@@ -14,6 +14,8 @@ console.log("### [JS] - define-header-handlings-sfd.js ")
 /* Data Storage | Header Content Handlings
 /* ------------------------------------------------------- */
 
+const chkMobileMenueNav = document.getElementById("chk-menue-header-nav-sfd");
+
 const imgDomElementOfPageSettedInfoBoxSfd = document.getElementById("img-page-setted-info-box-sfd");
 
 const defaultImgSrcHeaderNavlabel = "media/img/01_header/";
@@ -227,6 +229,9 @@ function defineStartFirstPage () {
                     document.getElementById( objDataHeaderPageNavigation[pageIndexBefore].pageContainer ).style.display = "none";
                     // show new page
                     document.getElementById( objDataHeaderPageNavigation[i].pageContainer ).style.display = "grid";
+
+                    // unshown mobile header nav container 
+                    chkMobileMenueNav.checked = false;
 
                     // set new page before 
                     pageIndexBefore = i;
