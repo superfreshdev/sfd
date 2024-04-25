@@ -13,6 +13,8 @@
 
 #header-base {
 
+    /* z-index: 99; */
+    /* z-index: 1; */
     z-index: 99;
 
     position: fixed;
@@ -46,6 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 
     /* width: 100%; */
 
@@ -154,12 +157,19 @@
 
 #main-base {
 
+    z-index: 1;
+    /* z-index: 0;
+    position: absolute; */
+    
+
     /* height: 100%;  */
     background-color: red;
 
 
     /* mobile */
     margin-top: 6em;
+
+    /* opacity: .1; */
     
 
     /* desktop */
@@ -175,6 +185,10 @@
 /* ------------------------------------------------------------------------ */
 
 #base-footer-layout {
+
+    z-index: 1;
+    /* z-index: 0;
+    position: absolute; */
 
     padding: 2.8em .8em;
 

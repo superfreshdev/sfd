@@ -153,12 +153,23 @@
         /* Show Header Nav Container                                  */
         /* ---------------------------------------------------------- */ 
 
-        #chk-menue-header-nav-sfd:checked ~ #header-base #header-nav-container-sfd {
+        #chk-menue-header-nav-sfd:checked ~ #main-base,
+        #chk-menue-header-nav-sfd:checked ~ #base-footer-layout {
 
+            position: absolute;
+            z-index: 0;
+
+        }
+
+        #chk-menue-header-nav-sfd:checked ~ #header-base ~ #header-nav-container-sfd {
+
+            position: relative;
             opacity: 1;
-            z-index: 99;
+
              
         }
+
+      
 
        
         /* ------------------------------------------------------------------------------------------------- */
@@ -168,7 +179,12 @@
         /* default mobile nav header label container  */
         #header-nav-container-sfd  {
 
+            opacity: 0;
+            z-index: 1;
+
+            /* position: relative; */
             position: absolute;
+          
             top: 6em; 
             left:0;
             right:0;
@@ -179,8 +195,10 @@
         
             padding: 2em 2em;
             
-            opacity: .3; 
-            z-index: -1;
+            /* opacity: 1;  */
+            /* z-index: 2; */
+           
+           
 
 
             display: grid;
