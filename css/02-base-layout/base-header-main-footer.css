@@ -27,7 +27,7 @@
 
 #header-container-base {
 
-    /* z-index: 99; */
+    z-index: 99;
 
     position: fixed;
 
