@@ -71,6 +71,7 @@
 
     font-weight: bold;
     line-height: 1.3em;
+    color:var(--c-sfd-dark-grey);
 }
 
 
