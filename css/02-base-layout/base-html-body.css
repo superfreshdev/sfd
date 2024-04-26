@@ -22,10 +22,8 @@ html , body {
 
     margin: 0em;
 
-    display: grid;
-    grid: auto auto / 1fr;
-
-    align-content: flex-start;
+  
+    /* align-content: flex-start; */
 
     font-size: 1rem; 
     line-height: 1.5rem;
@@ -40,3 +38,16 @@ html , body {
    
 }
 
+
+#main-footer-container {
+
+    /* position: relative;
+    top:6em; */
+
+    display: grid;
+    grid: auto auto / 1fr;
+
+    /* height: 100vh; */
+
+
+}
