@@ -1,0 +1,861 @@
+  <!-- -------------------------------------------------------------------------- -->
+            <!-- Row | My Business Card                                                     -->
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div id="row-my-business-card-container" class="row-container" style="display: none;">
+
+                <div class="row-content-container">
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Layout | My Business Card  -->
+                    <!-- ------------------------------------------------------ -->
+                    <div id="welcome-about-container" >
+
+
+                        <!-- ------------------------------------------------------- -->
+                        <!-- Container | My Tech Skills                              -->
+                        <!-- ------------------------------------------------------- -->                        
+                        <div id="welcome-about-layout" >
+
+                        
+                            <!-- ----------------------------------------------------- -->
+                            <!-- Tech Skill | Container -->
+                            <!-- ----------------------------------------------------- -->
+                            <div id="tech-skill-container">
+
+                                
+                                <!-- --------------------------------------------------------- -->
+                                <!-- My Frontend Stack                                         -->
+                                <!-- --------------------------------------------------------- -->
+                                <div class="tech-skill-box">
+
+                                    <!-- ------------------------------------------ -->
+                                    <!-- Header -->
+                                    <!-- ------------------------------------------ -->                           
+                                    <div class="tech-skill-header">
+
+                                        <div class="info-box-tech-skill-header">
+
+                                            <img src="media/img/00_general/icons/01-general-icons/geschweifte-klammer.png" id="img-frontend-stack-tech-skill-header" alt="img">
+
+                                        </div>
+
+                                        <div>
+
+                                            <div> My Frontend Stack </div>
+                                            <div>» Web/Software - Development , Software - Testing , ...   </div>   
+
+                                        </div>
+                                                                                
+                                                    
+                                    </div>
+
+                                    <!-- ------------------------------------------ -->
+                                    <!-- Skill Container -->
+                                    <!-- ------------------------------------------ -->
+                                    <div class="tech-skill-set-container">
+                                        
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box" title="angular ?">
+                                            <img src="media/img/00_general/icons/02-tech-skills/angular.png" alt="">
+                                            <div>Angular</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/rxjs.png" alt="">
+                                            <div>Rx.JS</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/ngrx.svg" alt="">
+                                            <div>NgRx</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/ts.png" alt="">
+                                            <div>TypeScript</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/js.png" alt="">
+                                            <div>JavaScript</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/nodejs.png" alt="img">
+                                            <div>NodeJS</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/rest.png" alt="img">
+                                            <div>RestAPI</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/graph.png" alt="img">
+                                            <div>GraphQL</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/jest.png" alt="img">
+                                            <div>Jest</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/cypress.jpg" alt="img">
+                                            <div>Cypress</div>
+                                        </div>
+
+                                    
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/css.png" alt="img">
+                                            <div>CSS</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/tailwind.png" alt="img">
+                                            <div>Tailwind</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/java-alt.png" alt="img">
+                                            <div>Java</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/kotlin.png" alt="img">
+                                            <div>Kotlin</div>
+                                        </div>
+
+                                        <!-- skill 1 , js  -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/gradle.png" alt="img">    
+                                            <div>Gradle</div>                                        
+                                        </div>
+
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/mave-grey.png" alt="img">                                            
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/springboot2.png" alt="img">
+                                            <div>SpringBoot</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/junit.png" alt="img">
+                                            <div>JUnit</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/python.png" alt="img">
+                                            <div>Python</div>
+                                        </div>
+
+                                        
+                                    </div>
+
+                                </div>
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- My Backend Stack                                         -->
+                                <!-- --------------------------------------------------------- -->
+                                <div class="tech-skill-box">
+
+                                    <!-- ------------------------------------------ -->
+                                    <!-- Header -->
+                                    <!-- ------------------------------------------ -->
+                                    <div class="tech-skill-header">
+
+                                        <div class="info-box-tech-skill-header">
+
+                                            <img src="media/img/00_general/icons/01-general-icons/server.png" id="img-backend-stack-tech-skill-header" alt="img">
+
+                                        </div>
+
+                                        <div>
+
+                                            <div> My Backend Stack </div>
+                                            <div>» Webserver , Database , DevOps , Cloud , ...   </div>   
+
+                                        </div>
+                                                                                
+                                                    
+                                    </div>
+                                
+                                    <!-- ------------------------------------------ -->
+                                    <!-- Skill Container -->
+                                    <!-- ------------------------------------------ -->
+                                    <div class="tech-skill-set-container">
+                                        
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/apache.png" alt="">
+                                            <div>Apache</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/nginx.png" alt="">
+                                            <div>Nginx</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/tomcat.png" alt="">
+                                            <div>Tomcat</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/kafka.png" alt="">
+                                            <div>Kafka</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/kexcloak.png" alt="">
+                                            <div>Keycloak</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/mysql.png" alt="">
+                                            <div>MySQL</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/postgre.png" alt="">
+                                            <div>PostgreSQL</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/mongodb.png" alt="">
+                                            <div>MongoDB</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/devops.png" alt="">
+                                            <div>DevOps</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/cloud-engine.png" alt="img">
+                                            <div>Cloud-Engineering</div>
+                                        </div>
+
+                                        <!-- skill 1 -->
+                                        <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/docker.png" alt="img">
+                                            <div>Docker</div>
+                                        </div>
+
+                                            <!-- skill 1 -->
+                                            <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/jenkins.png" alt="img">
+                                            <div>Jenkins</div>
+                                        </div>
+
+                                            <!-- skill 1 -->
+                                            <div class="tech-skill-info-box">
+                                            <img src="media/img/00_general/icons/02-tech-skills/sonarqube-1.svg" alt="img">
+                                            <div>SonarQube</div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------- -->
+                            <!-- Jump Read More About Me | Container -->
+                            <!-- ----------------------------------------------------- -->
+                            <div id="welcome-jump-to-read-more-about-me-container">
+
+                                <a href="#go-to-read-about-me" class="a-sfd-light-brown">
+
+                                    <img src="media/img/00_general/me-cartoon/zwinker.png" alt="img">
+                                    <div>Read More About Me</div>
+                                    <img src="media/img/00_general/icons/01-general-icons/pfeil-black-down.png" alt="img">
+
+                                </a>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- ------------------------------------------------------- -->
+                        <!-- Container | My Img Contact                              -->
+                        <!-- ------------------------------------------------------- -->  
+                        <div id="welcome-img-contact-layout">
+
+
+                            
+                            <!-- ------------------------------------------------------- -->
+                            <!-- Gallery Img Slider | Container                          -->
+                            <!-- ------------------------------------------------------- -->
+                            <div id="gallery-img-slider">
+                                <img src="media/img/02_main/01_about/hoch-me.png" alt="img">
+                            </div>
+
+
+                            <!-- ------------------------------------------------------- -->
+                            <!-- Contact | Container                            -->
+                            <!-- ------------------------------------------------------- -->
+                            <div id="welcome-contact-container">
+
+                                <div>
+                                    <img src="media/img/00_general/icons/01-general-icons/email.png" alt="img">
+                                </div>
+
+                                <div>
+                                    <div>Contact Me</div>
+                                    <div>» I will write back in max. 48h.</div>
+                                </div>
+
+                                <div>
+                                    <img src="media/img/00_general/me-cartoon/show-left.png" alt="img">
+                                </div>
+                            
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            
+
+            </div>
+
+            <!-- -------------------------------------------------------------------------- -->
+            <!-- My Quote | Container ( Row )                                                -->
+            <!-- -------------------------------------------------------------------------- -->
+        
+            <div id="row-my-quote-container" class="row-container" style="display: none;">
+
+                <div class="row-fullsize-content-container">
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- My Quote | Layout  -->
+                    <!-- ------------------------------------------------------ -->
+                    <div id="my-quote-layout">
+                    
+                        <img src="media/img/silicon.webp">
+                        
+                        <div id="my-quote-text-container">
+                            Work on Things you belive.
+                            Others will not understand.
+                            Only if its done.
+                        </div>
+
+                    </div>
+
+                
+        
+                </div>
+            
+
+            </div>
+
+            <!-- -------------------------------------------------------------------------- -->
+            <!-- My Top 3 Projects | Container ( Row )                                      -->
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div id="row-my-top3-projects-container" class="row-container" style="display: none;">
+
+                <div class="row-content-container">
+
+                    <div class="row-content-layout">
+
+
+                        <div id="myTop3Projects" class="light-txt-media-sfd-content-container">
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Chapter 1 - Read More About Me  -->
+                            <!-- --------------------------------------------------------------- -->
+                            <div>
+
+                                <!-- --------------------------------------------------------------- -->
+                                <!-- h1 container  -->
+                                <!-- --------------------------------------------------------------- -->
+                                <div class="h1-light-sfd-container">
+
+                                    
+                                    <h1>My Top 3 Projects</h1>
+    
+                                
+                                </div>
+    
+
+                                <!-- --------------------------------------------------------------- -->
+                                <!-- h1 content container -->
+                                <!-- --------------------------------------------------------------- -->
+                                <div class="h1-sfd-content-container">
+                            
+
+                        
+                                    <!-- ----------------------------------------------------- -->
+                                    <!-- Sub Capter 03 of h1   -->
+                                    <!-- ----------------------------------------------------- -->
+                                    <div>
+    
+                                        <div class="h2-h3-sfd-container">
+    
+    
+                                            <div class="flex-aic-cg1-2">
+                                        
+                                                <h2>For what stands my Website ?</h2>
+        
+                                                <div class="flex-aic-cg03 link-black-sfd">
+                                                    <img src="media/img/00_general/emojies/biceps.png" class="img-icon-txt-media" alt="img">
+                                                    <div>Read Text </div>
+                                                </div>
+        
+                                            </div>
+        
+                                            <div class="lbl-dark-showMoreLess-sfd-container">
+                                                <div>Show More</div>
+                                                <img src="media/img/00_general/emojies/biceps.png" class="img-icon-txt-media" alt="img">
+                                            </div>
+    
+    
+                                        </div>
+                                        
+    
+                                        <ul class="ul-ol-clean-layout-m-l-2em">
+                                            <li>Reference page to access learned knowledge & project templates/examples - Principle: Dont Repeat Yourself </li>
+                                            <li>A website that represents me as a personality and my activities </li>
+                                            <li>Possibility to get in touch with me seriously</li>
+                                            <li>Because it is fun</li>
+                                        </ul>                       
+    
+                                    </div> 
+                                    
+                                    <!-- ----------------------------------------------------- -->
+                                    <!-- Sub Capter 04 of h1   -->
+                                    <!-- ----------------------------------------------------- -->
+                                    <div>
+                                    
+                                        <div class="h2-h3-sfd-container">
+    
+    
+                                            <div class="flex-aic-cg1-2">
+                                        
+                                                <h2>Why I call it SuperfreshDEV ?</h2>
+        
+                                                <div class="flex-aic-cg03 link-black-sfd">
+                                                    <!-- <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img"> -->
+                                                    <div>Read Text </div>
+                                                </div>
+        
+                                            </div>
+        
+                                            <div class="lbl-dark-showMoreLess-sfd-container">
+                                                <div>Show More</div>
+                                                <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
+                                            </div>
+    
+                                            
+    
+                                        </div>
+    
+                                        
+                                        <div>
+    
+                                            The name SuperfreshDEV is divided into 3 words. Once Super, Fresh and DEV.
+                                            The word fresh came to mind after a strenuous day of fitness after taking a cold shower.
+                                            Taking a cold shower gave me a positive feeling of being happy, feeling clean and special
+                                            to want to tackle the next things energetically and clearly - in short, to simply approach things "freshly".
+    
+                                            <br><br>
+    
+                                            
+                                            I want to transfer this feeling to my personality and especially to my activities. <br>
+                                            So when things are approached, they do so with energy and in the form of an abstract, structuring way of thinking. <br>
+                                            In short, let's do things fresh.
+    
+                                            <br><br>
+    
+                                            
+                                            The word super is simply an amplification of fresh and means that things will appear super fresh.
+    
+                                            <br><br>
+    
+                                            The word DEV is the abbreviation for development and primarily refers to the focus of the
+                                            Software development.
+    
+                                            <br><br>
+    
+                                            
+                                            If you put all these 3 words together it means someone who wants to create super fresh software solutions of the future.
+    
+                                            <br><br>
+    
+                                            That's it. Crazy, right ?  <br>
+                                    
+    
+                                        </div>
+    
+                                    </div>   
+    
+                                    <!-- ----------------------------------------------------- -->
+                                    <!-- Sub Capter 05 of h1   -->
+                                    <!-- ----------------------------------------------------- -->
+                                    <div>
+    
+                                        <div class="h2-h3-sfd-container">
+    
+                                            <div class="flex-aic-cg1-2">
+                                        
+                                                <h2>At the End</h2>                                            
+        
+                                            </div>
+        
+                                            <div class="lbl-dark-showMoreLess-sfd-container">
+                                                <div>Show More</div>
+                                                <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
+                                            </div>
+    
+                                        </div>
+    
+                                        
+                                        <div style="display: none;">
+    
+                                    
+                                            <br><br>
+                                            Video - Steve Jobs 
+                                            <br><br>
+                                            
+    
+                                        </div>
+    
+                                    </div>   
+                                                                
+    
+                                </div>
+
+                            </div>
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- Chapter 2 - Blablabla  -->
+                            <!-- --------------------------------------------------------------- -->
+
+
+                        </div>
+
+                    
+                        
+
+                    </div>
+                    
+
+                </div>
+
+                <!-- line light brown container -->
+                <div class="line-100p-light-brown-container"></div>
+
+            </div>
+
+            <!-- -------------------------------------------------------------------------- -->
+            <!-- Process building fresh projects | Container ( Row )                        -->
+            <!-- -------------------------------------------------------------------------- -->
+        
+            <div id="row-process-building-fresh-projects-container" class="row-container" style="display: none;">
+
+                <div class="row-fullsize-content-container">
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Process building fresh projcts | Layout|Container                -->
+                    <!-- ------------------------------------------------------ -->
+                    <div id="process-building-fresh-projects-layout">
+
+                        <!-- absolute -->
+                        <img src="media/img/silicon.webp">
+
+                        <!-- layout  -->
+                        <div>
+
+                        
+
+                    
+                            <div id="header-the-process-to-building-fresh-projects">
+
+                                <div>🌊 Process to building fresh Projects & More</div>
+                                <div>» From the idea throw all steps to finished an sexy fresh project.</div>
+                                <div>» The key over all is to ask the right questions.</div>
+
+                            </div>
+
+
+                        
+                            <!-- ------------------------------ -->
+                            <!-- PDF Container                  -->
+                            <!-- ------------------------------ -->
+                            <div id="pdf-container">
+                                
+                                
+                                <!-- ------------------------- -->
+                                <!-- Link Buttons -->
+                                <!-- ------------------------- -->
+                                <div>
+                                    <img src="media/img/00_general/tmp-bilder/test-icons/mp3-play.png" alt="img">
+                                </div>
+
+
+                                <div class="pdf-area">
+
+                                    <!-- ------------------------- -->
+                                    <!-- Link Buttons -->
+                                    <!-- ------------------------- -->
+                                    <div>
+
+                                        A
+
+                                    </div>
+
+                                    <!-- ------------------------- -->
+                                    <!-- Link Buttons -->
+                                    <!-- ------------------------- -->
+                                    <div class="pdf-button">
+
+                                        <div>
+                                            <img src="media/img/00_general/icons/tmp-icons/share-dark-black-1.png" alt="img">
+                                            <img src="media/img/00_general/icons/tmp-icons/pdf.png" alt="img">
+                                        </div>
+
+                                        <div>
+                                            <div>See Steps</div>
+                                            <div>» 14,12 Kb</div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            
+                            </div>
+                        
+                    </div>
+
+                    
+                    </div>
+                
+                </div>
+            
+
+            </div>
+
+            <!-- -------------------------------------------------- -->
+            <!-- | 03/03 | Read More About Me | Row Container       -->
+            <!-- -------------------------------------------------- -->
+
+            <div id="row-more-about-me-container" class="row-container" style="display: none;">
+
+                <div class="row-content-container">
+
+                    <div id="myTop3Projects" class="light-txt-media-sfd-content-container">
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- Chapter 1 - Read More About Me  -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div>
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- h1 container  -->
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="h1-light-sfd-container">
+
+                                
+                                <h1>Read More About Me</h1>
+                            
+                            </div>
+
+
+                            <!-- --------------------------------------------------------------- -->
+                            <!-- h1 content container -->
+                            <!-- --------------------------------------------------------------- -->
+                            <div class="h1-sfd-content-container">
+                        
+
+                    
+                                <!-- ----------------------------------------------------- -->
+                                <!-- Sub Capter 03 of h1   -->
+                                <!-- ----------------------------------------------------- -->
+                                <div>
+
+                                    <div class="h2-h3-sfd-container">
+
+
+                                        <div class="flex-aic-cg1-2">
+                                    
+                                            <h2>👨‍💻​ About Me 🎻 Me as Hobby Violnist 💪 Me in Sport 👥 Friends & Family ​✈️ Travel || ​​ For what stands my Website ?</h2>
+    
+                                            <div class="flex-aic-cg03 link-black-sfd">
+                                                <!-- <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img"> -->
+                                                <div>Read Text </div>
+                                            </div>
+    
+                                        </div>
+    
+                                        <div class="lbl-dark-showMoreLess-sfd-container">
+                                            <div>Show More</div>
+                                            <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
+                                        </div>
+
+
+                                    </div>
+                                    
+
+                                    <ul class="ul-ol-clean-layout-m-l-2em">
+                                        <li>Reference page to access learned knowledge & project templates/examples - Principle: Dont Repeat Yourself </li>
+                                        <li>A website that represents me as a personality and my activities </li>
+                                        <li>Possibility to get in touch with me seriously</li>
+                                        <li>Because it is fun</li>
+                                    </ul>                       
+
+                                </div> 
+                                
+                                <!-- ----------------------------------------------------- -->
+                                <!-- Sub Capter 04 of h1   -->
+                                <!-- ----------------------------------------------------- -->
+                                <div>
+                                
+                                    <div class="h2-h3-sfd-container">
+
+
+                                        <div class="flex-aic-cg1-2">
+                                    
+                                            <h2>Why I call it SuperfreshDEV ?</h2>
+    
+                                            <div class="flex-aic-cg03 link-black-sfd">
+                                                <!-- <img src="media/img/png/main/icons/lautsprecher-hohe-lautstarke.png" class="img-icon-txt-media" alt="img"> -->
+                                                <div>Read Text </div>
+                                            </div>
+    
+                                        </div>
+    
+                                        <div class="lbl-dark-showMoreLess-sfd-container">
+                                            <div>Show More</div>
+                                            <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
+                                        </div>
+
+                                        
+
+                                    </div>
+
+                                    
+                                    <div>
+
+                                        The name SuperfreshDEV is divided into 3 words. Once Super, Fresh and DEV.
+                                        The word fresh came to mind after a strenuous day of fitness after taking a cold shower.
+                                        Taking a cold shower gave me a positive feeling of being happy, feeling clean and special
+                                        to want to tackle the next things energetically and clearly - in short, to simply approach things "freshly".
+
+                                        <br><br>
+
+                                        
+                                        I want to transfer this feeling to my personality and especially to my activities. <br>
+                                        So when things are approached, they do so with energy and in the form of an abstract, structuring way of thinking. <br>
+                                        In short, let's do things fresh.
+
+                                        <br><br>
+
+                                        
+                                        The word super is simply an amplification of fresh and means that things will appear super fresh.
+
+                                        <br><br>
+
+                                        The word DEV is the abbreviation for development and primarily refers to the focus of the
+                                        Software development.
+
+                                        <br><br>
+
+                                        
+                                        If you put all these 3 words together it means someone who wants to create super fresh software solutions of the future.
+
+                                        <br><br>
+
+                                        That's it. Crazy, right ?  <br>
+                                
+
+                                    </div>
+
+                                </div>   
+
+                                <!-- ----------------------------------------------------- -->
+                                <!-- Sub Capter 05 of h1   -->
+                                <!-- ----------------------------------------------------- -->
+                                <div>
+
+                                    <div class="h2-h3-sfd-container">
+
+                                        <div class="flex-aic-cg1-2">
+                                    
+                                            <h2>At the End</h2>                                            
+    
+                                        </div>
+    
+                                        <div class="lbl-dark-showMoreLess-sfd-container">
+                                            <div>Show More</div>
+                                            <!-- <img src="media/img/png/main/icons/arrow-up-black.png" class="img-icon-txt-media" alt="img"> -->
+                                        </div>
+
+                                    </div>
+
+                                    
+                                    <div style="display: none;">
+
+                                
+                                        <br><br>
+                                        Video - Steve Jobs 
+                                        <br><br>
+                                        
+
+                                    </div>
+
+                                </div>   
+                                                            
+
+                            </div>
+
+                        </div>
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- Chapter 2 - Blablabla  -->
+                        <!-- --------------------------------------------------------------- -->
+
+
+                    </div>
+                    
+                </div>
+
+            </div>
+

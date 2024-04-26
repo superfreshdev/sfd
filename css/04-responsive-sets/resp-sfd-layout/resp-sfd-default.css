@@ -166,7 +166,11 @@
         #chk-menue-header-nav-sfd:checked ~ #main-base , 
         #chk-menue-header-nav-sfd:checked ~ #base-footer-layout {
 
+            /* position: absolute;
+            z-index: -1; */
+
             display: none;
+            
         }
 
       
