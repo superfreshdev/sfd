@@ -14,8 +14,6 @@
 #header-base {
 
     /* z-index: 99; */
-    /* z-index: 1; */
-    z-index: 99;
 
     position: fixed;
     left: 0;
@@ -150,30 +148,24 @@
 
 }
 
+
 /* ------------------------------------------------------------------------ */
-/* 02 - 03 | Base Main
+/* 2 / 3 | Base Main
 /* ------------------------------------------------------------------------ */
 
 
 #main-base {
 
-    z-index: 1;
-    /* z-index: 0;
-    position: absolute; */
-    
-
     /* height: 100%;  */
     background-color: red;
 
-
-    /* mobile */
     margin-top: 6em;
+    position: absolute;
+    z-index: -1;
 
-    /* opacity: .1; */
+    display: none;
     
 
-    /* desktop */
- 
 }
 
 
@@ -181,14 +173,16 @@
 
 
 /* ------------------------------------------------------------------------ */
-/* 03 - 03 | Base Footer
+/* 3 / 3 | Base Footer
 /* ------------------------------------------------------------------------ */
 
 #base-footer-layout {
 
-    z-index: 1;
-    /* z-index: 0;
-    position: absolute; */
+   /* height: 100%; */
+   position: absolute;
+   z-index: -1;
+
+   display: none;
 
     padding: 2.8em .8em;
 

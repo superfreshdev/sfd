@@ -189,7 +189,7 @@
 
 .row-sfd {
 
-    position: relative;
+    /* position: relative; */
 
     /* important to give orientation where element starts */
     display: flex;
@@ -216,8 +216,8 @@
 .row-fullsize-content-area-sfd {
 
     /* mobile  */
-    position: relative;
-    top:0em;
+    /* position: relative;
+    top:0em; */
 
     width: 82em;
     height: 24em;
