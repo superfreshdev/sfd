@@ -156,7 +156,7 @@
         #chk-menue-header-nav-sfd:checked ~ #header-base #header-nav-container-sfd {
 
             /* position: fixed; */
-            z-index: 2;
+            z-index: 0;
             opacity: .3;
             opacity: 1;
             
@@ -206,7 +206,7 @@
 
             /* unshown mode in correct position  */
             position: fixed;
-            z-index: -1;
+            z-index: 0;
             opacity: 0;
 
             top: 6em; 
