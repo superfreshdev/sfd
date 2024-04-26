@@ -199,6 +199,11 @@
   
 }
 
+.row-grid-sfd {
+
+    display: grid;
+}
+
 
 .row-content-area-sfd {
 
