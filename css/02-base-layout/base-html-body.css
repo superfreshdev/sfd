@@ -33,7 +33,9 @@ html , body {
     
     /* use google font "Calibri" */
     /* inspired google font: Calligraffitti */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+   
     
    
 }
@@ -41,13 +43,19 @@ html , body {
 
 #main-footer-container {
 
-    /* position: relative;
-    top:6em; */
+    position: relative;
+    top:0em;
+    z-index: -1;
 
     display: grid;
     grid: auto auto / 1fr;
 
+    align-content: flex-start;
+
+    height: 100vh;
+
     /* height: 100vh; */
+    
 
 
 }
