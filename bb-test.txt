@@ -859,3 +859,36 @@
 
             </div>
 
+
+
+
+ <!-- Violine Sample of Rhett Price , just inspiration for me -->
+    <audio id="audio-violine-welcome-about" controls style="display: none;">
+        <source src="media/audio/about/vio-sample/vio-decisions.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- My Mindset -->
+    <audio id="audio-quote-welcome-about" controls style="display: none;">
+        <source src="media/audio/about/read-text-about/mindset.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- about me -->
+    <audio id="audio-about-me" controls style="display: none;">
+        <source src="media/audio/about/read-text-about/about-me.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- my hobbies -->
+    <audio id="audio-my-hobbies" controls style="display: none;">
+        <source src="media/audio/about/read-text-about/my-hobbies.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- what does my website stand for  -->
+    <audio id="audio-what-does-my-website-stand-for" controls style="display: none;">
+        <source src="media/audio/about/read-text-about/what-does-my-webseite-stand-for.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- why do i call myself superfreshdev  -->
+    <audio id="audio-why-do-i-call-myself-superfreshdev" controls style="display: none;">
+        <source src="media/audio/about/read-text-about/why-do-i-call-myself-superfreshdev.mp3" type="audio/mpeg">
+    </audio>
+

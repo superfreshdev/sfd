@@ -10,5 +10,59 @@
 
 
 
+/* ------------------------------------------------------------------- */
+/* Main | Row Layouts for content 
+/* ------------------------------------------------------------------- */
+
+.row-sfd {
+
+    /* position: relative; */
+
+    /* important to give orientation where element starts */
+    display: flex;
+    justify-content: center;
+  
+}
+
+.row-grid-sfd {
+
+    display: grid;
+}
+
+
+.row-content-area-sfd {
+
+    width: 100%;
+
+    /* mobile  */
+    padding: .8em .8em;
+
+   
+
+    /* desktop  */
+    /* padding: 2.8em .8em; */
+
+}
+
+
+.row-fullsize-content-area-sfd {
+
+    /* mobile  */
+    /* position: relative;
+    top:0em; */
+
+    width: 82em;
+    height: 24em;
+
+    padding: 0;
+
+    /* desktop  */
+    /* padding: 2.8em .8em; */
+
+}
+
+
+
+
 
 

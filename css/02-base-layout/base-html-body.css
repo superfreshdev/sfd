@@ -41,21 +41,3 @@ html , body {
 }
 
 
-#main-footer-container {
-
-    position: relative;
-    top:0em;
-    z-index: 1;
-
-    display: grid;
-    grid: auto auto / 1fr;
-
-    align-content: flex-start;
-
-    height: 100vh;
-
-    /* height: 100vh; */
-    
-
-
-}

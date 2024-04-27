@@ -1,0 +1,96 @@
+/*
+    sfd-filter-nav.css
+  
+   > define layout of my filter nav container to 
+   switch content for example page content , topic content , etc. 
+    
+*/
+
+/* ---------------------------------------------------------------------- */
+/* Nav Filter Container sfd
+/* ---------------------------------------------------------------------- */
+
+.nav-filter-container-sfd {
+
+    height: 4em;
+    width: 8em;
+
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: .2em;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* info & label nav - filter box 
+/* ---------------------------------------------------------------------- */
+
+.info-filter-box  ,
+.lbl-nav-filter-box  {
+
+    width: 3em;
+    height: 3em;
+
+    border-radius: .4em;
+
+    display: flex;
+    align-items: center;
+
+    /* ------------------------------------- */
+    /* Mobile 
+    /* ------------------------------------- */
+    justify-content: center;
+
+    /* ------------------------------------- */
+    /* Desktop 
+    /* ------------------------------------- */
+    /* justify-content: flex-start;
+    column-gap: 1.5em; */
+
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* info - filter box 
+/* ---------------------------------------------------------------------- */
+
+.info-filter-box {
+    
+    border: .2em solid var(--c-sfd-light-brown);
+    background-color: var(--c-sfd-light-brown);
+
+}
+
+.info-filter-box > img {
+
+    height: calc(1.6em + .3vh);
+    height: 1.8em;
+}
+
+/* ---------------------------------------------------------------------- */
+/* seperator - filter box
+/* ---------------------------------------------------------------------- */
+
+.seperator-filter-box {
+
+    font-weight: bold;
+    color: var(--c-cf-white);
+    
+}
+
+/* ---------------------------------------------------------------------- */
+/* label nav - filter box
+/* ---------------------------------------------------------------------- */
+
+.lbl-nav-filter-box {
+
+   cursor: pointer;
+   border: .2em solid var(--c-sfd-light-grey)
+}
+
+
+
+

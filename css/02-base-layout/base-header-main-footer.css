@@ -8,10 +8,10 @@
 
 
 /* ------------------------------------------------------------------------ */
-/* Header | Base
+/* Resp | Header Base 
 /* ------------------------------------------------------------------------ */
 
-#header-base {
+#resp-header-base {
 
     /* position: relative;
     top:0; */
@@ -22,10 +22,10 @@
 }
 
 /* -------------------------------------------------------------- */
-/* Nav Header | Base 
+/* Resp | Fixed Header Base
 /* -------------------------------------------------------------- */
 
-#header-container-base {
+#resp-fixed-header-base {
 
     z-index: 99;
 
@@ -59,96 +59,31 @@
 }
 
 
+/* ------------------------------------------------------------------------ */
+/* Main Footer Base
+/* ------------------------------------------------------------------------ */
 
+#main-footer-base {
 
+    position: relative;
+    top:0em;
+    z-index: 1;
 
-/* aufräumen */
+    display: grid;
+    grid: auto auto / 1fr;
 
+    align-content: flex-start;
 
+    height: 100vh;
 
-
-
-/* -------------------------------------------------------------- */
-/* List Label Panel | Base Header | 
-/* > Radio Handling Part [2/2] 
-/* -------------------------------------------------------------- */
-
-/* default unshown radio circle buttons */
-#radio-projects,
-#radio-docs,
-#radio-news,
-#radio-about { display: none; }
-
-/* default unshown black lbl img */
-#lbl-radio-projects-base-header > img:nth-of-type(2),
-#lbl-radio-docs-base-header > img:nth-of-type(2),
-#lbl-radio-news-base-header > img:nth-of-type(2),
-#lbl-radio-about-base-header > img:nth-of-type(2) {
-    display: none;
-}
-
-
-/* ------------------------------------------------------- */
-/* Hover - Handling [ 1 / 2 ]
-/* ------------------------------------------------------- */
-
-/* Hover show black img */
-#nav-header-sfd > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(2),
-#nav-header-sfd > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(2),
-#nav-header-sfd > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(2),
-#nav-header-sfd > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(2) {
-
-    display: block;
-}
-
-/* Hover unshown grey img */
-#nav-header-sfd > li:nth-of-type(1):hover > label:first-child > img:nth-of-type(1),
-#nav-header-sfd > li:nth-of-type(3):hover > label:first-child > img:nth-of-type(1),
-#nav-header-sfd > li:nth-of-type(5):hover > label:first-child > img:nth-of-type(1),
-#nav-header-sfd > li:nth-of-type(7):hover > label:first-child > img:nth-of-type(1) {
-
-    display: none;
-}
-
-/* ------------------------------------------------------- */
-/* Checked - Handling [ 2 / 2 ]
-/* ------------------------------------------------------- */
-
-/* default radio checked */
-#radio-projects:checked ~ #header-base #nav-header-sfd > li:nth-of-type(1) ,
-#radio-docs:checked ~ #header-base #nav-header-sfd > li:nth-of-type(3),
-#radio-news:checked ~ #header-base #nav-header-sfd > li:nth-of-type(5),
-#radio-about:checked ~ #header-base #nav-header-sfd > li:nth-of-type(7){
-
-    background-color: var(--c-sfd-light-brown);
-    color: var(--c-cf-black);
-
-}
-
-/* default unshown grey img | if radio is checked */
-#radio-projects:checked ~ #header-base #lbl-radio-projects-base-header > img:nth-of-type(1),
-#radio-docs:checked ~ #header-base #lbl-radio-docs-base-header > img:nth-of-type(1),
-#radio-news:checked ~ #header-base #lbl-radio-news-base-header > img:nth-of-type(1),
-#radio-about:checked ~ #header-base #lbl-radio-about-base-header > img:nth-of-type(1) {
-
-    display: none;
-
-}
-/* default show black img | if radio is checked */ 
-#radio-projects:checked ~ #header-base #lbl-radio-projects-base-header > img:nth-of-type(2),
-#radio-docs:checked ~ #header-base #lbl-radio-docs-base-header > img:nth-of-type(2),
-#radio-news:checked ~ #header-base #lbl-radio-news-base-header > img:nth-of-type(2),
-#radio-about:checked ~ #header-base #lbl-radio-about-base-header > img:nth-of-type(2) {
-
-    display: block;
-
+    /* height: 100vh; */
+    
 }
 
 
 /* ------------------------------------------------------------------------ */
-/* 2 / 3 | Base Main
+/* Main Base
 /* ------------------------------------------------------------------------ */
-
 
 #main-base {
 
@@ -159,15 +94,11 @@
     margin-top: 6em;
 }
 
-
-
-
-
 /* ------------------------------------------------------------------------ */
-/* 3 / 3 | Base Footer
+/* Footer Basse
 /* ------------------------------------------------------------------------ */
 
-#base-footer-layout {
+#footer-base {
    
     padding: 2.8em .8em;
 
@@ -183,7 +114,7 @@
      
 }
 
-#base-footer-layout  > div:nth-of-type(1) {
+#footer-base  > div:nth-of-type(1) {
  
     /* desktop version */
     

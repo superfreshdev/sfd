@@ -22,6 +22,8 @@
     <!-- ----------------------------------------- -->
 
     <link rel="stylesheet" href="css/01-css-framework/cf-colors.css">
+    <link rel="stylesheet" href="css/01-css-framework/cf-padd-marg.css">
+
     <link rel="stylesheet" href="css/01-css-framework/cf-flex-grid-pos.css">
     <link rel="stylesheet" href="css/01-css-framework/cf-form-elements.css">
     <link rel="stylesheet" href="css/01-css-framework/cf-imgs-icons-videos.css">
@@ -45,10 +47,13 @@
         <!-- ----------------------------------------- -->
 
         <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-colors.css">
-        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-layouts.css">
 
-        <!-- [ !!! Check if u need this ??? ]-->
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-header.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-filter-nav.css">
+
+        <!-- my sfd font styles  -->
         <link rel="stylesheet" href="css/03-sfd-layouts/sfd-defaults/sfd-text-styles.css">
+
 
         <!-- ----------------------------------------- -->
         <!-- 3.2 | sfd pages                           -->
@@ -110,95 +115,59 @@
 
     <body id="base-body-layout">
 
-
-    <!-- -------------------------------------------- -->
-    <!-- Radio Buttons | Base Header                  -->
-    <!-- -------------------------------------------- -->
-
-    <!-- neu  -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- Radio Buttons | Header ( sfd elements )                        -->
+    <!-- -------------------------------------------------------------- -->
 
     <input type="radio" id="radio-page-about" name="name-radio-header-page" checked>
     <input type="radio" id="radio-page-news" name="name-radio-header-page" >
     <input type="radio" id="radio-page-docs" name="name-radio-header-page" >
     <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
+    <!-- -------------------------------------------------------------- -->
+    <!-- Checkbox | Header - Mobile Menue ( sfd elements )              -->
+    <!-- -------------------------------------------------------------- -->
 
-    <!-- -------------------------------------------- -->
-    <!-- Checkbox | Header ( sfd element )            -->
-    <!-- -------------------------------------------- -->
-
-    <!-- checkbox -> hamburger nav label  -->
-    <input type="checkbox" id="chk-menue-header-nav-sfd" name="name-chk-menue-header-nav-sfd">
-
-    <!-- kann zu layout Elementen , wird über js gelöst -->
-    <!-- <input type="checkbox" id="chk-lbl-audio-violine-welcome-about" name="chk-audio-violine-welcome-about" style="display: none;">    
-    <input type="checkbox" id="chk-lbl-audio-quote-welcome-about" name="chk-audio-quote-welcome-about" style="display: none;"> -->
-   
+    <input type="checkbox" id="chk-mobile-hamburger-menue-sfd" name="name-chk-mobile-hamburger-menue-sfd">
 
     <!-- -------------------------------------------------------- -->
-    <!-- Audio Files | About Page | -->
+    <!-- Audio Files | About Page                                 -->
     <!-- -------------------------------------------------------- -->
+    <!-- Java Script - Create Audio Files by json -->
+            
 
-    <!-- Violine Sample of Rhett Price , just inspiration for me -->
-    <audio id="audio-violine-welcome-about" controls style="display: none;">
-        <source src="media/audio/about/vio-sample/vio-decisions.mp3" type="audio/mpeg">
-    </audio>
 
-    <!-- My Mindset -->
-    <audio id="audio-quote-welcome-about" controls style="display: none;">
-        <source src="media/audio/about/read-text-about/mindset.mp3" type="audio/mpeg">
-    </audio>
 
-    <!-- about me -->
-    <audio id="audio-about-me" controls style="display: none;">
-        <source src="media/audio/about/read-text-about/about-me.mp3" type="audio/mpeg">
-    </audio>
-
-    <!-- my hobbies -->
-    <audio id="audio-my-hobbies" controls style="display: none;">
-        <source src="media/audio/about/read-text-about/my-hobbies.mp3" type="audio/mpeg">
-    </audio>
-
-    <!-- what does my website stand for  -->
-    <audio id="audio-what-does-my-website-stand-for" controls style="display: none;">
-        <source src="media/audio/about/read-text-about/what-does-my-webseite-stand-for.mp3" type="audio/mpeg">
-    </audio>
-
-    <!-- why do i call myself superfreshdev  -->
-    <audio id="audio-why-do-i-call-myself-superfreshdev" controls style="display: none;">
-        <source src="media/audio/about/read-text-about/why-do-i-call-myself-superfreshdev.mp3" type="audio/mpeg">
-    </audio>
 
     <!-- -------------------------------------------------------------------------- -->
-    <!-- Header Base  ( fixed )                                                     -->
+    <!-- Resp | Header Base ( absolute )                                            -->
     <!-- -------------------------------------------------------------------------- -->
 
-    <header id="header-base">
+    <header id="resp-header-base">
         
-        <!-- ---------------------------------------------- -->
-        <!-- Header Container | Base                         -->
-        <!-- ---------------------------------------------- -->
-       
-        <div id="header-container-base">
+        <!-- -------------------------------------------------------- -->
+        <!-- Resp | Fixed | Header Base                               -->
+        <!-- -------------------------------------------------------- -->
 
+        <div id="resp-fixed-header-base">
 
             <!-- ---------------------------------------------- -->
-            <!-- Company Logo | resp sfd layouts                -->
+            <!-- Resp | Company Logo ( sfd )                    -->
             <!-- ---------------------------------------------- -->
 
-            <label for="radio-home-about" id="company-logo-sfd" title="» About - SuperfreshDEV" >
+            <label for="radio-home-about" id="resp-company-logo-sfd" title="» About - SuperfreshDEV" >
 
 
                 <!-- -------------------------------------- --> 
                 <!-- img wave                               -->
                 <!-- -------------------------------------- --> 
-                <img src="media/img/00_general/emojies/wave.png" id="img-company-logo" alt="img">
+                <img src="media/img/00_general/emojies/wave.png" id="img-company-logo-sfd" alt="img">
 
                
                 <!-- -------------------------------------- --> 
                 <!-- about version                          -->
                 <!-- -------------------------------------- --> 
-                <div id="about-version-company-logo">
+                <div id="about-version-company-logo-sfd">
                     <div>Fullstack</div>
                     <div>Software Developer.</div>
                 </div>
@@ -206,7 +175,7 @@
                 <!-- -------------------------------------- --> 
                 <!-- other version                          -->
                 <!-- -------------------------------------- --> 
-                <div id="other-version-company-logo">
+                <div id="other-version-company-logo-sfd">
                     <div>SuperfreshDEV</div>
                     <div>» think different.</div>
                 </div>
@@ -214,61 +183,57 @@
 
             </label>
                 
-
             <!-- --------------------------------------------------------------------------- -->
-            <!-- Mobile | Open Header Nav | resp sfd layouts                                 -->
+            <!-- Resp | Nav Page Filter ( sfd )                                              -->
             <!-- --------------------------------------------------------------------------- -->
-    
-            <div id="mobile-open-header-nav">
-
+           
+            <div id="resp-nav-page-filter-sfd" class="nav-filter-container-sfd">
 
                 <!-- ------------------------------------------ -->
-                <!-- Page Setted Info Box                       -->
+                <!-- Info Filter Box                            -->
                 <!-- ------------------------------------------ -->
-
-                <div id="page-setted-info-box-sfd">
-                    <img src="" id="img-page-setted-info-box-sfd" alt="img">
+                <div class="info-filter-box">
+                    <img src="media/img/01_header/about-black.png" alt="img" id="js-img-src-info-filter-box-sfd">
                 </div>
 
-                <!-- Seperator -->
-                <div class="seperator-header-label-sfd">‹›</div>
+                <!-- ------------------------------------------ -->
+                <!-- Seperator Filter Box                       -->
+                <!-- ------------------------------------------ -->
+                <div class="seperator-filter-box">‹›</div>
 
-                <!-- ------------------------------------------------- -->
-                <!-- Menue Nav Header Label ( Hamburger Icon )         -->
-                <!-- ------------------------------------------------- -->
+                <!-- ------------------------------------------ -->
+                <!-- Mobile Hamburger Label                     -->
+                <!-- ------------------------------------------ -->
+                <label for="chk-mobile-hamburger-menue-sfd" id="css-handling-lbl-mobile-hamburger-menue-sfd" class="lbl-nav-filter-box" name="name-chk-mobile-hamburger-menue-sfd">
 
-                <label for="chk-menue-header-nav-sfd" id="mobile-lbl-menue-header-nav-sfd" name="name-chk-menue-header-nav-sfd" >              
+                    <div>
 
-                    <div id="mobile-menue-header-nav-box-sfd">
-
-                        <div class="menue-nav-stripe-sfd"></div>
-                        <div class="menue-nav-stripe-sfd"></div>
-                        <div class="menue-nav-stripe-sfd"></div> 
+                        <div></div>
+                        <div></div>
+                        <div></div> 
 
                     </div>
-                   
 
                 </label>
 
             </div>
-          
+
+    
         </div>
 
-
-        <!-- --------------------------------------------------------------------------- -->
-        <!-- Mobile/Desktop | Header Nav Container | resp sfd layouts                    -->
-        <!-- --------------------------------------------------------------------------- -->
-            
-        <div id="header-nav-container-sfd">
-
+        <!-- ----------------------------------------------------------------------------------- -->
+        <!-- Resp | Header Nav Page Container ( fixed / in layout of header base )              -->
+        <!-- ----------------------------------------------------------------------------------- -->
+       
+        <div id="resp-header-nav-page-container-sfd">
 
             <!-- ---------------------------------------------------------- -->
-            <!-- Mobile/Desktop | Nav Page Container                        -->
+            <!-- Resp | Header Nav Label Container                          -->
             <!-- ---------------------------------------------------------- -->
-            <nav id="nav-page-container">
+
+            <nav id="resp-header-nav-label-container-sfd">
 
 
-                
                 <!-- --------------------------------- -->
                 <!-- About Label |                      -->
                 <!-- --------------------------------- -->
@@ -285,7 +250,7 @@
 
 
                 <!-- Seperator -->
-                <div class="header-nav-label-item-seperator">‹›</div>
+                <div class="resp-seperator-header-nav-label">‹›</div>
 
                 <!-- --------------------------------- -->
                 <!-- News Label |                      -->
@@ -301,6 +266,9 @@
 
                 </label>
 
+                <!-- Seperator -->
+                <div class="resp-seperator-header-nav-label">‹›</div>
+
                 <!-- --------------------------------- -->
                 <!-- Docs Label |                      -->
                 <!-- --------------------------------- -->
@@ -315,6 +283,8 @@
 
                 </label>
                 
+                <!-- Seperator -->
+                <div class="resp-seperator-header-nav-label">‹›</div>
                 
                 <!-- --------------------------------- -->
                 <!-- Projects Label |                  -->
@@ -334,9 +304,9 @@
             </nav>
 
             <!-- ---------------------------------------------------------- -->
-            <!-- Mobile | Img Container                                     -->
+            <!-- Resp | Img Container of Nav Page Container                 -->
             <!-- ---------------------------------------------------------- -->
-            <div id="mobile-img-container-header-nav">
+            <div id="resp-mobile-img-container-header-nav-page-container">
 
                 <div>
                     <img src="media/img/00_general/me-cartoon/me-think.png" alt="" >
@@ -344,25 +314,27 @@
 
             </div>
 
-
         </div>
 
 
     </header>
 
-   
-    <!-- -------------------------------------------------------------------------- -->
-    <!-- Main Base ( body layout )                                                  -->
-    <!-- -------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------------------- -->
+    <!-- Main Footer Base ( relative )                                                                        -->
+    <!-- ---------------------------------------------------------------------------------------------------- -->
 
-    <div id="main-footer-container">
+    <div id="main-footer-base">
+    
+        <!-- -----------------------------------------------------------------------  -->
+        <!-- Main Base                                                                -->
+        <!-- -----------------------------------------------------------------------  -->
+        <div id="main-base">
+            
+            <!-- ------------------------------------------------------------------  -->
+            <!-- Page About                                                          -->
+            <!-- ------------------------------------------------------------------- -->
 
-        <main id="main-base">
-        
-            <!-- -----------------------------------------------------------------------  -->
-            <!-- Page About | Container                                                   -->
-            <!-- -----------------------------------------------------------------------  -->
-            <div id="page-about-container">
+            <div id="page-about-sfd">
 
                 <!-- -------------------------------------------------------------------------- -->
                 <!-- Row | Title Welcome                                                        -->
@@ -414,7 +386,6 @@
 
                 </div>
 
-
                 <!-- ------------------------------------------------------------------------------- -->
                 <!-- Prototyp Text -->
                 <!-- ------------------------------------------------------------------------------- -->
@@ -433,7 +404,7 @@
 
                     <br><br>
 
-                  
+                    
                     <!-- Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
                     war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
 
@@ -456,7 +427,7 @@
 
                     Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
                     war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-                 -->
+                    -->
                 </div>
 
                 <div class="flex jc-c" style="padding: .3em 0em 1em 0em">
@@ -471,27 +442,26 @@
                     </audio>
                 </div>
 
-        
-            
+
             </div>
 
-            <!-- -----------------------------------------------------------------------  -->
-            <!-- Page News | Container                                                    -->
-            <!-- -----------------------------------------------------------------------  -->
-            <div id="page-news-container">
+            <!-- ------------------------------------------------------------------  -->
+            <!-- Page News                                                           -->
+            <!-- ------------------------------------------------------------------- -->
 
-                
+            <div id="page-news-sfd">
+
                 <div class="row-sfd">
 
                     <div style="padding: .8em 1.6em;">
-
+    
                         <!-- -------------------------------------------------------- -->
                         <!-- New Content Container 1 -->
                         <!-- -------------------------------------------------------- -->
                         <div >
-
+    
                             <h3>News</h3>
-
+    
                             Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
                             war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
                             Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
@@ -507,9 +477,9 @@
                                 eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
                                 Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
                                 Indochina und Burma erwies sich aufgrund umfassender
-
+    
                                 <br><br>
-
+    
                                 Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
                                 war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
                                 Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
@@ -525,9 +495,9 @@
                                     eroberten Marianen fort­gesetzt werden konnte. Die zusätzlich gewonnene direkte 
                                     Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
                                     Indochina und Burma erwies sich aufgrund umfassender
-
+    
                                     <br><br>
-
+    
                                     Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
                                     war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
                                     Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
@@ -544,72 +514,73 @@
                                         Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
                                         Indochina und Burma erwies sich aufgrund umfassender
                         </div>
-
+    
                         <!-- -------------------------------------------------------- -->
                         <!-- New Content Container 2 -->
                         <!-- -------------------------------------------------------- -->
                         <div>
-
+    
                             <h2>Interested Links</h2>
-
+    
                             <p> https://imagecolorpicker.com </p>
-
+    
                             <p> https://oxylabs.io/ </p>
-
+    
                             <p> https://www.youtube.com/watch?v=y0QoJjsdAZ4 </p>
-
+    
                             <p>  https://elevenlabs.io/ </p>
-
+    
                             <p style="line-break: anywhere;"> https://www.angulararchitects.io/blog/reaktives-state-management-mit-ngrx-redux/</p>
-
+    
                             <p>https://frontend-fusion.de/</p>
-
+    
                         </div>
-
+    
                     </div>
-
+    
                     
-
+    
                 </div>
-
+                
             </div>
 
-            <!-- -----------------------------------------------------------------------  -->
-            <!-- Page Docs | Container                                                    -->
-            <!-- -----------------------------------------------------------------------  -->
-            <div id="page-docs-container">
+            <!-- ------------------------------------------------------------------  -->
+            <!-- Page Docs                                                           -->
+            <!-- ------------------------------------------------------------------- -->
+
+            <div id="page-docs-sfd">
 
                 <div class="row-grid-sfd">
 
-                  
+                
                     <!-- -------------------------------------------------------- -->
                     <!-- Header Page Docs  -->
                     <!-- -------------------------------------------------------- -->
                         
                     <div class="page-docs-layout">
-
+    
                         <div>Docs</div>
                         <div>» My Tech PDFs & Short Tutorials Guides</div>
-                       
+                        
                     </div>
-
+    
                     <!-- ------------------------------------------------------- -->
                     <!-- Content Page Docs  -->
                     <!-- ------------------------------------------------------- -->
                     <div class="content-page-sfd">
-
+    
                         
                         <!-- ------------------------------------------------------- -->
                         <!-- Docs Card Layout -->
                         <!-- ------------------------------------------------------- -->
                         <div class="docs-card-layout">
-
-
+    
+    
                             <!-- ---------------------------------------------------- -->
                             <!-- Angular Doc  -->
                             <!-- ---------------------------------------------------- -->
                             <div class="doc-card-item">
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Header -->
                                 <!-- ---------------------------------------------------- -->
@@ -617,29 +588,29 @@
                                     Angular 17 - Alte Grundlagen <br>& Neue 
                                     Features 2024
                                 </div>
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Item -->
                                 <!-- ---------------------------------------------------- -->
                                 <div class="docs-card-item-content">
-
+    
                                     <img src="media/img/02_main/02_docs/img-pdfs/doc-angular-grundlagen.PNG" alt="img">
-
+    
                                     <div class="docs-card-item-link-container">
                                         <a href="pdf" target="_blank">Lese PDF</a>
                                         <a href="odt"> Download .odt </a>
                                     </div>
-
+    
                                 </div>
-
-
+    
+    
                             </div>
-
+    
                             <!-- ---------------------------------------------------- -->
                             <!-- TypeScript Doc  -->
                             <!-- ---------------------------------------------------- -->
                             <div class="doc-card-item">
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Header -->
                                 <!-- ---------------------------------------------------- -->
@@ -647,29 +618,29 @@
                                     TypeScript - Grundlagen Wissen & Aufgaben / Lösungen zu 
                                     kleinen Logik Programmieraufgaben
                                 </div>
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Item -->
                                 <!-- ---------------------------------------------------- -->
                                 <div class="docs-card-item-content">
-
+    
                                     <img src="media/img/02_main/02_docs/img-pdfs/doc-typescript-grundlagen.PNG" alt="img">
-
+    
                                     <div class="docs-card-item-link-container">
                                         <a href="pdf" target="_blank">Lese PDF</a>
                                         <a href="odt"> Download .odt </a>
                                     </div>
-
+    
                                 </div>
-
-
+    
+    
                             </div>
-
+    
                             <!-- ---------------------------------------------------- -->
                             <!-- Java Script Doc  -->
                             <!-- ---------------------------------------------------- -->
                             <div class="doc-card-item">
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Header -->
                                 <!-- ---------------------------------------------------- -->
@@ -677,30 +648,30 @@
                                     Java Script - Grundlagen Wissen & Aufgaben / Lösungen zu 
                                     kleinen Logik Programmieraufgaben
                                 </div>
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Item -->
                                 <!-- ---------------------------------------------------- -->
                                 <div class="docs-card-item-content">
-
+    
                                     <img src="media/img/02_main/02_docs/img-pdfs/doc-javascript-grundlagen.PNG" alt="img">
-
+    
                                     <div class="docs-card-item-link-container">
                                         <a href="pdf" target="_blank">Lese PDF</a>
                                         <a href="odt"> Download .odt </a>
                                     </div>
-
+    
                                 </div>
-
-
+    
+    
                             </div>
-
-
+    
+    
                             <!-- ---------------------------------------------------- -->
                             <!-- NodeJS & NestJS Doc  -->
                             <!-- ---------------------------------------------------- -->
                             <div class="doc-card-item">
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Header -->
                                 <!-- ---------------------------------------------------- -->
@@ -708,29 +679,29 @@
                                     NodeJS & NestJS - Grundlagen Wissen & Aufgaben / Lösungen zu 
                                     kleinen Anwendungsaufgaben
                                 </div>
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Item -->
                                 <!-- ---------------------------------------------------- -->
                                 <div class="docs-card-item-content">
-
+    
                                     <img src="media/img/02_main/02_docs/img-pdfs/NodeJSNestJS.PNG" alt="img">
-
+    
                                     <div class="docs-card-item-link-container">
                                         <a href="pdf" target="_blank">Lese PDF</a>
                                         <a href="odt"> Download .odt </a>
                                     </div>
-
+    
                                 </div>
-
-
+    
+    
                             </div>
-
+    
                             <!-- ---------------------------------------------------- -->
                             <!-- StoryBook Doc  -->
                             <!-- ---------------------------------------------------- -->
                             <div class="doc-card-item">
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Header -->
                                 <!-- ---------------------------------------------------- -->
@@ -738,42 +709,43 @@
                                     Storybook - Die ersten Schritte um 
                                     wiederverwendbare Komponenten zu dokumentieren
                                 </div>
-
+    
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Card Item -->
                                 <!-- ---------------------------------------------------- -->
                                 <div class="docs-card-item-content">
-
+    
                                     <img src="media/img/02_main/02_docs/img-pdfs/doc-storybook-grundlagen.PNG" alt="img">
-
+    
                                     <div class="docs-card-item-link-container">
                                         <a href="pdf" target="_blank">Lese PDF</a>
                                         <a href="odt"> Download .odt </a>
                                     </div>
-
+    
                                 </div>
-
-
+    
+    
                             </div>
-
-
-
-
+    
+    
+    
+    
                         </div>
-
-
+    
+    
                     </div>
-
+    
     
                 </div>
-
+                
             </div>
 
-            <!-- -----------------------------------------------------------------------  -->
-            <!-- Page Projects | Container                                                -->
-            <!-- -----------------------------------------------------------------------  -->
-            <div id="page-projects-container">
+            <!-- ------------------------------------------------------------------  -->
+            <!-- Page Projects                                                       -->
+            <!-- ------------------------------------------------------------------- -->
 
+            <div id="page-projects-sfd">
+                
                 <div class="row-sfd">
 
                     <div style="padding: .8em 1.6em;">
@@ -782,9 +754,9 @@
                         <!-- New Content Container 1 -->
                         <!-- -------------------------------------------------------- -->
                         <div >
-
+    
                             <h3>Projects</h3>
-
+    
                             Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
                             war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
                             Japanisch-Chinesischen Krieges. Die japanischen Einheiten in Südchina, die seit 1942 keine größere
@@ -801,22 +773,24 @@
                                 Landverbindung zwischen den japanisch besetzten Gebieten im Nordosten Chinas und jenen in
                                 Indochina und Burma erwies sich aufgrund umfassender
                         </div>
-
+    
                     </div>    
                 
                 </div>
 
             </div>
 
-        </main>
+        </div>
 
-        <!-- -------------------------------------------------------------------------- -->
-        <!-- Footer Base ( body layout )                                                -->
-        <!-- -------------------------------------------------------------------------- -->
-
-        <footer id="base-footer-layout">
-
-            <div>
+        <!-- -----------------------------------------------------------------------  -->
+        <!-- Footer Base                                                              -->
+        <!-- -----------------------------------------------------------------------  -->
+        <div id="footer-base">
+            
+            <!-- ------------------------------------------------------------ -->
+            <!-- footer sfd -->
+            <!-- ------------------------------------------------------------ -->
+            <div id="footer-sfd">
 
                 Ich bin dein Footer  Ich bin dein Footer  Ich bin dein Footer
                 Ich bin dein Footer  Ich bin dein Footer  Ich bin dein Footer
@@ -829,15 +803,18 @@
 
             </div>
 
-        </footer>
+        </div>
 
     </div>
 
 
-   
+    
+       
+
+    
 
 
-   
+
 
 
     <!-- --------------------------------------------------------------------------- -->

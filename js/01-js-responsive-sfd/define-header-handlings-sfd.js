@@ -14,9 +14,9 @@ console.log("### [JS] - define-header-handlings-sfd.js ")
 /* Data Storage | Header Content Handlings
 /* ------------------------------------------------------- */
 
-const chkMobileMenueNav = document.getElementById("chk-menue-header-nav-sfd");
+const chkMobileMenueNav = document.getElementById("chk-mobile-hamburger-menue-sfd");
 
-const imgDomElementOfPageSettedInfoBoxSfd = document.getElementById("img-page-setted-info-box-sfd");
+const imgDomElementOfPageSettedInfoBoxSfd = document.getElementById("js-img-src-info-filter-box-sfd");
 
 const defaultImgSrcHeaderNavlabel = "media/img/01_header/";
 
@@ -36,7 +36,7 @@ const objDataHeaderPageNavigation = [
 
         },
        
-        pageContainer: "page-about-container"
+        pageContainer: "page-about-sfd"
 
     },
 
@@ -54,7 +54,7 @@ const objDataHeaderPageNavigation = [
 
         },
 
-        pageContainer: "page-news-container"
+        pageContainer: "page-news-sfd"
     
     },
 
@@ -72,7 +72,7 @@ const objDataHeaderPageNavigation = [
 
         },
 
-        pageContainer: "page-docs-container"
+        pageContainer: "page-docs-sfd"
     
     },
 
@@ -90,7 +90,7 @@ const objDataHeaderPageNavigation = [
 
         },
 
-        pageContainer: "page-projects-container"
+        pageContainer: "page-projects-sfd"
 
     }
 

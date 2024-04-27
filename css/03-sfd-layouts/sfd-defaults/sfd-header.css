@@ -1,0 +1,441 @@
+/*
+
+    sfd-header.css
+
+    > define all sfd layout elements which 
+    are in my header for example header logo 
+
+*/
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* 01 / 03 | Resp | Company Logo  
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+#resp-company-logo-sfd {
+
+    cursor: pointer;
+
+    border-radius: .4em;
+    background-color: var(--c-sfd-light-anthracite);
+   
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+
+    height: 3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .6em;
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
+
+}
+
+#img-company-logo-sfd {
+
+    height: 1.3em;
+    display: none;
+
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+
+   
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */   
+}
+
+#about-version-company-logo-sfd {
+
+   
+    padding: .1em .6em 0em.6em;
+
+    /* color: var(--c-sfd-light-brown); */
+    /* color: var(--c-sfd-light-brown-darker); */
+    color:grey;
+
+    line-height: 1em;
+
+    /* display: none; */
+
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+
+  
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
+
+}
+
+#other-version-company-logo-sfd {
+
+    padding: 0em .6em;
+    line-height: 1.1em;
+    display: none;
+
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+    
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
+
+}
+
+#other-version-company-logo-sfd > div:nth-of-type(1) {
+
+    color: var(--c-cf-white);
+    font-weight: bold;
+
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+    
+    /* font-size: .9em; */
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
+
+}
+
+#other-version-company-logo-sfd > div:nth-of-type(2) {
+
+   
+    color: var(--c-sfd-light-grey);
+
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+    font-size: .8em;
+
+    
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
+
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* 02 / 03 | Mobile - Hamburger Label & Animation 
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* default unshown checkbox icon  */
+#chk-mobile-hamburger-menue-sfd { display: none; }
+
+#css-handling-lbl-mobile-hamburger-menue-sfd > div:nth-of-type(1) {
+
+    display: grid;
+    align-content: center;     
+    row-gap: .35em;
+
+}
+
+#css-handling-lbl-mobile-hamburger-menue-sfd > div:nth-of-type(1) > div {
+
+    width: 1.8em;
+    height: .3em;
+
+    border-radius: .3em;
+    background-color: var(--c-sfd-light-grey);
+
+    transition: all .4s;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Checked Handling & Animations 
+/* ---------------------------------------------------------------------- */
+
+#chk-mobile-hamburger-menue-sfd:checked ~ #resp-header-base #css-handling-lbl-mobile-hamburger-menue-sfd {
+
+    background-color: var(--c-sfd-red);
+    border: .2em solid var(--c-sfd-red);
+}
+
+#chk-mobile-hamburger-menue-sfd:checked ~ #resp-header-base #css-handling-lbl-mobile-hamburger-menue-sfd > div:nth-of-type(1) > div {
+
+    background-color: var(--c-sfd-dark-white);
+
+}
+
+#chk-mobile-hamburger-menue-sfd:checked ~ #resp-header-base #css-handling-lbl-mobile-hamburger-menue-sfd > div:nth-of-type(1) > div:nth-of-type(1) {
+
+    transform: translate(0, .7em) rotate(-45deg);
+
+}
+
+#chk-mobile-hamburger-menue-sfd:checked ~ #resp-header-base #css-handling-lbl-mobile-hamburger-menue-sfd > div:nth-of-type(1) > div:nth-of-type(2) {
+    
+    opacity: 0;
+}
+
+#chk-mobile-hamburger-menue-sfd:checked ~ #resp-header-base #css-handling-lbl-mobile-hamburger-menue-sfd > div:nth-of-type(1) > div:nth-of-type(3) {
+    
+    transform: translate(0, -.6em) rotate(45deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* 03 / 03 | Header nav Label Container sfd 
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+#resp-header-nav-page-container-sfd  {
+    
+    
+    /* -------------------- */ 
+    /* mobile  */
+    /* -------------------- */ 
+
+    /* unshown mode in correct position  */
+    position: fixed;
+    opacity: 0;
+    
+    /* z-index: -1; */
+    /* z-index: 2; */
+    /* height: 100%; */
+    height: 100vh;
+
+    top: 6em; 
+    left:0;
+    right:0;
+
+    padding: 2em 2em;
+
+    display: grid;
+    row-gap: calc(1.3em + .8vh);
+    align-content: flex-start;
+
+    background-color: var(--c-sfd-light-grey);
+
+    transition: all .4s ease;
+
+
+    /* -------------------- */ 
+    /* desktop  */
+    /* -------------------- */ 
+    
+}
+
+
+#chk-mobile-hamburger-menue-sfd:checked ~ #main-footer-base #main-base,
+#chk-mobile-hamburger-menue-sfd:checked ~ #main-footer-base > #footer-base {
+
+    /* z-index: -1; */
+    /* z-index: -1; */
+    /* display: none; */
+    /* position: absolute; */
+    /* top:22em; */
+    /* left: -100%; */
+   
+    /* top:0em; */
+    /* top:6em; */
+    /* z-index: 99; */
+    /* z-index: -1; */
+
+    /* display: none; */
+
+    
+}
+
+/* ---------------------------------------------------------------- */
+/* Header Nav Label Container | sfd
+/* ---------------------------------------------------------------- */
+
+#resp-header-nav-label-container-sfd {
+
+    display: grid;
+    row-gap: 1em;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Header Nav Label | sfd
+/* ---------------------------------------------------------------- */
+
+/* default unshown radio box  */
+#radio-page-about,
+#radio-page-news, 
+#radio-page-docs,
+#radio-page-projects { 
+
+    display: none;
+
+}
+
+.lbl-header-page-sfd {
+
+    cursor: pointer;
+
+    padding: 1em 1.5em;
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+
+    font-weight: bold;
+    border-radius: .4em;
+    background-color: var(--c-sfd-dark-grey);
+    /* #defin */
+    color:rgb(187, 187, 187);
+
+    transition: all .4s;
+
+}
+
+
+.lbl-header-page-sfd:hover {
+
+    background-color: var(--c-sfd-light-brown);
+    color:var(--c-black);
+
+}
+
+.lbl-header-page-sfd > div:nth-of-type(1) {
+
+    /* background-color: red; */
+    
+    width: 2.5em;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.lbl-header-page-sfd img {
+
+    height: 2em;
+}
+
+
+#radio-page-about:checked ~ #resp-header-base #resp-header-nav-label-container-sfd > label[for="radio-page-about"],
+#radio-page-news:checked ~ #resp-header-base #resp-header-nav-label-container-sfd > label[for="radio-page-news"],
+#radio-page-docs:checked ~ #resp-header-base #resp-header-nav-label-container-sfd > label[for="radio-page-docs"],
+#radio-page-projects:checked ~ #resp-header-base #resp-header-nav-label-container-sfd > label[for="radio-page-projects"]
+{
+
+    background-color: var(--c-sfd-light-brown);
+    color:var(--c-black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/* Mobile Img Container | Header Nav Label Container
+/* ---------------------------------------------------------------- */
+
+    #resp-mobile-img-container-header-nav-page-container {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #resp-mobile-img-container-header-nav-page-container > div:nth-of-type(1) {
+
+
+        width: calc(6em + 3vw);
+        height: calc(6em + 3vw);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: red;
+        background-color: var(--c-sfd-dark-grey);
+        border-radius: 50%;
+        border-radius: .4em;
+
+    }
+
+    #resp-mobile-img-container-header-nav-page-container img {
+
+        height: calc(4em + 6vw)
+
+    }
+
+
+
+
+/* ---------------------------------------------------------- */
+/* Seperator | header sfd  
+/* ---------------------------------------------------------- */
+
+.resp-seperator-header-nav-label {
+
+    /* mobile */
+    display: none;
+
+    color:var(--c-cf-white);
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

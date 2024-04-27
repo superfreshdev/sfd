@@ -1,0 +1,31 @@
+/* 
+    cf-padd-marg.css
+
+    define default padding & margin values 
+    for exmaple static use case for example of an 
+    special icon which need extra padding 
+
+*/
+
+/* ------------------------------------------------------- */
+/* Padding 
+/* ------------------------------------------------------- */
+
+/* ----------------- */
+/* Left 
+/* ------------------*/
+
+.padd-l-0-1em { padding-left: .1em; }
+.padd-l-0-2em { padding-left: .2em; }
+.padd-l-0-3em { padding-left: .3em; }
+
+
+.padd-l-1em { padding-left: 1em;}
+
+/* ----------------- */
+/* Right 
+/* ------------------*/
+
+/* ------------------------------------------------------- */
+/* Margin
+/* ------------------------------------------------------- */
