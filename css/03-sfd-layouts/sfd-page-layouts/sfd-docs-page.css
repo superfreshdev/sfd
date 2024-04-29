@@ -37,7 +37,9 @@
 #img-cartoon-me-books {
 
     float:right;
-    height: 7em;
+    height: 6em;
+    padding-right: .3em;
+    opacity: .3;
 }
 
 
