@@ -9,7 +9,7 @@
 #my-business-card-sfd {
 
     display: grid;
-   
+    
 
     /* display: grid;
     height: 100%; */
@@ -114,36 +114,56 @@
     display: flex;
     align-items: center;
     column-gap: .4em;
-    row-gap: .6em;
+    row-gap: .4em;
     flex-wrap: wrap;
 
 }
 
 .my-tech-skill-item {
 
+    cursor: pointer;
+
     border-radius: .4em;
-    background-color: var(--c-sfd-dark-grey);
+    /* background-color: var(--c-sfd-dark-grey);#454646 */
+
+    border: 3px solid rgba(69, 70, 70, .1);
 
     display: flex;
     align-items: center;
     column-gap: .6em;
 
-    height: 2.3em;
-    padding: .3em 1em;
+    height: 2em;
+    padding: .3em .6em;
 
     color: var(--c-sfd-dark-white);
+    color: var(--c-sfd-dark-grey);
+
     font-weight: bold;
+
+    transition: all .3s;
+}
+
+.my-tech-skill-item:hover {
+
+    background-color: rgba(69, 70, 70, .3);
+
 }
 
 .my-tech-skill-item > img {
 
-    width: 1.5em;
+    height: 1.5em;
 }
 
 #img-tech-skill-apache {
 
     padding-top: 7px;
-    width: .9em;
+    /* width: .9em; */
+}
+
+#img-tech-skill-maven {
+
+    height: 1em;
+
 }
 
 /* ---------------------------------------------------------------------------------------------- */

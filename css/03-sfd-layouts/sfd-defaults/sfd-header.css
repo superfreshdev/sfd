@@ -247,6 +247,7 @@
 #chk-mobile-hamburger-menue-sfd:checked ~ #main-footer-base #main-base,
 #chk-mobile-hamburger-menue-sfd:checked ~ #main-footer-base > #footer-base {
 
+    
     /* z-index: -1; */
     /* z-index: -1; */
     /* display: none; */
