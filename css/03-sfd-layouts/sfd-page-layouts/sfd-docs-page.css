@@ -54,6 +54,8 @@
 /* ---------------------------------------------- */
 .docs-card-layout {
 
+
+    padding: 2.3em 0em;
    
     display: grid;
     row-gap: 2.5em;
