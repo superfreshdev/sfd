@@ -55,9 +55,9 @@
 
     background-color: var(--c-sfd-dark-anthracite);
 
-    padding: 1em 1.3em;
+    padding: 1em 1.6em;
 
-    height: 8em;
+    height: 6.3em;
 
 }
 
@@ -102,7 +102,7 @@
     background-color: var(--c-sfd-dark-anthracite);
     border-radius: .4em;
 
-    height: 4.2em;
+    height: 4em;
 
     display: flex;
     align-items: center;
