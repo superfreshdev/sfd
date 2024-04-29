@@ -34,7 +34,11 @@
 }
 
 
+#img-cartoon-me-books {
 
+    float:right;
+    height: 8em;
+}
 
 
 
@@ -46,6 +50,9 @@
 
     padding: 1.6em;
     background-color: var(--c-cf-white);
+
+    display: grid;
+    /* row-gap: 1em; */
 
 }
 

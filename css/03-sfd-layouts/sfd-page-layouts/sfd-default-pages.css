@@ -55,6 +55,10 @@
 
     background-color: var(--c-sfd-dark-anthracite);
 
+    padding: 1em 1.3em;
+
+    height: 8em;
+
 }
 
 
@@ -82,8 +86,11 @@
 /* filternav.css  */
 .page-filter-header-sfd {
 
-    float:right;
-    margin: 1em .8em .3em .8em;
+    /* float:right; */
+    /* margin: 1em .8em .3em .8em; */
+
+    justify-self: flex-end;
+
     
 
 }
@@ -134,7 +141,7 @@
     height: 100%;
     width: 4em;
 
-    background-color: var(--c-sfd-light-brown);
+    background-color: var(--c-sfd-light-grey);
 
     border-radius: 0em .4em .4em 0em;
 }

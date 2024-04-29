@@ -57,6 +57,13 @@
 /* info - filter box 
 /* ---------------------------------------------------------------------- */
 
+#info-filter-grey-box {
+
+    border: .2em solid var(--c-sfd-light-grey);
+    background-color: var(--c-sfd-light-grey);
+
+}
+
 .info-filter-box {
     
     border: .2em solid var(--c-sfd-light-brown);
