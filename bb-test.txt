@@ -892,3 +892,56 @@
         <source src="media/audio/about/read-text-about/why-do-i-call-myself-superfreshdev.mp3" type="audio/mpeg">
     </audio>
 
+
+
+
+
+  <!-- ----------------------------------------------------------- -->
+                                    <!-- Box | My Drive                                              -->
+                                    <!-- ----------------------------------------------------------- -->
+                                    <div class="my-tech-skill-box">
+
+                                        <div class="my-tech-skill-box-header">
+
+                                            <div class="my-tech-skill-info-box">
+                                                <img src="media/img/00_general/me-cartoon/show-right.png" alt="img">
+                                            </div>
+
+                                            <div class="my-tech-skill-title-header">
+                           
+                                                
+                                                <div class="my-main-header-my-tech-skill">What I like to build ? </div>
+                                                <div class="my-sub-header-my-tech-skill">» My Drive </div>
+                                              
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="my-tech-skill-box-content" style="display: none;">
+
+                                            <div>
+                                                In Fact all forms of software systems which have an 
+                                                added value to all people who will use & work with it. 
+                                            </div>
+
+                                            <br>
+
+                                            <div>
+                                                In Addition to it I like to maintain exsisted software solutions 
+                                                and think about how we can make it much sexier and more modern 
+                                                in relation of our coming future - the AI Age.
+                                            </div>
+
+                                            <br>
+
+                                            <div>» customer business tools <br>
+                                            ( finance , insurance , online shops , ...  ) </div>                                          
+                                            <div>» working & helping tools  <br>
+                                            ( teaching , administration , analysis data , mini games , ... )
+                                            </div>   
+                                            
+                                                
+                                        </div>
+
+                                    </div>

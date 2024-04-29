@@ -58,8 +58,6 @@
 
 .my-tech-skill-box-header {
 
-    height: 100%;
-
     display: flex;
     align-items: center;
     column-gap: 1em;
@@ -68,8 +66,8 @@
 
 .my-tech-skill-info-box {
 
-    width: 3em;
-    height: 3em;
+    width: 3.3em;
+    height: 3.3em;
 
     border-radius: .4em;
 
@@ -87,6 +85,7 @@
 
 .my-tech-skill-title-header {
 
+    padding-top: .1em;
     line-height: 1.3em;
 
 }
@@ -112,7 +111,39 @@
 
 .my-tech-skill-box-content {
 
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+    row-gap: .6em;
+    flex-wrap: wrap;
 
+}
+
+.my-tech-skill-item {
+
+    border-radius: .4em;
+    background-color: var(--c-sfd-dark-grey);
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    height: 2.3em;
+    padding: .3em 1em;
+
+    color: var(--c-sfd-dark-white);
+    font-weight: bold;
+}
+
+.my-tech-skill-item > img {
+
+    width: 1.5em;
+}
+
+#img-tech-skill-apache {
+
+    padding-top: 7px;
+    width: .9em;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
