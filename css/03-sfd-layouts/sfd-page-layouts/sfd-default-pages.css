@@ -11,7 +11,7 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Main | Row Layouts for content 
+/* Main | Row Layouts 
 /* ------------------------------------------------------------------- */
 
 .row-sfd {
@@ -27,8 +27,14 @@
 .row-grid-sfd {
 
     display: grid;
+    
 }
 
+.row-content-sfd {
+
+    padding: 1.3em 1.6em;
+
+}
 
 .row-content-area-sfd {
 
@@ -63,6 +69,46 @@
 
 
 
+/* ------------------------------------------------------------------- */
+/* Page | Header 
+/* ------------------------------------------------------------------- */
+
+.page-header-sfd {
+
+    background-color: var(--c-sfd-dark-anthracite);
+
+}
 
 
+.page-title-header-sfd {
 
+    /* float:right; */
+
+}
+
+.page-title-header-sfd > div:nth-of-type(1) {
+
+    color: var(--c-cf-white);
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+
+.page-title-header-sfd > div:nth-of-type(2) {
+
+    color: var(--c-sfd-light-grey);
+
+}
+
+
+/* filternav.css  */
+.page-filter-header-sfd {
+
+    float:right;
+    margin: 1em .8em .3em .8em;
+    
+   
+
+    
+
+}

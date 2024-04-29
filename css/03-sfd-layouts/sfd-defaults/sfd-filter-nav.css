@@ -88,7 +88,16 @@
 .lbl-nav-filter-box {
 
    cursor: pointer;
-   border: .2em solid var(--c-sfd-light-grey)
+   border: .2em solid var(--c-sfd-light-grey);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.lbl-nav-filter-box > img {
+
+    width: 1.5em;
 }
 
 
