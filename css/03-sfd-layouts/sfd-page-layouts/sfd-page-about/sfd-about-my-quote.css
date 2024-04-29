@@ -1,0 +1,132 @@
+/*
+
+    sfd-about-my-quote.css
+
+    > define the layout of my quote about container
+
+*/
+
+/* ---------------------------------------------------------------------------------------------- */
+/* My Quote sfd 
+/* ---------------------------------------------------------------------------------------------- */
+
+#my-quote-sfd {
+
+    position: relative;
+    top:0;
+
+    /* mobile  */
+    height: 11em;
+    padding: 0em 1.6em;
+    
+
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#my-quote-element {
+
+    z-index: 1;
+
+    width: 16em;
+    padding: .6em .6em;
+
+    border-radius: .4em;
+
+    /* blockquote  */
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+    background-color: rgba(33, 33, 33, .8);
+
+    color:var(--c-sfd-light-grey);
+
+}
+
+#my-quote-sfd img {
+
+    z-index: 0;
+
+    position: absolute;
+    top:0;
+
+    /* combi to stretch absolute img width 100%  */
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#row-my-quote-container {
+
+    background-color: var(--c-sfd-dark-anthracite);
+
+}
+
+/* modify-row | extra */
+
+
+
+#my-quote-layout {
+
+    position: relative;
+    top:0;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+#my-quote-layout > img {
+
+    width: 100%;
+    height: 24em;
+
+}
+
+#my-quote-text-container {
+
+    position: absolute;
+
+   
+    padding: .6em 1.3em;
+
+    font-weight: bold;
+
+    color:#d0d0d0;
+    background-color: rgba(33, 33, 33 , .8);
+
+    /* make more opacity  */
+    
+
+    border-radius: .4em;
+
+    font-size: 1.4em;
+    line-height: 1.6em;
+    /* z-index: 3; */
+    /* display: none; */
+
+    /* z-index: 99; */
+}

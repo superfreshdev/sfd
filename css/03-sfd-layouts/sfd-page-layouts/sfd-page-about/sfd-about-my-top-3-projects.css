@@ -1,0 +1,25 @@
+
+/*
+
+    sfd-about-my-top-3-projects.css
+
+    > define the layout of my top 3 projects container
+
+*/
+
+/* ---------------------------------------------------------------------------------------------- */
+/* My top 3 Projects 
+/* ---------------------------------------------------------------------------------------------- */
+
+#my-top-3-projects-sfd {
+
+    background-color: var(--c-cf-white);
+
+    /* mobile  */
+    padding: 2.5em 1.6em;
+
+    display: grid;
+    row-gap: 2em;
+
+}
+

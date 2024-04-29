@@ -1,71 +1,48 @@
 /* 
     sfd-default-pages.css
 
-    define at the beginning which page 
-    are not showing
+    define styles which will be used in 
+    all my loading pages for example 
+    page title header , page content header , default 
+    row layouts to bring line layouts 
 
 */
 
 /* default unshown pages on start - projects, docs , news */
 
 
-
 /* ------------------------------------------------------------------- */
 /* Main | Row Layouts 
 /* ------------------------------------------------------------------- */
 
-.row-sfd {
+.row-layout-center-sfd {
 
-    /* position: relative; */
-
-    /* important to give orientation where element starts */
+    /* first bring content in layout pos center */
     display: flex;
     justify-content: center;
   
 }
 
-.row-grid-sfd {
+.row-content-width-sfd {
 
-    display: grid;
-    
-}
-
-.row-content-sfd {
-
-    padding: 1.3em 1.6em;
-
-}
-
-.row-content-area-sfd {
-
+    /* mobile */
     width: 100%;
 
-    /* mobile  */
-    padding: .8em .8em;
-
-   
-
     /* desktop  */
-    /* padding: 2.8em .8em; */
-
-}
-
-
-.row-fullsize-content-area-sfd {
-
-    /* mobile  */
-    /* position: relative;
-    top:0em; */
-
-    width: 82em;
+    /* width: 82em;
     height: 24em;
 
-    padding: 0;
-
-    /* desktop  */
-    /* padding: 2.8em .8em; */
-
+    padding: 0; */
+ 
 }
+
+.row-content-default-sfd {
+
+    padding: 1.3em 1.6em;
+}
+
+
+
 
 
 
@@ -142,7 +119,7 @@
 .page-content-title-header-sfd > div:nth-of-type(2) {
 
     color: var(--c-cf-white);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
     padding-left: .4em;
 }

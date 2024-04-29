@@ -1,0 +1,133 @@
+/* 
+    sfd-about-welcome.css
+
+    define the welcome container layout of my
+    about page 
+
+*/
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Title Welcome | sfd
+/* ---------------------------------------------------------------------------------------------- */
+
+#title-welcome-sfd {
+
+    background-color: var(--c-sfd-dark-anthracite);
+
+
+    /* Mobile  */
+    padding: .3em 1.3em 1.3em 0em;
+    display: grid;
+
+    /* Desktop  */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+}
+
+/* -------------------------------------------- */
+/* Box | Title Welcome 
+/* -------------------------------------------- */
+
+#title-welcome-box {
+
+    display: flex;
+    align-items: center;
+
+}
+
+#img-welcome-cartoon-me {
+ 
+    /* mobile */
+    height: calc(4em + 3vh);
+
+    /* desktop */
+    /* height: 11em;   */
+}
+
+#title-welcome-content {
+
+    /* mobile */
+    /* line-height: 1.8em; */
+
+    /* desktop  */
+    /* line-height: 2.8em; */
+
+}
+
+/* text - welcome to */
+#title-welcome-content > div:nth-of-type(1) {
+ 
+    /* mobile */
+    font-size: 1.2em;
+
+    /* desktop  */
+    /* font-size: 1.8em; */
+
+    color: var(--c-sfd-light-grey);
+    font-weight: bold;
+
+}
+
+/* text - superfreshdev world */
+#title-welcome-content > div:nth-of-type(2) {
+
+   
+    /* mobile */
+    font-size: 1.4em;
+    
+    /* desktop  */
+    /* font-size: 2.5em; */
+
+    color: var(--c-cf-white);
+    font-weight: bold;
+}
+/* text - world  */
+#title-welcome-content > div:nth-of-type(2) > span {
+
+    color: var(--c-sfd-light-brown);
+}
+
+#title-welcome-quote {
+    
+    /* mobile */
+    /* font-size: .8em; */
+
+    /* desktop  */
+    /* font-size: 1.5em; */
+    
+    color: var(--c-sfd-light-grey);
+    font-weight: bold;
+    /* opacity: .6; */
+
+}
+
+/* -------------------------------------------- */
+/* Box | Welcome Date 
+/* -------------------------------------------- */
+
+#welcome-date-box {
+
+   /* mobile */
+   justify-self: flex-end;
+   
+    /* font-size: 1.3em; */
+    /* display: none; */
+
+    /* desktop  */
+    /* font-size: 1.5em; */
+
+}
+
+#welcome-date-box > span:nth-of-type(1) {
+
+    font-weight: bold;
+    color: var(--c-sfd-light-brown);
+}
+
+#welcome-date-box > span:nth-of-type(2) {
+
+    color: var(--c-sfd-light-grey);
+}

@@ -61,12 +61,21 @@
 
         <!-- sfd - default layout -->
         <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-default-pages.css">
+               
         <!-- sfd - about layout -->
-        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-about-page.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about/sfd-about-welcome.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about/sfd-about-business-card.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about/sfd-about-my-quote.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about/sfd-about-my-top-3-projects.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about/sfd-about-build-fresh-projects.css">
+        <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-page-about/sfd-about-read-more-about-me.css">
+
         <!-- sfd - news layout -->
         <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-news-page.css">
+
         <!-- sfd - docs layout -->
         <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-docs-page.css">
+
         <!-- sfd - projects layout -->
         <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/sfd-projects-page.css">
 
@@ -120,9 +129,9 @@
         <!-- Radio Buttons | Header Page Navigation ( sfd elements )        -->
         <!-- -------------------------------------------------------------- -->
 
-        <input type="radio" id="radio-page-about" name="name-radio-header-page" >
+        <input type="radio" id="radio-page-about" name="name-radio-header-page" checked>
         <input type="radio" id="radio-page-news" name="name-radio-header-page" >
-        <input type="radio" id="radio-page-docs" name="name-radio-header-page" checked>
+        <input type="radio" id="radio-page-docs" name="name-radio-header-page" >
         <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
         <!-- -------------------------------------------------------------- -->
@@ -334,30 +343,27 @@
                 <!-- ------------------------------------------------------------------  -->
                 <!-- Page About                                                          -->
                 <!-- ------------------------------------------------------------------- -->
-
+              
                 <div id="page-about-sfd">
 
-                    <!-- -------------------------------------------------------------------------- -->
-                    <!-- Row | Title Welcome                                                        -->
-                    <!-- -------------------------------------------------------------------------- -->
-                
-                    <div id="row-title-welcome-container" class="row-sfd">
+                    <div class="row-layout-center-sfd">
 
-                        <div class="row-content-area-sfd">
+                        <div class="row-content-width-sfd">
 
-                            <!-- ------------------------------------------------------ -->
-                            <!-- Layout | Title Welcome  -->
-                            <!-- ------------------------------------------------------ -->
-                            <div id="title-welcome-layout">
+                            <!-- -------------------------------------------------------------------------- -->
+                            <!-- Row | Title Welcome                                                        -->
+                            <!-- -------------------------------------------------------------------------- -->
+                                                   
+                            <div id="title-welcome-sfd">
 
 
                                 <!-- ------------------------------------------------------ -->
-                                <!-- Container | Title Welcome  -->
+                                <!-- Box | Title Welcome   -->
                                 <!-- ------------------------------------------------------ -->
                                 <div id="title-welcome-box">
 
                                     <div>
-                                        <img src="media/img/00_general/me-cartoon/hello.svg" id="img-welcome-to" alt="img">
+                                        <img src="media/img/00_general/me-cartoon/hello.svg" id="img-welcome-cartoon-me" alt="img">
                                     </div>
 
                                     <div id="title-welcome-content">
@@ -371,79 +377,285 @@
                                 </div>
 
                                 <!-- ------------------------------------------------------ -->
-                                <!-- Container | Date  -->
+                                <!-- Box | Date Welcome  -->
                                 <!-- ------------------------------------------------------ -->
-                                <div id="time-box">
+                                <div id="welcome-date-box">
 
                                     <span>today,</span>
                                     <span id="js-date">[...]</span>
 
                                 </div>
 
-                                
                             </div>
+
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <!-- Row | Business Card  -->
+                            <!-- ------------------------------------------------------------------------------- -->
+                        
+                            <div id="my-business-card-sfd">
+
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <!-- Container | My Tech Skills  -->
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <div id="my-tech-skills-sfd">
+
+                                                               
+                                    <!-- ----------------------------------------------------------- -->
+                                    <!-- Box | My Frontend Skills  -->
+                                    <!-- ----------------------------------------------------------- -->
+                                    <div class="my-tech-skill-box">
+
+                                        <div class="my-tech-skill-box-header">
+
+                                            <div class="my-tech-skill-info-box">
+                                                <img src="media/img/00_general/icons/01-general-icons/geschweifte-klammer.png" alt="img">
+                                            </div>
+
+                                            <div class="my-tech-skill-title-header">
+                                              
+                                                <div>My Frontend Stack </div>
+                                                <div>» .... </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="my-tech-skill-box-content">
+
+                                            <div>
+                                                In Fact all forms of software systems which have an 
+                                                added value to all people who will use & work with it. 
+                                            </div>
+
+                                            <br>
+
+                                            <div>
+                                                In Addition to it i like to maintain exsiting  software 
+                                                and think about how we can make it much sexier and more modern 
+                                                in relation of our coming future - the AI - Age.
+                                            </div>
+
+
+                                            <div>» ...</div>
+                                            <div>» ... </div>
+                                            <div>» ... </div>   
+                                                
+                                    
+                                        </div>
+
+                                    </div>
+
+                                    <!-- ----------------------------------------------------------- -->
+                                    <!-- Box | My Backend Skills -->
+                                    <!-- ----------------------------------------------------------- -->
+                                    <div class="my-tech-skill-box">
+
+                                        <div class="my-tech-skill-box-header">
+
+                                            <div class="my-tech-skill-info-box">
+                                                <img src="media/img/00_general/icons/01-general-icons/server.png" alt="img">
+                                            </div>
+
+                                            <div class="my-tech-skill-title-header">
+                                              
+                                                <div>My Backend Stack </div>
+                                                <div>» .... </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="my-tech-skill-box-content">
+
+                                            <div>
+                                                In Fact all forms of software systems which have an 
+                                                added value to all people who will use & work with it. 
+                                            </div>
+
+                                            
+
+                                            <div>
+                                                In Addition to it i like to maintain exsiting  software 
+                                                and think about how we can make it much sexier and moderner 
+                                                in Bezug auf die wandelnde Zeit - besonder in der KI.
+                                            </div>
+
+                                            <br><br>
+
+                                            <div>» ...</div>
+                                            <div>» ... </div>
+                                            <div>» ... </div>   
+                                                
+                                    
+                                        </div>
+
+                                    </div>
+
+
+                                    <!-- ----------------------------------------------------------- -->
+                                    <!-- Box | My Drive                                              -->
+                                    <!-- ----------------------------------------------------------- -->
+                                    <div class="my-tech-skill-box">
+
+                                        <div class="my-tech-skill-box-header">
+
+                                            <div class="my-tech-skill-info-box">
+                                                <img src="media/img/00_general/me-cartoon/show-right.png" alt="img">
+                                            </div>
+
+                                            <div class="my-tech-skill-title-header">
+
+                                                <div>» My Drive </div>
+                                                <div>What I like to build ? </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="my-tech-skill-box-content">
+
+                                            <div>
+                                                In Fact all forms of software systems which have an 
+                                                added value to all people who will use & work with it. 
+                                            </div>
+
+                                            <br>
+
+                                            <div>
+                                                In Addition to it i like to maintain exsiting  software 
+                                                and think about how we can make it much sexier and more modern 
+                                                in relation of our coming future - the AI Age.
+                                            </div>
+
+                                            <br>
+
+                                            <div>» customer business tools <br>
+                                            ( finance , insurance , online shops , ...  ) </div>                                          
+                                            <div>» working & helping tools  <br>
+                                            ( teaching , administration , analysis data , mini games , ... )
+                                            </div>   
+                                            
+                                                
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <!-- Box | Img & Contact   -->
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <div id="my-img-contact-sfd">
+
+                                    my img contact sfd 
+
+                                </div>
+
+                               
+                            </div>
+
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <!-- Row | My About Quote  -->
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <div id="my-quote-sfd">
+                                
+                                <div id="my-quote-element">
+
+                                    Work on things u belive.
+                                    Others will not understand.
+                                    Only if its done.                                 
+                                    
+                                </div>
+
+                                <!-- absolute img  -->  
+                                <img src="media/img/02_main/01_about/my-quote/silicon-valley.png" alt="img">
+
+
+                            </div>
+
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <!-- Row | My Top 3 Projects  -->
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <div id="my-top-3-projects-sfd">
+                               
+                                <div>My 3 Projects </div>
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Project 1 | of my top 3                                   -->
+                                <!-- --------------------------------------------------------- -->
+                                <div>
+                                    Project 1 
+                                </div>
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Project 2 | of my top 3                                   -->
+                                <!-- --------------------------------------------------------- -->
+                                <div>
+                                    Project 2 
+                                </div>
+
+                                <!-- --------------------------------------------------------- -->
+                                <!-- Project 3 | of my top 3                                   -->
+                                <!-- --------------------------------------------------------- -->
+                                <div>
+                                    Project 3 
+                                </div>
+
+                            </div>
+
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <!-- Row | How to build fresh Projects  -->
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <div>
+                                How to build fresh Projects
+                            </div>
+
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <!-- Row | Read More About Me Container -->
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <div>
+                                Read More About Me 
+
+                                
+                                <!-- 
+                                    - Short Info - Alles was man wissen muss
+                                    - Interesse an mehr ? 
+                                        - Freizeit 
+                                        - ...
+                                -->
+
+                            </div>
+
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <!-- Row | just for fun -->
+                            <!-- ------------------------------------------------------------------------------- -->
+                            <div class="row-content-default-sfd">
+                                <h3>Just for fun - Container </h3>
+
+                                <div class="flex jc-c" style="padding: .3em 0em 1em 0em">
+                                    <audio id="audio-china" controls >
+                                        <source src="media/audio/about/china-rap.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
+    
+                                <div class="flex jc-c" style="padding: .3em 0em .8em 0em">
+                                    <audio id="audio-chinad" controls >
+                                        <source src="media/audio/about/come-with-me.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
+
+                            </div>
+
+
+                          
+
 
                         </div>
 
                     </div>
-
-                    <!-- ------------------------------------------------------------------------------- -->
-                    <!-- Prototyp Text -->
-                    <!-- ------------------------------------------------------------------------------- -->
-                
-                    <div style="padding: .8em 1.6em;">
-
-                        <h3>About</h3>
-
-                        Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-
-                        <br><br>
-
-                        Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-
-                        <br><br>
-
-                        
-                        <!-- Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-
-                        <br><br>
-
-                        Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-
-                        <br><br>
-
-                        Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-
-                        <br><br>
-
-                        Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-
-                        <br><br>
-
-                        Nr. 1‘; chinesisch 豫湘桂會戰 / 豫湘桂会战, Yù Xīang Guì Huìzhàn – „Schlacht von Henan-Hunan-Guangxi“)
-                        war eine groß­ange­legte Operation der Kaiserlich Japanischen Armee während des zweiten 
-                        -->
-                    </div>
-
-                    <div class="flex jc-c" style="padding: .3em 0em 1em 0em">
-                        <audio id="audio-china" controls >
-                            <source src="media/audio/about/china-rap.mp3" type="audio/mpeg">
-                        </audio>
-                    </div>
-
-                    <div class="flex jc-c" style="padding: .3em 0em 4em 0em">
-                        <audio id="audio-chinad" controls >
-                            <source src="media/audio/about/come-with-me.mp3" type="audio/mpeg">
-                        </audio>
-                    </div>
-
-
+                   
                 </div>
 
                 <!-- ------------------------------------------------------------------  -->
@@ -452,14 +664,14 @@
 
                 <div id="page-news-sfd">
 
-                    <div class="row-sfd">
+                    <div class="row-layout-center-sfd">
 
-                        <div style="padding: .8em 1.6em;">
+                        <div class="row-content-width-sfd">
         
                             <!-- -------------------------------------------------------- -->
                             <!-- New Content Container 1 -->
                             <!-- -------------------------------------------------------- -->
-                            <div >
+                            <div class="row-content-default-sfd">
         
                                 <h3>News</h3>
         
@@ -519,7 +731,7 @@
                             <!-- -------------------------------------------------------- -->
                             <!-- New Content Container 2 -->
                             <!-- -------------------------------------------------------- -->
-                            <div>
+                            <div class="row-content-default-sfd">
         
                                 <h2>Interested Links</h2>
         
@@ -540,7 +752,6 @@
                         </div>
         
                         
-        
                     </div>
                     
                 </div>
@@ -906,7 +1117,7 @@
         <!-- Starter | sfd webpage                     -->
         <!-- ----------------------------------------- -->
 
-        <!-- <script src="js/starter-sfd-webpage.js"></script> -->
+        <script src="js/04-js-starter-sfd-webpage/starter-sfd-webpage.js"></script>
 
    
     </body>
