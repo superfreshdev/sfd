@@ -47,8 +47,6 @@
 
 .my-tech-skill-box {
 
-    /* height: 4em; */
-
     display: grid;
     row-gap: 2em;
    
@@ -79,7 +77,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: var(--c-sfd-light-grey);
+    background-color: var(--c-sfd-dark-grey);
 }
 
 .my-tech-skill-info-box > img {
@@ -93,18 +91,19 @@
 
 }
 
-.my-tech-skill-title-header > div:nth-of-type(1) {
+
+.my-sub-header-my-tech-skill {
 
     font-size: .9em;
     color: var(--c-sfd-light-grey);
 }
 
-.my-tech-skill-title-header > div:nth-of-type(2) {
+.my-main-header-my-tech-skill {
 
     font-weight: bold;
     font-size: 1.2em;
-} 
 
+}
 
 /* ---------------------------------------------------------------------------------------------- */
 /* Content | My Tech Skills 

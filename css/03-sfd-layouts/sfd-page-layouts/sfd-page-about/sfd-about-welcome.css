@@ -50,48 +50,65 @@
 #title-welcome-content {
 
     /* mobile */
-    /* line-height: 1.8em; */
+        /* row layout  */
 
     /* desktop  */
-    /* line-height: 2.8em; */
+        /* column layout  */
 
 }
 
-/* text - welcome to */
+/* welcome title content  */
 #title-welcome-content > div:nth-of-type(1) {
  
+    line-height: 1.5em;
+
+}
+
+#str-title-welcome-to ,
+#str-title-superfresh-word {
+
+    font-weight: bold;
+
+}
+
+#str-title-welcome-to {
+
+    color: var(--c-sfd-light-grey);
+
     /* mobile */
-    font-size: 1.2em;
+    font-size: 17px;
 
     /* desktop  */
     /* font-size: 1.8em; */
 
-    color: var(--c-sfd-light-grey);
-    font-weight: bold;
-
 }
 
-/* text - superfreshdev world */
-#title-welcome-content > div:nth-of-type(2) {
-
-   
-    /* mobile */
-    font-size: 1.4em;
-    
-    /* desktop  */
-    /* font-size: 2.5em; */
+#str-title-superfresh-word {
 
     color: var(--c-cf-white);
-    font-weight: bold;
+
+    /* mobile */
+    font-size: 19px;
+
+    /* desktop  */
+    /* font-size: 2.5em; */
+  
+      
+      
 }
-/* text - world  */
-#title-welcome-content > div:nth-of-type(2) > span {
+
+#str-title-superfresh-word > span {
 
     color: var(--c-sfd-light-brown);
+
 }
+
 
 #title-welcome-quote {
     
+    padding-top: .3em;
+    line-height: 1.2em;
+
     /* mobile */
     /* font-size: .8em; */
 
