@@ -110,3 +110,322 @@ function setFirstPage( strRadioHeaders , strImgSrcCouplesOfHeaderLabel ) {
 
 
 
+
+
+/* -------------------------------------------------------------------------------- */
+/* | 02/02 | Img Contact | Layout 
+/* -------------------------------------------------------------------------------- */
+
+#welcome-img-contact-layout {
+
+    padding-top: 3em;
+
+    display: grid;
+    row-gap: 1.3em;
+
+    justify-content: center;
+
+    border-radius: .4em;
+   
+}
+
+
+#gallery-img-slider {
+
+    /* border: 1px solid rgb(98, 0, 255); */
+   
+    display: flex;
+    justify-content: center;
+
+    /* gallery max img size , over responsive file its dynamically */
+    height: 42em;
+    /* width: 28em; */
+   
+    
+}
+
+
+#gallery-img-slider img {
+
+    /* its important if we use images to use 
+    images with same sizes for better handling and 
+    not want jumping effects by different img sizes  */
+    height: 42em;
+    width: 28em;
+
+    border-radius: .6em;
+    
+
+}
+
+
+#welcome-contact-container {
+
+    background-color: var(--c-sfd-light-grey);
+
+
+    background-color: rgb(60, 60, 60);
+    color:#d0d0d0;
+    color:#d0d0d0;
+    /* background-color: var(--c-sfd-light-brown); */
+    /* opacity: .6; */
+   
+
+    /* width: 28em; */
+
+    border-radius: .4em;
+    height: 5em;
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+
+    cursor: pointer;
+}
+
+#welcome-contact-container:hover {
+
+    transition: .4s all ease;
+    background-color: var(--c-sfd-light-brown);
+    color:black;
+    opacity: 1;
+}
+
+#welcome-contact-container img {
+
+    height: 2em;
+    opacity: .8;
+    
+}
+
+#welcome-contact-container > div:nth-of-type(1) {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+    /* padding-left: .4em; */
+
+    background-color: var(--c-sfd-light-brown);
+    /* background-color: red; */
+
+    height: 5em;
+    width: 5em;
+    
+    border-radius: .4em 0em 0em .4em;
+}
+
+#welcome-contact-container > div:nth-of-type(2) {
+
+    line-height: 1.6em;
+
+}
+
+#welcome-contact-container > div:nth-of-type(2) > div:nth-of-type(1) {
+
+    font-size: 1.6em;
+    font-weight: bold;
+
+}
+
+#welcome-contact-container > div:nth-of-type(2) > div:nth-of-type(2) {
+
+    font-size: 1.2em;
+    font-weight: bold;
+    opacity: .6;
+
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
+/* 3 / 3 | Jump to Read More About Me | Container 
+/* ---------------------------------------------------------- */
+
+#welcome-jump-to-read-more-about-me-container {
+
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+
+    
+    /* padding: 2em 0em 3em 0em; */
+
+    /* padding-right: 3em; */
+    
+    /* border:1px solid grey; */
+
+    /* padding: 2em 0em; */
+
+}
+
+@keyframes slowlyElementUpDown {
+    
+    0% { padding-bottom: 8px;}
+    100% { padding-top: 14px;}
+}
+
+/* auslagern in sfd-forms ... Link Buttons */
+
+
+
+.a-sfd-light-brown {
+
+    border-radius: .3em;
+    padding: 0em .8em;
+
+    display: inline-flex;
+    align-items: center;
+    column-gap: .6em;
+
+    height: 3em;
+
+    font-size: 1.4em;
+
+    font-weight: bold;
+    color: var(--c-cf-black);
+    
+    background-color: var(--c-sfd-light-grey);
+
+    text-decoration: none;
+}
+
+.a-sfd-light-brown img:nth-of-type(1) {
+
+    height: 2em;
+}
+
+.a-sfd-light-brown img:nth-of-type(2) {
+
+    height: 1.3em;
+
+    /* start condition for animation keyframe  */
+    padding-bottom: 8px;
+    animation: slowlyElementUpDown ease infinite .8s;
+}
+
+.a-sfd-light-brown:hover {
+
+    transition: .3s all ease-in-out;
+    background-color: var(--c-sfd-light-brown);
+   
+}
+
+
+
+
+
+
+   
+/* ------------------------------------------------------- */
+/*  Welcome Content Description & Contact | Container
+/* ------------------------------------------------------- */
+
+#welcome-content-description-contact-about-container {
+    
+    position: relative;
+    top:0;
+
+    padding: 3em 0em;
+    
+}
+
+/*--------------------------------------- */
+/* Description 
+/*--------------------------------------- */
+
+#description-about-container {
+
+    background-color: rgb(77, 17, 17);
+
+}
+
+#contact-about-container {
+
+    background-color: rgb(81, 81, 21);
+}
+
+
+/*--------------------------------------- */
+/* Contact
+/*--------------------------------------- */
+
+
+#contact-about-container {
+
+    /* border: 1px solid red; */
+
+    display: grid;
+    row-gap: .1em;
+
+}
+
+/* muss man vllt. nicht definieren löst css framewokr */
+#contact-about-container > div:nth-of-type(1) {
+
+}
+
+#contact-about-container > div:nth-of-type(2) {
+    
+    color: #7b7d7d;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

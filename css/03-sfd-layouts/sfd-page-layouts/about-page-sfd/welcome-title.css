@@ -26,11 +26,11 @@
 
 }
 
-/* -------------------------------------------- */
-/* Container | Title Welcome 
-/* -------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Box | Welcome Title
+/* -------------------------------------------------------------- */
 
-#title-welcome-container {
+#box-welcome-title {
 
     display: flex;
     align-items: center;
@@ -46,31 +46,26 @@
     /* height: 11em;   */
 }
 
-#title-welcome-content {
+#content-welcome-title {
 
-    /* mobile */
-        /* row layout  */
-
-    /* desktop  */
-        /* column layout  */
-
+    display: grid;
+    row-gap: .3em;
 }
 
-/* welcome title content  */
-#title-welcome-content > div:nth-of-type(1) {
+#content-welcome-title > div:nth-of-type(1) {
  
     line-height: 1.5em;
 
 }
 
-#str-title-welcome-to ,
-#str-title-superfresh-word {
+#title-style-welcome-to ,
+#title-style-superfreshdev {
 
     font-weight: bold;
 
 }
 
-#str-title-welcome-to {
+#title-style-welcome-to {
 
     color: var(--c-sfd-light-grey);
 
@@ -82,7 +77,7 @@
 
 }
 
-#str-title-superfresh-word {
+#title-style-superfreshdev {
 
     color: var(--c-cf-white);
 
@@ -91,20 +86,17 @@
 
     /* desktop  */
     /* font-size: 2.5em; */
-  
-      
-      
+   
 }
 
-#str-title-superfresh-word > span {
+#title-style-superfreshdev > span {
 
     color: var(--c-sfd-light-brown);
 
 }
 
+#sub-title-style-welcome-quote {
 
-#title-welcome-quote {
-    
     padding-top: .2em;
     line-height: 1.2em;
 
@@ -120,11 +112,11 @@
 
 }
 
-/* -------------------------------------------- */
-/* Container | Welcome Date 
-/* -------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Box | Welcome Date
+/* -------------------------------------------------------------- */
 
-#welcome-date-container {
+#box-welcome-date {
 
    /* mobile */
    justify-self: flex-end;
@@ -137,13 +129,13 @@
 
 }
 
-#welcome-date-container > span:nth-of-type(1) {
+#box-welcome-date > span:nth-of-type(1) {
 
     font-weight: bold;
     color: var(--c-sfd-light-brown);
 }
 
-#welcome-date-container > span:nth-of-type(2) {
+#box-welcome-date > span:nth-of-type(2) {
 
     color: var(--c-sfd-light-grey);
 }

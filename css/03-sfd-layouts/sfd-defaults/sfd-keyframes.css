@@ -1,0 +1,32 @@
+/*
+
+    sfd-keyframes.css
+
+    > defines all animation on my webpage
+
+
+*/
+
+
+
+ 
+ /* ------------------------------------------------ */
+ /* Keyframe Animation - up & down 
+ /* ------------------------------------------------ */
+ 
+.add-animation-up-down {
+
+    animation: animation-up-down-infinite .6s ease infinite;
+ 
+}
+
+ @keyframes animation-up-down-infinite {
+     
+     0% { padding-bottom: .3em; }
+     50% { padding-top: .6em; }
+     100% { padding-bottom: .3em; }
+ 
+ }
+
+
+ 

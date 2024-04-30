@@ -74,33 +74,38 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Link Content Action | sfd 
+/* Big Link Button  | sfd 
 /* > inline big link action e.g email , jumping content 
 /* ---------------------------------------------------------------- */
 
-
-.link-content-action-sfd {
+.big-link-button-sfd {
 
     height: 4em;
-    border-radius: .4em;
+   
+    /* unset default link style */
+    text-decoration: none;
+    color: var(--c-cf-black);
+   
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    border-radius: .4em;
 
     background-color: var(--c-sfd-light-brown);
 
     transition: all .4s;
 }
 
-.link-content-action-sfd:hover {
+.big-link-button-sfd:hover {
 
     background-color: var(--c-sfd-dark-grey);
     color: var(--c-sfd-dark-white);
 
 }
 
-.img-text-link-content-action {
+.img-text-big-link-button {
 
     display: flex;
     align-items: center;
@@ -108,7 +113,7 @@
 
 }
 
-.img-text-link-content-action > div:nth-of-type(1) {
+.img-text-big-link-button > div:nth-of-type(1) {
 
     height: 4em;
     width: 4em;
@@ -122,25 +127,20 @@
 
 }
 
-.img-text-link-content-action img {
+.big-title-big-link-button {
 
-    height: 2.8em;
-}
-
-.big-title-link-content-action {
-
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
 }
 
-.sub-title-link-content-action {
+.sub-title-big-link-button {
 
     font-style: italic;
 }
 
-.last-info-link-content-action {
+.last-img-info-big-link-button {
 
-    width: 3.5em;
+    width: 3em;
     height: 4em;
 
     display: flex;
@@ -148,32 +148,7 @@
     justify-content: center;
 
     border-radius: 0em .4em .4em 0em;
-
-    /* background-color: red; */
-}
-
-.last-info-link-content-action img {
-
-    height: 1.6em;
-   
-}
-
-.add-animation-up-down {
-
-   animation: animation-up-down-infinite .6s ease infinite;
-
-}
-
-/* ------------------------------------------------ */
-/* Keyframe Animation - up & down 
-/* ------------------------------------------------ */
-
-@keyframes animation-up-down-infinite {
-    
-    0% { padding-bottom: .3em; }
-    50% { padding-top: .6em; }
-    100% { padding-bottom: .3em; }
-
+ 
 }
 
 

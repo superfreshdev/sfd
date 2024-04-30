@@ -1,0 +1,266 @@
+/*
+
+    my-business-card.css
+
+    > define the layout of my business card ( tech skills ) on the about page
+
+*/
+
+/* ---------------------------------------------------------------------- */
+/* My Business Card 
+/* ---------------------------------------------------------------------- */
+
+#my-business-card-sfd {
+
+    background-color: var(--c-cf-white);
+
+    /* mobile */
+    display: grid;
+
+    /* desktop  */
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Container | My Tech Skills 
+/* ---------------------------------------------------------------------------------------------- */
+
+#my-tech-skills-container-sfd {
+
+    /* z-index: 1; */
+   
+
+    /* mobile  */
+    padding: 2.5em 1.6em;
+    /* background-color: red; */
+
+    display: grid;
+    row-gap: 2em;
+    
+}
+
+
+/* -------------------------------------------------------------------- */
+/*  Box | My Tech Skills
+/* -------------------------------------------------------------------- */
+
+.box-my-tech-skills-sfd {
+
+    display: grid;
+    row-gap: 2em;
+
+}
+
+/* -------------------------------------------------------------------- */
+/* Header | My Tech Skills
+/* -------------------------------------------------------------------- */
+
+.box-header-my-tech-skills-sfd {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+
+}
+
+.img-info-header-tech-skill-box {
+
+    
+    width: 3.3em;
+    height: 3.3em;
+
+    border-radius: .4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--c-sfd-dark-grey);
+
+}
+
+.img-info-header-tech-skill-box > img {
+
+    width: 1.6em;
+}
+
+.title-area-header-tech-skill-box  {
+
+    padding-top: .1em;
+    line-height: 1.3em;
+
+}
+
+.title-header-tech-skill-box {
+
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+.sub-title-header-tech-skill-box {
+
+    font-size: .9em;
+    color: var(--c-sfd-light-grey);
+
+}
+
+/* -------------------------------------------------------------------- */
+/* Content | My Tech Skills
+/* -------------------------------------------------------------------- */
+
+.box-content-my-tech-skills-sfd {
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: .4em;
+    
+}
+
+.my-tech-skill-item {
+
+    cursor: pointer;
+
+    height: 2em;
+    padding: .3em .6em;
+   
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    border-radius: .4em;
+    border: 3px solid rgba(69, 70, 70, .1);
+    color: var(--c-sfd-dark-grey);
+    font-weight: bold;
+
+    transition: all .3s;
+}
+
+.my-tech-skill-item:hover {
+
+    background-color: rgba(69, 70, 70, .3);
+
+}
+
+.my-tech-skill-item > img {
+
+    height: 1.5em;
+}
+
+/* ------------------------------- */
+/* Special Images 
+/* ------------------------------- */
+
+#img-tech-skill-apache {
+
+    padding-top: 7px;
+    /* width: .9em; */
+}
+
+#img-tech-skill-maven {
+
+    height: 1em;
+
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Container | Img About Me & Contact Me
+/* ---------------------------------------------------------------------------------------------- */
+
+#img-about-me-contact-me-container-sfd {
+
+    background-color: var(--c-sfd-dark-anthracite);
+
+    /* mobile */
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+    row-gap: 2.3em;
+
+    padding: 3em 1.6em;
+
+    /* desktop */
+
+}
+
+
+/* ---------------------------------------------- */
+/* Container | Img About Me 
+/* ---------------------------------------------- */
+
+#img-about-me-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1.3em;
+
+    /* background-color: green; */
+  
+}
+
+#img-about-brace-open,
+#img-about-brace-close {
+
+    height: 3.5em;
+    opacity: .2;
+}
+
+#img-about-brace-open {
+
+    transform: scaleX(-1);
+   
+}
+
+#img-about-brace-close {
+
+    transform: scaleX(1);
+
+}
+
+#img-about-me {
+
+    /* mobile */
+    border-radius: .8em;
+    height: 12em;
+
+    /* desktop */
+}
+
+/* ---------------------------------------------- */
+/* Container | Contact Me & Jumping 
+/* ---------------------------------------------- */
+
+#contact-me-container {
+
+    display: grid;
+    justify-items: center;
+    row-gap: .2em;
+
+    /* background-color: blue; */
+
+}
+
+#contact-me-container > a {
+
+    width: 100%;
+}
+
+#img-about-email {
+
+    height: 1.5em;
+}
+
+#img-about-show-right {
+
+    height: 2.8em;
+}
+
+.img-icon-default {
+
+    height: 1.3em;
+}
