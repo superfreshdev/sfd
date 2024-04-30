@@ -36,7 +36,7 @@ const objDataHeaderPageNavigation = [
 
         },
        
-        pageContainer: "page-about-sfd"
+        pageContainer: "js-page-about-sfd"
 
     },
 
@@ -54,7 +54,7 @@ const objDataHeaderPageNavigation = [
 
         },
 
-        pageContainer: "page-news-sfd"
+        pageContainer: "js-page-news-sfd"
     
     },
 
@@ -72,7 +72,7 @@ const objDataHeaderPageNavigation = [
 
         },
 
-        pageContainer: "page-docs-sfd"
+        pageContainer: "js-page-docs-sfd"
     
     },
 
@@ -90,7 +90,7 @@ const objDataHeaderPageNavigation = [
 
         },
 
-        pageContainer: "page-projects-sfd"
+        pageContainer: "js-page-projects-sfd"
 
     }
 

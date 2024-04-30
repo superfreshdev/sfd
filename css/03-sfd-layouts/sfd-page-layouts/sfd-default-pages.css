@@ -4,16 +4,44 @@
     define styles which will be used in 
     all my loading pages for example 
     page title header , page content header , default 
-    row layouts to bring line layouts 
+    row layouts to bring line layouts , ... 
 
 */
 
-/* default unshown pages on start - projects, docs , news */
-
 
 /* ------------------------------------------------------------------- */
-/* Main | Row Layouts 
+/* Row Content Page Container 
 /* ------------------------------------------------------------------- */
+
+
+.grid-w-100p {
+
+    display: grid;
+    width: 100%;
+}
+
+
+/* default content  */
+.row-content-page-container {
+
+
+
+}
+
+/* individuell page header  */
+
+
+
+
+.row-content-page-container-sfd {
+
+    /* first bring content in layout pos center */
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 .row-layout-center-sfd {
 

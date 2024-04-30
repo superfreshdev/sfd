@@ -1,21 +1,24 @@
+/*
 
+    my-business-card.css
 
+    > define the layout of my business card ( tech skills ) on the about page
 
+*/
 
-/* ---------------------------------------------------------------------------------------------- */
-/* My Business Card sfd
-/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* My Business Card 
+/* ---------------------------------------------------------------------- */
+
 
 #my-business-card-sfd {
 
-    display: grid;
-    
-
-    /* display: grid;
-    height: 100%; */
-
     background-color: var(--c-cf-white);
 
+    /* mobile */
+    display: grid;
+
+    /* desktop  */
 }
 
 
@@ -167,25 +170,183 @@
 }
 
 /* ---------------------------------------------------------------------------------------------- */
-/* Box | My Img Contact 
+/* Container | my contact me & jumping read container 
 /* ---------------------------------------------------------------------------------------------- */
 
-#my-img-contact-sfd {
+#my-contact-me-container {
 
-    /* mobile  */
-    padding: 2.5em 1.6em;
-    /* background-color: green; */
+    background-color: var(--c-sfd-dark-anthracite);
+
+    /* mobile */
+    display: grid;
+
+    /* items center  */
+    justify-items: center;
+    /* middle  */
+    align-content: center;
+
+    row-gap: 2.3em;
+
+    /* height: 22em; */
+    padding: 3em 1.6em;
+
+    /* desktop */
 
 }
 
 
 
+/* ---------------------------------------------- */
+/* Container | Img About Me 
+/* ---------------------------------------------- */
+
+#img-about-me-container {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+
+}
+
+#img-about-brace-open,
+#img-about-brace-close {
+
+    height: 4.5em;
+    opacity: .3;
+}
+
+#img-about-brace-open {
+
+    transform: scaleX(-1);
+   
+}
+
+#img-about-brace-close {
+
+    transform: scaleX(1);
+
+}
+
+#img-about-me {
+
+    /* mobile */
+    border-radius: .4em;
+    height: 14em;
+
+    /* desktop */
+}
 
 
 
 
+/* ---------------------------------------------- */
+/* Container | Contact Me & Jumping 
+/* ---------------------------------------------- */
+
+#contact-me-jumping-container {
+
+    display: grid;
+    row-gap: 2em;
+
+    width: 85%;
 
 
+}
+
+#link-contact-me,
+#jumping-link-read-more-about-me {
+
+    height: 3.5em;
+    border-radius: .4em;
+
+    display: flex;
+    align-items: center;
+   
+}
+
+/* -------------------------------------------- */
+/* Link | Contact Me 
+/* -------------------------------------------- */
+
+/* contact-superfreshdev */
+/* superfreshdev  */
+/* projects-superfreshdev */
+
+#link-contact-me {
+
+    background-color: var(--c-sfd-light-brown);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: all .4s;
+
+}
+
+#link-contact-me:hover {
+
+    background-color: var(--c-sfd-light-grey);
+    
+}
+
+#link-contact-me-text-layout {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    
+}
+
+#link-contact-me-text-layout > div:nth-of-type(1) {
+
+    height: 3.5em;
+    width: 4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .4em 0em 0em .4em;
+    background-color: var(--c-sfd-light-grey);
+   
+}
+
+#link-contact-me-text-layout > div:nth-of-type(1) > img {
+
+    height: 1.5em;
+}
+
+#link-contact-me-text-layout > div:nth-of-type(2) {
+
+
+    line-height: 1.2em;
+
+    display: grid;
+    align-items: center;
+
+}
+
+#link-contact-me-text-layout > div:nth-of-type(2) > div:nth-of-type(1) {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#link-contact-me-text-layout > div:nth-of-type(2) > div:nth-of-type(2) {
+    
+}
+
+
+/* -------------------------------------------- */
+/* Link | Read More About Me
+/* -------------------------------------------- */
+
+#jumping-link-read-more-about-me {
+
+    background-color: yellow;
+
+}
 
 
 

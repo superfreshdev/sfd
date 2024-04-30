@@ -1,5 +1,5 @@
 /* 
-    sfd-about-welcome.css
+    welcome-title.css
 
     define the welcome container layout of my
     about page 
@@ -7,14 +7,13 @@
 */
 
 
-/* ---------------------------------------------------------------------------------------------- */
-/* Title Welcome | sfd
-/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* Welcome Title 
+/* ---------------------------------------------------------------------- */
 
-#title-welcome-sfd {
+#welcome-title-sfd {
 
     background-color: var(--c-sfd-dark-anthracite);
-
 
     /* Mobile  */
     padding: .3em 1.3em 1.3em 0em;
@@ -28,10 +27,10 @@
 }
 
 /* -------------------------------------------- */
-/* Box | Title Welcome 
+/* Container | Title Welcome 
 /* -------------------------------------------- */
 
-#title-welcome-box {
+#title-welcome-container {
 
     display: flex;
     align-items: center;
@@ -122,10 +121,10 @@
 }
 
 /* -------------------------------------------- */
-/* Box | Welcome Date 
+/* Container | Welcome Date 
 /* -------------------------------------------- */
 
-#welcome-date-box {
+#welcome-date-container {
 
    /* mobile */
    justify-self: flex-end;
@@ -138,13 +137,13 @@
 
 }
 
-#welcome-date-box > span:nth-of-type(1) {
+#welcome-date-container > span:nth-of-type(1) {
 
     font-weight: bold;
     color: var(--c-sfd-light-brown);
 }
 
-#welcome-date-box > span:nth-of-type(2) {
+#welcome-date-container > span:nth-of-type(2) {
 
     color: var(--c-sfd-light-grey);
 }
