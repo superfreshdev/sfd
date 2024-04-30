@@ -1,0 +1,42 @@
+/* 
+    cf-transform.css
+
+    define all arts to transform layout elements
+    for example u dont need 2 images for different 
+    sides u can use different css styles for that.
+
+*/
+
+/* ---------------------------------------------------------------- */
+/* Transform 
+/* ---------------------------------------------------------------- */
+
+.trans-sy-1 {
+
+    transform: scaleY(1);
+}
+
+.trans-sy-minus-1 {
+
+    transform: scaleY(-1);
+}
+
+
+/* 45deg  */
+.trans-r-45deg { 
+
+    transform: rotate(45deg);
+}
+
+/* 90deg  */
+.trans-r-90deg { 
+    
+    transform: rotate(90deg);
+}
+
+/* 180deg  */
+.trans-r-180deg { 
+    
+    transform: rotate(180deg);
+}
+

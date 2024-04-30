@@ -73,6 +73,118 @@
 
 
 
+/* ---------------------------------------------------------------- */
+/* Link Content Action | sfd 
+/* > inline big link action e.g email , jumping content 
+/* ---------------------------------------------------------------- */
+
+
+.link-content-action-sfd {
+
+    height: 4em;
+    border-radius: .4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--c-sfd-light-brown);
+
+    transition: all .4s;
+}
+
+.link-content-action-sfd:hover {
+
+    background-color: var(--c-sfd-dark-grey);
+    color: var(--c-sfd-dark-white);
+
+}
+
+.img-text-link-content-action {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+
+}
+
+.img-text-link-content-action > div:nth-of-type(1) {
+
+    height: 4em;
+    width: 4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .3em 0em 0em .3em;
+    background-color: var(--c-sfd-dark-grey);
+
+}
+
+.img-text-link-content-action img {
+
+    height: 2.8em;
+}
+
+.big-title-link-content-action {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sub-title-link-content-action {
+
+    font-style: italic;
+}
+
+.last-info-link-content-action {
+
+    width: 3.5em;
+    height: 4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0em .4em .4em 0em;
+
+    /* background-color: red; */
+}
+
+.last-info-link-content-action img {
+
+    height: 1.6em;
+   
+}
+
+.add-animation-up-down {
+
+   animation: animation-up-down-infinite .6s ease infinite;
+
+}
+
+/* ------------------------------------------------ */
+/* Keyframe Animation - up & down 
+/* ------------------------------------------------ */
+
+@keyframes animation-up-down-infinite {
+    
+    0% { padding-bottom: .3em; }
+    50% { padding-top: .6em; }
+    100% { padding-bottom: .3em; }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* ------------------------------------------------------------------- */

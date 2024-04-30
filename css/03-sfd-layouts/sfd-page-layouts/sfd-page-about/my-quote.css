@@ -47,6 +47,8 @@
 
     color:var(--c-sfd-light-grey);
 
+    color:rgb(204, 204, 204);
+
 }
 
 #my-quote-sfd img {
@@ -68,71 +70,4 @@
    
    
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#row-my-quote-container {
-
-    background-color: var(--c-sfd-dark-anthracite);
-
-}
-
-/* modify-row | extra */
-
-
-
-#my-quote-layout {
-
-    position: relative;
-    top:0;
-
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-   
-}
-
-#my-quote-layout > img {
-
-    width: 100%;
-    height: 24em;
-
-}
-
-#my-quote-text-container {
-
-    position: absolute;
-
-   
-    padding: .6em 1.3em;
-
-    font-weight: bold;
-
-    color:#d0d0d0;
-    background-color: rgba(33, 33, 33 , .8);
-
-    /* make more opacity  */
-    
-
-    border-radius: .4em;
-
-    font-size: 1.4em;
-    line-height: 1.6em;
-    /* z-index: 3; */
-    /* display: none; */
-
-    /* z-index: 99; */
 }
