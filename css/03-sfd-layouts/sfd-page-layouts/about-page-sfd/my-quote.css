@@ -20,10 +20,12 @@
     justify-content: center;
 
     /* mobile  */
-    /* height: 12em; */
+    height: 12em;
     padding: 2em 1.6em 1.3em 1.6em;
        
     /* desktop */
+
+    transition: all .4s;
   
 
 }
@@ -106,6 +108,53 @@
     background-color: var(--c-sfd-red);
 }
 
+#chk-about-open-movie-container:checked ~ #main-footer-base #lbl-chk-about-open-movie-container > img {
+
+    transform: rotate(180deg);
+}
+
+#chk-about-open-movie-container:checked ~ #main-footer-base #my-quote-sfd {
+
+    height: 33em;
+}
+
+#chk-about-open-movie-container:checked ~ #main-footer-base #scroll {
+
+    height: 22em;
+}
+
+#chk-about-open-movie-container:checked ~ #main-footer-base #scroll > video {
+
+    display: block;
+}
+
+#scroll {
+
+    /* position: absolute; */
+    /* visibility: hidden; */
+
+    /* position: absolute;
+    top:4em; */
+
+    height: 2em;
+
+    width: 100%;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .4s;
+}
+
+#scroll > video {
+
+    height: 10em;
+    width: 100%;
+
+    display: none;
+}
 
 /* #background-img  */
 #img-background-sv {
