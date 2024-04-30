@@ -20,8 +20,8 @@
     justify-content: center;
 
     /* mobile  */
-    height: 12em;
-    padding: 0em 1.6em;
+    /* height: 12em; */
+    padding: 2em 1.6em 1.3em 1.6em;
        
     /* desktop */
   
@@ -84,12 +84,20 @@
 
 }
 
-#img-arrow-down {
+#lbl-chk-about-open-movie-container img {
+
+    padding-top: .2em;
+    height: 1.3em;
+    opacity: .8;
+
+}
+
+/* #img-arrow-down {
 
     height: 3px;
     display: block;
     
-}
+} */
 
 
 /* checked handling muss überarbeitet werden  */
@@ -100,7 +108,7 @@
 
 
 /* #background-img  */
-#my-quote-sfd img {
+#img-background-sv {
 
     z-index: 0;
 
@@ -108,8 +116,8 @@
     top:0em;
 
     /* combi to stretch absolute img width 100%  */
-    left:0;
-    right:0;
+    /* left:0;
+    right:0; */
 
     height: 100%;
     width: 100%;
