@@ -36,14 +36,19 @@ function getEnglischFormattedDate( day , month ) {
     strAddonToDay = "";
     strMonth = "";
 
+    // console.log("Marko = " + day)
+
     switch ( day ) {
 
         case 1: 
             strAddonToDay = "st"
+            break;
         case 2:
             strAddonToDay = "nd"
+            break;
         case 3:
             strAddonToDay = "rd"
+            break;
         default:
             strAddonToDay = "th"
             break;
