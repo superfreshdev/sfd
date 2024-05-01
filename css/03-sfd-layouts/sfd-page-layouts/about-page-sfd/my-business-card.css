@@ -237,17 +237,17 @@
 
 #contact-me-container {
 
+    width: 100%;
+
     display: grid;
     justify-items: center;
     row-gap: .2em;
-
-    /* background-color: blue; */
 
 }
 
 #contact-me-container > a {
 
-    width: 100%;
+    width: 95%;
 }
 
 #img-about-email {

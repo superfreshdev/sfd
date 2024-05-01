@@ -127,9 +127,14 @@
 
 }
 
+.area-txt-big-link-button {
+
+    line-height: 1.3em;
+}
+
 .big-title-big-link-button {
 
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 
