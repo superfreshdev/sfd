@@ -145,8 +145,11 @@
 
 .last-img-info-big-link-button {
 
-    width: 3em;
+    /* width: 3em; */
+    padding: 0em 1.3em;
     height: 4em;
+
+    /* background-color: red; */
 
     display: flex;
     align-items: center;
