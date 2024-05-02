@@ -15,10 +15,146 @@
 
     background-color: var(--c-cf-white);
 
+    padding: 2.3em 1em;
+
     /* mobile  */
 
     display: grid;
-    row-gap: 2em;
+    row-gap: 3.3em;
 
 }
+
+
+.sfd-content-page-header {
+
+    height: 3em;
+
+    padding: 0em 1em;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: .4em;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color: var(--c-cf-white);
+
+}
+
+
+/* -------------------------------------------------------- */
+/* Project Card Container 
+/* -------------------------------------------------------- */
+
+.project-card-my-top-3 {
+
+    display: grid;
+    row-gap: 1.3em;
+
+    padding: 0em .8em;
+}
+
+
+/* -------------------------------------------------------- */
+/* Header - Project Card 
+/* -------------------------------------------------------- */
+
+.header-project-card {
+
+
+}
+
+.header-title-project-card > span:nth-of-type(1) {
+
+    font-weight: bold;
+
+}
+
+.info-box-my-top-3-nr {
+
+    float:right;
+
+    margin-left: .6em;
+    margin-bottom: .3em;
+
+
+    width: 2.5em;
+    height: 2.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .4em;
+
+    opacity: .3;
+
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--c-sfd-dark-anthracite);
+    color: var(--c-cf-white);
+}
+
+
+/* -------------------------------------------------------- */
+/* Img Container - Project Card 
+/* -------------------------------------------------------- */
+
+.img-container-project-card > img {
+
+
+    width: 100%;
+    /* height: 16em; */
+
+    border-radius: .4em;
+    
+}
+
+
+.img-mini-panbel-project-card {
+
+
+    height: 4em;
+    padding: 0em 1em;
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: .4em;
+    background-color: rgba(41, 41, 41, .1);
+}
+
+.img-mini-panbel-project-card > div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 4em;
+    width: 4em;
+}
+
+.img-mini-panbel-project-card > div > img {
+
+    height: 1.8em;
+}
+
+/* -------------------------------------------------------- */
+/* Detail Container - Project Card 
+/* -------------------------------------------------------- */
+
+.details-container-project-card {
+
+    display: grid;
+    row-gap: 2em;
+    
+}
+
+
+
 
