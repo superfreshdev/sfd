@@ -70,6 +70,7 @@
 .header-title-project-card > span:nth-of-type(1) {
 
     font-weight: bold;
+    font-size: 18px;
 
 }
 
@@ -77,6 +78,7 @@
 
     float:right;
 
+    margin-top: .3em;
     margin-left: .6em;
     margin-bottom: .3em;
 
