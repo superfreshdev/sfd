@@ -149,7 +149,7 @@
         <input type="checkbox" id="chk-mobile-hamburger-menue-sfd" name="name-chk-mobile-hamburger-menue-sfd">
 
        
-        <input type="checkbox" id="chk-about-open-movie-container" name="name-chk-about-open-movie-container" style="display: none;">
+        <input type="checkbox" id="chk-about-open-video-container" name="name-about-open-video-container" style="display: none;">
 
         <!-- -------------------------------------------------------- -->
         <!-- Audio Files | About Page                                 -->
@@ -398,7 +398,7 @@
                         <!-- -------------------------------------------------------------------------- -->
                         <!-- Container | My Business Card                                               -->
                         <!-- -------------------------------------------------------------------------- -->
-                        <div id="my-business-card-sfd">
+                        <div id="my-business-card-sfd" style="display: none;">
 
                             <!-- ----------------------------------------------------------------------- -->
                             <!-- Container | My Tech Skills                                              -->
@@ -769,10 +769,17 @@
                         <!-- -------------------------------------------------------------------------- -->
                         <div id="my-quote-sfd">
 
-                            
-                            <div id="my-quote-container-sfd">
+                            <!-- ------------------------------------------------ -->
+                            <!-- Background Img - Silicon Valley ( absolute )     --> 
+                            <!-- ------------------------------------------------ -->                            
+                            <img src="media/img/02_main/01_about/my-quote/silicon-valley.png" id="img-background-silicon-valley" alt="img">
 
-                               
+
+                            <div id="my-quote-handle-container">
+                         
+                                <!-- ----------------------------------------------------------- -->
+                                <!-- My Quote Element ( relative )                               -->
+                                <!-- ----------------------------------------------------------- -->
                                 <div id="my-quote-element">
 
                                     Work on things u belive.
@@ -781,32 +788,34 @@
                                                             
                                 </div>
 
-                                <label for="chk-about-open-movie-container" id="lbl-chk-about-open-movie-container" class="lbl-movie" name="name-chk-about-open-movie-container">
+                                <!-- ----------------------------------------------------------- -->
+                                <!-- Label Open Close Video Container ( relative )                -->
+                                <!-- ----------------------------------------------------------- -->
+                                <label for="chk-about-open-video-container" id="lbl-open-my-quote-video-container" class="lbl-movie" name="name-about-open-video-container">
                                                             
                                     <img src="media/img/00_general/icons/01-general-icons/arrow-down-white.png" id="img-arrow-down" alt="img">
-                                  
+                                    
                                 </label>
 
-
-                                <div id="scroll">
-
-                                    <video controls>
-                                        <source src="media/video/mp4/introduction.mp4" type="video/mp4">
-                                        
-                                    </video>
-
-                                </div>
-    
-
-                        
                             </div>
 
-                          
-                            <!-- absolute img  -->  
-                            <img src="media/img/02_main/01_about/my-quote/silicon-valley.png" id="img-background-sv" alt="img">
+                        
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- My Quote Video Container ( absolute / relative )            -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div id="my-quote-video-container">
 
+                                <video controls>
+                                    <source src="media/video/mp4/introduction.mp4" type="video/mp4">                                       
+                                </video>
+
+                            </div>
+
+ 
 
                         </div>
+
+                      
 
                         <!-- -------------------------------------------------------------------------- -->
                         <!-- Container | My Top 3 Projects  -->

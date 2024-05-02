@@ -12,64 +12,95 @@
 
 #my-quote-sfd {
 
+    /* background-color: var(--c-sfd-dark-anthracite); */
+    
     position: relative;
     top:0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* mobile  */
-    height: 12em;
-    padding: 2em 1.6em 1.3em 1.6em;
-       
-    /* desktop */
-
-    transition: all .4s;
   
-
-}
-
-#my-quote-container-sfd {
-
-    position: relative;
-    top:0;
-
-    z-index: 1;
+    /* width: 100%; */
+    /* height: 12em; */
 
     display: grid;
+    grid: 11em / 1fr;
+
     justify-items: center;
-    row-gap: 1em;
+    align-items: center;
+
+    transition: all .4s;
+
 }
+
+/* ----------------------------------------------------- */
+/* Background Image - Silicon Valley
+/* ----------------------------------------------------- */
+
+#img-background-silicon-valley {
+
+    z-index: 0;
+
+    position: absolute;
+    /* top:0em; */
+
+    /* combi to stretch absolute img width 100%  */
+    left:0;
+    right:0;
+
+    width: 100%;
+    height: 11em;
+
+    /* display: none; */
+
+
+}
+
+/* ----------------------------------------- */
+/* My Quote Handle Container
+/* ----------------------------------------- */
+#my-quote-handle-container {
+
+    /* parent of quote element & label  */
+    width: 100%;
+
+    display: grid;
+    row-gap: .6em;
+
+    justify-items: center;
+    align-content: flex-start;
+
+}
+
+
+/* ----------------------------------------- */
+/* My Quote Element 
+/* ----------------------------------------- */
 
 #my-quote-element {
 
-    
-
-    /* position: relative;
-    bottom:.8em; */
+    z-index: 1;
 
     width: 16em;
     padding: .6em .6em;
-
     border-radius: .4em;
 
     /* blockquote  */
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
     font-style: italic;
 
     background-color: rgba(33, 33, 33, .8);
-    color:rgb(204, 204, 204);
+    color:rgb(197, 197, 197);
+
+    /* display: none; */
 
 }
 
-.lbl-movie {
+/* ----------------------------------------- */
+/* Label to open Video View
+/* ----------------------------------------- */
+
+#lbl-open-my-quote-video-container {
 
     z-index: 1;
-
-    /* position: absolute;
-    bottom: .6em; */
 
     border-radius: 50%;
 
@@ -84,96 +115,101 @@
 
     transition: all .4s;
 
+    /* display: none; */
+
 }
 
-#lbl-chk-about-open-movie-container img {
+#lbl-open-my-quote-video-container img {
 
     padding-top: .2em;
-    height: 1.3em;
+    height: 1.1em;
     opacity: .8;
 
 }
 
-/* #img-arrow-down {
+/* ----------------------------------------------------- */
+/* Checkbox Handling - Open Movie Contianer 
+/* ----------------------------------------------------- */
 
-    height: 3px;
-    display: block;
-    
-} */
-
-
-/* checked handling muss überarbeitet werden  */
-#chk-about-open-movie-container:checked ~ #main-footer-base #lbl-chk-about-open-movie-container {
+/* ------------------------------------- */
+/* Checkbox Label Style                  */
+/* ------------------------------------- */
+#chk-about-open-video-container:checked ~ #main-footer-base #lbl-open-my-quote-video-container {
 
     background-color: var(--c-sfd-red);
 }
 
-#chk-about-open-movie-container:checked ~ #main-footer-base #lbl-chk-about-open-movie-container > img {
+#chk-about-open-video-container:checked ~ #main-footer-base #lbl-open-my-quote-video-container > img {
 
     transform: rotate(180deg);
 }
 
-#chk-about-open-movie-container:checked ~ #main-footer-base #my-quote-sfd {
+/* ------------------------------------------------------ */ 
+/* Handling Video Container                               */
+/* ------------------------------------------------------ */ 
 
-    height: 33em;
+/* my quote container  */
+#chk-about-open-video-container:checked ~ #main-footer-base #my-quote-sfd {
+
+    /* height: 33em; */
 }
 
-#chk-about-open-movie-container:checked ~ #main-footer-base #scroll {
+/* video container  */
+#chk-about-open-video-container:checked ~ #main-footer-base #my-quote-video-container {
 
-    height: 22em;
+    /* height: 33em; */
+   
 }
 
-#chk-about-open-movie-container:checked ~ #main-footer-base #scroll > video {
+/* video tag  */
+/* #chk-about-open-movie-container:checked ~ #main-footer-base #my-quote-video-container > video {
 
     display: block;
-}
+} */
 
-#scroll {
 
-    /* position: absolute; */
-    /* visibility: hidden; */
+/* ----------------------------------------------------- */
+/* My Quote Video Container  
+/* ----------------------------------------------------- */
 
-    /* position: absolute;
-    top:4em; */
+#my-quote-video-container {
 
-    height: 2em;
+    position: absolute;
+    /* top:-2.5em; */
+
+    /* z-index: 1; */
+
+    left: 0;
+    right: 0;
 
     width: 100%;
-    background-color: green;
+    /* height: 100%; */
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+
+    /* background-color: green; */
+
     transition: all .4s;
-}
-
-#scroll > video {
-
-    height: 10em;
-    width: 100%;
 
     display: none;
+
 }
 
-/* #background-img  */
-#img-background-sv {
+#my-quote-video-container > video {
 
-    z-index: 0;
-
-    position: absolute;
-    top:0em;
-
-    /* combi to stretch absolute img width 100%  */
-    /* left:0;
-    right:0; */
-
-    height: 100%;
     width: 100%;
-
-    /* height: 22em; */
-    /* width: 100%; */
-   
-   
-
+    height: 12em;
+    /* height: 18em; */
+    /* display: none; */
 }
+
+
+
+
+
+
+
+
