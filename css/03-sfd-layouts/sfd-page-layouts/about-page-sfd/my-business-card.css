@@ -27,9 +27,6 @@
 
 #my-tech-skills-container-sfd {
 
-    /* z-index: 1; */
-   
-
     /* mobile  */
     padding: 2.5em 1.6em;
     /* background-color: red; */
@@ -257,14 +254,4 @@
 #img-about-email {
 
     height: 1.5em;
-}
-
-#img-about-show-right {
-
-    height: 2.8em;
-}
-
-.img-icon-default {
-
-    height: 1.3em;
 }

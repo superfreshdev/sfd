@@ -15,18 +15,12 @@
     position: relative;
     top:0;
   
-    /* width: 100%; */
-    /* height: 12em; */
-
     display: grid;
     grid: 12em auto / 1fr;
 
     align-items: flex-start;
     justify-items: center;
    
-    
-   
-
     transition: all .4s;
 
 }
@@ -72,9 +66,6 @@
 
     justify-items: center;
    
-   
-    
-
 }
 
 
@@ -84,7 +75,6 @@
 
 #my-quote-element {
 
-    width: 16em;
     width: calc(13em + 12vw);
     
     padding: .6em .6em;
@@ -105,6 +95,9 @@
 /* ----------------------------------------- */
 /* Label to open Video View
 /* ----------------------------------------- */
+
+/* unshown checkbox open video container  */
+#chk-about-open-video-container { display: none; }
 
 #lbl-open-my-quote-video-container {
 
@@ -154,12 +147,6 @@
 /* Handling Video Container                               */
 /* ------------------------------------------------------ */ 
 
-/* my quote container  */
-#chk-about-open-video-container:checked ~ #main-footer-base #my-quote-sfd {
-
-    /* grid: 12em auto / 1fr; */
-}
-
 /* video container  */
 #chk-about-open-video-container:checked ~ #main-footer-base #my-quote-video-container {
 
@@ -170,9 +157,6 @@
 /* video tag  */
 #chk-about-open-video-container:checked ~ #main-footer-base #my-quote-video-container > video {
 
-   /* height: 14em; */
-   /* height: 12em; */
-   /* width: 100%; */
    height: auto;
    
 }
@@ -194,7 +178,6 @@
     align-items: center;
     justify-content: center;
 
-    /* background-color: green; */
     transition: all .4s;
 
     /* display: none; */

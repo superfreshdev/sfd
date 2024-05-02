@@ -15,12 +15,44 @@
 
 /* small , medium , large Icons  */
 
-.icon-small {
-    width: 1em;
+.cf-icon-very-small {
+    height: .8em;
 }
 
-.icon-medium {
-    width: 1.5em;
+.cf-icon-small {
+    height: 1em;
+}
+
+.cf-icon-medium-small {
+    height: 1.3em;
+}
+
+.cf-icon-medium {
+    height: 1.5em;
+}
+
+.cf-icon-large-small {
+    height: 1.8em;
+}
+
+.cf-icon-large {
+    height: 2em;
+}
+
+.cf-icon-xl-small {
+    height: 2.3em;
+}
+
+.cf-icon-xl {
+    height: 2.6em;
+}
+
+.cf-icon-xxl-small {
+    height: 2.8em;
+}
+
+.cf-icon-xxl {
+    height: 3em;
 }
 
 
