@@ -65,7 +65,6 @@
 
 .img-info-header-tech-skill-box {
 
-    
     width: 3.3em;
     height: 3.3em;
 
@@ -76,6 +75,7 @@
     justify-content: center;
 
     background-color: var(--c-sfd-dark-grey);
+    background-color: var(--c-sfd-dark-anthracite);
 
 }
 
@@ -99,6 +99,8 @@
 }
 
 .sub-title-header-tech-skill-box {
+
+    line-height: 1.2em;
 
     font-size: .9em;
     color: var(--c-sfd-light-grey);
@@ -129,6 +131,8 @@
     display: flex;
     align-items: center;
     column-gap: .6em;
+
+    font-size: 14.5px;
 
     border-radius: .4em;
     border: 3px solid rgba(69, 70, 70, .1);
@@ -226,7 +230,7 @@
 
     /* mobile */
     border-radius: .8em;
-    height: 11em;
+    height: 12em;
 
     /* desktop */
 }

@@ -115,7 +115,7 @@
 
     display: flex;
     align-items: center;
-    column-gap: 1em;
+    column-gap: .8em;
 
 }
 
@@ -154,7 +154,7 @@
 .last-img-info-big-link-button {
 
     /* width: 3em; */
-    padding: 0em 1.3em;
+    padding: 0em 1em 0em .8em;
     height: 4em;
 
     /* background-color: red; */
