@@ -21,10 +21,13 @@
     /* height: 12em; */
 
     display: grid;
-    grid: 11em / 1fr;
+    grid: 12em auto / 1fr;
 
+    align-items: flex-start;
     justify-items: center;
-    align-items: center;
+   
+    
+   
 
     transition: all .4s;
 
@@ -36,17 +39,17 @@
 
 #img-background-silicon-valley {
 
-    z-index: 0;
+    z-index: 1;
 
     position: absolute;
-    /* top:0em; */
+    top:0em;
 
     /* combi to stretch absolute img width 100%  */
     left:0;
     right:0;
 
     width: 100%;
-    height: 11em;
+    height: 12em;
 
     /* display: none; */
 
@@ -58,14 +61,21 @@
 /* ----------------------------------------- */
 #my-quote-handle-container {
 
+    z-index: 2;
+
+    position: relative;
+    top: 2.3em;
+
     /* parent of quote element & label  */
     width: 100%;
-
+ 
     display: grid;
-    row-gap: .6em;
+    row-gap: .6em; 
 
     justify-items: center;
-    align-content: flex-start;
+   
+   
+    
 
 }
 
@@ -75,8 +85,6 @@
 /* ----------------------------------------- */
 
 #my-quote-element {
-
-    z-index: 1;
 
     width: 16em;
     padding: .6em .6em;
@@ -99,8 +107,6 @@
 /* ----------------------------------------- */
 
 #lbl-open-my-quote-video-container {
-
-    z-index: 1;
 
     border-radius: 50%;
 
@@ -151,21 +157,25 @@
 /* my quote container  */
 #chk-about-open-video-container:checked ~ #main-footer-base #my-quote-sfd {
 
-    /* height: 33em; */
+    grid: 12em auto / 1fr;
 }
 
 /* video container  */
 #chk-about-open-video-container:checked ~ #main-footer-base #my-quote-video-container {
 
-    /* height: 33em; */
+  height: 14em;
    
 }
 
 /* video tag  */
-/* #chk-about-open-movie-container:checked ~ #main-footer-base #my-quote-video-container > video {
+#chk-about-open-video-container:checked ~ #main-footer-base #my-quote-video-container > video {
 
-    display: block;
-} */
+   /* height: 14em; */
+   /* height: 12em; */
+   /* width: 100%; */
+   height: auto;
+   
+}
 
 
 /* ----------------------------------------------------- */
@@ -174,36 +184,28 @@
 
 #my-quote-video-container {
 
-    position: absolute;
-    /* top:-2.5em; */
+    background-color: var(--c-sfd-dark-anthracite);
 
-    /* z-index: 1; */
+    z-index: 0;
 
-    left: 0;
-    right: 0;
-
-    width: 100%;
-    /* height: 100%; */
+    height: 0em;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-
     /* background-color: green; */
-
     transition: all .4s;
 
-    display: none;
+    /* display: none; */
 
 }
 
 #my-quote-video-container > video {
 
-    width: 100%;
-    height: 12em;
-    /* height: 18em; */
-    /* display: none; */
+    width: 90%;
+    height: 0em;
+
 }
 
 
