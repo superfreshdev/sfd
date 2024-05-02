@@ -28,6 +28,12 @@
 
 }
 
+
+.row-page-container {
+
+    padding: 2.3em 1.6em;
+}
+
 /* individuell page header  */
 
 
@@ -116,7 +122,8 @@
 .img-text-big-link-button > div:nth-of-type(1) {
 
     height: 4em;
-    width: 4em;
+    max-width: 4em;
+    min-width: 4em;
 
     display: flex;
     align-items: center;
@@ -136,6 +143,7 @@
 
     font-size: 16px;
     font-weight: bold;
+    line-height: 1.2em;
 }
 
 .sub-title-big-link-button {
@@ -272,4 +280,16 @@
 .page-content-header-sfd > div:nth-of-type(2) > img {
 
     width: 1.8em;
+}
+
+#just-for-fun-audio-container {
+
+    display: grid;
+    row-gap: 1.3em;
+    background-color: green;
+}
+
+#just-for-fun-audio-container > audio {
+
+    width: 100%;
 }

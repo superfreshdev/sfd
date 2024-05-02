@@ -16,7 +16,6 @@
     background-color: var(--c-cf-white);
 
     /* mobile  */
-    padding: 2.5em 1.6em;
 
     display: grid;
     row-gap: 2em;

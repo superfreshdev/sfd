@@ -11,9 +11,7 @@
 /* ---------------------------------------------------------------------- */
 
 #my-quote-sfd {
-
-    /* background-color: var(--c-sfd-dark-anthracite); */
-    
+ 
     position: relative;
     top:0;
   
@@ -87,6 +85,8 @@
 #my-quote-element {
 
     width: 16em;
+    width: calc(13em + 12vw);
+    
     padding: .6em .6em;
     border-radius: .4em;
 
@@ -157,7 +157,7 @@
 /* my quote container  */
 #chk-about-open-video-container:checked ~ #main-footer-base #my-quote-sfd {
 
-    grid: 12em auto / 1fr;
+    /* grid: 12em auto / 1fr; */
 }
 
 /* video container  */
@@ -205,6 +205,8 @@
 
     width: 90%;
     height: 0em;
+
+    border-radius: .4em;
 
 }
 

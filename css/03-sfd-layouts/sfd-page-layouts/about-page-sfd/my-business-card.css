@@ -197,7 +197,7 @@
 
     display: flex;
     align-items: center;
-    column-gap: 1.3em;
+    column-gap: 1em;
 
     /* background-color: green; */
   
@@ -206,7 +206,7 @@
 #img-about-brace-open,
 #img-about-brace-close {
 
-    height: 3.5em;
+    height: 2.3em;
     opacity: .2;
 }
 
@@ -226,7 +226,7 @@
 
     /* mobile */
     border-radius: .8em;
-    height: 14em;
+    height: 11em;
 
     /* desktop */
 }
