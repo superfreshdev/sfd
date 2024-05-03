@@ -16,7 +16,7 @@
     background-color: var(--c-sfd-dark-anthracite);
 
     /* Mobile  */
-    padding: .3em 1.3em 1.3em 0em;
+    padding: .3em 1.3em 1em 0em;
     display: grid;
     row-gap: .6em;
 
@@ -55,7 +55,7 @@
 
 #content-welcome-title > div:nth-of-type(1) {
  
-    line-height: 1.3em;
+    line-height: 1.4em;
 
 }
 

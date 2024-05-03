@@ -17,6 +17,9 @@
 
     padding: 2.3em 1em;
 
+   
+   
+
     /* mobile  */
 
     display: grid;
@@ -54,7 +57,7 @@
     display: grid;
     row-gap: 1.3em;
 
-    padding: 0em .8em;
+    /* padding: 0em .8em; */
 }
 
 

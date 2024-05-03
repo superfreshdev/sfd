@@ -35,6 +35,7 @@
 .big-link-button-sfd:hover {
 
     background-color: var(--c-sfd-dark-grey);
+    /* background-color: var(--c-sfd-dark-anthracite); */
     color: var(--c-sfd-dark-white);
 
 }
@@ -43,7 +44,7 @@
 
     display: flex;
     align-items: center;
-    column-gap: .8em;
+    column-gap: 1em;
 
 }
 
@@ -59,6 +60,7 @@
 
     border-radius: .3em 0em 0em .3em;
     background-color: var(--c-sfd-dark-grey);
+    /* background-color: var(--c-sfd-dark-anthracite); */
 
 }
 
@@ -82,7 +84,7 @@
 .last-img-info-big-link-button {
 
     /* width: 3em; */
-    padding: 0em 1em 0em .8em;
+    padding: 0em 1em 0em 0em;
     height: 4em;
 
     /* background-color: red; */

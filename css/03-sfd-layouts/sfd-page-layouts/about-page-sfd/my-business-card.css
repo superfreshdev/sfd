@@ -174,7 +174,9 @@
 
 #img-about-me-contact-me-container-sfd {
 
-    background-color: var(--c-sfd-dark-anthracite);
+    /* background-color: var(--c-sfd-dark-anthracite); */
+
+    background-color: white;
 
     /* mobile */
     display: grid;
@@ -183,7 +185,7 @@
 
     row-gap: 2.3em;
 
-    padding: 4.5em 1.6em;
+    padding: 3em 1.6em;
 
     /* desktop */
 
@@ -208,7 +210,7 @@
 #img-about-brace-close {
 
     height: 2.3em;
-    opacity: .2;
+    opacity: .8;
 }
 
 #img-about-brace-open {
