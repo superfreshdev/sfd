@@ -192,6 +192,32 @@
 }
 
 
+
+.new-header {
+
+   
+    
+    padding: 1.6em 1.8em;
+    background-color: var(--c-sfd-dark-anthracite);
+    /* background-color: rgb(205, 205, 205); */
+    color:rgb(48, 48, 48);
+    color:rgb(227, 227, 227);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border-radius: 3em 0em 1em 0em; */
+}
+
+
+.title-new-header {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 /* ---------------------------------------------- */
 /* Container | Img About Me 
 /* ---------------------------------------------- */
@@ -210,7 +236,7 @@
 #img-about-brace-close {
 
     height: 2.3em;
-    opacity: .8;
+    opacity: 1;
 }
 
 #img-about-brace-open {
