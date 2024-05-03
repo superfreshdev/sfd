@@ -15,15 +15,15 @@
 
     background-color: var(--c-sfd-dark-anthracite);
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     /* Mobile  */
     padding: .3em 1.3em 1em 0em;
-    display: grid;
-    row-gap: .6em;
 
     /* Desktop  */
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
+   
 
 }
 
@@ -41,7 +41,7 @@
 #img-welcome-cartoon-me {
  
     /* mobile */
-    height: calc(4em + 3vh);
+    height: calc(4.3em + 3vh);
 
     /* desktop */
     /* height: 11em;   */
@@ -55,7 +55,7 @@
 
 #content-welcome-title > div:nth-of-type(1) {
  
-    line-height: 1.5em;
+    line-height: 1.6em;
 
 }
 
@@ -98,39 +98,23 @@
 
 #sub-title-style-welcome-quote {
 
-    padding-top: .2em;
-    line-height: 1.2em;
+    color: var(--c-sfd-light-grey);
 
+    /* padding-top: .2em; */
+    line-height: 1.2em;
     font-style: italic;
 
     /* mobile */
-    font-size: .9em;
+    font-size: 14.5px;
 
     /* desktop  */
     /* font-size: 1.5em; */
-    
-    color: var(--c-sfd-light-grey);
-    /* font-weight: bold; */
-    /* opacity: .6; */
 
 }
 
 /* -------------------------------------------------------------- */
 /* Box | Welcome Date
 /* -------------------------------------------------------------- */
-
-#box-welcome-date {
-
-   /* mobile */
-   justify-self: flex-end;
-   
-    /* font-size: 1.3em; */
-    /* display: none; */
-
-    /* desktop  */
-    /* font-size: 1.5em; */
-
-}
 
 #box-welcome-date > span:nth-of-type(1) {
 
