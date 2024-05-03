@@ -55,7 +55,7 @@
 
 #content-welcome-title > div:nth-of-type(1) {
  
-    line-height: 1.4em;
+    line-height: 1.5em;
 
 }
 
@@ -100,6 +100,8 @@
 
     padding-top: .2em;
     line-height: 1.2em;
+
+    font-style: italic;
 
     /* mobile */
     font-size: .9em;
