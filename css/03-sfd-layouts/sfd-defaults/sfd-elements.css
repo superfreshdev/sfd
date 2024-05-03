@@ -1,0 +1,26 @@
+/*
+
+    sfd-elements.css
+
+    > defines small sfd layout elements
+
+*/
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* seperator 
+/* ---------------------------------------------------------------------- */
+
+.seperator-anthracite-sfd,
+.seperator-white-sfd {
+
+    font-weight: bold;
+
+}
+
+.seperator-white-sfd {  color: var(--c-cf-white); }
+.seperator-anthracite-sfd {  color: var(--c-sfd-dark-anthracite );} 
+
+

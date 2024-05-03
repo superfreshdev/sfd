@@ -88,6 +88,7 @@
 #main-base {
 
     background-color: rgb(0, 225, 255);
+    background-color: var(--c-cf-white);
     
     /* height: 100%; */
     

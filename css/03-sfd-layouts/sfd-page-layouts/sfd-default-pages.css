@@ -10,51 +10,33 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Row Content Page Container 
+/* Row Container ( Page )
 /* ------------------------------------------------------------------- */
 
-
-.grid-w-100p {
+.row-container-sfd {
 
     display: grid;
+    row-gap: 2em;
+
+    /* to let all other child layout element grow max width  */
     width: 100%;
-}
-
-
-/* default content  */
-.row-content-page-container {
-
-
 
 }
+
+.row-content-container-sfd {
+
+    padding: 2.3em 1.6em;
+
+}
+
+/* ---------------------------------------- */
+/* Müll | unten 
+/* ---------------------------------------- */
 
 
 .row-page-container {
 
     padding: 2.3em 1.6em;
-}
-
-/* individuell page header  */
-
-
-
-
-.row-content-page-container-sfd {
-
-    /* first bring content in layout pos center */
-    display: flex;
-    justify-content: center;
-
-}
-
-
-
-.row-layout-center-sfd {
-
-    /* first bring content in layout pos center */
-    display: flex;
-    justify-content: center;
-  
 }
 
 .row-content-width-sfd {
@@ -77,7 +59,9 @@
 }
 
 
-
+/* ---------------------------------------- */
+/* Müll | oben
+/* ---------------------------------------- */
 
 
 

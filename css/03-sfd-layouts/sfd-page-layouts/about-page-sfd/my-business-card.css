@@ -13,6 +13,7 @@
 #my-business-card-sfd {
 
     background-color: var(--c-cf-white);
+    /* background-color: red; */
 
     /* mobile */
     display: grid;
@@ -21,31 +22,222 @@
 }
 
 
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Container | Img Me & Contact Me 
+/* ---------------------------------------------------------------------------------------------- */
+
+#img-about-me-contact-me-container-sfd {
+
+    /* mobile */
+    padding: 0em 0em;
+
+    display: grid;
+    row-gap: .3em;
+    justify-items: center;
+
+    /* allow child layout elements to grow max width  */
+    width: 100%;
+    
+
+    /* desktop */
+
+}
+
+/* ---------------------------------------------- */
+/* Box | Img About Me 
+/* ---------------------------------------------- */
+
+#box-img-about-me-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 1em;
+
+}
+
+#img-about-brace-open,
+#img-about-brace-close {
+
+    height: 2.3em;
+    opacity: 1;
+}
+
+#img-about-brace-open {
+
+    transform: scaleX(-1);
+   
+}
+
+#img-about-brace-close {
+
+    transform: scaleX(1);
+
+}
+
+#img-about-me {
+
+    /* mobile */
+    border-radius: .8em;
+    height: 12em;
+
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+
+    /* desktop */
+}
+
+/* ---------------------------------------------- */
+/* Box | Contact Me 
+/* ---------------------------------------------- */
+
+#box-contact-me-container {
+
+    width: 75%;
+
+}
+
+#img-about-email {
+
+    height: 1.5em;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Container | Jumping About Link Buttons
+/* ---------------------------------------------------------------------------------------------- */
+
+#my-jumping-about-link-button-container-sfd {
+
+    padding: .3em 0em 4em 0em;
+
+    display: grid;
+    justify-items: center;
+
+    row-gap: 1em;
+
+    /* allow child layout element to grow max width  */
+    width: 100%;
+
+}
+
+#my-jumping-about-link-button-container-sfd > a {
+
+    width: 75%;
+}
+
+
+
+
+
 /* ---------------------------------------------------------------------------------------------- */
 /* Container | My Tech Skills 
 /* ---------------------------------------------------------------------------------------------- */
 
 #my-tech-skills-container-sfd {
 
-    /* mobile  */
-    padding: 2.5em 1.6em;
-    /* background-color: red; */
+   background-color: white;
+   
+   display: grid;
+   row-gap: 2em;
 
-    display: grid;
-    row-gap: 2em;
+   /* mobile  */
+   /* padding: 4em 0em; */
+
+    /* desktop */
+  
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Header | My Tech Skills 
+/* ---------------------------------------------------------------------------------------------- */
+
+
+.header-page-container-sfd {
+
+    padding: 1em 1.6em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color:rgb(227, 227, 227);
+
+    font-size: 18px;
+    font-weight: bold;
+
     
 }
 
+.title-new-header {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+.new-header {
+
+
+    padding: 1.6em 1.8em;
+    background-color: var(--c-sfd-dark-anthracite);
+    /* background-color: rgb(205, 205, 205); */
+    color:rgb(48, 48, 48);
+    color:rgb(227, 227, 227);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border-radius: 3em 0em 1em 0em; */
+}
+
+
+.title-new-header {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Content Container | My Tech Skills 
+/* ---------------------------------------------------------------------------------------------- */
+
+#my-content-tech-skills-container {
+    
+    /* background-color: blueviolet; */
+    padding: 0em 1.6em;
+
+    display: grid;
+    row-gap: 2em;
+}
 
 /* -------------------------------------------------------------------- */
-/*  Box | My Tech Skills
+/*  Box | My Tech Skill
 /* -------------------------------------------------------------------- */
 
 .box-my-tech-skills-sfd {
 
     display: grid;
     row-gap: 2em;
-
+   
 }
 
 /* -------------------------------------------------------------------- */
@@ -168,118 +360,5 @@
 
 
 
-/* ---------------------------------------------------------------------------------------------- */
-/* Container | Img About Me & Contact Me
-/* ---------------------------------------------------------------------------------------------- */
-
-#img-about-me-contact-me-container-sfd {
-
-    /* background-color: var(--c-sfd-dark-anthracite); */
-
-    background-color: white;
-
-    /* mobile */
-    display: grid;
-    justify-items: center;
-    align-content: center;
-
-    row-gap: 2.3em;
-
-    padding: 3em 1.6em;
-
-    /* desktop */
-
-}
 
 
-
-.new-header {
-
-   
-    
-    padding: 1.6em 1.8em;
-    background-color: var(--c-sfd-dark-anthracite);
-    /* background-color: rgb(205, 205, 205); */
-    color:rgb(48, 48, 48);
-    color:rgb(227, 227, 227);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    /* border-radius: 3em 0em 1em 0em; */
-}
-
-
-.title-new-header {
-
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
-/* ---------------------------------------------- */
-/* Container | Img About Me 
-/* ---------------------------------------------- */
-
-#img-about-me-container {
-
-    display: flex;
-    align-items: center;
-    column-gap: 1em;
-
-    /* background-color: green; */
-  
-}
-
-#img-about-brace-open,
-#img-about-brace-close {
-
-    height: 2.3em;
-    opacity: 1;
-}
-
-#img-about-brace-open {
-
-    transform: scaleX(-1);
-   
-}
-
-#img-about-brace-close {
-
-    transform: scaleX(1);
-
-}
-
-#img-about-me {
-
-    /* mobile */
-    border-radius: .8em;
-    height: 12em;
-
-    /* desktop */
-}
-
-/* ---------------------------------------------- */
-/* Container | Contact Me & Jumping 
-/* ---------------------------------------------- */
-
-#contact-me-container {
-
-    width: 100%;
-
-    display: grid;
-    justify-items: center;
-    row-gap: .2em;
-
-}
-
-#contact-me-container > a {
-
-    width: 95%;
-}
-
-#img-about-email {
-
-    height: 1.5em;
-}
