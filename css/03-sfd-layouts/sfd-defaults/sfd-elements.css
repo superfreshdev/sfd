@@ -14,13 +14,20 @@
 /* ---------------------------------------------------------------------- */
 
 .seperator-anthracite-sfd,
-.seperator-white-sfd {
+.seperator-white-sfd,
+.seperator-light-grey-sfd {
 
     font-weight: bold;
 
 }
 
 .seperator-white-sfd {  color: var(--c-cf-white); }
-.seperator-anthracite-sfd {  color: var(--c-sfd-dark-anthracite );} 
+.seperator-anthracite-sfd {  color: var(--c-sfd-dark-anthracite ); }
 
+.seperator-light-grey-sfd { 
+
+    color: var(--c-sfd-light-grey);
+    opacity: .6;
+
+}
 

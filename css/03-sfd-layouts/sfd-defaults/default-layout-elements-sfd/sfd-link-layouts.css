@@ -15,32 +15,38 @@
 .big-link-button-sfd {
 
     height: 4em;
-   
-    /* unset default link style */
-    text-decoration: none;
-    color: var(--c-cf-black);
-   
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    border-radius: .4em;
+    /* unset default link style */
+    text-decoration: none;
 
-    background-color: var(--c-sfd-light-brown);
+    border-radius: .4em;
+    color: var(--c-cf-black);
+    /* background-color: var(--c-sfd-light-brown); */
+
 
     transition: all .4s;
 }
 
 .big-link-button-sfd:hover {
 
-    background-color: var(--c-sfd-dark-grey);
-    /* background-color: var(--c-sfd-dark-anthracite); */
+    background-color: var(--c-sfd-dark-anthracite);
     color: var(--c-sfd-dark-white);
 
 }
 
-.img-text-big-link-button {
+
+/* -------------------------------------------------------- */
+/* Img & Text 
+/* -------------------------------------------------------- */
+
+.big-link-button-sfd > div:nth-of-type(1) {
+
+    /* to let child layout element grow max height of parent */
+    height: 100%;
 
     display: flex;
     align-items: center;
@@ -48,11 +54,12 @@
 
 }
 
-.img-text-big-link-button > div:nth-of-type(1) {
+.box-info-big-link-button-sfd {
 
     height: 4em;
-    max-width: 4em;
-    min-width: 4em;
+    width: 3.3em;
+    /* max-width: 3.3em;
+    min-width: 3.3em; */
 
     display: flex;
     align-items: center;
@@ -64,12 +71,12 @@
 
 }
 
-.area-txt-big-link-button {
+.box-main-sub-title-link-button {
 
-    line-height: 1.3em;
+    line-height: 1.2em;
 }
 
-.big-title-big-link-button {
+.main-title-big-link-button {
 
     font-size: 16px;
     font-weight: bold;
@@ -78,21 +85,27 @@
 
 .sub-title-big-link-button {
 
-    font-style: italic;
+    /* font-style: italic; */
+    opacity: .6;
+
 }
 
-.last-img-info-big-link-button {
 
-    /* width: 3em; */
-    padding: 0em 1em 0em 0em;
+
+/* -------------------------------------------------------- */
+/* Optional 2nd Img Container 
+/* -------------------------------------------------------- */
+
+.last-box-info-big-link-button-sfd {
+
     height: 4em;
-
-    /* background-color: red; */
-
+    padding: 0em 1em 0em 0em;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 
     border-radius: 0em .4em .4em 0em;
+    /* background-color: red; */
  
 }

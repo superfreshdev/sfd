@@ -15,38 +15,14 @@
 
     background-color: var(--c-cf-white);
 
-    padding: 0em 1em;
-
-   
-   
-
     /* mobile  */
 
     display: grid;
     row-gap: 3.3em;
 
-}
-
-
-.sfd-content-page-header {
-
-    height: 3em;
-
-    padding: 0em 1em;
-
-    display: flex;
-    align-items: center;
-
-    border-radius: .4em;
-
-    font-weight: bold;
-    font-size: 18px;
-
-    background-color: var(--c-sfd-dark-anthracite);
-    color: var(--c-cf-white);
+    
 
 }
-
 
 /* -------------------------------------------------------- */
 /* Project Card Container 
@@ -55,9 +31,9 @@
 .project-card-my-top-3 {
 
     display: grid;
-    row-gap: 1.3em;
+    /* row-gap: 1.3em; */
 
-    /* padding: 0em .8em; */
+    padding: 2.3em 1.6em;
 }
 
 
@@ -67,13 +43,34 @@
 
 .header-project-card {
 
+   
 
 }
 
-.header-title-project-card > span:nth-of-type(1) {
 
-    font-weight: bold;
-    font-size: 18px;
+.mini-tech-skills-panel {
+
+    padding: .8em 0em;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: .3em;
+}
+
+
+.small-tech-skill-item-sfd {
+
+    font-size: 12.5px;
+
+    color: var(--c-sfd-dark-grey);
+
+    opacity: .6;
+
+    padding: 0em .6em;
+    border-radius: .4em;
+    background-color: var(--c-sfd-very-light-grey);
 
 }
 
@@ -81,9 +78,9 @@
 
     float:right;
 
-    margin-top: .3em;
-    margin-left: .6em;
-    margin-bottom: .3em;
+    /* margin-top: .3em; */
+    /* margin-left: .1em; */
+    /* margin-bottom: 1em; */
 
 
     width: 2.5em;
@@ -95,12 +92,15 @@
 
     border-radius: .4em;
 
-    opacity: .3;
+    opacity: .8;
 
     font-size: 18px;
     font-weight: bold;
+    background-color: var(--c-sfd-very-light-grey);
     background-color: var(--c-sfd-dark-anthracite);
-    color: var(--c-cf-white);
+
+    color: var(--c-sfd-dark-grey);
+    color:var(--c-sfd-very-light-grey)
 }
 
 
@@ -122,16 +122,16 @@
 .img-mini-panbel-project-card {
 
 
-    height: 4em;
-    padding: 0em 1em;
+    height: 5em;
+    /* padding: 0em 1em; */
    
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     border-radius: .4em;
-    background-color: rgba(41, 41, 41, .1);
+    /* background-color: rgba(41, 41, 41, .1); */
 }
 
 .img-mini-panbel-project-card > div {
@@ -140,13 +140,15 @@
     align-items: center;
     justify-content: center;
 
-    height: 4em;
-    width: 4em;
+    /* height: 4em;
+    width: 4em; */
 }
 
 .img-mini-panbel-project-card > div > img {
 
-    height: 1.8em;
+    height: 3em;
+    border-radius: .3em;
+    opacity: .3;
 }
 
 /* -------------------------------------------------------- */
@@ -156,7 +158,7 @@
 .details-container-project-card {
 
     display: grid;
-    row-gap: 2em;
+    row-gap: 4em;
     
 }
 

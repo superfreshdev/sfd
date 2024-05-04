@@ -12,21 +12,16 @@
 /* Icon Img Sizes 
 /* --------------------------------------------- */
 
-.img-icon-s-mini { height: .6em; }
-.img-icon-s { height: .8em; }
-.img-icon-s-big { height: 1em; }
+.img-icon-small-1-sfd { height: 1em; }
+.img-icon-small-2-sfd { height: 1.3em; }
 
-.img-icon-m-mini { height: 1.3em; }
-.img-icon-m { height: 1.5em; }
-.img-icon-m-big { height: 1.8em; }
+.img-icon-medium-sfd { height: 1.5em; }
 
-.img-icon-l-mini { height: 2em; }
-.img-icon-l { height: 2.3em; }
-.img-icon-l-big { height: 2.5em; }
+.img-icon-large-sfd { height: 1.8em; }
 
-.img-icon-xl-mini { height: 2.8em; }
-.img-icon-xl { height: 3em; }
-.img-icon-xl-big { height: 3.5em; }
+.img-icon-big-1-sfd { height: 2em; }
+.img-icon-big-2-sfd { height: 2.3em; }
+.img-icon-big-3-sfd { height: 2.5em; }
 
 /* --------------------------------------------- */
 /* Img Clipart Sizes 

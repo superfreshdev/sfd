@@ -13,47 +13,40 @@
 /* Icons
 /* -------------------------------------------------------------------- */
 
-/* small , medium , large Icons  */
 
-.cf-icon-very-small {
-    height: .8em;
-}
+/* ------------------------------- */
+/* Small
+/* ------------------------------- */ 
 
-.cf-icon-small {
-    height: 1em;
-}
+.cf-icon-small-1 { height: .8em; }
+.cf-icon-small-2 { height: 1em; }
+.cf-icon-small-3 { height: 1.3em; }
+    
+/* ------------------------------- */
+/* Medium
+/* ------------------------------- */ 
 
-.cf-icon-medium-small {
-    height: 1.3em;
-}
+.cf-icon-medium-1 { height: 1.5em; }
+.cf-icon-medium-2 { height: 1.8em; }
+.cf-icon-medium-3 { height: 2em; }  
 
-.cf-icon-medium {
-    height: 1.5em;
-}
+/* ------------------------------- */
+/* Large
+/* ------------------------------- */ 
 
-.cf-icon-large-small {
-    height: 1.8em;
-}
+.cf-icon-large-1 { height: 2.1em; }
+.cf-icon-large-2 { height: 2.2em; }
+.cf-icon-large-3 { height: 2.3em; }
+.cf-icon-large-4 { height: 2.4em; }
+.cf-icon-large-5 { height: 2.5em; }
 
-.cf-icon-large {
-    height: 2em;
-}
+/* ------------------------------- */
+/* Big
+/* ------------------------------- */ 
 
-.cf-icon-xl-small {
-    height: 2.3em;
-}
-
-.cf-icon-xl {
-    height: 2.6em;
-}
-
-.cf-icon-xxl-small {
-    height: 2.8em;
-}
-
-.cf-icon-xxl {
-    height: 3em;
-}
+.cf-icon-big-1 { height: 2.8em; }
+.cf-icon-big-1 { height: 3em; }
+.cf-icon-big-1 { height: 3.3em; }
 
 
 /* -------------------------------------------------------------------- */

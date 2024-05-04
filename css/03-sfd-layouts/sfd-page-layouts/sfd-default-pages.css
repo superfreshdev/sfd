@@ -1,10 +1,9 @@
 /* 
     sfd-default-pages.css
 
-    define styles which will be used in 
-    all my loading pages for example 
-    page title header , page content header , default 
-    row layouts to bring line layouts , ... 
+    define styles which will default 
+    use in my all web pages for example
+    my header content page , ... .
 
 */
 
@@ -28,6 +27,32 @@
     padding: 2.3em 1.6em;
 
 }
+
+/* ------------------------------------------------------------------- */
+/* Header Page ( sfd )
+/* ------------------------------------------------------------------- */
+
+.header-content-page-sfd {
+
+    padding: 1em 1.6em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color:rgb(227, 227, 227);
+    /* color:var(--c-sfd-dark-white); */
+
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+
+
 
 /* ---------------------------------------- */
 /* Müll | unten 

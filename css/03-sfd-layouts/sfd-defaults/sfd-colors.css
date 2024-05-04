@@ -35,6 +35,7 @@
 
     /* new gray  color:#d0d0d0; */
 
+    --c-sfd-very-light-grey: #e0e0e0;
     --c-sfd-light-grey: #7b7d7d;
     --c-sfd-dark-grey: #454646;
     
@@ -68,3 +69,15 @@
 
 
 }
+
+/* ------------------------------------------------------- */
+/* sfd - Background Colors
+/* ------------------------------------------------------- */
+
+
+.bg-sfd-light-brown { background-color: var(--c-sfd-light-brown); }
+
+.bg-sfd-very-light-grey { background-color: var(--c-sfd-very-light-grey); }
+.bg-sfd-light-grey { background-color: var(--c-sfd-light-grey); }
+
+.bg-sfd-dark-anthracite { background-color: var(--c-sfd-dark-anthracite); }
