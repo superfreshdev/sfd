@@ -25,20 +25,21 @@
 }
 
 /* -------------------------------------------------------- */
-/* Project Card Container 
+/* My Top 3 Project Card Container 
 /* -------------------------------------------------------- */
 
-.project-card-my-top-3 {
+.my-top-3-project-card-container {
 
     display: grid;
     /* row-gap: 1.3em; */
 
     padding: 2.3em 1.6em;
+
 }
 
 
 /* -------------------------------------------------------- */
-/* Header - Project Card 
+/* Header | My Top 3  
 /* -------------------------------------------------------- */
 
 .header-project-card {
@@ -47,6 +48,64 @@
 
 }
 
+/* ------------------------------------------ */
+/* Box | Top 3 
+/* ------------------------------------------ */
+
+.info-box-my-top-3-nr {
+
+    float:right;
+
+    width: 2.5em;
+    height: 2.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .4em;
+
+    opacity: .8;
+
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: var(--c-sfd-very-light-grey); */
+    background-color: var(--c-sfd-dark-anthracite);
+
+    /* color: var(--c-sfd-dark-grey); */
+    color:var(--c-sfd-very-light-grey)
+}
+
+/* ------------------------------------------ */
+/* Header | Top 3 
+/* ------------------------------------------ */
+
+.header-title-my-top-3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: .3em;
+}
+
+.project-category  {
+
+    display: inline-flex;
+    align-items: center;
+
+    color: var(--c-sfd-dark-grey);
+
+    opacity: .6;
+
+    padding: 0em .6em;
+    border-radius: .4em;
+    background-color: var(--c-sfd-very-light-grey);
+}
+
+.header-title-my-top-3 > div:nth-of-type(2) {
+
+    font-weight: bold;
+}
 
 .mini-tech-skills-panel {
 
@@ -74,34 +133,6 @@
 
 }
 
-.info-box-my-top-3-nr {
-
-    float:right;
-
-    /* margin-top: .3em; */
-    /* margin-left: .1em; */
-    /* margin-bottom: 1em; */
-
-
-    width: 2.5em;
-    height: 2.5em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: .4em;
-
-    opacity: .8;
-
-    font-size: 18px;
-    font-weight: bold;
-    background-color: var(--c-sfd-very-light-grey);
-    background-color: var(--c-sfd-dark-anthracite);
-
-    color: var(--c-sfd-dark-grey);
-    color:var(--c-sfd-very-light-grey)
-}
 
 
 /* -------------------------------------------------------- */
@@ -128,7 +159,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     border-radius: .4em;
     /* background-color: rgba(41, 41, 41, .1); */
@@ -146,22 +177,90 @@
 
 .img-mini-panbel-project-card > div > img {
 
-    height: 3em;
+    height: 3.5em;
+    width: 3.5em;
     border-radius: .3em;
     opacity: .3;
 }
 
 /* -------------------------------------------------------- */
-/* Detail Container - Project Card 
+/* Detail Container | My Top 3  
 /* -------------------------------------------------------- */
 
-.details-container-project-card {
+.detail-container-my-top-3 {
 
     display: grid;
-    row-gap: 4em;
-    
+    row-gap: 1em;
+
+    padding: 1em 0em;
+
+    /* background-color: red; */
+
 }
 
+/* -------------------------------------------------------- */
+/* Label | Open Detail Container  
+/* -------------------------------------------------------- */
+
+.open-deatails-my-top-3 {
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
 
 
+    
+    /* opacity: .6; */
 
+    padding: .3em .8em;
+    border-radius: .6em;
+    background-color: var(--c-sfd-very-light-grey);
+    font-weight: bold;
+    font-size: 14.5px;
+
+}
+
+.open-deatails-my-top-3 > img {
+
+    padding-top: .1em;
+    height: .9em;
+}
+
+/* -------------------------------------------------------- */
+/* Detail Content Container | My Top 3   
+/* -------------------------------------------------------- */
+
+.detail-content-container-my-top-3 {
+
+    display: grid;
+    row-gap: 2.5em;
+
+    padding: .8em;
+    background-color: var(--c-sfd-very-light-grey);
+    border-radius: .2em;
+}
+
+/* -------------------------------------------------------- */
+/* Pro | Detail Container   
+/* -------------------------------------------------------- */
+
+.detail-pro-content-container-my-top-3 {
+
+    display: grid;
+    row-gap: 1.3em;
+
+}
+
+.detail-pro-content-container-my-top-3 > div {
+
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+    column-gap: .8em;
+
+}
+
+.detail-pro-content-container-my-top-3 img {
+
+    height: .8em;
+}

@@ -30,6 +30,9 @@
 
 /* align-self */
 
+/* justify-self */
+.js-fe { justify-self: flex-end; }
+
 /* justify-content */
 .jc-c { justify-content: center; }
 .jc-r { justify-content: right; }
