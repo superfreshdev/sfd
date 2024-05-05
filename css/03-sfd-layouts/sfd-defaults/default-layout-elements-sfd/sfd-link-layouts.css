@@ -85,7 +85,8 @@
 
 .sub-title-big-link-button {
 
-    /* font-style: italic; */
+    font-style: italic;
+    font-size: 14.5px;
     opacity: .6;
 
 }
