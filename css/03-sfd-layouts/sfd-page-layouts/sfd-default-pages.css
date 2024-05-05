@@ -52,14 +52,14 @@
 .main-sub-title-header-content-page-sfd {
 
     display: grid;
-    row-gap: .3em;
+    row-gap: .4em;
 
 }
 
 .main-sub-title-header-content-page-sfd > div:nth-of-type(2) {
 
     font-size: 14.5px;
-    line-height: 1.3em;
+    line-height: 1.4em;
     color: var(--c-sfd-light-grey);
 }
 
