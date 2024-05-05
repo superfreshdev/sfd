@@ -8,7 +8,7 @@
 */
 
 /* ---------------------------------------------------------------------------------------------- */
-/* My top 3 Projects 
+/* Container | My Top 3 Projects 
 /* ---------------------------------------------------------------------------------------------- */
 
 #my-top-3-projects-sfd {
@@ -16,40 +16,48 @@
     background-color: var(--c-cf-white);
 
     /* mobile  */
-
     display: grid;
     row-gap: 3.3em;
 
-    
+    /* desktop */
 
 }
 
 /* -------------------------------------------------------- */
-/* My Top 3 Project Card Container 
+/* Project Card Container | My Top 3 Project
 /* -------------------------------------------------------- */
 
-.my-top-3-project-card-container {
+.project-card-container-my-top-3 {
 
     display: grid;
-    /* row-gap: 1.3em; */
+    row-gap: 2em;
 
-    padding: 2.3em 1.6em;
+    padding: 0em 1.6em;
 
 }
 
+/* -------------------------------------------------------- */
+/* Project Card | Project X ( 1, 2 , 3, ... )
+/* -------------------------------------------------------- */
+
+.project-card-my-top-3 {
+
+    display: grid;
+    row-gap: 1em;
+    
+}
 
 /* -------------------------------------------------------- */
-/* Header | My Top 3  
+/* Header | Project Card
 /* -------------------------------------------------------- */
 
 .header-project-card {
 
    
-
 }
 
 /* ------------------------------------------ */
-/* Box | Top 3 
+/* Box Project Nr | Top 3 
 /* ------------------------------------------ */
 
 .info-box-my-top-3-nr {
@@ -65,19 +73,18 @@
 
     border-radius: .4em;
 
-    opacity: .8;
+    opacity: .6;
 
-    font-size: 18px;
-    font-weight: bold;
-    /* background-color: var(--c-sfd-very-light-grey); */
-    background-color: var(--c-sfd-dark-anthracite);
+    font-size: 16px;
+    /* font-weight: bold; */
 
-    /* color: var(--c-sfd-dark-grey); */
-    color:var(--c-sfd-very-light-grey)
+    background-color: var(--c-sfd-very-light-grey);
+    color: var(--c-sfd-dark-grey);
+ 
 }
 
 /* ------------------------------------------ */
-/* Header | Top 3 
+/* Header Title | Top 3 
 /* ------------------------------------------ */
 
 .header-title-my-top-3 {
@@ -85,7 +92,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    row-gap: .3em;
+    row-gap: 1em;
+
+    line-height: 1.3em;
 }
 
 .project-category  {
@@ -93,23 +102,24 @@
     display: inline-flex;
     align-items: center;
 
-    color: var(--c-sfd-dark-grey);
+    font-size: 12.5px;
 
     opacity: .6;
 
-    padding: 0em .6em;
+    padding: .1em .6em;
     border-radius: .4em;
+    color: var(--c-sfd-dark-grey);
     background-color: var(--c-sfd-very-light-grey);
 }
 
 .header-title-my-top-3 > div:nth-of-type(2) {
 
     font-weight: bold;
+    color:rgb(49, 49, 49);
 }
 
-.mini-tech-skills-panel {
 
-    padding: .8em 0em;
+.mini-tech-skills-panel {
 
     display: flex;
     flex-wrap: wrap;
@@ -123,49 +133,57 @@
 
     font-size: 12.5px;
 
-    color: var(--c-sfd-dark-grey);
-
     opacity: .6;
 
     padding: 0em .6em;
     border-radius: .4em;
     background-color: var(--c-sfd-very-light-grey);
+    color: var(--c-sfd-dark-grey);
 
 }
 
 
-
 /* -------------------------------------------------------- */
-/* Img Container - Project Card 
+/* Img Project Container | My Top 3 Projects 
 /* -------------------------------------------------------- */
 
-.img-container-project-card > img {
 
+.img-project-container-card {
+
+    display: grid;
+    row-gap: 1em;
+
+}
+
+.img-project-container-card > img {
 
     width: 100%;
     /* height: 16em; */
-
     border-radius: .4em;
     
 }
 
+/* -------------------------------------------- */
+/* Img Mini Panel | Project Card 
+/* -------------------------------------------- */
 
-.img-mini-panbel-project-card {
 
+.img-mini-panel-project-card {
 
-    height: 5em;
+    height: 5.3em;
     /* padding: 0em 1em; */
    
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     border-radius: .4em;
-    /* background-color: rgba(41, 41, 41, .1); */
+    background-color: rgba(41, 41, 41, .1);
+
 }
 
-.img-mini-panbel-project-card > div {
+.img-mini-panel-project-card > div {
 
     display: flex;
     align-items: center;
@@ -173,9 +191,10 @@
 
     /* height: 4em;
     width: 4em; */
+
 }
 
-.img-mini-panbel-project-card > div > img {
+.img-mini-panel-project-card > div > img {
 
     height: 3.5em;
     width: 3.5em;
@@ -183,23 +202,24 @@
     opacity: .3;
 }
 
+
 /* -------------------------------------------------------- */
-/* Detail Container | My Top 3  
+/* Detail Container | Project Card 
 /* -------------------------------------------------------- */
 
-.detail-container-my-top-3 {
+.detail-project-card-container {
 
     display: grid;
     row-gap: 1em;
 
-    padding: 1em 0em;
+    padding: 0em 0em;
 
     /* background-color: red; */
-
 }
 
+
 /* -------------------------------------------------------- */
-/* Label | Open Detail Container  
+/* Label - Open Detail Content Container  
 /* -------------------------------------------------------- */
 
 .open-deatails-my-top-3 {
@@ -208,15 +228,17 @@
     align-items: center;
     column-gap: .6em;
 
-
-    
     /* opacity: .6; */
+    font-size: 14.5px;
 
     padding: .3em .8em;
+
     border-radius: .6em;
+   
+    color:rgb(72, 72, 72);
     background-color: var(--c-sfd-very-light-grey);
+
     font-weight: bold;
-    font-size: 14.5px;
 
 }
 
@@ -227,31 +249,57 @@
 }
 
 /* -------------------------------------------------------- */
-/* Detail Content Container | My Top 3   
+/* Detail Content Container | Project Card  
 /* -------------------------------------------------------- */
 
-.detail-content-container-my-top-3 {
+.detail-content-container-project-card {
 
     display: grid;
     row-gap: 2.5em;
+    padding: 1em 0em;
 
-    padding: .8em;
-    background-color: var(--c-sfd-very-light-grey);
-    border-radius: .2em;
 }
 
 /* -------------------------------------------------------- */
-/* Pro | Detail Container   
+/* Description | Project Card   
 /* -------------------------------------------------------- */
 
-.detail-pro-content-container-my-top-3 {
+.description-detail-content-container {
+
+    /* background-color: var(--c-sfd-very-light-grey); */
+    color:rgb(72, 72, 72);
+    font-style: italic;
+    line-height: 1.4em;
+
+}
+
+.seperator-container {
+
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    padding: .3em .6em;
+
+    border-radius: .3em;
+    font-weight: bold;
+    background-color: var(--c-sfd-very-light-grey);
+
+}
+
+/* -------------------------------------------------------- */
+/* Pro Container | Project Card   
+/* -------------------------------------------------------- */
+
+.pro-container-detail-content-container {
 
     display: grid;
     row-gap: 1.3em;
 
 }
 
-.detail-pro-content-container-my-top-3 > div {
+.pro-container-detail-content-container > div {
 
     display: flex;
     /* align-items: flex-start; */
@@ -260,7 +308,16 @@
 
 }
 
-.detail-pro-content-container-my-top-3 img {
+.pro-container-detail-content-container img {
 
     height: .8em;
+}
+
+/* -------------------------------------------------------- */
+/* GitHub | Project Card   
+/* -------------------------------------------------------- */
+
+.github-detail-content-container {
+
+
 }
