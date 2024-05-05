@@ -429,3 +429,124 @@ function setFirstPage( strRadioHeaders , strImgSrcCouplesOfHeaderLabel ) {
 
 
 
+  <!-- ---------------------------------------------------- -->
+                                <!-- TypeScript Doc  -->
+                                <!-- ---------------------------------------------------- -->
+                                <div class="doc-card-item">
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Header -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-header">
+                                        TypeScript - Grundlagen Wissen & Aufgaben / Lösungen zu 
+                                        kleinen Logik Programmieraufgaben
+                                    </div>
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Item -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-item-content">
+        
+                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-typescript-grundlagen.PNG" alt="img">
+        
+                                        <div class="docs-card-item-link-container">
+                                            <a href="pdf" target="_blank">Lese PDF</a>
+                                            <a href="odt"> Download .odt </a>
+                                        </div>
+        
+                                    </div>
+        
+        
+                                </div>
+        
+                                <!-- ---------------------------------------------------- -->
+                                <!-- Java Script Doc  -->
+                                <!-- ---------------------------------------------------- -->
+                                <div class="doc-card-item">
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Header -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-header">
+                                        Java Script - Grundlagen Wissen & Aufgaben / Lösungen zu 
+                                        kleinen Logik Programmieraufgaben
+                                    </div>
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Item -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-item-content">
+        
+                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-javascript-grundlagen.PNG" alt="img">
+        
+                                        <div class="docs-card-item-link-container">
+                                            <a href="pdf" target="_blank">Lese PDF</a>
+                                            <a href="odt"> Download .odt </a>
+                                        </div>
+        
+                                    </div>
+        
+        
+                                </div>
+        
+        
+                                <!-- ---------------------------------------------------- -->
+                                <!-- NodeJS & NestJS Doc  -->
+                                <!-- ---------------------------------------------------- -->
+                                <div class="doc-card-item">
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Header -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-header">
+                                        NodeJS & NestJS - Grundlagen Wissen & Aufgaben / Lösungen zu 
+                                        kleinen Anwendungsaufgaben
+                                    </div>
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Item -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-item-content">
+        
+                                        <img src="media/img/02_main/02_docs/img-pdfs/NodeJSNestJS.PNG" alt="img">
+        
+                                        <div class="docs-card-item-link-container">
+                                            <a href="pdf" target="_blank">Lese PDF</a>
+                                            <a href="odt"> Download .odt </a>
+                                        </div>
+        
+                                    </div>
+        
+        
+                                </div>
+        
+                                <!-- ---------------------------------------------------- -->
+                                <!-- StoryBook Doc  -->
+                                <!-- ---------------------------------------------------- -->
+                                <div class="doc-card-item">
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Header -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-header">
+                                        Storybook - Die ersten Schritte um 
+                                        wiederverwendbare Komponenten zu dokumentieren
+                                    </div>
+        
+                                    <!-- ---------------------------------------------------- -->
+                                    <!-- Card Item -->
+                                    <!-- ---------------------------------------------------- -->
+                                    <div class="docs-card-item-content">
+        
+                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-storybook-grundlagen.PNG" alt="img">
+        
+                                        <div class="docs-card-item-link-container">
+                                            <a href="pdf" target="_blank">Lese PDF</a>
+                                            <a href="odt"> Download .odt </a>
+                                        </div>
+        
+                                    </div>
+        
+        
+                                </div>
+        

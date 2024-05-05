@@ -64,18 +64,19 @@
 /* ---------------------------------------------- */
 .docs-card-layout {
 
-
-    padding: 2.3em 0em;
-   
     display: grid;
-    row-gap: 2.5em;
+    row-gap: 5.5em;
+
+    padding: 3em 0em;
+
+    /* background-color: aqua; */
   
 }
 
 .doc-card-item {
 
     display: grid;
-    row-gap: 1.3em;
+    row-gap: 1em;
 
 }
 
@@ -87,26 +88,74 @@
 }
 
 
-.docs-card-item-content {
+
+
+/* ----------------------------------------------- */
+/* Doc Choose Container 
+/* ----------------------------------------------- */
+
+.doc-choose-container {
+
+    display: grid;
+    row-gap: 1em;
+
+}
+
+
+/* ----------------------------------------------- */
+/* Filter Selection Option 
+/* ----------------------------------------------- */
+
+.filter-selection {
+
+    height: 3.5em;
+
+    border: 0px;
+    border-radius: .4em;
+    font-weight: bold;
+
+    background-color: var(--c-sfd-very-light-grey);
+    
+}
+
+
+.filter-selection > option {
+
+    font-weight: bold;   
+}
+
+
+/* ----------------------------------------------- */
+/* Doc View 
+/* ----------------------------------------------- */
+
+
+.doc-view-container {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
-    /* justify-content: flex-start; */
+
 }
 
-.docs-card-item-content img {
+.doc-view-container img {
 
     border-radius: .4em;
-    width: calc( 7em + 2vw )
+    height: 10.5em;
 
 }
 
 .docs-card-item-link-container {
 
+    /* background-color: red; */
+
+    height: 100%;
+    width: 100%;
+
     display: grid;
     row-gap: .8em;
+
+    justify-items: flex-end;
     align-content: center;
 }
 
@@ -114,12 +163,15 @@
 
     border-radius: .4em;
     background-color: var(--c-sfd-dark-anthracite);
+    background-color: var(--c-sfd-dark-grey);
     color: var(--c-cf-white);
+    color: var(--c-sfd-light-grey);
+    color: var(--c-sfd-dark-white);
 
     text-decoration: none;
     font-weight: bold;
 
-    height: 3em;
+    height: 2.8em;
     width: 8em;
 
     display: flex;

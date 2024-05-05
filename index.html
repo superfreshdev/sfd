@@ -147,9 +147,9 @@
         <!-- Radio Buttons | Header Page Navigation ( sfd elements )        -->
         <!-- -------------------------------------------------------------- -->
 
-        <input type="radio" id="radio-page-about" name="name-radio-header-page" checked>
+        <input type="radio" id="radio-page-about" name="name-radio-header-page" >
         <input type="radio" id="radio-page-news" name="name-radio-header-page" >
-        <input type="radio" id="radio-page-docs" name="name-radio-header-page"  >
+        <input type="radio" id="radio-page-docs" name="name-radio-header-page"  checked>
         <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
         <!-- -------------------------------------------------------------- -->
@@ -1627,18 +1627,19 @@
                         <!-- -------------------------------------------------------- -->
                         <div class="page-header-sfd">
 
-                            <!-- <img src="media/img/00_general/me-cartoon/dokus-me-hedwig.png" id="img-cartoon-me-books" alt="img"> -->
-                            <img src="media/img/01_header/docs-grey.png" id="img-cartoon-me-books" alt="img">
-
-                            <div class="row-content-sfd page-title-header-sfd">
-
-                                <div>Docs</div>
-                                <div style="padding-top: .3em;">
-                                    <div>» Content only in German</div>
-                                    <div>» My Tech PDFs </div>
-                                    <div>» My Tech Guides</div>
-                                </div>
                             
+                            <div class="title-page-header-sfd">
+
+                                <div>
+
+                                    <div>Docs</div>
+                                    <div>» Content only in German</div>
+
+                                </div>
+
+                                <img src="media/img/01_header/docs-grey.png" alt="img">
+                                
+   
                             </div>
 
                          
@@ -1652,48 +1653,46 @@
                         <div class="content-page-sfd" style="clear: both;">
 
 
-                            <div class="nav-filter-container-sfd page-filter-header-sfd" style="margin-bottom: 1em;">
+                            <div class="filter-content-page-header">
 
                                 <!-- ------------------------------------------ -->
-                                <!-- Info Filter Box                            -->
+                                <!-- Info Choosed Filter Container              -->
                                 <!-- ------------------------------------------ -->
-                                <div class="info-filter-box" id="info-filter-grey-box">
-                                    <img src="media/img/02_main/02_docs/icon-docs/computer.png" alt="img" id="js-img-src-info-filter-box-sfd">
-                                </div>
-            
-                                <!-- ------------------------------------------ -->
-                                <!-- Seperator                                  -->
-                                <!-- ------------------------------------------ -->
-                                <div class="seperator-white-sfd">‹›</div>
-            
-                                <!-- ------------------------------------------ -->
-                                <!-- Mobile Hamburger Label                     -->
-                                <!-- ------------------------------------------ -->
-                                <label for="chk" id="css-handling-lbl-sfd" class="lbl-nav-filter-box" name="name-" style="border: 3px solid #212121;">
-            
-                                    <img src="media/img/02_main/02_docs/icon-docs/filter-black.png" class="padd-t-0-3em padd-l-0-2em" alt="img">
-                                    
-                                </label>
-            
-                            </div>
+                                <div class="page-content-header-sfd">
 
-                            <!-- ------------------------------------------------------- -->
-                            <!-- Content Header  -->
-                            <!-- ------------------------------------------------------- -->
-                            <div class="page-content-header-sfd">
+                                    <div class="page-content-title-header-sfd">
 
-                                <div class="page-content-title-header-sfd">
+                                        <div>Frontend</div>
+                                        <div>» My Tech PDFs</div>
+                                        
+                                    </div>
 
-                                    <div>» My Tech PDFs</div>
-                                    <div>Frontend</div>
+                                    <div>
+                                        <img src="media/img/02_main/02_docs/icon-docs/computer.png" alt="img">
+                                    </div>
 
                                 </div>
-
+            
+                                <!-- ------------------------------------------ -->
+                                <!-- Filter Page Content                         -->
+                                <!-- ------------------------------------------ -->
                                 <div>
-                                    <img src="media/img/02_main/02_docs/icon-docs/computer.png" alt="img">
-                                </div>
 
+                                    <div class="seperator-black-sfd">‹›</div>
+
+                                    <label for="chk" id="css-handling-lbl-sfd" class="lbl-nav-filter-box" name="name-" style="border: 3px solid #212121;">
+            
+                                        <img src="media/img/02_main/02_docs/icon-docs/filter-black.png" class="padd-t-0-3em padd-l-0-2em" alt="img">
+                                        
+                                    </label>
+
+                                </div>
+            
+                            
+            
                             </div>
+
+                           
         
                             
                             <!-- ------------------------------------------------------- -->
@@ -1714,24 +1713,54 @@
                                         Angular 17 - Alte Grundlagen <br>& Neue 
                                         Features 2024
                                     </div>
-        
+
                                     <!-- ---------------------------------------------------- -->
-                                    <!-- Card Item -->
+                                    <!-- Card Choose Container -->
                                     <!-- ---------------------------------------------------- -->
-                                    <div class="docs-card-item-content">
+                                    <div class="doc-choose-container">
+
+
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Filter Selection -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <select id="cars" class="filter-selection" name="cars">
+                                            
+                                            <option value="volvo">01 | Das Ökosystem</option>
+                                            <option value="saab">02 | CLI & Projektsetup</option>
+                                            <option value="fiat">03 | Module , Komponenten , Bindungen</option>
+                                            <option value="audi">04 | Dependency Injection, Direktiven, Pipes </option>
+                                            <option value="audi">05 | Erweiterte Komponenten </option>
+                                            <option value="audi">06 | Routing </option>
+                                            <option value="audi">07 | SPA mit ASP.Net </option>
+                                            <option value="audi">08 | CRUD Anwendungen mit HTTP-Client </option>
+                                            <option value="audi">09 | Grundlagen der Webentwicklung </option>
+                                                
+                                        </select>
         
-                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-angular-grundlagen.PNG" alt="img">
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Doc View -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <div class="doc-view-container">
+
+                                            <img src="media/img/02_main/02_docs/img-pdfs/doc-angular-grundlagen.PNG" alt="img">
         
-                                        <div class="docs-card-item-link-container">
-                                            <a href="pdf" target="_blank">Lese PDF</a>
-                                            <a href="odt"> Download .odt </a>
+                                            <div class="docs-card-item-link-container">
+    
+    
+                                                <a href="pdf" target="_blank">Lese PDF</a>
+                                                <a href="odt"> Download .odt </a>
+    
+    
+                                            </div>
+                                        
                                         </div>
+                                       
         
                                     </div>
         
         
                                 </div>
-        
+
                                 <!-- ---------------------------------------------------- -->
                                 <!-- TypeScript Doc  -->
                                 <!-- ---------------------------------------------------- -->
@@ -1741,27 +1770,57 @@
                                     <!-- Card Header -->
                                     <!-- ---------------------------------------------------- -->
                                     <div class="docs-card-header">
-                                        TypeScript - Grundlagen Wissen & Aufgaben / Lösungen zu 
+                                        TypeScript - Grundlagen Wissen & <br> Aufgaben / Lösungen zu 
                                         kleinen Logik Programmieraufgaben
                                     </div>
-        
+
                                     <!-- ---------------------------------------------------- -->
-                                    <!-- Card Item -->
+                                    <!-- Card Choose Container -->
                                     <!-- ---------------------------------------------------- -->
-                                    <div class="docs-card-item-content">
+                                    <div class="doc-choose-container">
+
+
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Filter Selection -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <select id="cars" class="filter-selection" name="cars">
+                                            
+                                            <option value="volvo">01 | Das Ökosystem</option>
+                                            <option value="saab">02 | CLI & Projektsetup</option>
+                                            <option value="fiat">03 | Module , Komponenten , Bindungen</option>
+                                            <option value="audi">04 | Dependency Injection, Direktiven, Pipes </option>
+                                            <option value="audi">05 | Erweiterte Komponenten </option>
+                                            <option value="audi">06 | Routing </option>
+                                            <option value="audi">07 | SPA mit ASP.Net </option>
+                                            <option value="audi">08 | CRUD Anwendungen mit HTTP-Client </option>
+                                            <option value="audi">09 | Grundlagen der Webentwicklung </option>
+                                                
+                                        </select>
         
-                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-typescript-grundlagen.PNG" alt="img">
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Doc View -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <div class="doc-view-container">
+
+                                            <img src="media/img/02_main/02_docs/img-pdfs/doc-typescript-grundlagen.PNG" alt="img">
         
-                                        <div class="docs-card-item-link-container">
-                                            <a href="pdf" target="_blank">Lese PDF</a>
-                                            <a href="odt"> Download .odt </a>
+                                            <div class="docs-card-item-link-container">
+    
+    
+                                                <a href="pdf" target="_blank">Lese PDF</a>
+                                                <a href="odt"> Download .odt </a>
+    
+    
+                                            </div>
+                                        
                                         </div>
+                                       
         
                                     </div>
         
         
                                 </div>
-        
+
                                 <!-- ---------------------------------------------------- -->
                                 <!-- Java Script Doc  -->
                                 <!-- ---------------------------------------------------- -->
@@ -1771,30 +1830,60 @@
                                     <!-- Card Header -->
                                     <!-- ---------------------------------------------------- -->
                                     <div class="docs-card-header">
-                                        Java Script - Grundlagen Wissen & Aufgaben / Lösungen zu 
+                                        Java Script - Grundlagen Wissen & <br>
+                                        Aufgaben / Lösungen zu 
                                         kleinen Logik Programmieraufgaben
                                     </div>
-        
+
                                     <!-- ---------------------------------------------------- -->
-                                    <!-- Card Item -->
+                                    <!-- Card Choose Container -->
                                     <!-- ---------------------------------------------------- -->
-                                    <div class="docs-card-item-content">
+                                    <div class="doc-choose-container">
+
+
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Filter Selection -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <select id="cars" class="filter-selection" name="cars">
+                                            
+                                            <option value="volvo">01 | Das Ökosystem</option>
+                                            <option value="saab">02 | CLI & Projektsetup</option>
+                                            <option value="fiat">03 | Module , Komponenten , Bindungen</option>
+                                            <option value="audi">04 | Dependency Injection, Direktiven, Pipes </option>
+                                            <option value="audi">05 | Erweiterte Komponenten </option>
+                                            <option value="audi">06 | Routing </option>
+                                            <option value="audi">07 | SPA mit ASP.Net </option>
+                                            <option value="audi">08 | CRUD Anwendungen mit HTTP-Client </option>
+                                            <option value="audi">09 | Grundlagen der Webentwicklung </option>
+                                                
+                                        </select>
         
-                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-javascript-grundlagen.PNG" alt="img">
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Doc View -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <div class="doc-view-container">
+
+                                            <img src="media/img/02_main/02_docs/img-pdfs/doc-javascript-grundlagen.PNG" alt="img">
         
-                                        <div class="docs-card-item-link-container">
-                                            <a href="pdf" target="_blank">Lese PDF</a>
-                                            <a href="odt"> Download .odt </a>
+                                            <div class="docs-card-item-link-container">
+    
+    
+                                                <a href="pdf" target="_blank">Lese PDF</a>
+                                                <a href="odt"> Download .odt </a>
+    
+    
+                                            </div>
+                                        
                                         </div>
+                                       
         
                                     </div>
         
         
                                 </div>
-        
-        
-                                <!-- ---------------------------------------------------- -->
-                                <!-- NodeJS & NestJS Doc  -->
+
+                                 <!-- ---------------------------------------------------- -->
+                                <!-- Java Script Doc  -->
                                 <!-- ---------------------------------------------------- -->
                                 <div class="doc-card-item">
         
@@ -1802,57 +1891,58 @@
                                     <!-- Card Header -->
                                     <!-- ---------------------------------------------------- -->
                                     <div class="docs-card-header">
-                                        NodeJS & NestJS - Grundlagen Wissen & Aufgaben / Lösungen zu 
+                                        NodeJS & NestJS - Grundlagen Wissen & <br> Aufgaben / Lösungen zu 
                                         kleinen Anwendungsaufgaben
                                     </div>
-        
+
                                     <!-- ---------------------------------------------------- -->
-                                    <!-- Card Item -->
+                                    <!-- Card Choose Container -->
                                     <!-- ---------------------------------------------------- -->
-                                    <div class="docs-card-item-content">
+                                    <div class="doc-choose-container">
+
+
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Filter Selection -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <select id="cars" class="filter-selection" name="cars">
+                                            
+                                            <option value="volvo">01 | Das Ökosystem</option>
+                                            <option value="saab">02 | CLI & Projektsetup</option>
+                                            <option value="fiat">03 | Module , Komponenten , Bindungen</option>
+                                            <option value="audi">04 | Dependency Injection, Direktiven, Pipes </option>
+                                            <option value="audi">05 | Erweiterte Komponenten </option>
+                                            <option value="audi">06 | Routing </option>
+                                            <option value="audi">07 | SPA mit ASP.Net </option>
+                                            <option value="audi">08 | CRUD Anwendungen mit HTTP-Client </option>
+                                            <option value="audi">09 | Grundlagen der Webentwicklung </option>
+                                                
+                                        </select>
         
-                                        <img src="media/img/02_main/02_docs/img-pdfs/NodeJSNestJS.PNG" alt="img">
+                                        <!-- ---------------------------------------------------- -->
+                                        <!-- Doc View -->
+                                        <!-- ---------------------------------------------------- -->
+                                        <div class="doc-view-container">
+
+                                            <img src="media/img/02_main/02_docs/img-pdfs/NodeJSNestJS.PNG" alt="img">
         
-                                        <div class="docs-card-item-link-container">
-                                            <a href="pdf" target="_blank">Lese PDF</a>
-                                            <a href="odt"> Download .odt </a>
+                                            <div class="docs-card-item-link-container">
+    
+    
+                                                <a href="pdf" target="_blank">Lese PDF</a>
+                                                <a href="odt"> Download .odt </a>
+    
+    
+                                            </div>
+                                        
                                         </div>
+                                       
         
                                     </div>
         
         
                                 </div>
         
-                                <!-- ---------------------------------------------------- -->
-                                <!-- StoryBook Doc  -->
-                                <!-- ---------------------------------------------------- -->
-                                <div class="doc-card-item">
-        
-                                    <!-- ---------------------------------------------------- -->
-                                    <!-- Card Header -->
-                                    <!-- ---------------------------------------------------- -->
-                                    <div class="docs-card-header">
-                                        Storybook - Die ersten Schritte um 
-                                        wiederverwendbare Komponenten zu dokumentieren
-                                    </div>
-        
-                                    <!-- ---------------------------------------------------- -->
-                                    <!-- Card Item -->
-                                    <!-- ---------------------------------------------------- -->
-                                    <div class="docs-card-item-content">
-        
-                                        <img src="media/img/02_main/02_docs/img-pdfs/doc-storybook-grundlagen.PNG" alt="img">
-        
-                                        <div class="docs-card-item-link-container">
-                                            <a href="pdf" target="_blank">Lese PDF</a>
-                                            <a href="odt"> Download .odt </a>
-                                        </div>
-        
-                                    </div>
-        
-        
-                                </div>
-        
+                              
         
         
         
