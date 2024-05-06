@@ -156,6 +156,7 @@ function changeAttributeOnDomElement( domElement ,  strAttr , strChangeValue ) {
         
         case "href":
 
+            domElement.setAttribute("href", strChangeValue );  
             break;
 
         case "alt":
@@ -282,3 +283,102 @@ function consoleLogArray( array ) {
 }
 
 
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* Choose Selection & Change Ressources
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+const select = document.getElementById("select-angular-docs");
+
+const img = document.getElementById("img-angular-doc");
+const pdfLink = document.getElementById("pdf-link-angular-doc");
+
+
+const docRessourceObject = [
+    
+    {
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/default.png",
+        pdfLinkRessource: ""
+
+    },
+
+    {
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/01-oekosystem.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/01-Das-Ökosystem.pdf"
+    },
+
+    {
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/02-cli-projektsetup.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/02-cli-projekt-setup.pdf"
+    },
+
+    {
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/03-module-komponenten-bindungen.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/03-module-komponenten-bindungen.pdf"
+    },
+
+    {
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/04-dependency-injection-direktiven-pipes.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/04-dependency-injection-direktiven-pipes.pdf"
+    }
+
+]
+
+
+
+console.log("[111] - Penis - Penis - Penis" )
+
+
+// select.style.display = "none";
+
+select.addEventListener( "change" , () => {
+
+    const index = select.selectedIndex;
+    console.log( `selectedIndex: ${index}` )
+
+    // change process 
+    changeDocRessource( index , docRessourceObject )
+
+} )
+
+
+function changeDocRessource( selectedIndex , ressourceObject ) {
+
+    // Index = 0, nehme default 
+    if( selectedIndex == 0 ) {
+
+        // default 
+
+    } else {
+
+        
+       
+        // change img src 
+        changeAttributeOnDomElement( img ,  "src" , docRessourceObject[selectedIndex].imgRessource )
+
+        // change link url 
+        changeAttributeOnDomElement( pdfLink ,  "href" ,  docRessourceObject[selectedIndex].pdfLinkRessource )
+        
+    }
+}
+
+
+
+
+console.log("[222] - Penis - Penis - Penis")
+
+
+// if (e.target.matches('option')) {
+    //     const { value } = e.target;
+    //     console.log(value);
+    //   }
+
+    // for( let i=0; i < domElementsOptions.length; i++ ) {
+
+    //     domElementsOptions[i].addEventListener( "change" , () => {
+    
+    //         alert("Penis Pumpe")
+    //         console.log("selected")
+    
+    //     })
+    // }

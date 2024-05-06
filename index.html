@@ -149,8 +149,8 @@
         <!-- -------------------------------------------------------------- -->
 
         <input type="radio" id="radio-page-about" name="name-radio-header-page" >
-        <input type="radio" id="radio-page-news" name="name-radio-header-page" checked>
-        <input type="radio" id="radio-page-docs" name="name-radio-header-page"  >
+        <input type="radio" id="radio-page-news" name="name-radio-header-page" >
+        <input type="radio" id="radio-page-docs" name="name-radio-header-page" checked >
         <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
         <!-- -------------------------------------------------------------- -->
@@ -1676,7 +1676,7 @@
                             <!-- ------------------------------------------------------- -->
                             <!-- Doc Cards Container -->
                             <!-- ------------------------------------------------------- -->
-                            <div class="docs-card-layout" style="display: none;">
+                            <div class="docs-card-layout" >
         
         
                                 <!-- ---------------------------------------------------- -->
@@ -1701,18 +1701,17 @@
                                         <!-- ---------------------------------------------------- -->
                                         <!-- Filter Selection -->
                                         <!-- ---------------------------------------------------- -->
-                                        <select id="cars" class="filter-selection" name="cars">
-                                            
-                                            <option value="volvo">01 | Das Ökosystem</option>
-                                            <option value="saab">02 | CLI & Projektsetup</option>
-                                            <option value="fiat">03 | Module , Komponenten , Bindungen</option>
-                                            <option value="audi">04 | Dependency Injection, Direktiven, Pipes </option>
-                                            <option value="audi">05 | Erweiterte Komponenten </option>
-                                            <option value="audi">06 | Routing </option>
-                                            <option value="audi">07 | SPA mit ASP.Net </option>
-                                            <option value="audi">08 | CRUD Anwendungen mit HTTP-Client </option>
-                                            <option value="audi">09 | Grundlagen der Webentwicklung </option>
-                                                
+                                        <select id="select-angular-docs" class="filter-selection" name="select-angular-docs">
+                                            <option selected>Bitte auswählen ...</option>
+                                            <option >01 | Das Ökosystem</option>
+                                            <option >02 | CLI & Projektsetup</option>
+                                            <option >03 | Module , Komponenten , Bindungen</option>
+                                            <option >04 | Dependency Injection, Direktiven, Pipes </option>
+                                            <option >05 | Erweiterte Komponenten </option>
+                                            <option >06 | Routing </option>
+                                            <option >07 | SPA mit ASP.Net </option>
+                                            <option >08 | CRUD Anwendungen mit HTTP-Client </option>
+                                            <option >09 | Grundlagen der Webentwicklung </option>
                                         </select>
         
                                         <!-- ---------------------------------------------------- -->
@@ -1720,12 +1719,18 @@
                                         <!-- ---------------------------------------------------- -->
                                         <div class="doc-view-container">
 
-                                            <img src="media/img/02_main/02_docs/img-pdfs/angular/01-oekosystem.png" alt="img">
-        
+                                            <img src="media/img/02_main/02_docs/img-pdfs/angular/angular-default.png" id="img-angular-doc" alt="img">
+
+                                            <!-- <img src="media/img/02_main/02_docs/img-pdfs/angular/01-Das-Ökosystem.pdf" alt="img">
+                                            <img src="media/img/02_main/02_docs/img-pdfs/angular/02-cli-projekt-setup.pdf" alt="img">
+                                            <img src="media/img/02_main/02_docs/img-pdfs/angular/03-module-komponenten-bindungen.pdf" alt="img">
+                                            <img src="media/img/02_main/02_docs/img-pdfs/angular/04-dependency-injection-direktiven-pipes.pdf" alt="img">
+                                            <img src="media/img/02_main/02_docs/img-pdfs/angular/05-erweiterte-komponenten.pdf" alt="img">
+         -->
                                             <div class="docs-card-item-link-container">
     
     
-                                                <a href="pdf" target="_blank">Lese PDF</a>
+                                                <a href="pdf" id="pdf-link-angular-doc" target="_blank">Lese PDF</a>
                                                 <a href="odt"> Download .odt </a>
     
     
@@ -1882,18 +1887,18 @@
                                         <!-- ---------------------------------------------------- -->
                                         <!-- Filter Selection -->
                                         <!-- ---------------------------------------------------- -->
-                                        <select id="cars" class="filter-selection" name="cars">
+                                        <select id="select-nodejs-nestjs-docs" class="filter-selection" name="select-angular-docs">
                                             
-                                            <option value="volvo">Bitte auswählen ...</option>
-                                            <option value="volvo">01 | Das Ökosystem</option>
-                                            <option value="saab">02 | CLI & Projektsetup</option>
-                                            <option value="fiat">03 | Module , Komponenten , Bindungen</option>
-                                            <option value="audi">04 | Dependency Injection, Direktiven, Pipes </option>
-                                            <option value="audi">05 | Erweiterte Komponenten </option>
-                                            <option value="audi">06 | Routing </option>
-                                            <option value="audi">07 | SPA mit ASP.Net </option>
-                                            <option value="audi">08 | CRUD Anwendungen mit HTTP-Client </option>
-                                            <option value="audi">09 | Grundlagen der Webentwicklung </option>
+                                            <option selected>Bitte auswählen ...</option>
+                                            <option >01 | Das Ökosystem</option>
+                                            <option >02 | CLI & Projektsetup</option>
+                                            <option >03 | Module , Komponenten , Bindungen</option>
+                                            <option >04 | Dependency Injection, Direktiven, Pipes </option>
+                                            <option >05 | Erweiterte Komponenten </option>
+                                            <option >06 | Routing </option>
+                                            <option >07 | SPA mit ASP.Net </option>
+                                            <option >08 | CRUD Anwendungen mit HTTP-Client </option>
+                                            <option >09 | Grundlagen der Webentwicklung </option>
                                                 
                                         </select>
         
@@ -1907,7 +1912,7 @@
                                             <div class="docs-card-item-link-container">
     
     
-                                                <a href="pdf" target="_blank">Lese PDF</a>
+                                                <a href="pdf" id="pdf-link-nestjs" target="_blank">Lese PDF</a>
                                                 <a href="odt"> Download .odt </a>
     
     

@@ -98,7 +98,7 @@
 
     height: 3.5em;
 
-    border: 0px;
+    border: 1px solid var(--c-sfd-very-light-grey);
     border-radius: .4em;
     font-weight: bold;
 
@@ -106,10 +106,10 @@
     
 }
 
-
 .filter-selection > option {
 
     font-weight: bold;   
+    
 }
 
 
