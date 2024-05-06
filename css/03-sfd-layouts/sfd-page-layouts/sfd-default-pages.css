@@ -9,7 +9,7 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Row Container ( Page )
+/* Row Container | sfd 
 /* ------------------------------------------------------------------- */
 
 .row-container-sfd {
@@ -29,39 +29,234 @@
 }
 
 /* ------------------------------------------------------------------- */
-/* Header Page ( sfd )
+/* Header Page Container | sfd 
 /* ------------------------------------------------------------------- */
 
-.header-content-page-sfd {
-
-    padding: 1em 1.6em;
+.header-page-container-sfd {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    padding: 1em 1.6em;
+
     background-color: var(--c-sfd-dark-anthracite);
+    
+}
+
+.header-page-container-sfd > img {
+
+    height: 3em;
+}
+
+.title-area-header-page-container-sfd {
+
+}
+
+.title-area-header-page-container-sfd > div:nth-of-type(1) {
+
     color:rgb(227, 227, 227);
-    /* color:var(--c-sfd-dark-white); */
 
     font-size: 18px;
     font-weight: bold;
-
 }
 
-.main-sub-title-header-content-page-sfd {
-
-    display: grid;
-    row-gap: .4em;
-
-}
-
-.main-sub-title-header-content-page-sfd > div:nth-of-type(2) {
-
+.title-area-header-page-container-sfd > div:nth-of-type(2) {
+   
     font-size: 14.5px;
     line-height: 1.4em;
     color: var(--c-sfd-light-grey);
 }
+
+/* ------------------------------------------------------------------- */
+/* Header Content Page Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.header-content-page-container-sfd {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Content Page Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.content-page-container-sfd {
+
+    display: grid;
+
+    padding: 1.6em;
+    background-color: var(--c-cf-white);
+
+}
+
+/* ------------------------------------------------------------------- */
+/* Filter Content Page Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.filter-content-page-container-sfd {
+
+    position: relative;
+    top:0;
+
+    height: 3.5em;
+
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+
+    /* background-color: red; */
+
+}
+
+/* ----------------------------------------------- */
+/* Info Container | filtered page content
+/* ----------------------------------------------- */
+
+/* think about info-view  */
+
+.info-filtered-page-content-container {
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title-area-info-filtered {
+
+    height: 100%;
+    width: 100%;
+    
+    display: grid;
+    align-items: center;
+
+    padding: 0em 1em;
+
+    line-height: 1.3em;
+
+    border-radius: .4em 0em 0em .4em;
+    background-color: var(--c-sfd-dark-anthracite);
+
+}
+
+.title-area-info-filtered > div:nth-of-type(1) > div:nth-of-type(1) {
+
+    font-weight: bold;
+    color: var(--c-cf-white);
+}
+
+.title-area-info-filtered > div:nth-of-type(1) > div:nth-of-type(2) {
+
+    font-size: 14.5px;
+    color: var(--c-sfd-light-grey);
+}
+
+.img-container-info-filtered {
+
+    height: 100%;
+    width: 4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0em .4em .4em 0em;
+    background-color: var(--c-sfd-dark-grey);
+
+}
+
+.img-container-info-filtered > img {
+
+    height: 1.3em;
+}
+
+/* ----------------------------------------------- */
+/* Label | nav filter page content 
+/* ----------------------------------------------- */
+
+.lbl-nav-filter-page-content {
+
+    height: 3.2em;
+    width: 4.2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: .4em;
+    border: .2em solid #212121;
+
+}
+
+.lbl-nav-filter-page-content > img {
+
+    height: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* in docs auslagern  */
+
+/* ------------------------------------------------------------------- */
+/* Dpc Cards Container | sfd 
+/* ------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,7 +356,7 @@
 
 .filter-content-page-header {
 
-    height: 3.3em;
+    height: 4em;
 
     display: flex;
     column-gap: .3em;
@@ -170,14 +365,7 @@
 
 }
 
-.filter-content-page-header > div:nth-of-type(2) {
 
-    display: flex;
-    align-items: center;
-    column-gap: .3em;
-    
-    
-}
 
 
 .page-content-header-sfd {

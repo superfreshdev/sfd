@@ -45,19 +45,7 @@
 
 
 
-/* ---------------------------------------------- */
-/* Content Page Container
-/* ---------------------------------------------- */
 
-.content-page-sfd {
-
-    padding: 1.6em;
-    background-color: var(--c-cf-white);
-
-    display: grid;
-    /* row-gap: 1em; */
-
-}
 
 /* ---------------------------------------------- */
 /* Docs Card Layout
