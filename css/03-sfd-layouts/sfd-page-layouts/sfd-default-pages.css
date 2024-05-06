@@ -29,7 +29,7 @@
 }
 
 /* ------------------------------------------------------------------- */
-/* Header Page Container | sfd 
+/* Header | Page Container | sfd 
 /* ------------------------------------------------------------------- */
 
 .header-page-container-sfd {
@@ -69,7 +69,7 @@
 }
 
 /* ------------------------------------------------------------------- */
-/* Header Content Page Container | sfd 
+/* Header | Content Page Container | sfd 
 /* ------------------------------------------------------------------- */
 
 .header-content-page-container-sfd {
@@ -181,6 +181,7 @@
     border-radius: 0em .4em .4em 0em;
     background-color: var(--c-sfd-dark-grey);
     background-color: var(--c-sfd-light-grey);
+    /* background-color: var(--c-sfd-very-light-grey); */
 
 }
 
@@ -196,7 +197,7 @@
 .lbl-nav-filter-page-content {
 
     height: 3em;
-    width: 4.2em;
+    width: 3.8em;
 
     display: flex;
     align-items: center;
@@ -206,6 +207,8 @@
 
     border-radius: .4em;
     border: .2em solid #212121;
+
+    opacity: .6;
 
 }
 
@@ -244,12 +247,58 @@
 
 
 
+/* ------------------------------------------------------------------- */
+/* Tab Switching Content Container | sfd 
+/* ------------------------------------------------------------------- */
+
+/* #resp-news-tab-switching-content-container  */
+
+.tab-switching-content-container {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: .6em;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+
+    /* background-color: red; */
+
+    padding-bottom: 1.6em;
+    border-bottom: 3px solid var(--c-sfd-dark-white);
+}
 
 
 
+.lbl-tab-switching-item {
 
+    height: 2.5em;
 
+    display: flex;
+    column-gap: .3em;
+    align-items: center;
 
+    padding: 0em .6em;
+
+    font-weight: bold;
+    border-radius: .4em;
+    background-color: var(--c-sfd-very-light-grey);
+    color: var(--c-sfd-dark-anthracite);
+
+}
+
+.setted-tab {
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color: var(--c-sfd-very-light-grey);
+}
+
+.lbl-tab-switching-item > img {
+
+    height: 1em;
+    display: none;
+}
 
 
 

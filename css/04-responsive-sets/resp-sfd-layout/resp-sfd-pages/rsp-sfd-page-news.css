@@ -1,0 +1,23 @@
+/*
+    resp-sfd-page-news.css
+  
+    Respsonve Sets for news pages
+    
+*/
+
+
+/* --------------------------------------------------------------------- */
+/* >= 746px 
+/* --------------------------------------------------------------------- */
+@media ( min-width: 340px ) {
+
+
+    /* --------------------------------------------- */
+    /* News Tab Switching Content Container 
+    /* --------------------------------------------- */
+    #resp-news-tab-switching-content-container img {
+        display: block;
+    }
+
+}
+
