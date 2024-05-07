@@ -85,9 +85,15 @@
 
 .docs-card-header {
 
-    font-weight: bold;
+   
     line-height: 1.3em;
     color:var(--c-sfd-dark-grey);
+}
+
+.docs-card-header > span {
+
+    font-weight: bold;
+
 }
 
 

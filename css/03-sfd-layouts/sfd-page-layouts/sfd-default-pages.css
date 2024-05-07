@@ -42,8 +42,7 @@
     align-items: center;
     justify-content: space-between;
 
-    /* padding: 1em 1.3em 1.6em 1.3em; */
-    padding: 1em 1.3em 1.6em 1.3em;
+    padding: 1em 1.6em 1.6em 1.6em;
 
     background-color: var(--c-sfd-dark-anthracite);
 
@@ -113,37 +112,6 @@
 
 
 
-
-/* ------------------------------------------------------------------- */
-/* Header Content Page | Container | sfd 
-/* ------------------------------------------------------------------- */
-
-.header-content-page-container-sfd {
-
-
-}
-
-
-
-
-
-/* ------------------------------------------------------------------- */
-/* Content Page Container | sfd 
-/* ------------------------------------------------------------------- */
-
-.content-page-container-sfd {
-
-    display: grid;
-
-    padding: 1.6em 1.3em;
-    background-color: var(--c-cf-white);
-
-}
-
-
-
-
-
 /* ------------------------------------------------------------------- */
 /* Filter Content Page Container | sfd 
 /* ------------------------------------------------------------------- */
@@ -153,7 +121,7 @@
     position: relative;
     top:0;
 
-    height: 3.3em;
+    height: 3.5em;
 
     display: flex;
     align-items: center;
@@ -215,7 +183,7 @@
 .img-container-info-filtered {
 
     height: 100%;
-    width: 4em;
+    width: 5em;
 
     display: flex;
     align-items: center;
@@ -224,13 +192,14 @@
     border-radius: 0em .4em .4em 0em;
     background-color: var(--c-sfd-dark-grey);
     background-color: var(--c-sfd-light-grey);
-    /* background-color: var(--c-sfd-very-light-grey); */
+    background-color: var(--c-sfd-very-light-grey);
+    background-color: var(--c-sfd-dark-anthracite);
 
 }
 
 .img-container-info-filtered > img {
 
-    height: 1.5em;
+    height: 1.6em;
 }
 
 /* ----------------------------------------------- */
@@ -240,7 +209,7 @@
 .lbl-nav-filter-page-content {
 
     height: 3em;
-    width: 3.8em;
+    width: 3.9em;
 
     display: flex;
     align-items: center;
@@ -249,9 +218,9 @@
     cursor: pointer;
 
     border-radius: .4em;
-    border: .2em solid #212121;
+    border: .2em solid var(--c-sfd-light-grey);
 
-    opacity: .6;
+    /* opacity: .6; */
 
 }
 
@@ -259,6 +228,43 @@
 
     height: 1.3em;
 }
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Header Content Page | Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.header-content-page-container-sfd {
+
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Content Page Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.content-page-container-sfd {
+
+    display: grid;
+
+    padding: 1.6em 1.3em;
+    background-color: var(--c-cf-white);
+
+}
+
+
+
+
+
 
 
 
