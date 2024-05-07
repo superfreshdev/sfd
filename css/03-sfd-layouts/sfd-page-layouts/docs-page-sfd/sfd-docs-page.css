@@ -78,6 +78,9 @@
 
 .doc-card-item {
 
+    position: relative;
+    top:0;
+
     display: grid;
     row-gap: 1em;
 

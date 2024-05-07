@@ -262,8 +262,43 @@
 }
 
 
+/* ------------------------------------------------------------------- */
+/* Under Production Info Container | sfd 
+/* ------------------------------------------------------------------- */
 
+.under-production-info-container {
 
+    z-index: 11;
+
+    height: 6.5em;
+
+    position: absolute;
+    top:6em;
+    left:1.5em;
+    right:1.5em;
+
+    display: flex;
+    column-gap: 1.5em;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1.3em;
+
+    border-radius: .4em;
+    font-weight: bold;
+
+    background-color: var(--c-sfd-dark-grey);
+
+    background-color: rgba(52, 52, 52, 0.9);
+   
+    color: rgba(252,237,13,255);
+    
+}
+
+.under-production-info-container img {
+
+    height: 4.5em;
+}
 
 
 
