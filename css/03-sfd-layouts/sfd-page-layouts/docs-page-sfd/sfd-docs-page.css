@@ -150,10 +150,10 @@
 
 }
 
-.doc-view-container img {
+.doc-view-container > img:nth-of-type(1) {
 
     border-radius: .4em;
-    height: calc(8em + 5vh);
+    height: 9.5em
 
 }
 
@@ -219,6 +219,94 @@
 
     height: 1.3em;
 }
+
+
+
+
+
+
+
+
+#chk-doc-content-filter { display: none; }
+
+#chk-doc-content-filter:checked ~ #main-footer-base #lbl-nav-doc-filter {
+
+    border: .2em solid var(--c-sfd-red);
+    background-color: var(--c-sfd-red);
+    
+}
+
+#chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container {
+
+    z-index: 11;
+    top:4em;
+    
+}
+
+
+
+
+
+/* ------------------------------ */
+/* Filter 
+/* --------------------------------*/
+
+
+.filter-content-nav-container {
+
+    /* z-index: 11; */
+    z-index: -1;
+
+    position: absolute;
+    top:0em;
+    left:0;
+    right: 0;
+
+    display: grid;
+    row-gap: 1em;
+
+    padding: 2.3em 1.3em;
+    border-radius: .4em;
+
+    background-color: var(--c-sfd-light-grey);
+
+    transition: all .4s;
+
+   
+}
+
+
+
+.filter-content-item {
+
+    height: 3em;
+
+    display: flex;
+    column-gap: .8em;
+    align-items: center;
+
+    padding: 0em 1em;
+
+    border-radius: .4em;
+    font-weight: bold;
+
+    background-color: var(--c-sfd-dark-grey);
+    color:var(--c-sfd-very-light-grey);
+}
+
+.filter-content-item > img {
+
+    height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
 
 
 

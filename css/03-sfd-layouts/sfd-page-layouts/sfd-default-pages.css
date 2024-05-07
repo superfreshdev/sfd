@@ -222,6 +222,8 @@
 
     /* opacity: .6; */
 
+    transition: all .4s;
+
 }
 
 .lbl-nav-filter-page-content > img {
