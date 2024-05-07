@@ -28,32 +28,41 @@
 
 }
 
+
+
+
+
 /* ------------------------------------------------------------------- */
-/* Header | Page Container | sfd 
+/* Header Page Title | Container | sfd 
 /* ------------------------------------------------------------------- */
 
-.header-page-container-sfd {
+.header-page-title-container-sfd {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    /* padding: 1em 1.3em 1.6em 1.3em; */
     padding: 1em 1.3em 1.6em 1.3em;
 
     background-color: var(--c-sfd-dark-anthracite);
+
+}
+
+.header-page-title-container-sfd img {
+
+    height: 2.3em;
+}
+
+.title-area-header-page {
+
+    display: flex;
+    column-gap: 1em;
+    align-items: center;
     
 }
 
-.header-page-container-sfd > img {
-
-    height: 2.6em;
-}
-
-.title-area-header-page-container-sfd {
-
-}
-
-.title-area-header-page-container-sfd > div:nth-of-type(1) {
+.title-area-header-page  > div:nth-of-type(1) > div:nth-of-type(1) {
 
     color:rgb(227, 227, 227);
 
@@ -61,19 +70,42 @@
     font-weight: bold;
 }
 
-.title-area-header-page-container-sfd > div:nth-of-type(2) {
+.title-area-header-page > div:nth-of-type(1) > div:nth-of-type(2) {
    
     font-size: 14.5px;
     line-height: 1.4em;
     color: var(--c-sfd-light-grey);
 }
 
+
+
+
+
 /* ------------------------------------------------------------------- */
-/* Header | Content Page Container | sfd 
+/* File Counter | Container | sfd 
 /* ------------------------------------------------------------------- */
 
-.header-content-page-container-sfd {
+.file-counter-container {
 
+    line-height: 1.3em;
+   
+    font-size: 14.5px;
+
+    color: var(--c-sfd-light-brown);
+    opacity: .6;
+
+}
+
+.file-counter-container > div {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.file-counter-container > div > div:nth-of-type(1) {
+
+    width: 2.3em;
 
 }
 
@@ -82,9 +114,14 @@
 
 
 
+/* ------------------------------------------------------------------- */
+/* Header Content Page | Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.header-content-page-container-sfd {
 
 
-
+}
 
 
 
@@ -102,6 +139,10 @@
     background-color: var(--c-cf-white);
 
 }
+
+
+
+
 
 /* ------------------------------------------------------------------- */
 /* Filter Content Page Container | sfd 

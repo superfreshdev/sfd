@@ -144,7 +144,7 @@
 .doc-view-container img {
 
     border-radius: .4em;
-    height: 11em;
+    height: calc(8em + 5vh);
 
 }
 
