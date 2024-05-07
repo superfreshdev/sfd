@@ -119,6 +119,8 @@
     column-gap: .3em;
 
     /* background-color: red; */
+    padding-bottom: 1.6em;
+    border-bottom: 3px solid var(--c-sfd-dark-white);
 
 }
 

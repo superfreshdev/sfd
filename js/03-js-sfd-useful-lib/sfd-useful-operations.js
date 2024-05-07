@@ -293,33 +293,35 @@ const select = document.getElementById("select-angular-docs");
 const img = document.getElementById("img-angular-doc");
 const pdfLink = document.getElementById("pdf-link-angular-doc");
 
+// pfd - frontend , backend 
+// guiedes - frontend , bacckend 
 
 const docRessourceObject = [
     
     {
-        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/default.png",
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/img/doc-angular-grundlagen.png",
         pdfLinkRessource: ""
 
     },
 
     {
-        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/01-oekosystem.png",
-        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/01-Das-Ökosystem.pdf"
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/img/01-oekosystem.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/pdf/01-Das-Ökosystem.pdf"
     },
 
     {
-        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/02-cli-projektsetup.png",
-        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/02-cli-projekt-setup.pdf"
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/img/02-cli-projekt-setup.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/pdf/02-cli-project-setup.pdf"
     },
 
     {
-        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/03-module-komponenten-bindungen.png",
-        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/03-module-komponenten-bindungen.pdf"
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/img/03-module-komponenten-bindungen.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/pdf/03-module-komponenten-bindungen.pdf"
     },
 
     {
-        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/04-dependency-injection-direktiven-pipes.png",
-        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/04-dependency-injection-direktiven-pipes.pdf"
+        imgRessource: "media/img/02_main/02_docs/img-pdfs/angular/img/04-dependency-injection-direktiven-pipes.png",
+        pdfLinkRessource: "media/img/02_main/02_docs/img-pdfs/angular/pdf/04-dependency-injection-direktiven-pipes.pdf"
     }
 
 ]
