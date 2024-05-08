@@ -321,8 +321,35 @@
 
 .header-content-page-container-sfd {
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.3em 1.6em;
+
+    font-size: 19.2px;
+
+    font-weight: bold;
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color: var(--c-sfd-very-light-grey);
 
 }
+
+.sub-header-content-page-container-sfd {
+
+    padding-top: .5em;
+
+    font-size: 14.5px;
+
+    line-height: 1.3em;
+
+    color:var(--c-sfd-light-grey);
+    
+}
+
+
+
 
 
 
