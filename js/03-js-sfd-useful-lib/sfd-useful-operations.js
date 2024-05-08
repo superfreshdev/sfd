@@ -328,7 +328,7 @@ const docRessourceObject = [
 
 
 
-console.log("[111] - Penis - Penis - Penis" )
+// console.log("[111] - Penis - Penis - Penis" )
 
 
 // select.style.display = "none";
@@ -367,7 +367,7 @@ function changeDocRessource( selectedIndex , ressourceObject ) {
 
 
 
-console.log("[222] - Penis - Penis - Penis")
+// console.log("[222] - Penis - Penis - Penis")
 
 
 // if (e.target.matches('option')) {
@@ -384,3 +384,18 @@ console.log("[222] - Penis - Penis - Penis")
     
     //     })
     // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

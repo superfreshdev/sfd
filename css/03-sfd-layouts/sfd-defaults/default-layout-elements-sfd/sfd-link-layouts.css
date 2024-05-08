@@ -22,11 +22,9 @@
 
     /* unset default link style */
     text-decoration: none;
+    color:var(--c-cf-black);
 
     border-radius: .4em;
-    color: var(--c-cf-black);
-    /* background-color: var(--c-sfd-light-brown); */
-
 
     transition: all .4s;
 }
@@ -38,9 +36,31 @@
 
 }
 
+/* ------------------------------------------------ */
+/* E-Mail Link Style | sfd 
+/* ------------------------------------------------ */
+
+.link-email-style-sfd {
+
+    background-color: var(--c-sfd-light-brown);
+    color: var(--c-cf-black);
+
+}
+
+/* ------------------------------------------------ */
+/* Other Link Style | sfd 
+/* ------------------------------------------------ */
+
+.link-other-style-sfd {
+
+    background-color: var(--c-sfd-very-light-grey);
+    color: var(--c-cf-black);
+}
+
+
 
 /* -------------------------------------------------------- */
-/* Img & Text 
+/* Img & Text Link Container 
 /* -------------------------------------------------------- */
 
 .big-link-button-sfd > div:nth-of-type(1) {
@@ -65,9 +85,12 @@
     align-items: center;
     justify-content: center;
 
-    border-radius: .3em 0em 0em .3em;
-    background-color: var(--c-sfd-dark-grey);
+    border-radius: .4em 0em 0em .4em;
+
+    padding-left: .5em;
+    /* background-color: var(--c-sfd-dark-grey); */
     /* background-color: var(--c-sfd-dark-anthracite); */
+    /* background-color: red; */
 
 }
 
@@ -78,9 +101,17 @@
 
 .main-title-big-link-button {
 
-    font-size: 16px;
+    color: var(--c-sfd-dark-grey);
     font-weight: bold;
     line-height: 1.2em;
+}
+
+.main-other-title-big-link-button {
+
+    color:var(--c-sfd-light-grey);
+    font-weight: bold;
+    line-height: 1.2em;
+
 }
 
 .sub-title-big-link-button {
@@ -90,8 +121,6 @@
     opacity: .6;
 
 }
-
-
 
 /* -------------------------------------------------------- */
 /* Optional 2nd Img Container 

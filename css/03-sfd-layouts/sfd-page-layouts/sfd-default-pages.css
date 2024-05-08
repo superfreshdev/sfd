@@ -113,10 +113,10 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Filter Content Page Container | sfd 
+/* Filter Content Page Panel  | sfd 
 /* ------------------------------------------------------------------- */
 
-.filter-content-page-container-sfd {
+.filter-content-page-panel-sfd {
 
     position: relative;
     top:0;
@@ -134,10 +134,8 @@
 }
 
 /* ----------------------------------------------- */
-/* Info Container | filtered page content
+/* Info Filtered Page Content Container 
 /* ----------------------------------------------- */
-
-/* think about info-view  */
 
 .info-filtered-page-content-container {
 
@@ -203,10 +201,10 @@
 }
 
 /* ----------------------------------------------- */
-/* Label | nav filter page content 
+/* Label | Open Filter Content Page 
 /* ----------------------------------------------- */
 
-.lbl-nav-filter-page-content {
+.lbl-open-filter-nav-content-page-container  {
 
     height: 3em;
     width: 3.9em;
@@ -226,25 +224,76 @@
 
 }
 
-.lbl-nav-filter-page-content > img {
+.lbl-open-filter-nav-content-page-container > img {
 
     height: 1.3em;
 }
 
 
+/* ---------------------------------------------------------------- */
+/* Nav Container | List of Filtered Content Page ( absolute )
+/* ---------------------------------------------------------------- */
 
+.nav-container-list-of-filtered-content-page {
 
+      /* z-index: 11; */
+      z-index: -1;
 
-
-
-/* ------------------------------------------------------------------- */
-/* Header Content Page | Container | sfd 
-/* ------------------------------------------------------------------- */
-
-.header-content-page-container-sfd {
-
+      position: absolute;
+      top:0em;
+      left:0;
+      right: 0;
+  
+      display: grid;
+      row-gap: 1em;
+  
+      padding: 2.3em 1.3em;
+      border-radius: .4em;
+  
+      background-color: var(--c-sfd-light-grey);
+  
+      transition: all .4s;
 
 }
+
+
+/* -------------------------------------------------------- */
+/* Label to Filter Content Page ( Radio )
+/* -------------------------------------------------------- */
+
+.lbl-filtered-content-page {
+
+    height: 3em;
+
+    display: flex;
+    column-gap: .8em;
+    align-items: center;
+
+    padding: 0em 1em;
+
+    border-radius: .4em;
+    font-weight: bold;
+
+    background-color: var(--c-sfd-dark-grey);
+    color:var(--c-sfd-very-light-grey);
+
+}
+
+.lbl-filtered-content-page > img {
+
+    height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -262,6 +311,19 @@
     background-color: var(--c-cf-white);
 
 }
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Header Content Page | Container | sfd 
+/* ------------------------------------------------------------------- */
+
+.header-content-page-container-sfd {
+
+
+}
+
 
 
 /* ------------------------------------------------------------------- */

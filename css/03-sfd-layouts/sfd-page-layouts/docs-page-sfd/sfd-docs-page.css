@@ -1,82 +1,35 @@
+/*
+
+    sfd-docs-page-css
+    besser: sfd-doc-page.css
+
+    > ...  
+
+*/
 
 #js-page-docs-sfd {
-
-   
-   
     
 }
 
 
-/* ---------------------------------------------- */
-/* Header Page Container
-/* ---------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* Doc Cards Layout
+/* ---------------------------------------------------------------------------- */
 
-.page-docs-layout {
-
-    /* width: 100%; */
-    padding: .8em 2.3em 1.6em 2.3em;
-    background-color: var(--c-sfd-dark-anthracite);
-
-}
-
-
-
-.page-docs-layout > div:nth-of-type(1) {
-
-    font-weight: bold;
-    font-size: 1.3em;
-    color: var(--c-cf-white);
-}
-
-.page-docs-layout > div:nth-of-type(2) {
-
-    color: var(--c-sfd-light-grey)
-}
-
-
-#img-cartoon-me-books {
-
-    float:right;
-    height: 4em;
-    padding-right: 1.3em;
-    padding-top: 1.3em;
-    opacity: .3;
-}
-
-
-.seperator-doc-card-item {
-
-    /* background-color: red; */
-
-    padding: 2.8em 0em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.seperator-doc-card-item > img {
-
-    height: 1.5em;
-}
-
-
-/* ---------------------------------------------- */
-/* Docs Card Layout
-/* ---------------------------------------------- */
-
-.docs-card-layout {
+#doc-cards-layout {
 
     display: grid;
     /* row-gap: 1.5em; */
 
     padding: 2em 0em;
 
-    /* background-color: aqua; */
-  
 }
 
-.doc-card-item {
+/* ---------------------------------------------------------------------------- */
+/* Doc Card
+/* ---------------------------------------------------------------------------- */
+
+.doc-card {
 
     position: relative;
     top:0;
@@ -86,41 +39,42 @@
 
 }
 
-.docs-card-header {
+/* ---------------------------------------------------------------------------- */
+/* Header | Doc Card
+/* ---------------------------------------------------------------------------- */
 
-   
+.doc-card-header {
+
     line-height: 1.3em;
     color:var(--c-sfd-dark-grey);
 }
 
-.docs-card-header > span {
+.doc-card-header > span {
 
     font-weight: bold;
 
 }
 
 
-
-
 /* ----------------------------------------------- */
-/* Doc Choose Container 
+/* Choose View Container | Doc Card 
 /* ----------------------------------------------- */
 
-.doc-choose-container {
+.doc-card-choose-view-container {
 
     display: grid;
     row-gap: 1em;
 
 }
 
-
 /* ----------------------------------------------- */
-/* Filter Selection Option 
+/* Filter Selection | Doc Card 
 /* ----------------------------------------------- */
 
 .filter-selection {
 
     height: 3.5em;
+    width: 100%;
 
     border: 1px solid var(--c-sfd-very-light-grey);
     border-radius: .4em;
@@ -138,11 +92,10 @@
 
 
 /* ----------------------------------------------- */
-/* Doc View 
+/* Doc Choose View | Doc Card  
 /* ----------------------------------------------- */
 
-
-.doc-view-container {
+.doc-choose-view-container {
 
     display: flex;
     align-items: center;
@@ -150,21 +103,18 @@
 
 }
 
-.doc-view-container > img:nth-of-type(1) {
+.doc-choose-view-container > img:nth-of-type(1) {
 
     border-radius: .4em;
     height: 9.5em
 
 }
 
-
-
-
-
+/* ----------------------------------------------- */
+/* Link Container ( pdf / odt ) | Doc Card  
+/* ----------------------------------------------- */
 
 .docs-card-item-link-container {
-
-    /* background-color: red; */
 
     height: 100%;
     width: 100%;
@@ -176,6 +126,8 @@
 
     justify-items: flex-end;
     align-content: center;
+
+     /* background-color: red; */
     
 }
 
@@ -222,10 +174,32 @@
 
 
 
+/* ------------------------------------------------------ */
+/* Seperator | Doc Card 
+/* ------------------------------------------------------ */
+
+.seperator-doc-card-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2.8em 0em;
+
+}
+
+.seperator-doc-card-container > img {
+
+    height: 1.5em;
+}
 
 
 
 
+
+/* ------------------------------------------------------- */
+/* CSS Handling | Open Filter Page Content Nav Container 
+/* ------------------------------------------------------- */
 
 #chk-doc-content-filter { display: none; }
 
@@ -242,73 +216,3 @@
     top:4em;
     
 }
-
-
-
-
-
-/* ------------------------------ */
-/* Filter 
-/* --------------------------------*/
-
-
-.filter-content-nav-container {
-
-    /* z-index: 11; */
-    z-index: -1;
-
-    position: absolute;
-    top:0em;
-    left:0;
-    right: 0;
-
-    display: grid;
-    row-gap: 1em;
-
-    padding: 2.3em 1.3em;
-    border-radius: .4em;
-
-    background-color: var(--c-sfd-light-grey);
-
-    transition: all .4s;
-
-   
-}
-
-
-
-.filter-content-item {
-
-    height: 3em;
-
-    display: flex;
-    column-gap: .8em;
-    align-items: center;
-
-    padding: 0em 1em;
-
-    border-radius: .4em;
-    font-weight: bold;
-
-    background-color: var(--c-sfd-dark-grey);
-    color:var(--c-sfd-very-light-grey);
-}
-
-.filter-content-item > img {
-
-    height: 1.5em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
