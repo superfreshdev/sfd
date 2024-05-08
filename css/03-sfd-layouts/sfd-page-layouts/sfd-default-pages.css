@@ -118,6 +118,8 @@
 
 .filter-content-page-panel-sfd {
 
+    z-index: 11;
+
     position: relative;
     top:0;
 
@@ -142,6 +144,8 @@
     height: 100%;
     width: 100%;
 
+    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,7 +160,7 @@
     display: grid;
     align-items: center;
 
-    padding: 0em 1em;
+    padding: 0 1em;
 
     line-height: 1.2em;
 
@@ -167,6 +171,7 @@
 
 .title-area-info-filtered > div:nth-of-type(1) > div:nth-of-type(1) {
 
+    padding-top: .1em;
     font-weight: bold;
     color: var(--c-cf-white);
 }
@@ -236,6 +241,7 @@
 
 .nav-container-list-of-filtered-content-page {
 
+   
       /* z-index: 11; */
       z-index: -1;
 
@@ -244,13 +250,19 @@
       left:0;
       right: 0;
   
+      padding: 1.6em 2em;
+
       display: grid;
+    
       row-gap: 1em;
   
-      padding: 2.3em 1.3em;
+     
       border-radius: .4em;
   
-      background-color: var(--c-sfd-light-grey);
+      
+
+
+      background-color: transparent;
   
       transition: all .4s;
 
@@ -263,19 +275,21 @@
 
 .lbl-filtered-content-page {
 
-    height: 3em;
-
+    height: 3.5em;
+    padding: 0em 1em;
+   
     display: flex;
     column-gap: .8em;
     align-items: center;
-
-    padding: 0em 1em;
+    justify-content: space-between;
 
     border-radius: .4em;
-    font-weight: bold;
 
     background-color: var(--c-sfd-dark-grey);
     color:var(--c-sfd-very-light-grey);
+ 
+    display: none;
+   
 
 }
 
@@ -284,9 +298,29 @@
     height: 1.5em;
 }
 
+/* -------------------------------------------------- */
+/* Double Title Area Container 
+/* -------------------------------------------------- */
+
+.double-title-area-container {
+
+    line-height: 1.2em;
+}
 
 
+.double-title-area-container > div:nth-of-type(1) {
 
+    padding-top: .2em;
+    font-weight: bold;
+    color: var(--c-cf-white);
+}
+
+.double-title-area-container > div:nth-of-type(2) {
+
+    font-size: 12.5px;
+    font-style: italic;
+    color: var(--c-sfd-light-grey);
+}
 
 
 

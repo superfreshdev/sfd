@@ -212,7 +212,14 @@
 
 #chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container {
 
-    z-index: 11;
+    z-index: 5;
     top:4em;
+    background-color: var(--c-sfd-light-grey);
     
 }
+
+#chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page {
+
+    display: flex;;
+}
+
