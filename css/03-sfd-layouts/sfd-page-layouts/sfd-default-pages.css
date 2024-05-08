@@ -144,8 +144,6 @@
     height: 100%;
     width: 100%;
 
-    
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -193,9 +191,6 @@
     justify-content: center;
 
     border-radius: 0em .4em .4em 0em;
-    background-color: var(--c-sfd-dark-grey);
-    background-color: var(--c-sfd-light-grey);
-    background-color: var(--c-sfd-very-light-grey);
     background-color: var(--c-sfd-dark-anthracite);
 
 }
@@ -211,8 +206,8 @@
 
 .lbl-open-filter-nav-content-page-container  {
 
-    height: 3em;
-    width: 3.9em;
+    height: 3.1em;
+    width: 4em;
 
     display: flex;
     align-items: center;
@@ -241,7 +236,6 @@
 
 .nav-container-list-of-filtered-content-page {
 
-   
       /* z-index: 11; */
       z-index: -1;
 
@@ -259,9 +253,6 @@
      
       border-radius: .4em;
   
-      
-
-
       background-color: transparent;
   
       transition: all .4s;
