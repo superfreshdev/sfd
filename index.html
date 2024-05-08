@@ -70,6 +70,8 @@
                 
 
                 <!-- sfd - about layout -->
+                <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/about-page-sfd/sfd-about-page.css">
+
                 <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/about-page-sfd/welcome-title.css">
                 <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/about-page-sfd/my-business-card.css">
                 <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/about-page-sfd/my-quote.css">
@@ -82,7 +84,7 @@
                 <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/news-page-sfd/sfd-news-page.css">
 
                 <!-- sfd - docs layout -->
-                <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/docs-page-sfd/sfd-docs-page.css">
+                <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/docs-page-sfd/sfd-doc-page.css">
 
                 <!-- sfd - projects layout -->
                 <link rel="stylesheet" href="css/03-sfd-layouts/sfd-page-layouts/projects-page-sfd/sfd-projects-page.css">
@@ -146,25 +148,40 @@
 
 
         <!-- -------------------------------------------------------------- -->
-        <!-- Radio Buttons | Header Page Navigation ( sfd elements )        -->
+        <!-- Radio Buttons |                                                -->
         <!-- -------------------------------------------------------------- -->
 
-        <input type="radio" id="radio-page-about" name="name-radio-header-page" >
+        <!-- Header  -->
+        <input type="radio" id="radio-page-about" name="name-radio-header-page"  checked>
         <input type="radio" id="radio-page-news" name="name-radio-header-page" >
-        <input type="radio" id="radio-page-docs" name="name-radio-header-page" checked >
+        <input type="radio" id="radio-page-docs" name="name-radio-header-page" >
         <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
+
+
+        <!-- Doc | Page | Content Filter  -->
+        <input type="radio" id="radio-doc-filter-pdf-frontend" name="name-radio-doc-filter-pdf">
+        <input type="radio" id="radio-doc-filter-pdf-backend" name="name-radio-doc-filter-pdf">
+        <input type="radio" id="radio-doc-filter-pdf-tools" name="name-radio-doc-filter-pdf">
+
+
 
         <!-- -------------------------------------------------------------- -->
         <!-- Checkbox | Mobile Header Menue ( sfd elements )              -->
         <!-- -------------------------------------------------------------- -->
 
-        <input type="checkbox" id="chk-mobile-hamburger-menue-sfd" name="name-chk-mobile-hamburger-menue-sfd">       
-        <input type="checkbox" id="chk-about-open-video-container" name="name-about-open-video-container">
+            <!-- Header | Mobile Hamburiger Label -->
+            <input type="checkbox" id="chk-mobile-hamburger-menue-sfd" name="name-chk-mobile-hamburger-menue-sfd"> 
+            <!-- About | Open / Close Video Container  -->
+            <input type="checkbox" id="chk-about-open-video-container" name="name-about-open-video-container">
 
-        <input type="checkbox" id="chk-open-detail-project-1-top-3" name="name-chk-open-detail-project-1-top-3">
+            <!-- About | Open / Close More Content About My Top 3 Projects  -->
+            <input type="checkbox" id="chk-open-detail-project-1-top-3" name="name-chk-open-detail-project-1-top-3">
 
-        <input type="checkbox" id="chk-doc-content-filter" name="name-chk-doc-content-filter">
+            <!-- Docs | Open Filter for Switchting Content Page  -->
+            <input type="checkbox" id="chk-doc-content-filter" name="name-chk-doc-content-filter">
 
+       
+        
         <!-- -------------------------------------------------------- -->
         <!-- Audio Files | About Page                                 -->
         <!-- -------------------------------------------------------- -->
@@ -488,7 +505,7 @@
                                 <!-- -------------------------------- -->
                                 <!-- Link - Jump to My Tech Skills    -->
                                 <!-- -------------------------------- -->
-                                <a href="#my-frontend-backend-stacks" class="big-link-button-sfd link-other-style-sfd" title="go to Read More About Me ... ">
+                                <a href="#jump-my-frontend-backend-stacks" class="big-link-button-sfd link-other-style-sfd" title="go to Read More About Me ... ">
                                     
                                     <!-- Img Text Container -->
                                     <div>
@@ -513,7 +530,7 @@
                                 <!-- -------------------------------- -->
                                 <!-- Link - Jump to My 3 Projects  -->
                                 <!-- -------------------------------- -->
-                                <a href="#my-top-3-projects-sfd" class="big-link-button-sfd link-other-style-sfd" title="go to Read More About Me ... ">
+                                <a href="#jump-my-top-3-projects" class="big-link-button-sfd link-other-style-sfd" title="go to Read More About Me ... ">
                                     
                                     <!-- Img Text Container -->
                                     <div>
@@ -538,7 +555,7 @@
                                 <!-- -------------------------------- -->
                                 <!-- Link - Jump to Who I am          -->
                                 <!-- -------------------------------- -->
-                                <a href="#who-i-am-sfd" class="big-link-button-sfd link-other-style-sfd" title="go to Read More About Me ... ">
+                                <a href="#jump-who-i-am" class="big-link-button-sfd link-other-style-sfd" title="go to Read More About Me ... ">
                                     
                                     <!-- Img Text Container -->
                                     <div>
@@ -574,7 +591,7 @@
                                 <!-- -------------------------------------------------- -->
                                 <!-- Page Header - Frontend & Backend Stacks ( mobile ) -->
                                 <!-- -------------------------------------------------- -->
-                                <div class="header-content-page-container-sfd" id="my-frontend-backend-stacks">
+                                <div id="jump-my-frontend-backend-stacks" class="header-content-page-container-sfd" >
                         
                                     <div>
                                         My Frontend & <br>
@@ -880,13 +897,13 @@
                         <!-- -------------------------------------------------------------------------- -->
                         <!-- Container | My Top 3 Projects  -->
                         <!-- -------------------------------------------------------------------------- -->
-                        <div id="my-top-3-projects-sfd" >
+                        <div id="my-top-3-projects-sfd">
 
 
                             <!-- -------------------------------------------------------------- -->
                             <!-- Header Content | My Top 3 Projects                             -->
                             <!-- -------------------------------------------------------------- -->
-                            <div class="header-content-page-container-sfd" id="my-frontend-backend-stacks">
+                            <div id="jump-my-top-3-projects" class="header-content-page-container-sfd" >
                         
                                 <div>
                                     
@@ -1393,30 +1410,36 @@
                         <!-- -------------------------------------------------------------------------- -->
                         <!-- Container | Read More About Me  -->
                         <!-- -------------------------------------------------------------------------- -->
-                        <div id="who-i-am-sfd" class="row-page-container" style="display: none;" >
+                        <div >
                            
                             <!-- --------------------------------------------------------- -->
                             <!-- Header Page Content                                      -->
                             <!-- --------------------------------------------------------- -->
-                            <div class="sfd-content-page-header" style="display: none;">
+                            <div id="jump-who-i-am" class="header-content-page-container-sfd" >
 
-                                Read More About Me 
-
+                                <div> Who I am ? </div>
+                                <img src="media/img/00_general/me-cartoon/show-left.png" class="img-icon-big-3-sfd" alt="img">
+                               
                             </div>
 
 
                             <div>
-                                Short About Me
-                            </div>
 
-                            <div>
-                                My Mindset 
-                            </div>
+                                    
+                                    <p>
+                                        Short About Me
+                                    </p>
 
-                            <div>
-                                Me as Private
+                                    <p>
+                                        My Misson
+                                    </p>
+
+                                    <p>
+                                        Me as Private - Vio etc
+                                    </p>
+
                             </div>
-                  
+                        
 
                         </div>
 
@@ -1479,7 +1502,7 @@
                         <!-- -------------------------------------------------------------------------- -->
                         <!-- Container | just for fun -->
                         <!-- -------------------------------------------------------------------------- -->
-                        <div class="row-page-container" style="display: none;">
+                        <div class="row-page-container" >
 
                             <h3>Just for fun - Container </h3>
 
@@ -1715,7 +1738,7 @@
                                     <!-- ---------------------------- -->
                                     <!-- Label | PDF Frontend         -->
                                     <!-- ---------------------------- -->
-                                    <label for="radio-doc-filter-pdf-frontend" class="lbl-filtered-content-page">
+                                    <label for="radio-doc-filter-pdf-frontend" name="name-radio-doc-filter-pdf" class="lbl-filtered-content-page">
 
                                         <div class="double-title-area-container">
                                             <div> Frontend  </div>
@@ -1731,7 +1754,7 @@
                                     <!-- ---------------------------- -->
                                     <!-- Label | PDF Backend         -->
                                     <!-- ---------------------------- -->
-                                    <label for="radio-doc-filter-pdf-frontend" class="lbl-filtered-content-page">
+                                    <label for="radio-doc-filter-pdf-backend" name="name-radio-doc-filter-pdf" class="lbl-filtered-content-page">
 
                                         <div class="double-title-area-container">
                                             <div> Backend </div>
@@ -1746,7 +1769,7 @@
                                     <!-- ---------------------------- -->
                                     <!-- Label | PDF Backend         -->
                                     <!-- ---------------------------- -->
-                                    <label for="radio-doc-filter-pdf-frontend" class="lbl-filtered-content-page">
+                                    <label for="radio-doc-filter-pdf-tools" name="name-radio-doc-filter-pdf" class="lbl-filtered-content-page">
 
                                         <div class="double-title-area-container">
                                             <div> Tool's </div>
@@ -1766,40 +1789,41 @@
                             </div>
 
                             <!-- ------------------------------------------------------- -->
-                            <!-- Card Layout Container                                   -->
+                            <!-- Doc Cards Container                                     -->
                             <!-- ------------------------------------------------------- -->
-                            <div id="doc-cards-layout">
+                            
+                            <div id="doc-cards-container">
         
                                 <!-- ---------------------------------------------------- -->
-                                <!-- JS generate Doc Card Items                           -->
+                                <!-- JS generate Doc Cards                                -->
                                 <!-- > create-feature-list-of-doc-ressource-views.js      -->
+                                <!-- > Design Tempalte generated -->
                                 <!-- ---------------------------------------------------- -->
-                               
-                                <!-- ----------------------------------------------------- -->
-                                <!-- Design Template ( js generated ) -->
-                                <!-- ----------------------------------------------------- -->
-
+                            
                                 <div class="doc-card">
         
                                     <!-- ---------------------------------------------------- -->
-                                    <!-- Card Header -->
+                                    <!-- Header | Doc Card  -->
                                     <!-- ---------------------------------------------------- -->
-                                    <div class="doc-card-header">
+                                    <div class="header-doc-card">
                                         <span>Angular 17</span>
                                         <span> - Alte Grundlagen & Neue Features 2024</span>                              
                                     </div>
 
                                     <!-- ---------------------------------------------------- -->
-                                    <!-- Card Choose Container -->
+                                    <!-- Content | Doc Card                                   -->
                                     <!-- ---------------------------------------------------- -->
-                                    <div class="doc-card-choose-view-container">
+
+                                    <div class="content-doc-card">
 
                                         <!-- ---------------------------------------------------- -->
-                                        <!-- Filter Selection -->
-                                        <!-- ---------------------------------------------------- -->
-                                        <div class="filter-selection-container">
-
-                                            <select id="select-angular-docs" class="filter-selection" name="select-angular-docs">
+                                        <!-- Select Chapter Container ( default ) | Doc Card      -->
+                                        <!-- ---------------------------------------------------- -->                                    
+                                       
+                                        <div class="select-chapter-container">
+                            
+                                            <select class="select-chapter" id="select-doc-angular" name="name-select-doc-angular">
+                                               
                                                 <option selected>Bitte auswählen ...</option>
                                                 <option >01 | Das Ökosystem</option>
                                                 <option >02 | CLI & Projektsetup</option>
@@ -1810,25 +1834,28 @@
                                                 <option >07 | SPA mit ASP.Net </option>
                                                 <option >08 | CRUD Anwendungen mit HTTP-Client </option>
                                                 <option >09 | Grundlagen der Webentwicklung </option>
+
                                             </select>
 
-                                            <div class="selection-arrow-container">
+                                            <!-- select arrow down container  -->
+                                            <div class="select-arrow-down-container">
                                                 <img src="media/img/00_general/icons/01-general-icons/runter-black.png" alt="img">
                                             </div>
 
-                                        </div>
-
-
-                                      
+                                        </div>                                   
         
                                         <!-- ---------------------------------------------------- -->
-                                        <!-- Doc Choose View -->
+                                        <!-- Doc Choose View | Doc Card -->
                                         <!-- ---------------------------------------------------- -->
+            
                                         <div class="doc-choose-view-container">
 
-                                            <img src="media/docs/frontend/angular/img/angular-grundlagen.PNG" id="img-angular-doc" alt="img">
+                                            <img src="media/docs/frontend/angular/img/angular-grundlagen.PNG" alt="img">
 
-                                            <div class="docs-card-item-link-container">
+                                            <!-- --------------------------------------------------- -->
+                                            <!-- Doc Link Ressource Container -->
+                                            <!-- --------------------------------------------------- -->
+                                            <div class="doc-link-ressource-container">
     
                                                 <!-- ---------------------------------------- -->
                                                 <!-- Medium Link Button | sfd -->
@@ -1851,7 +1878,7 @@
                                                 </a>
 
                                                 <!-- ---------------------------------------- -->
-                                                <!-- Arrow ( if not selected ) -->
+                                                <!-- Img Arrow ( if not selected ) -->
                                                 <!-- ---------------------------------------- -->
                                                 <img src="media/img/00_general/icons/01-general-icons/linker-pfeil.png" class="img-arrow-to-show-to-select" alt="img">
     
@@ -1860,12 +1887,16 @@
                                         
                                         </div>
                                        
-        
+    
                                     </div>
         
                                 </div>
 
-                                <div class="seperator-doc-card-container">
+                                <!-- ---------------------------------------------------- -->
+                                <!-- Seperator Content Container ( default )              -->
+                                <!-- ---------------------------------------------------- -->
+
+                                <div class="seperator-content-container">
                                     <img src="media/img/00_general/default-imgs/trenner.PNG" alt="img">
                                 </div>
                        

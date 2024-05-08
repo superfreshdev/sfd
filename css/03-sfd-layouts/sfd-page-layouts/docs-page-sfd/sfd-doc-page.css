@@ -1,0 +1,179 @@
+/*
+
+    sfd-doc-page-css
+
+    > ...  
+
+*/
+
+/* #js-page-docs-sfd {
+    
+} */
+
+/* ---------------------------------------------------------------------------- */
+/* Doc Cards Container
+/* ---------------------------------------------------------------------------- */
+
+#doc-cards-container {
+
+    display: grid;
+    padding: 2em 0em;
+
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Doc Card ( Layout )
+/* ---------------------------------------------------------------------------- */
+
+.doc-card {
+
+    position: relative;
+    top:0;
+
+    display: grid;
+    row-gap: 1em;
+
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Header | Doc Card
+/* ---------------------------------------------------------------------------- */
+
+.header-doc-card {
+
+    line-height: 1.3em;
+    color:var(--c-sfd-dark-grey);
+}
+
+.header-doc-card > span:nth-of-type(1) {
+
+    font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Content | Doc Card 
+/* ---------------------------------------------------------------------------- */
+
+.content-doc-card {
+
+    display: grid;
+    row-gap: 1em;
+
+}
+
+/* ----------------------------------------------- */
+/* Doc Choose View | Doc Card  
+/* ----------------------------------------------- */
+
+.doc-choose-view-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.doc-choose-view-container > img:nth-of-type(1) {
+
+    border-radius: .4em;
+    height: 9em
+
+}
+
+/* ----------------------------------------------- */
+/* Doc Link Ressource Container | Doc Card 
+/* ----------------------------------------------- */
+
+.doc-link-ressource-container  {
+
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    row-gap: .8em;
+
+    justify-items: flex-end;
+    align-content: center;
+
+     /* background-color: red; */
+    
+}
+
+.doc-link-ressource-container  > a {
+
+    width: 8.5em;
+
+    /* default unshown links because u must select  */
+    display: none;
+}
+
+
+/*---------------------------------------- */
+/* Img Arrow ( if not selected )
+/*---------------------------------------- */
+
+.img-arrow-to-show-to-select {
+
+    height: 4.5em;
+    padding-right: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+/* CSS Handling | Filter Content Page 
+/* ------------------------------------------------------- */
+
+/* filter label for open content filter page  */
+#chk-doc-content-filter,
+#radio-doc-filter-pdf-frontend,
+#radio-doc-filter-pdf-backend,
+#radio-doc-filter-pdf-tools { 
+
+    display: none;
+}
+
+/* ---------------------------------- */
+/* Doc Filter Label | Checked 
+/* ---------------------------------- */
+
+#chk-doc-content-filter:checked ~ #main-footer-base #lbl-nav-doc-filter {
+
+    border: .2em solid var(--c-sfd-red);
+    background-color: var(--c-sfd-red);
+    
+}
+
+/* ---------------------------------- */
+/* Doc Nav Filter Content Page 
+/* ---------------------------------- */
+
+#chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container {
+
+    z-index: 5;
+    top:4em;
+    background-color: var(--c-sfd-light-grey);
+    
+}
+
+#chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page {
+
+    display: flex;
+}
+
+#radio-doc-filter-pdf-frontend:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page:nth-of-type(1),
+#radio-doc-filter-pdf-backend:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page:nth-of-type(2),
+#radio-doc-filter-pdf-tools:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page:nth-of-type(3) {
+
+    background-color: var(--c-sfd-dark-anthracite);
+}
+

@@ -20,6 +20,28 @@ console.log("### create - feature list of doc ressource views ")
 
 const objDataDocRessources = {
 
+    defaultPath : {
+
+        imgIconPath : "media/img/00_general/icons/01-general-icons/",
+        docPath : "media/docs/",
+
+    },
+
+    defaultCategoryPath : {
+
+        frontendPath : "frontend/",
+        backendPath : "backend/",
+        toolsPath : "tools/",
+    },
+
+    defaultTypeFilePath : {
+
+        imgPath : "img/",
+        pdfPath : "pdf/",
+        odtPath : "odt/",
+        
+    },
+
     docCategory : {
 
         /* ------------------------------------------- */ 
@@ -33,9 +55,12 @@ const objDataDocRessources = {
                 // Angular - Doc Card 
                 /* --------------------------------------------- */
                 {
+                    cardDocPath : "angular/",
+
                     title : "Angular 17",
                     descriptionTitle : " - Alte Grundlagen & Neue Features 2024",
 
+                    
                     selectText : [
 
                         "Bitte auswählen ...",
@@ -51,43 +76,43 @@ const objDataDocRessources = {
 
                         // Bitte auswählen 
                         {                       
-                            imgUrl : "media/docs/frontend/angular/img/angular-grundlagen.PNG",
+                            imgFilename : "angular-grundlagen.png",
                         },
                         // 01 | Das Ökosystem
                         {
-                            imgUrl : "media/docs/frontend/angular/img/01-Das-Ökosystem.png",
-                            pdfUrl : "media/docs/frontend/angular/pdf/01-Das-Ökosystem.pdf",
-                            odtUrl : "media/docs/frontend/angular/odt/01-Das-Ökosystem.odt",    
+                            imgFilename : "01-Das-Ökosystem.png",
+                            pdfFilename : "01-Das-Ökosystem.pdf",
+                            odtFilename : "01-Das-Ökosystem.odt",    
                         },
                         // 02 | CLI & Projekt Setup                    
                         {
-                            imgUrl : "media/docs/frontend/angular/img/02-cli-projekt-setup.png",
-                            pdfUrl : "media/docs/frontend/angular/pdf/02-cli-project-setup.pdf",
-                            odtUrl : "media/docs/frontend/angular/odt/02-cli-project-setup.odt",                           
+                            imgFilename : "02-cli-projekt-setup.png",
+                            pdfFilename : "02-cli-project-setup.pdf",
+                            odtFilename : "02-cli-project-setup.odt",                           
                         },
                         // 03 | Module , Komponenten , Bindungen
                         {
-                            imgUrl : "media/docs/frontend/angular/img/02-cli-projekt-setup.png",
-                            pdfUrl : "media/docs/frontend/angular/pdf/02-cli-project-setup.pdf",
-                            odtUrl : "media/docs/frontend/angular/odt/02-cli-project-setup.odt",       
+                            imgFilename : "02-cli-projekt-setup.png",
+                            pdfFilename : "02-cli-project-setup.pdf",
+                            odtFilename : "02-cli-project-setup.odt",    
                         },
                         // 04 | Dependency Injection , Direktiven , Pipes
                         {
-                            imgUrl : "media/docs/frontend/angular/img/02-cli-projekt-setup.png",
-                            pdfUrl : "media/docs/frontend/angular/pdf/02-cli-project-setup.pdf",
-                            odtUrl : "media/docs/frontend/angular/odt/02-cli-project-setup.odt",       
+                            imgFilename : "02-cli-projekt-setup.png",
+                            pdfFilename : "02-cli-project-setup.pdf",
+                            odtFilename : "02-cli-project-setup.odt",      
                         },
                         // 05 | Erweiterte Komponenten 
                         {
-                            imgUrl : "media/docs/frontend/angular/img/02-cli-projekt-setup.png",
-                            pdfUrl : "media/docs/frontend/angular/pdf/02-cli-project-setup.pdf",
-                            odtUrl : "media/docs/frontend/angular/odt/02-cli-project-setup.odt",       
+                            imgFilename : "02-cli-projekt-setup.png",
+                            pdfFilename : "02-cli-project-setup.pdf",
+                            odtFilename : "02-cli-project-setup.odt",        
                         },                      
                         // 06 | Erweiterte Komponenten 
                         {
-                            imgUrl : "media/docs/frontend/angular/img/02-cli-projekt-setup.png",
-                            pdfUrl : "media/docs/frontend/angular/pdf/02-cli-project-setup.pdf",
-                            odtUrl : "media/docs/frontend/angular/odt/02-cli-project-setup.odt",       
+                            imgFilename : "02-cli-projekt-setup.png",
+                            pdfFilename : "02-cli-project-setup.pdf",
+                            odtFilename : "02-cli-project-setup.odt",          
                         },     
 
                     ]
@@ -125,22 +150,76 @@ const objDataDocRessources = {
     docLinks : {
 
         pdfLinkText : "Lese PDF",
-        pdfIconRessource : "media/img/00_general/icons/01-general-icons/pdf-datei.png",
+        imgPdfFilename : "pdf-datei.png",
         odtLinkText : "Download .odt",
-        downloadIconRessource : "media/img/00_general/icons/01-general-icons/pdf-datei.png",
+        imgDownloadFilename : "download-dark-grey.png",
 
     },
+
+    imgNotSelectedFilename : "linker-pfeil.png"
     
 }
 
 /* --------------------------------------------------------------- */
 /* [Design Pattern ( CSS) ] - Doc Ressource
 /* --------------------------------------------------------------- */
-/*
-    1. id - Docs Card Layout 
-    2. card item 
 
-*/
+// 1. id - doc cards layout ( start point )
+const dpDocCardsLayout = "doc-cards-layout";
+
+// 2. class - doc card 
+const objDpDocCard = {
+
+    /* ------------------------------ */
+    // Header Card 
+    /* ------------------------------ */
+    classDocCard : "doc-card",
+    classHeaderDocCard : "doc-card-header",
+
+    /* ---------------------------------------- */
+    // Card Choose View Container  
+    /* ---------------------------------------- */
+    classCardChooseViewContainer : "doc-card-choose-view-container",
+    
+        /* ---------------------------------------- */
+        // Filter Selection  
+        /* ---------------------------------------- */
+        classFilterSelectionContainer : "filter-selection-container",
+  
+        select : {
+
+            idSelect : "select",
+            nameSelect :  "name-",
+            classSelect : "filter-selection",
+            
+        },
+
+        classSelectionArrowContainer : "selection-arrow-container",
+        srcSelectionArrowDown : "media/img/00_general/icons/01-general-icons/runter-black.png",
+
+        /* ---------------------------------------- */
+        // Doc Choose View  
+        /* ---------------------------------------- */
+
+        classDocChooseView : "doc-choose-view-container",
+        classCardItemLinkContainer : "docs-card-item-link-container",
+        classLinktButtonMediumSfd : "link-button-medium-sfd",
+
+
+}
+
+// 3. class - seperator 
+const dpSeperator = [
+
+    // div classname
+    "seperator-doc-card-container",
+    // img src
+    "media/img/00_general/default-imgs/trenner.PNG"
+
+]
+
+
+
 
 function createListOfDocFiles() {
 

@@ -9,7 +9,8 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Big Link Button (  e.g email , jumping content  ) 
+/* 1 / 2 | Big Link Button | sfd 
+/* > e.g email , jumping content  
 /* ---------------------------------------------------------------- */
 
 .big-link-button-sfd {
@@ -22,19 +23,13 @@
 
     /* unset default link style */
     text-decoration: none;
-    color:var(--c-cf-black);
-
+    
     border-radius: .4em;
 
     transition: all .4s;
 }
 
-.big-link-button-sfd:hover {
 
-    background-color: var(--c-sfd-dark-anthracite);
-    color: var(--c-sfd-dark-white);
-
-}
 
 /* ------------------------------------------------ */
 /* E-Mail Link Style | sfd 
@@ -43,7 +38,9 @@
 .link-email-style-sfd {
 
     background-color: var(--c-sfd-light-brown);
-    color: var(--c-cf-black);
+    color:var(--c-sfd-dark-grey);
+
+    transition: all .4s;
 
 }
 
@@ -54,7 +51,17 @@
 .link-other-style-sfd {
 
     background-color: var(--c-sfd-very-light-grey);
-    color: var(--c-cf-black);
+    color:var(--c-sfd-dark-grey);
+
+    transition: all .4s;
+}
+
+.link-email-style-sfd:hover ,
+.link-other-style-sfd:hover {
+
+    background-color: var(--c-sfd-dark-anthracite);
+    color:white;
+
 }
 
 
@@ -101,14 +108,12 @@
 
 .main-title-big-link-button {
 
-    color:var(--c-cf-black);
     font-weight: bold;
     line-height: 1.2em;
 }
 
 .main-other-title-big-link-button {
 
-    color:var(--c-sfd-dark-grey);
     font-weight: bold;
     line-height: 1.2em;
 
@@ -138,4 +143,39 @@
     border-radius: 0em .4em .4em 0em;
     /* background-color: red; */
  
+}
+
+
+
+
+
+/* ----------------------------------------------------------- */
+/* 2 / 2 | Medium Link Button | sfd 
+/* ----------------------------------------------------------- */
+
+.link-button-medium-sfd {
+
+    height: 2.8em;
+    
+    padding: 0em 1em;
+
+    display: flex;
+    column-gap: .6em;
+    align-items: center;
+
+    font-size: 14.5px;
+    font-weight: bold;
+
+    text-decoration: none;
+   
+    border-radius: .4em;
+
+    color: var(--c-sfd-dark-anthracite);
+    background-color: var(--c-sfd-very-light-grey);
+
+}
+
+.link-button-medium-sfd > img {
+
+    height: 1.3em;
 }

@@ -1,0 +1,27 @@
+/*
+
+    sfd-about-page-css
+
+    > ...  
+     scroll-margin-top: 4.5em;
+
+*/
+
+/* ---------------------------------------------------------------------------- */
+/* Content Headers | 
+/* ( for correct cumping scroll )
+/* ---------------------------------------------------------------------------- */
+
+/* My header is fixed so it scrolled behind that  */
+
+/* Mobile Fixed Header , height: 92px */
+
+#jump-my-frontend-backend-stacks,
+#jump-my-top-3-projects, 
+#jump-who-i-am {
+
+    scroll-margin-top: 92px;
+    
+}
+
+
