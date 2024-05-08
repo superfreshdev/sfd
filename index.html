@@ -1797,18 +1797,29 @@
                                         <!-- ---------------------------------------------------- -->
                                         <!-- Filter Selection -->
                                         <!-- ---------------------------------------------------- -->
-                                        <select id="select-angular-docs" class="filter-selection" name="select-angular-docs">
-                                            <option selected>Bitte auswählen ...</option>
-                                            <option >01 | Das Ökosystem</option>
-                                            <option >02 | CLI & Projektsetup</option>
-                                            <option >03 | Module , Komponenten , Bindungen</option>
-                                            <option >04 | Dependency Injection, Direktiven, Pipes </option>
-                                            <option >05 | Erweiterte Komponenten </option>
-                                            <option >06 | Routing </option>
-                                            <option >07 | SPA mit ASP.Net </option>
-                                            <option >08 | CRUD Anwendungen mit HTTP-Client </option>
-                                            <option >09 | Grundlagen der Webentwicklung </option>
-                                        </select>
+                                        <div class="filter-selection-container">
+
+                                            <select id="select-angular-docs" class="filter-selection" name="select-angular-docs">
+                                                <option selected>Bitte auswählen ...</option>
+                                                <option >01 | Das Ökosystem</option>
+                                                <option >02 | CLI & Projektsetup</option>
+                                                <option >03 | Module , Komponenten , Bindungen</option>
+                                                <option >04 | Dependency Injection, Direktiven, Pipes </option>
+                                                <option >05 | Erweiterte Komponenten </option>
+                                                <option >06 | Routing </option>
+                                                <option >07 | SPA mit ASP.Net </option>
+                                                <option >08 | CRUD Anwendungen mit HTTP-Client </option>
+                                                <option >09 | Grundlagen der Webentwicklung </option>
+                                            </select>
+
+                                            <div class="selection-arrow-container">
+                                                <img src="media/img/00_general/icons/01-general-icons/runter-black.png" alt="img">
+                                            </div>
+
+                                        </div>
+
+
+                                      
         
                                         <!-- ---------------------------------------------------- -->
                                         <!-- Doc Choose View -->
@@ -1838,6 +1849,11 @@
                                                     <div> Download .odt </div>
 
                                                 </a>
+
+                                                <!-- ---------------------------------------- -->
+                                                <!-- Arrow ( if not selected ) -->
+                                                <!-- ---------------------------------------- -->
+                                                <img src="media/img/00_general/icons/01-general-icons/linker-pfeil.png" class="img-arrow-to-show-to-select" alt="img">
     
     
                                             </div>

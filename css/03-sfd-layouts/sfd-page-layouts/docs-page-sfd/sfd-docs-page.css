@@ -71,14 +71,31 @@
 /* Filter Selection | Doc Card 
 /* ----------------------------------------------- */
 
+.filter-selection-container {
+
+    width: 100%;
+
+    position: relative;
+    top:0;
+
+    display: flex;
+    justify-content: center;
+
+}
+
 .filter-selection {
 
-    height: 3.5em;
+    height: 4em;
     width: 100%;
+
+    padding: 0em 1em;
 
     border: 1px solid var(--c-sfd-very-light-grey);
     border-radius: .4em;
     font-weight: bold;
+
+    /* delete default style  */
+    appearance: none;
 
     background-color: var(--c-sfd-very-light-grey);
     
@@ -87,8 +104,35 @@
 .filter-selection > option {
 
     font-weight: bold;   
-    
+     
 }
+
+.selection-arrow-container {
+
+    height: 3.3em;
+    width: 2.5em;
+    border-radius: .3em;
+
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+
+}
+
+.selection-arrow-container > img { 
+
+    height: .4em;
+    padding-right: .2em;
+}
+
+
+
+
 
 
 /* ----------------------------------------------- */
@@ -137,6 +181,16 @@
 }
 
 
+/*---------------------------------------- */
+/* Img Arrow ( if not selected )
+/*---------------------------------------- */
+
+.img-arrow-to-show-to-select {
+
+    height: 4.5em;
+    padding-right: 3em;
+}
+
 
 /* ----------------------------------------------------------- */
 /* Medium Link Button | sfd 
@@ -165,6 +219,8 @@
 
     color: var(--c-sfd-dark-anthracite);
     background-color: var(--c-sfd-very-light-grey);
+
+    display: none;
 }
 
 .link-button-medium-sfd > img {
