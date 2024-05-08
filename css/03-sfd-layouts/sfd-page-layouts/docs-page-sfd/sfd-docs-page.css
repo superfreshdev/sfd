@@ -106,7 +106,7 @@
 .doc-choose-view-container > img:nth-of-type(1) {
 
     border-radius: .4em;
-    height: 9.5em
+    height: 9em
 
 }
 
@@ -133,7 +133,7 @@
 
 .docs-card-item-link-container > a {
 
-    /* width: 8.5em; */
+    width: 8.3em;
 }
 
 
