@@ -16,11 +16,12 @@
 
 /* Mobile Fixed Header , height: 92px */
 
+#jump-my-short-about-news,
 #jump-my-frontend-backend-stacks,
 #jump-my-top-3-projects, 
 #jump-who-i-am {
 
-    scroll-margin-top: 92px;
+    scroll-margin-top: 99px;
     
 }
 

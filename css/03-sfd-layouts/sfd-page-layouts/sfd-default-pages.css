@@ -349,13 +349,14 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 2em 1.6em;
+    padding: 1em 1.6em;
 
-    font-size: 19.2px;
+    font-size: 17.2px;
 
     font-weight: bold;
 
-    border-top: 4px solid var(--c-sfd-light-brown);
+    border-radius: .4em;
+    margin: 0em 1em;
 
     background-color: var(--c-sfd-dark-anthracite);
     color: var(--c-sfd-very-light-grey);
@@ -368,10 +369,21 @@
 
     font-size: 14.5px;
 
-    line-height: 1.3em;
+    line-height: 1.5em;
 
     color:var(--c-sfd-light-grey);
     
+}
+
+.sub-single-line-header-content-page-container-sfd {
+   
+    padding-top: .2em;
+
+    font-size: 14.5px;
+
+    line-height: 1.3em;
+
+    color:var(--c-sfd-light-grey);
 }
 
 
