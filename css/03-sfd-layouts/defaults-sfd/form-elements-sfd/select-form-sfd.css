@@ -1,0 +1,79 @@
+/*
+
+    select-form-sfd.css 
+
+    > defines my personally select form container
+
+*/
+
+
+/* ----------------------------------------------- */
+/* Select Layout Container ( sfd )
+/* ----------------------------------------------- */
+
+.select-layout-container-sfd {
+
+    width: 100%;
+   
+    position: relative;
+    top:0;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.select-container-sfd  {
+
+    position: relative;
+    top:0;
+
+    height: 4em;
+    width: 100%;
+
+    padding: 0em 1em;
+
+    /* delete default style  */
+    appearance: none;
+
+    font-weight: bold;
+
+    border: 1px solid var(--c-sfd-very-light-grey);
+    border-radius: .4em;
+
+    background-color: var(--c-sfd-very-light-grey);
+    
+}
+
+.select-container-sfd > option {
+
+    font-weight: bold;   
+     
+}
+
+.select-arrow-down-container {
+
+    /* height: 3.3em;
+    width: 2.5em; */
+    border-radius: .3em;
+
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    
+    background-color: red;
+
+}
+
+.select-layout-container-sfd > img { 
+
+    position: absolute;
+    top: 1.5em;
+    right: .8em;
+
+    height: .4em;
+    padding-right: .2em;
+}

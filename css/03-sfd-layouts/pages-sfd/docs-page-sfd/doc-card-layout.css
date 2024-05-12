@@ -1,14 +1,10 @@
 /*
 
-    sfd-doc-page-css
+    doc-card-layout.css
 
-    > ...  
+    > style my doc card layout in header & content 
 
 */
-
-/* #js-page-docs-sfd {
-    
-} */
 
 /* ---------------------------------------------------------------------------- */
 /* List of Doc Cards Container 
@@ -22,7 +18,7 @@
 }
 
 /* ---------------------------------------------------------------------------- */
-/* Doc Card ( Layout )
+/* Doc Card 
 /* ---------------------------------------------------------------------------- */
 
 .doc-card {
@@ -63,10 +59,10 @@
 }
 
 /* ----------------------------------------------- */
-/* Doc Choose View | Doc Card  
+/* Doc Selected View Container | Doc Card  
 /* ----------------------------------------------- */
 
-.doc-choose-view-container {
+.doc-selected-view-container {
 
     display: flex;
     align-items: center;
@@ -74,7 +70,7 @@
 
 }
 
-.doc-choose-view-container > img:nth-of-type(1) {
+.doc-selected-view-container > img:nth-of-type(1) {
 
     border-radius: .4em;
     height: 9em
@@ -117,63 +113,5 @@
 
     height: 4.5em;
     padding-right: 3em;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------------------- */
-/* CSS Handling | Filter Content Page 
-/* ------------------------------------------------------- */
-
-/* filter label for open content filter page  */
-#chk-doc-content-filter,
-#radio-doc-filter-pdf-frontend,
-#radio-doc-filter-pdf-backend,
-#radio-doc-filter-pdf-tools { 
-
-    display: none;
-}
-
-/* ---------------------------------- */
-/* Doc Filter Label | Checked 
-/* ---------------------------------- */
-
-#chk-doc-content-filter:checked ~ #main-footer-base #lbl-nav-doc-filter {
-
-    border: .2em solid var(--c-sfd-red);
-    background-color: var(--c-sfd-red);
-    
-}
-
-/* ---------------------------------- */
-/* Doc Nav Filter Content Page 
-/* ---------------------------------- */
-
-#chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container {
-
-    z-index: 5;
-    top:4em;
-    background-color: var(--c-sfd-light-grey);
-    
-}
-
-#chk-doc-content-filter:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page {
-
-    display: flex;
-}
-
-#radio-doc-filter-pdf-frontend:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page:nth-of-type(1),
-#radio-doc-filter-pdf-backend:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page:nth-of-type(2),
-#radio-doc-filter-pdf-tools:checked ~ #main-footer-base #filter-doc-nav-list-container > .lbl-filtered-content-page:nth-of-type(3) {
-
-    background-color: var(--c-sfd-dark-anthracite);
 }
 
