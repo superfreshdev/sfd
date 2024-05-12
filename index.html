@@ -139,6 +139,8 @@
         https://www.youtube.com/watch?v=y0QoJjsdAZ4
         https://elevenlabs.io/
         https://www.angulararchitects.io/blog/reaktives-state-management-mit-ngrx-redux/
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+        https://www.scaler.com/topics/object-length-in-javascript/
     -->
 
     <title>SuperfreshDEV🌊👨‍💻🚀</title>
@@ -153,9 +155,9 @@
         <!-- -------------------------------------------------------------- -->
 
         <!-- Header  -->
-        <input type="radio" id="radio-page-about" name="name-radio-header-page"  checked>
+        <input type="radio" id="radio-page-about" name="name-radio-header-page" >
         <input type="radio" id="radio-page-news" name="name-radio-header-page" >
-        <input type="radio" id="radio-page-docs" name="name-radio-header-page" >
+        <input type="radio" id="radio-page-docs" name="name-radio-header-page"  checked>
         <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
 
@@ -636,6 +638,58 @@
                                 <!-- ----------------------------------------------------- -->
                                 <div class="row-content-container-sfd">
                                     
+                                    <ul>
+                                        <li>Angular </li>
+                                        <li>TypeScript </li>
+                                        <li>JavaScript </li>
+
+                                        <li>OOP Konzept mit Java & TypeScript </li>
+                                        <li>RestAPI , GraphQL & Json , CSV , XML </li>
+                                        <li>Algorithmen & Datenstrukturen </li>
+
+
+                                        <li>Java </li>
+                                        <li>Spring Boot </li>
+
+                                        <li>Software Testing Inginieur </li>
+                                        <li> Clean Code </li>
+
+                                    </ul>
+                                    <p>---</p>
+
+                                    <ul>
+                                        <li>Datenbanken Grundlagen </li>
+                                        <li>Neo4J </li>
+                                        <li>NodeJS ( JS - Backend )</li>
+                                        <li>NestJS ( JS - Backend )</li>
+                                        <li>Spring Boot </li>
+
+                                        <li>Docker </li>
+                                        <li>Docker Kubernetes </li>
+                                        <li>Jenkins </li>
+                                        <li>Keycloak </li>
+                                        <li>Tomcat , Kafka , Nginx </li>
+
+        
+                                    </ul>
+
+
+                                    <p>---</p>
+
+                                    <ul>
+                                        <li>Git Grundlagen </li>
+                                        <li>Git Workflow </li>
+                                        <li>VSCOde </li>
+                                        <li>IntelliJ</li>
+                                        <li>Linux ( Rechte , Navigation , Installation , Konfiguration , Deinstallation ) </li>
+
+                                        <li>Npm</li>
+                                        <li>Shortcuts </li>
+                                        
+                                    </ul>
+
+                                    <p>---</p>
+
                                     <ul>
                                         <li>Angular 18 - Tutorial </li>
                                         <li>Angular 18 - RXJS ( communication ) </li>
@@ -1877,15 +1931,14 @@
                             <!-- Doc Cards Container                                     -->
                             <!-- ------------------------------------------------------- -->
                             
-                            <div id="doc-cards-container">
+                            <div id="list-of-doc-cards-container">
         
                                 <!-- ---------------------------------------------------- -->
-                                <!-- JS generate Doc Cards                                -->
-                                <!-- > create-feature-list-of-doc-ressource-views.js      -->
-                                <!-- > Design Tempalte generated -->
+                                <!-- JS generate Doc Cards as Template                    -->
+                                <!-- > create-feature-list-of-doc-ressource-views.js      -->                              
                                 <!-- ---------------------------------------------------- -->
                             
-                                <div class="doc-card">
+                                <div class="doc-card" style="display: none;">
         
                                     <!-- ---------------------------------------------------- -->
                                     <!-- Header | Doc Card  -->
@@ -1981,9 +2034,11 @@
                                 <!-- Seperator Content Container ( default )              -->
                                 <!-- ---------------------------------------------------- -->
 
-                                <div class="seperator-content-container">
+                                <div class="seperator-content-container" style="display: none;">
                                     <img src="media/img/00_general/default-imgs/trenner.PNG" alt="img">
                                 </div>
+
+                               
                        
                             </div>
         
@@ -2100,7 +2155,7 @@
             <script src="js/03-js-sfd-useful-lib/sfd-secure-handlings.js"></script> 
             <script src="js/03-js-sfd-useful-lib/sfd-useful-operations.js"></script>
 
-            <script src="js/create-feature-list-of-doc-ressource-views.js"></script>
+            <script src="js/create-layout-doc-cards.js"></script>
         
 
             <!-- ----------------------------------------- -->

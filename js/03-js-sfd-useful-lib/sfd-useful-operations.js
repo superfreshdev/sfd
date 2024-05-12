@@ -333,15 +333,15 @@ const docRessourceObject = [
 
 // select.style.display = "none";
 
-select.addEventListener( "change" , () => {
+// select.addEventListener( "change" , () => {
 
-    const index = select.selectedIndex;
-    console.log( `selectedIndex: ${index}` )
+//     const index = select.selectedIndex;
+//     console.log( `selectedIndex: ${index}` )
 
-    // change process 
-    changeDocRessource( index , docRessourceObject )
+//     // change process 
+//     changeDocRessource( index , docRessourceObject )
 
-} )
+// } )
 
 
 function changeDocRessource( selectedIndex , ressourceObject ) {

@@ -523,7 +523,7 @@
 .select-chapter-container {
 
     width: 100%;
-
+   
     position: relative;
     top:0;
 
@@ -533,6 +533,8 @@
 }
 
 .select-chapter {
+
+    z-index: 3;
 
     height: 4em;
     width: 100%;
@@ -559,6 +561,8 @@
 
 .select-arrow-down-container {
 
+    z-index: 3;
+
     height: 3.3em;
     width: 2.5em;
     border-radius: .3em;
@@ -568,7 +572,9 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;   
+    
+    background-color: red;
 
 }
 

@@ -11,10 +11,10 @@
 } */
 
 /* ---------------------------------------------------------------------------- */
-/* Doc Cards Container
+/* List of Doc Cards Container 
 /* ---------------------------------------------------------------------------- */
 
-#doc-cards-container {
+#list-of-doc-cards-container {
 
     display: grid;
     padding: 2em 0em;
