@@ -21,6 +21,20 @@
             "secondName": "Walter",
             "birthdate" : "12.03.1978",
             "highscore" : "44.320"
+        },
+        {
+            "username": "Dino-1",
+            "firstname": "Nicklas",
+            "secondName": "Walter",
+            "birthdate" : "12.03.1978",
+            "highscore" : "44.320"
+        },
+        {
+            "username": "Dino-2",
+            "firstname": "Nicklas",
+            "secondName": "Walter",
+            "birthdate" : "12.03.1978",
+            "highscore" : "44.320"
         }
 
     ]
