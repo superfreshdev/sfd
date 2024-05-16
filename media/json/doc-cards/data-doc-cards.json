@@ -1,24 +1,21 @@
 {
 
-    "foldersPath" : {
+    "folderPathes" : {
 
-        "imgIconsPath" : "media/img/00_general/icons/01-general-icons/",
-        "mediaDocsPath" : "media/docs/",
+        "pathIcons" : "media/img/00_general/icons/01-general-icons/",
+       
+        "pathDocCatgegory" : {
 
-        "docCategoriesPath" : {
+            "pathFrontend" : "media/docs/frontend/",
+            "pathBackend" : "media/docs/backend/",
+            "pathTools" : "media/docs/tools/"
 
-            "frontendPath" : "frontend/",
-            "backendPath" : "backend/",
-            "toolsPath" : "tools/"
         },
-
-        "docFileTypesPath" : {
-
-            "imgPath" : "img/",
-            "pdfPath" : "pdf/",
-            "odtPath" : "odt/"
-        }
-
+        
+        "pathImg" : "img/",
+        "pathPdf" : "pdf/",
+        "pathOdt" : "odt/"
+             
     },
 
     "ressourcesData" : {
