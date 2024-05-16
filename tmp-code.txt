@@ -550,3 +550,477 @@ function setFirstPage( strRadioHeaders , strImgSrcCouplesOfHeaderLabel ) {
         
                                 </div>
         
+
+
+
+        / Layout Data of Doc Card 
+const objLayoutDocCard  = {
+
+    // Default - Seperator for Doc Card 
+    classDocCardSeperator : "seperator-doc-card-container",
+    // Default - Doc Card 
+    classDocCard : "doc-card",
+
+    /* ------------------------------ */
+    // Header | Doc Card 
+    /* ------------------------------ */
+    classHeaderDocCard : "header-doc-card",
+
+    /* ---------------------------------------- */
+    // Content | Doc Card  
+    /* ---------------------------------------- */
+    classContentDocCard : "content-doc-card",
+
+     
+    /* ---------------------------------------- */
+    // Select Chapter | Content Doc Card  
+    /* ---------------------------------------- */
+    classSelectChapterContainer : "select-chapter-contianer",
+    classSelectChapter : "select-chapter",
+    classSelectArrowDownContainer : "select-arrow-down-container",
+    imgSelectArrowFilename : "runter-black.png",
+
+    /* ---------------------------------------- */
+    // Doc Choose View | Content Doc Card  
+    /* ---------------------------------------- */
+    classDocChooseViewContainer : "doc-chooses-view-container",
+
+    /* -------------------------------------------------------- */
+    // Doc Link Ressource Container | Content Doc Card  
+    /* -------------------------------------------------------- */
+    classDocLinkRessourceContainer : "doc-link-ressource-container",
+
+    classLinkButtonMediumSfd : "link-button-medium-sfd"
+
+}
+
+
+/* ---------------------------------------------------------*/
+/* Execution ( Action ) 
+/* ---------------------------------------------------------*/
+
+function createListOfDocCards ( domIdStart , objDataDocCategory , objData , objLayout ) {
+ 
+
+    console.log( " Marko = " + objDataDocCategory.length )
+
+    /* --------------------------------------------------------- */
+    /* Create List of doc cards 
+    /* --------------------------------------------------------- */
+    for( let i=0; i < objDataDocCategory.length; i++ ) {
+
+        /* ------------------------------------------------------------- */
+        /* Step 1 | Create | Doc Card 
+        /* ------------------------------------------------------------- */
+
+        var domDocCard = createLayoutDocCard("doc-card");
+
+        /* ------------------------------------------------------------- */
+        /* Step 2 | Create Header | Doc Card 
+        /* ------------------------------------------------------------- */
+        var domHeaderDocCard = createLayoutHeaderDocCard( "header-doc-card" , objDataDocCategory[i].title , objDataDocCategory[i].descriptionTitle );
+
+            // Add 'header' to 'doc card'
+            domDocCard.appendChild( domHeaderDocCard );
+
+        /* ------------------------------------------------------------- */
+        /* Step 3 | Create Content | Doc Card 
+        /* ------------------------------------------------------------- */
+        var domContentDocCard = createLayoutContentDocCard( "content-doc-card" );
+
+            /* -------------------------------------------- */
+            // Create | select chapter container 
+            /* -------------------------------------------- */
+            var domSelectChapterContainer = createLayoutSelectChapterContainerDocCard( 
+                "select-chapter-container" ,
+                "select-chapter" , objDataDocCategory[i].selectText , 
+                "select-arrow-down-container" , "media/img/00_general/icons/01-general-icons/runter-black.png" ) ;
+
+            // Add 'select chapter container' to 'content-doc-card'
+            domContentDocCard.appendChild( domSelectChapterContainer )
+
+            /* -------------------------------------------- */
+            // Create | doc choose view container 
+            /* -------------------------------------------- */
+            // Tipp: doc-choosen-view-container 
+
+            var domDocChooseViewContainer = createLayoutDocChooseViewContainerDocCard
+                ( "doc-choose-view-container" , "doc-link-ressource-container" , objData )
+
+            // Add 'doc choose view container' to 'content-doc-card'
+            domContentDocCard.appendChild( domDocChooseViewContainer )
+
+            // Add 'content-doc-card' to 'doc card'
+            domDocCard.appendChild( domContentDocCard )
+
+        /* ------------------------------------------------------------- */
+        /* Step 4 | Add Doc Card to 'domIdStart' 
+        /* ------------------------------------------------------------- */
+
+        domIdStart.appendChild( domDocCard );
+
+    }
+
+
+
+}
+
+
+createListOfDocCards ( domListOfDocCardsContainer , objDataDocCard.docCategoryData.frontend , objDataDocCard , "" )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------*/
+/* Create | Doc Card  
+/* ---------------------------------------------------------*/
+
+function createLayoutDocCard( strClassDocCard ) {
+
+    var domDocCard = document.createElement('div');
+    domDocCard.className = strClassDocCard;
+    // domDocCard.style.cssText = `border: 1px solid red;`;
+
+    return domDocCard;
+}
+
+/* ---------------------------------------------------------*/
+/* Create | Header | Doc Card 
+/* ---------------------------------------------------------*/
+
+function createLayoutHeaderDocCard( strClassHeader , strHeaderTitle , strHeaderTitleDescription ) {
+
+    console.log( "[create Header] - Doc Card " )
+    // console.log( strHeaderTitle + " || " + strHeaderSubTitle )
+
+    // create header container 
+    var domHeader = document.createElement('div')
+    domHeader.className = strClassHeader;
+    
+    // add titles to header
+    var domHeaderTitles = [
+        document.createElement('span'),
+        document.createElement('span')
+    ];
+
+    domHeaderTitles[0].innerHTML = strHeaderTitle;
+    domHeaderTitles[1].innerHTML = strHeaderTitleDescription;
+
+    for( let i=0; i < domHeaderTitles.length; i++ ) {
+
+        domHeader.appendChild( domHeaderTitles[i] )
+
+    }
+    
+    return domHeader;
+
+}
+
+/* ---------------------------------------------------------*/
+/* Create | Content | Doc Card 
+/* ---------------------------------------------------------*/
+
+function createLayoutContentDocCard( strClassContentDocCard ) {
+
+    var domContentDocCard = document.createElement('div');
+    domContentDocCard.className = strClassContentDocCard;
+
+    return domContentDocCard;
+
+}
+
+/* ---------------------------------------------------------*/
+/* Create | Select Chapter Container | Doc Card 
+/* ---------------------------------------------------------*/
+
+function createLayoutSelectChapterContainerDocCard( 
+    strClassSelectChapterContainer ,
+    strClassSelectChapter , objDataDocCardSelectText , 
+    strClassArrowDownContainer , strImgSrcArrowDown ) {
+
+    console.log( "[create Select Chapter Container ] - Doc Card " )
+
+    /* ---------------------------------------- */ 
+    // create | select chapter container 
+    /* ---------------------------------------- */ 
+    var domSelectChapterContainer = document.createElement( 'div' );
+    domSelectChapterContainer.className = strClassSelectChapterContainer;
+
+    /* ---------------------------------------- */ 
+    // create | select chapter 
+    /* ---------------------------------------- */ 
+    var domSelectChapter = document.createElement( 'select' );
+    domSelectChapter.className = strClassSelectChapter;
+
+    // adding options from data to select chapter  
+    for (var i = 0; i < objDataDocCardSelectText.length ; i++){
+        
+        var opt = document.createElement('option');
+        opt.value = objDataDocCardSelectText[i];
+        opt.innerHTML = objDataDocCardSelectText[i];
+        domSelectChapter.appendChild(opt);
+
+    }
+
+    /* ------------------------------------------------------------- */ 
+    // add | 'select chapter' to 'select chapter container'
+    /* ------------------------------------------------------------- */ 
+
+    domSelectChapterContainer.appendChild( domSelectChapter )
+
+    /* ------------------------------------------------------ */ 
+    // create | select arrow down container 
+    /* ------------------------------------------------------ */ 
+
+    var domSelectArrowDownContainer = document.createElement('div');
+    domSelectArrowDownContainer.className = strClassArrowDownContainer;
+
+    var domImgSelectArrowDown = document.createElement('img');
+    domImgSelectArrowDown.src = strImgSrcArrowDown;
+    domImgSelectArrowDown.alt = "img";
+
+    /* ---------------------------------------------------- */ 
+    // add | img to 'select arrow down container' 
+    /* ---------------------------------------------------- */ 
+
+    domSelectArrowDownContainer.appendChild( domImgSelectArrowDown );
+
+    /* --------------------------------------------------------------------------- */ 
+    // add | 'select arrow down container' to 'select chapter container'
+    /* --------------------------------------------------------------------------- */ 
+    domSelectChapterContainer.appendChild( domSelectArrowDownContainer )
+
+
+    return domSelectChapterContainer;
+
+}
+
+/* ---------------------------------------------------------*/
+/* Create | Doc Choose View Container | Doc Card 
+/* ---------------------------------------------------------*/
+
+function createLayoutDocChooseViewContainerDocCard( strClassDocChooseViewContainer , strClassDocLinkRessourceContainer , objData ) {
+
+    var domDocChooseViewContainer = document.createElement('div');
+    domDocChooseViewContainer.className = strClassDocChooseViewContainer;
+
+    // Add doc img 
+    var imgDoc = document.createElement('img');
+    imgDoc.alt ="img";
+    imgDoc.src = "media/docs/frontend/angular/img/angular-grundlagen.PNG";
+
+    // objData.defaultFoldersPath.imgDocsPath + 
+    // objData.defaultFoldersPath.docCategoriesPath.frontendPath + 
+    // objData.defaultFoldersPath.docFileTypesPath.imgPath +
+    // objData.docCategoryData.frontend
+
+    domDocChooseViewContainer.appendChild( imgDoc )
+
+    // Add doc link ressource container
+    var domDocLinkRessourceContainer = document.createElement('div');
+    domDocLinkRessourceContainer.className = strClassDocLinkRessourceContainer;
+
+    var imgNotSelectedDoc = document.createElement('img')
+    imgNotSelectedDoc.className = "img-arrow-to-show-to-select";
+    imgNotSelectedDoc.alt = "img";
+    imgNotSelectedDoc.src = "media/img/00_general/icons/01-general-icons/linker-pfeil.png";
+
+    domDocLinkRessourceContainer.appendChild( imgNotSelectedDoc );
+
+    domDocChooseViewContainer.appendChild( domDocLinkRessourceContainer )
+
+    return domDocChooseViewContainer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------*/
+/* Execution ( Action ) 
+/* ---------------------------------------------------------*/
+
+// console.log("### Start ")
+
+    /* ------------------------------------------ */ 
+    // Create Doc Card Container 
+    /* ------------------------------------------ */ 
+    // var domDocCard = createLayoutDocCard("doc-card");
+
+    /* ------------------------------------------ */ 
+    // Add | Header | to Doc Card Container
+    /* ------------------------------------------ */ 
+    // domDocCard.appendChild( createLayoutHeaderDocCard( 
+    // "header-doc-card" ,
+    // objDataDocCard.docCategoryData.frontend[0].title ,
+    // objDataDocCard.docCategoryData.frontend[0].descriptionTitle ) )
+
+    /* ------------------------------------------ */ 
+    // Create Content | Doc Card 
+    /* ------------------------------------------ */
+    // var domContentDocCard = createLayoutContentDocCard("content-doc-card");
+
+
+        /* -------------------------------------------------------- */ 
+        // Add | Select Chapter Container | to Content 
+        /* -------------------------------------------------------- */ 
+        // domContentDocCard.appendChild( createLayoutSelectChapterContainerDocCard( 
+        //     "select-chapter-container" ,
+        //     "select-chapter" ,
+        //     objDataDocCard,
+        //     "select-arrow-down-container",
+        //     "media/img/00_general/icons/01-general-icons/runter-black.png" )  )
+
+        // domDocCard.appendChild( domContentDocCard );
+
+        /* -------------------------------------------------------- */ 
+        // Add | Doc Choose View Container | to Content
+        /* -------------------------------------------------------- */ 
+
+        // domContentDocCard.appendChild( createLayoutDocChooseViewContainerDocCard( 
+        //     "doc-choose-view-container",
+        //     "doc-link-ressource-container" ,
+        //     objDataDocCard ) )
+
+        // domDocCard.appendChild( domContentDocCard )
+        
+
+
+
+
+
+/* --------------------------------------------------- */ 
+// Add Doc Card to 'list of doc cards container'
+/* --------------------------------------------------- */
+// domListOfDocCardsContainer.appendChild( domDocCard )
+
+
+
+// console.log("### Ende ")
+
+
+
+
+
+
+
+
+/*
+
+            1. Start Punkt 
+
+            2. Process to add all doc cards by category
+
+                1 - create doc card ( function )
+
+                    2 - create header | doc card ( function )
+
+                    3 - create content | doc card ( function )
+
+                        3.1 - Select Chapter Container 
+                        3.2 - Doc Choose View Container 
+                            
+                            3.2.1 - Doc Link Ressource Container 
+
+*/
+

@@ -1,0 +1,523 @@
+{
+
+    "foldersPath" : {
+
+        "imgIconsPath" : "media/img/00_general/icons/01-general-icons/",
+        "mediaDocsPath" : "media/docs/",
+
+        "docCategoriesPath" : {
+
+            "frontendPath" : "frontend/",
+            "backendPath" : "backend/",
+            "toolsPath" : "tools/"
+        },
+
+        "docFileTypesPath" : {
+
+            "imgPath" : "img/",
+            "pdfPath" : "pdf/",
+            "odtPath" : "odt/"
+        }
+
+    },
+
+    "ressourcesData" : {
+
+        "imgFilenameNotSelected" : "linker-pfeil.png",
+        "imgInProgressFilename" : "doc-baustelle.png",
+
+        "selectFirstText" : "Bitte auswählen ...",
+
+        "docLinkData" : {
+
+            "pdfLinkText" : "Lese PDF",
+            "imgPdfFilename" : "pdf-datei.png",
+            "odtLinkText" : "Download.odt",
+            "imgDownloadFilename" : "download-dark-grey.png"
+        }
+    },
+
+    "docCategoryData" : {
+
+        "frontend" : [
+            
+            {
+
+                "cardDocPath" : "angular/",
+                "imgDefaultFilename" : "angular-grundlagen.png",
+
+                "docTitle" : "Angular 18 ",
+                "docDescriptionTitle" : "- Alte Grundlagen & Neue Features 2024",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Das Ökosystem",
+                        "imgFilename" : "01-Das-Ökosystem.png",
+                        "pdfFilename" : "01-Das-Ökosystem.pdf",
+                        "odtFilename" : "01-Das-Ökosystem.odt"
+                    },
+
+                    {
+                        "optionText" :  "02 | CLI & Projekt Setup",
+                        "imgFilename" : "02-cli-projekt-setup.png",
+                        "pdfFilename" : "01-Das-Ökosystem.pdf",
+                        "odtFilename" : "01-Das-Ökosystem.odt"
+                    },
+
+                    {
+                        "optionText" :  "03 | Module , Komponenten , Bindungen",
+                        "imgFilename" : "03-module-komponenten-bindungen.png",
+                        "pdfFilename" : "01-Das-Ökosystem.pdf",
+                        "odtFilename" : "01-Das-Ökosystem.odt"
+                    },
+
+                    {
+                        "optionText" :  "04 | Dependency Injection , Direktiven , Pipes",
+                        "imgFilename" : "04-dependency-injection-direktiven-pipes.png",
+                        "pdfFilename" : "01-Das-Ökosystem.pdf",
+                        "odtFilename" : "01-Das-Ökosystem.odt"
+                    },
+
+                    {
+                        "optionText" :  "05 | Erweiterte Komponenten",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | Routing",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "07 | 'im Prozess' - Single Page Applications (SPA)",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "08 | 'im Prozess' - CRUD Anwendungen mit HTTP-Client",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "09 | 'im Prozess' - Grundlagen der Web-Entwicklung",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "typescript/",
+                "imgDefaultFilename" : "typeskript-grundlagen.png",
+
+                "docTitle" : "Type Script ",
+                "docDescriptionTitle" : "- Grundlagen und kleine Coding Challanges mit Lösungen",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | TypeScript ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "javascript/",
+                "imgDefaultFilename" : "javaskript-grundlagen.png",
+
+                "docTitle" : "Java Script ",
+                "docDescriptionTitle" : "- Grundlagen und kleine Coding Challanges mit Lösungen",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | JavaScript ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            }
+        ],
+
+        "backend" : [
+            
+            {
+
+                "cardDocPath" : "nestjs/",
+                "imgDefaultFilename" : "nestjs-grundlagen.png",
+
+                "docTitle" : "NestJS ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | NestJS",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+            
+            {
+
+                "cardDocPath" : "neo4j/",
+                "imgDefaultFilename" : "neo4j-grundlagen.png",
+
+                "docTitle" : "Neo4j ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Neo4j",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "docker/",
+                "imgDefaultFilename" : "docker-kubernetes-grundlagen.png",
+
+                "docTitle" : "Docker & Kubernetes ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Docker",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | Kubernetes ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            }
+        ],
+
+        "tools" : [
+            
+            {
+
+                "cardDocPath" : "git/",
+                "imgDefaultFilename" : "doc-git-grundlagen.PNG",
+
+                "docTitle" : "Git ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Git",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | GitHub ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | GitLab  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | SourceTree ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+            
+            {
+
+                "cardDocPath" : "linux/",
+                "imgDefaultFilename" : "linux-grundlagen.png",
+
+                "docTitle" : "Linux ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Rechte",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | Navigation ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | Installation , Deinstallation , Konfiguration ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            }
+        ]
+    }
+
+
+}
+

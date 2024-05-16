@@ -153,7 +153,7 @@
 /* 2 / 2 | Medium Link Button | sfd 
 /* ----------------------------------------------------------- */
 
-.link-button-medium-sfd {
+.link-medium-button-sfd {
 
     height: 2.8em;
     
@@ -175,7 +175,7 @@
 
 }
 
-.link-button-medium-sfd > img {
+.link-medium-button-sfd > img {
 
     height: 1.3em;
 }

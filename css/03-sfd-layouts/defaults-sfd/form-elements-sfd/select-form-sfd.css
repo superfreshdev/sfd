@@ -8,33 +8,20 @@
 
 
 /* ----------------------------------------------- */
-/* Select Layout Container ( sfd )
+/* Select ( sfd )
 /* ----------------------------------------------- */
 
-.select-layout-container-sfd {
-
-    width: 100%;
-   
-    position: relative;
-    top:0;
-
-    display: flex;
-    justify-content: center;
-
-}
-
-.select-container-sfd  {
+.select-sfd  {
 
     position: relative;
     top:0;
+
+    z-index: 3;
 
     height: 4em;
     width: 100%;
 
     padding: 0em 1em;
-
-    /* delete default style  */
-    appearance: none;
 
     font-weight: bold;
 
@@ -42,38 +29,19 @@
     border-radius: .4em;
 
     background-color: var(--c-sfd-very-light-grey);
-    
+
+    /* delete default style  */
+    appearance: none;
+
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='32' viewBox='0 0 30 30' width='32' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 13px;
+  
 }
 
-.select-container-sfd > option {
+.select-sfd > option {
 
     font-weight: bold;   
      
-}
-
-.select-arrow-down-container {
-
-    /* height: 3.3em;
-    width: 2.5em; */
-    border-radius: .3em;
-
-    position: absolute;
-    right: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    
-    background-color: red;
-
-}
-
-.select-layout-container-sfd > img { 
-
-    position: absolute;
-    top: 1.5em;
-    right: .8em;
-
-    height: .4em;
-    padding-right: .2em;
 }

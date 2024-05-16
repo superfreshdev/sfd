@@ -1,0 +1,28 @@
+{
+    "userData": [
+
+        {
+            "username": "tomatolix",
+            "firstname": "Lukas",
+            "secondName": "Tortus",
+            "birthdate" : "12.03.1990",
+            "highscore" : "14.320"
+        },
+        {
+            "username": "terex",
+            "firstname": "Nina",
+            "secondName": "Bombay",
+            "birthdate" : "12.03.1993",
+            "highscore" : "19.100"
+        },
+        {
+            "username": "tumo",
+            "firstname": "Nicklas",
+            "secondName": "Walter",
+            "birthdate" : "12.03.1978",
+            "highscore" : "44.320"
+        }
+
+    ]
+   
+}
