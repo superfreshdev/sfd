@@ -8,6 +8,11 @@
 
 */
 
+function countMaxPdfDocs ( objDocCategories ) {
+
+    return  objDocCategories.frontend.length +  objDocCategories.backend.length +  objDocCategories.tools.length;
+}
+
 function getCorrectDocPath ( objDocCategoryPathes , strChoosenCategory ) {
 
     switch( strChoosenCategory ) {
@@ -82,6 +87,7 @@ async function createDocCardList( jsonRequest , strChoosenDocTopic ) {
                 /* ----------------------------------------------------------------------------- */
 
                 var pathChoosenDoc = getCorrectDocPath( jsonData.folderPathes.pathDocCatgegory , strChoosenDocTopic )
+                document.getElementById("js-pdf-doc-count").innerText = "+ " + countMaxPdfDocs( jsonData.docCategoryData ) ;
                 // console.log( " pathChoosenDoc = " + pathChoosenDoc )
 
                 /* ----------------------------------------------------------------------------- */

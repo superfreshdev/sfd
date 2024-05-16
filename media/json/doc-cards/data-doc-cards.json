@@ -91,21 +91,133 @@
                     },
 
                     {
-                        "optionText" :  "07 | 'im Prozess' - Single Page Applications (SPA)",
+                        "optionText" :  "👷 | 'im Prozess' - Single Page Applications (SPA)",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "08 | 'im Prozess' - CRUD Anwendungen mit HTTP-Client",
+                        "optionText" :  "👷 | 'im Prozess' - CRUD Anwendungen mit HTTP-Client",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "09 | 'im Prozess' - Grundlagen der Web-Entwicklung",
+                        "optionText" :  "👷 | 'im Prozess' - Grundlagen der Web-Entwicklung",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "oop/",
+                "imgDefaultFilename" : "doc-oop-grundlagen.png",
+
+                "docTitle" : "OOP ",
+                "docDescriptionTitle" : "- Grundlagen & kleine Praxisbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | OOP ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "algo/",
+                "imgDefaultFilename" : "algo-grundlagen.png",
+
+                "docTitle" : "Algorithmen & Datenstrukturen ",
+                "docDescriptionTitle" : "- Grundlagen & Praxisbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
@@ -126,42 +238,42 @@
                 "selectEntriesRessources" : [
 
                     {
-                        "optionText" :  "01 | TypeScript ",
+                        "optionText" :  "👷 | TypeScript ",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "02 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "03 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "04 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "05 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "06 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
@@ -182,42 +294,266 @@
                 "selectEntriesRessources" : [
 
                     {
-                        "optionText" :  "01 | JavaScript ",
+                        "optionText" :  "👷 | JavaScript ",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "02 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "03 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "04 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "05 | ...",
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
                     },
 
                     {
-                        "optionText" :  "06 | ...",
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            }, 
+
+            {
+
+                "cardDocPath" : "cleancode/",
+                "imgDefaultFilename" : "doc-clean-code-grundlagen.png",
+
+                "docTitle" : "Clean Code ",
+                "docDescriptionTitle" : "- Konzepte für sauberes & strukturellere Programmierung",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | Clean Code ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "java/",
+                "imgDefaultFilename" : "java-grundlagen.png",
+
+                "docTitle" : "Java ",
+                "docDescriptionTitle" : "- Grundlagen & Praxisbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | Java ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "restapi-graphql-co/",
+                "imgDefaultFilename" : "restapi-graphql-grundlagen.png",
+
+                "docTitle" : "RestAPI & GraphQL & Co ",
+                "docDescriptionTitle" : "- Grundlagen & Praxisbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "testing/",
+                "imgDefaultFilename" : "doc-software-testing.png",
+
+                "docTitle" : "Software Testing ",
+                "docDescriptionTitle" : "- Grundlagen & Praxisbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""
@@ -226,6 +562,8 @@
                 ]
 
             }
+
+           
         ],
 
         "backend" : [
