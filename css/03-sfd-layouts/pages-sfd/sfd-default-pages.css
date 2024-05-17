@@ -12,46 +12,63 @@
 /* Row Container | sfd 
 /* ------------------------------------------------------------------- */
 
-.row-container-sfd {
-
-    display: grid;
-    row-gap: 2em;
+.page-container {
 
     /* to let all other child layout element grow max width  */
     width: 100%;
-
+    display: grid;
+    justify-items: center;
 }
 
-.row-content-container-sfd {
+.page-content-container {
 
-    padding: 2.3em 1.6em;
-
+    width: 88%;
 }
 
+.page-content-layout {
 
+    display: grid;
+    padding: 1.6em 1.3em;
+    background-color: var(--c-cf-white);
+
+
+}
 
 
 
 /* ------------------------------------------------------------------- */
-/* Header Page Title | Container | sfd 
+/* Header Content Page | Container 
 /* ------------------------------------------------------------------- */
 
-.header-page-title-container-sfd {
+.header-content-page-container {
 
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 1em 1.6em 1.6em 1.6em;
+    justify-content: center;  
 
     background-color: var(--c-sfd-dark-anthracite);
 
 }
 
-.header-page-title-container-sfd img {
+.header-content-page-container img {
 
     height: 2.3em;
 }
+
+.header-content-page-layout {
+
+    padding: .5em 0em 1.3em 0em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--c-sfd-dark-anthracite);
+
+    background-color: red;
+
+}
+
 
 .title-area-header-page {
 
@@ -444,44 +461,23 @@
 
 
 
-/* in docs auslagern  */
-
-/* ------------------------------------------------------------------- */
-/* Dpc Cards Container | sfd 
-/* ------------------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------------------------------- */
 /* Tab Switching Content Container | sfd 
 /* ------------------------------------------------------------------- */
 
 /* #resp-news-tab-switching-content-container  */
 
-.tab-switching-content-container {
+.tab-switching-panel {
 
     display: flex;
     flex-wrap: wrap;
 
     gap: .6em;
     align-items: center;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
-
-    /* background-color: red; */
-
+ 
     padding-bottom: 1.6em;
     border-bottom: 3px solid var(--c-sfd-dark-white);
 }
-
 
 
 .lbl-tab-switching-item {
