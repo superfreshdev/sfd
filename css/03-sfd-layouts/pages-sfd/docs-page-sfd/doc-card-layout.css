@@ -130,10 +130,12 @@
     display: grid;
     justify-items: center;
   
-    background-color: rgb(66, 66, 66);
+    background-color: rgba(66, 66, 66, .6);
 
-    background-color: var(--c-sfd-light-anthracite);
-    background-color: var(--c-sfd-dark-anthracite);
+    background-color: var(--c-sfd-very-light-grey);
+
+    /* background-color: var(--c-sfd-light-anthracite);
+    background-color: var(--c-sfd-dark-anthracite); */
 
 
     padding: 1.5em 0em;
@@ -147,6 +149,7 @@
 .in-progress-header-doc-card {
 
     color: var(--c-sfd-very-light-grey);
+    color: var(--c-sfd-dark-grey);
     text-align: center;
     padding: 0em .8em;
 }
@@ -166,6 +169,8 @@
     padding: .4em .6em;
     background-color: var(--c-sfd-very-light-grey);
     color: var(--c-sfd-light-anthracite);
+
+    border: .1em solid var(--c-sfd-dark-anthracite);
 }
 
 .dead-line-info {
