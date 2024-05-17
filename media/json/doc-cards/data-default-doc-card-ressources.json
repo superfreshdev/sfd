@@ -1,0 +1,42 @@
+{
+
+    "pathFolders" : {
+
+        "pathIcons" : "media/img/00_general/icons/01-general-icons/",
+        "pathDoc" : "media/docs/",
+
+        "pathDocCategory" : {
+
+            "pathFrontend" : "frontend/",
+            "pathBackend" : "backend/",
+            "pathTools" : "tools/"
+            
+        },
+
+        "pathFileCatgegory" : {
+
+            "pathImg" : "img/",
+            "pathPdf" : "pdf/",
+            "pathOdt" : "odt/"
+           
+        }
+             
+    },
+
+    "data" : {
+
+        "imgFilenameNotSelected" : "linker-pfeil.png",
+        "imgInProgressFilename" : "doc-baustelle.png",
+
+        "selectFirstText" : "Bitte auswählen ...",
+
+        "docLinkData" : {
+
+            "pdfLinkText" : "Lese PDF",
+            "imgPdfFilename" : "pdf-datei.png",
+            "odtLinkText" : "Download.odt",
+            "imgDownloadFilename" : "download-dark-grey.png"
+        }
+    }
+
+}

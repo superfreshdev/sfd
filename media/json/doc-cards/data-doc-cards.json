@@ -623,6 +623,62 @@
                 ]
 
             },
+
+            {
+
+                "cardDocPath" : "nodejs/",
+                "imgDefaultFilename" : "nodejs.png",
+
+                "docTitle" : "NodeJS ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | NodeJS",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
             
             {
 
@@ -682,6 +738,62 @@
 
             {
 
+                "cardDocPath" : "datenbanken-grundlagen/",
+                "imgDefaultFilename" : "datenbanken-grundlagen.png",
+
+                "docTitle" : "Datenbanken ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | DB",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
                 "cardDocPath" : "docker/",
                 "imgDefaultFilename" : "docker-kubernetes-grundlagen.png",
 
@@ -692,6 +804,230 @@
 
                     {
                         "optionText" :  "01 | Docker",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | Kubernetes ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "jenkins/",
+                "imgDefaultFilename" : "jenkings-grundlagen.png",
+
+                "docTitle" : "Jenkins ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Jenkins",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | Kubernetes ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "apache-kafka/",
+                "imgDefaultFilename" : "kafka-grundlagen.png",
+
+                "docTitle" : "Apache Kafka ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Kafka",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | Kubernetes ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "springboot/",
+                "imgDefaultFilename" : "spring-boot-grundlagen.png",
+
+                "docTitle" : "Spring Boot ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Spring Boot",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "02 | Kubernetes ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "03 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "04 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "05 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "06 | ...  ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "apache-nginx/",
+                "imgDefaultFilename" : "nginx-grundlagen.png",
+
+                "docTitle" : "Apache Nginx ",
+                "docDescriptionTitle" : "- Grundlagen Umgang & Mini Anwendungsbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "01 | Nginx",
                         "imgFilename" : "",
                         "pdfFilename" : "",
                         "odtFilename" : ""

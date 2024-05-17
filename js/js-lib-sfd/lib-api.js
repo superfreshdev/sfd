@@ -54,7 +54,107 @@ function printSelectOptions( strDefaultOption,  strArray ) {
 /* Asyn Function ( asynchrone process )
 /* ------------------------------------------------------------ */ 
 
-async function createDocCardList( jsonRequest , strChoosenDocTopic ) {
+const inventory = [
+    { name: "complete", type: "vegetables", quantity: 5 },
+    { name: "planning", type: "fruit", quantity: 0 },
+    { name: "complete", type: "meat", quantity: 23 },
+    { name: "planning", type: "fruit", quantity: 5 },
+    { name: "complete", type: "meat", quantity: 22 },
+  ];
+
+
+
+// const result = Object.groupBy(inventory, ({ name }) => name);
+
+// console.log( result )
+
+async function createDocCardList( jsonRessourceRequest , jsonDataRequest , strChoosenDocTopic ) {
+
+    try {
+
+        // get default ressource data from json 
+        const ressourceResponse = await fetch( jsonRessourceRequest );
+        const dataRessource = await ressourceResponse.json();
+        // get data from choosen doc topic 
+        const dataResponse = await fetch( jsonDataRequest )
+        const data = await dataResponse.json();
+
+        // set choosen topic 
+        var strDocTopic = strChoosenDocTopic;
+
+        /* ---------------------------------------------------------------------- */
+        /* Step 0 | Secure Check 
+        /* ---------------------------------------------------------------------- */
+
+        if( data.hasOwnProperty( strChoosenDocTopic) ) {
+
+            if( data[strChoosenDocTopic].length != undefined || data[strChoosenDocTopic].length.length != null  ) {
+
+                const result = Object.groupBy(data[strChoosenDocTopic], ({ status }) => status);
+                console.log( result )
+
+                console.log( " OOO = " + result.complete[0].pathFilesFolder )
+                console.log( " OOO = " + result.planning[0].pathFilesFolder )
+
+                // for( let i = 0; i < result.length; i++ ) {
+
+                //     console.log( i + " = " + result[i].imgDefaultFilename )
+                // }
+
+
+            } else {
+
+                console.log( "ERROR - createDocCardList | no data doc entries 🤐")
+            }
+           
+            
+
+            /* ---------------------------------------------------------------------- */
+            /* Tempalte | Doc Card 
+            /* ---------------------------------------------------------------------- */
+
+            var layoutDocCard = ``;
+
+            /* ---------------------------------------------------------------------- */
+            /* Tempalte | In Progress Doc Card  
+            /* ---------------------------------------------------------------------- */
+
+            var layoutInProgressDocCard = ``;
+
+            
+
+        } else {
+
+            console.log("ERROR - createDocCardList | wrong given doc topic 🥱")
+        }
+
+        console.log( "### - Start - ###")
+
+
+
+      
+
+        
+
+        console.log( "### - Ende - ###")
+
+        
+        /* ---------------------------------------------------------------------- */
+        /* Step 1 | Descide Card Process Type ( complete , planning )
+        /* ---------------------------------------------------------------------- */
+
+
+
+
+    } catch {
+        console.log( "ERROR - createDocCardList | Problem by fetch proceess 😥" )
+    }
+}
+
+
+createDocCardList( "media/json/doc-cards/data-default-doc-card-ressources.json" , "media/json/doc-cards/data-doc-card-frontend.json" , "frontend" )
+
+async function createDocCardList2( jsonRequest , strChoosenDocTopic ) {
 
     try {
 
@@ -120,8 +220,8 @@ async function createDocCardList( jsonRequest , strChoosenDocTopic ) {
 
                                     <div class="doc-link-ressource-container">
 
-                                        <img src="media/img/00_general/icons/01-general-icons/linker-pfeil.png" class="img-arrow-to-show-to-select" alt="img">
-
+                                        <img src="${jsonData.folderPathes.pathIcons}${jsonData.ressourcesData.imgFilenameNotSelected}" class="img-arrow-to-show-to-select" alt="img">
+                                                                                 
                                     </div>
 
                                 </div>
@@ -209,7 +309,7 @@ async function createDocCardList( jsonRequest , strChoosenDocTopic ) {
 
 }
 
-createDocCardList( "media/json/doc-cards/data-doc-cards.json" , "frontend" )
+createDocCardList2( "media/json/doc-cards/data-doc-cards.json" , "backend" )
 
 // divListOfDocCards.appendChild( domImg )
 

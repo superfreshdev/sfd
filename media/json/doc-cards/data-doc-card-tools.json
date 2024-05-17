@@ -1,0 +1,90 @@
+{
+
+    "tools" : {
+
+        "git" : {
+
+            "status": "progress|complete|planning",
+
+            "pathFilesFolder" : "git/",
+            "imgDefaultFilename" : "doc-git-grundlagen.PNG",
+
+            "title" : "Git",
+            "desciption" : "- Alte Grundlagen & Neue Features 2024",
+
+            "selectRessources" : [
+
+                {
+                    "optionText" :  "01 | Das Ökosystem",
+                    "imgFilename" : "01-Das-Ökosystem.png",
+                    "pdfFilename" : "01-Das-Ökosystem.pdf",
+                    "odtFilename" : "01-Das-Ökosystem.odt"
+                },
+    
+                {
+                    "optionText" :  "02 | CLI & Projekt Setup",
+                    "imgFilename" : "02-cli-projekt-setup.png",
+                    "pdfFilename" : "01-Das-Ökosystem.pdf",
+                    "odtFilename" : "01-Das-Ökosystem.odt"
+                },
+    
+                {
+                    "optionText" :  "03 | Module , Komponenten , Bindungen",
+                    "imgFilename" : "03-module-komponenten-bindungen.png",
+                    "pdfFilename" : "01-Das-Ökosystem.pdf",
+                    "odtFilename" : "01-Das-Ökosystem.odt"
+                },
+    
+                {
+                    "optionText" :  "04 | Dependency Injection , Direktiven , Pipes",
+                    "imgFilename" : "04-dependency-injection-direktiven-pipes.png",
+                    "pdfFilename" : "01-Das-Ökosystem.pdf",
+                    "odtFilename" : "01-Das-Ökosystem.odt"
+                },
+    
+                {
+                    "optionText" :  "05 | Erweiterte Komponenten",
+                    "imgFilename" : "",
+                    "pdfFilename" : "",
+                    "odtFilename" : ""
+                },
+    
+                {
+                    "optionText" :  "06 | Routing",
+                    "imgFilename" : "",
+                    "pdfFilename" : "",
+                    "odtFilename" : ""
+                },
+    
+                {
+                    "optionText" :  "👷 | 'im Prozess' - Single Page Applications (SPA)",
+                    "imgFilename" : "",
+                    "pdfFilename" : "",
+                    "odtFilename" : ""
+                },
+    
+                {
+                    "optionText" :  "👷 | 'im Prozess' - CRUD Anwendungen mit HTTP-Client",
+                    "imgFilename" : "",
+                    "pdfFilename" : "",
+                    "odtFilename" : ""
+                },
+    
+                {
+                    "optionText" :  "👷 | 'im Prozess' - Grundlagen der Web-Entwicklung",
+                    "imgFilename" : "",
+                    "pdfFilename" : "",
+                    "odtFilename" : ""
+                }
+
+            ]
+
+        }
+    }
+
+}
+
+            
+   
+
+

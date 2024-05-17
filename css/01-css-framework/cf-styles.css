@@ -1,0 +1,14 @@
+/*
+
+    cf-styles.css
+
+    > define different styles like border-radius etc.
+
+*/
+
+
+/* --------------------------------------------------- */
+/* Border Radius ( Corners ) 
+/* --------------------------------------------------- */
+
+.br-0-4em { border-radius: .4em; }
