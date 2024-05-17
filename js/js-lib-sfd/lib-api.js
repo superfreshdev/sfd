@@ -231,7 +231,7 @@ async function createDocCardList2( jsonRequest , strChoosenDocTopic ) {
                         </div>
 
                         <div class="seperator-content-container">
-                                    <img src="media/img/00_general/default-imgs/trenner.PNG" alt="img">
+                                    <img src="media/img/default/small-imgs/trenner.png" alt="img">
                                 </div>
 
 
@@ -309,7 +309,7 @@ async function createDocCardList2( jsonRequest , strChoosenDocTopic ) {
 
 }
 
-createDocCardList2( "media/json/doc-cards/data-doc-cards.json" , "backend" )
+createDocCardList2( "media/json/doc-cards/data-doc-cards.json" , "frontend" )
 
 // divListOfDocCards.appendChild( domImg )
 

@@ -13,6 +13,7 @@
 #list-of-doc-cards-container {
 
     display: grid;
+    row-gap: 2.3em;
     padding: 2em 0em;
 
 }
@@ -73,7 +74,7 @@
 .doc-selected-view-container > img:nth-of-type(1) {
 
     border-radius: .4em;
-    height: 9em
+    height: 18vh;
 
 }
 
@@ -89,14 +90,14 @@
     display: grid;
     row-gap: .8em;
 
-    justify-items: flex-end;
+    justify-items: center;
     align-content: center;
 
      /* background-color: red; */
     
 }
 
-.doc-link-ressource-container  > a {
+.doc-link-ressource-container > a {
 
     width: 8.5em;
 
@@ -111,8 +112,8 @@
 
 .img-arrow-to-show-to-select {
 
-    height: 4.5em;
-    padding-right: 3em;
+    height: 6vh;
+    /* padding-right: 3em; */
 }
 
 
@@ -201,10 +202,10 @@
 
 .in-progress-doc-img-container > img {
 
-    height: 11em;
+    height: 14vh;
     border-radius: .4em;
     
-    box-shadow: rgba(168, 168, 168, 0.3) 0px 0px 0px 3px;
+    box-shadow: rgba(168, 168, 168, 0.3) 0px 0px 0px 2px;
 
 
 }

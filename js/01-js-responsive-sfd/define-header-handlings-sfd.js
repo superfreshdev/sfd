@@ -18,7 +18,7 @@ const chkMobileMenueNav = document.getElementById("chk-mobile-hamburger-menue-sf
 
 const imgDomElementOfPageSettedInfoBoxSfd = document.getElementById("js-img-src-info-filter-box-sfd");
 
-const defaultImgSrcHeaderNavlabel = "media/img/01_header/";
+const defaultImgSrcHeaderNavlabel = "media/img/header/";
 
 const objDataHeaderPageNavigation = [
         

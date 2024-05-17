@@ -2,7 +2,7 @@
 
     "folderPathes" : {
 
-        "pathIcons" : "media/img/00_general/icons/01-general-icons/",
+        "pathIcons" : "media/img/default/icons/default-icons/",
        
         "pathDocCatgegory" : {
 
@@ -458,6 +458,62 @@
 
                 "docTitle" : "RestAPI & GraphQL & Co ",
                 "docDescriptionTitle" : "- Grundlagen & Praxisbeispiele",
+
+                "selectEntriesRessources" : [
+
+                    {
+                        "optionText" :  "👷 | ... ",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    },
+
+                    {
+                        "optionText" :  "👷 | ...",
+                        "imgFilename" : "",
+                        "pdfFilename" : "",
+                        "odtFilename" : ""
+                    }
+                   
+                ]
+
+            },
+
+            {
+
+                "cardDocPath" : "json/",
+                "imgDefaultFilename" : "json-grundlagen.png",
+
+                "docTitle" : ".json",
+                "docDescriptionTitle" : "- Grundlagen & Praxisbeispiele mit Java Script & Type Script",
 
                 "selectEntriesRessources" : [
 

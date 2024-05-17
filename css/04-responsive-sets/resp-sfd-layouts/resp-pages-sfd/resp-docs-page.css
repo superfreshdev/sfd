@@ -7,7 +7,7 @@
 
 
 /* --------------------------------------------------------------------- */
-/* >= 746px 
+/* >= 340px 
 /* --------------------------------------------------------------------- */
 @media ( min-width: 340px ) {
 
@@ -16,12 +16,15 @@
     /* Doc Card Layout  
     /* --------------------------------------------- */
 
-    .doc-selected-view-container > img:nth-of-type(1) { height: 12.5em }
-
+    .doc-selected-view-container > img:nth-of-type(1) { height: 22vh; }
+    .in-progress-doc-img-container > img { height: 18vh; }
+   
     
 }
 
-
+/* --------------------------------------------------------------------- */
+/* >= 476px 
+/* --------------------------------------------------------------------- */
 @media ( min-width: 476px ) {
 
 
@@ -29,13 +32,17 @@
     /* Doc Card Layout  
     /* --------------------------------------------- */
 
-    .doc-selected-view-container > img:nth-of-type(1) { height: 16.5em }
+    .doc-selected-view-container > img:nth-of-type(1) { height: 25vh; }
+    .img-arrow-to-show-to-select {  height: 10vh; }
 
-    .img-arrow-to-show-to-select {
+    .in-progress-doc-img-container > img { height: 22vh; }
+   
 
-        height: 6.5em;
-        padding-right: 5em;
-    }
-
-    
+         
 }
+
+/* --------------------------------------------------------------------- */
+/* >= 520px 
+/* --------------------------------------------------------------------- */
+
+/* kleiner im content werden  */
