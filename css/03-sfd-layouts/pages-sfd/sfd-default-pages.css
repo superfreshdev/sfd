@@ -9,13 +9,12 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Row Container | sfd 
+/* Page Container | Content | Layout  
 /* ------------------------------------------------------------------- */
 
 .page-container {
 
     /* to let all other child layout element grow max width  */
-    width: 100%;
     display: grid;
     justify-items: center;
 }
@@ -25,12 +24,17 @@
     width: 88%;
 }
 
+.page-100p-content-container {
+
+    width: 100%;
+}
+
+
 .page-content-layout {
 
     display: grid;
-    padding: 1.6em 1.3em;
+    padding: 1.6em 0em;
     background-color: var(--c-cf-white);
-
 
 }
 

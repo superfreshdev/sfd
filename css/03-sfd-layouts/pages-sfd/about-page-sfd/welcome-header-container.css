@@ -1,5 +1,5 @@
 /* 
-    welcome-title.css
+    welcome-header-container.css
 
     define the welcome container layout of my
     about page 
@@ -11,19 +11,16 @@
 /* Welcome Title 
 /* ---------------------------------------------------------------------- */
 
-#welcome-title-sfd {
+#welcome-header-container {
 
-    background-color: var(--c-sfd-dark-anthracite);
+    
+    padding: .3em 1.3em 1em 0em;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    /* Mobile  */
-    padding: .3em 1.3em 1em 0em;
-
-    /* Desktop  */
-   
+    background-color: var(--c-sfd-dark-anthracite);   
 
 }
 

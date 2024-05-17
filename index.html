@@ -92,7 +92,7 @@
                 <!-- --------------------------------------------------------------------------------------------------------------------- -->
                 <link rel="stylesheet" href="css/03-sfd-layouts/pages-sfd/about-page-sfd/sfd-about-page.css">
 
-                <link rel="stylesheet" href="css/03-sfd-layouts/pages-sfd/about-page-sfd/welcome-title.css">
+                <link rel="stylesheet" href="css/03-sfd-layouts/pages-sfd/about-page-sfd/welcome-header-container.css">
                 <link rel="stylesheet" href="css/03-sfd-layouts/pages-sfd/about-page-sfd/my-short-news.css">
                 <link rel="stylesheet" href="css/03-sfd-layouts/pages-sfd/about-page-sfd/my-business-card.css">
                 <link rel="stylesheet" href="css/03-sfd-layouts/pages-sfd/about-page-sfd/my-quote.css">
@@ -192,9 +192,9 @@
         <!-- -------------------------------------------------------------- -->
 
         <!-- Header  -->
-        <input type="radio" id="radio-page-about" name="name-radio-header-page" >
+        <input type="radio" id="radio-page-about" name="name-radio-header-page" checked>
         <input type="radio" id="radio-page-news" name="name-radio-header-page" >
-        <input type="radio" id="radio-page-docs" name="name-radio-header-page"  checked>
+        <input type="radio" id="radio-page-docs" name="name-radio-header-page" >
         <input type="radio" id="radio-page-projects" name="name-radio-header-page" >
 
 
@@ -425,48 +425,126 @@
 
                    
                     <!-- -------------------------------------------------------------------------- -->
-                    <!-- Container | Welcome Title                                                  -->
+                    <!-- Welcome Header | Container                                                 -->
                     <!-- -------------------------------------------------------------------------- -->                                           
-                    <div id="welcome-title-sfd">
+                    <div class="page-100p-content-container">
+                        <div id="welcome-header-container">
 
-                        <!-- ------------------------------------------------------ -->
-                        <!-- Box | Welcome Title   -->
-                        <!-- ------------------------------------------------------ -->
-                        <div id="box-welcome-title">
+                            <!-- ------------------------------------------------------ -->
+                            <!-- Box | Welcome Title   -->
+                            <!-- ------------------------------------------------------ -->
+                            <div id="box-welcome-title">
 
-                            <div>
-                                <img src="media/img/default/me-cartoon/hello.svg" id="img-welcome-cartoon-me" alt="img">
-                            </div>
-
-                            <div id="content-welcome-title">
-                                
                                 <div>
-                                    <div id="title-style-welcome-to">Welcome to </div>
-                                    <div id="title-style-superfreshdev">SuperfreshDEV <span>{World}</span> </div>
+                                    <img src="media/img/default/me-cartoon/hello.svg" id="img-welcome-cartoon-me" alt="img">
                                 </div>
-                                
-                                <div id="sub-title-style-welcome-quote">» lets build systems not just software.</div>
+
+                                <div id="content-welcome-title">
+                                    
+                                    <div>
+                                        <div id="title-style-welcome-to">Welcome to </div>
+                                        <div id="title-style-superfreshdev">SuperfreshDEV <span>{World}</span> </div>
+                                    </div>
+                                    
+                                    <div id="sub-title-style-welcome-quote">» lets build systems not just software.</div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ------------------------------------------------------ -->
+                            <!-- Box | Welcome Date -->
+                            <!-- ------------------------------------------------------ -->
+                            <div id="box-welcome-date">
+
+                                <span>today,</span>
+                                <span id="js-date">[...]</span>
 
                             </div>
 
                         </div>
+                    </div>
 
-                        <!-- ------------------------------------------------------ -->
-                        <!-- Box | Welcome Date -->
-                        <!-- ------------------------------------------------------ -->
-                        <div id="box-welcome-date">
 
-                            <span>today,</span>
-                            <span id="js-date">[...]</span>
+                    <!-- -------------------------------------------------------------------------- -->
+                    <!-- My Business Card | Container                                               -->
+                    <!-- -------------------------------------------------------------------------- -->
+                    <div class="page-content-container page-content-layout" style="background-color: red;">
+                        
+                        
+                        <!-- ------------------------------------------------ -->
+                        <!-- Container | Img Me & Contact Me                  -->
+                        <!-- ------------------------------------------------ -->
+                        <div id="img-about-me-contact-me-container-sfd" >
+
+
+                            <!-- -------------------------------------- -->
+                            <!-- Box | Img About Me -->
+                            <!-- -------------------------------------- -->
+                            <div id="box-img-about-me-container">
+
+                                <img src="media/img/default/icons/default-icons/geschweifte-klammer-einzelnd.png" id="img-about-brace-open" alt="img">                             
+                                <img src="media/img/main/about/mobile-about-me.png" id="img-about-me" alt="img">
+                                <img src="media/img/default/icons/default-icons/geschweifte-klammer-einzelnd.png" id="img-about-brace-close" alt="img">
+                            
+                            </div>
+
+                            <!-- -------------------------------- -->
+                            <!-- Seperator                        -->
+                            <!-- -------------------------------- -->
+                            <div class="seperator-light-grey-sfd">
+                                <div class="trans-r-90deg">››</div>
+                            </div>
+
+                            <!-- -------------------------------------- -->
+                            <!-- Box | Contact Me                       -->
+                            <!-- -------------------------------------- -->
+                            <div id="box-contact-me-container">
+
+                                <!-- -------------------------------- -->
+                                <!-- Link | Contact Me                -->
+                                <!-- -------------------------------- -->
+                                <a href="mailto:contact-superfreshdev@gmx.de" class="big-link-button-sfd link-email-style-sfd" title="write me an E-Mail ..." >
+                                    
+                                    <!-- -------------------------------- -->
+                                    <!-- Img & Text Link Container        -->
+                                    <!-- -------------------------------- -->
+                                    <div>
+
+                                        <div class="box-info-big-link-button-sfd">
+                                            <img src="media/img/default/icons/default-icons/email-black.png" class="img-icon-small-2-sfd" alt="img">
+                                        </div>
+
+                                        <div class="box-main-sub-title-link-button">
+                                            <div class="main-title-big-link-button">Contact Me</div>
+                                            <div class="sub-title-big-link-button">» I reply back in 12h</div>
+                                        </div>
+
+                                    </div>                                      
+                                
+                                </a>
+
+                            </div>
+
+                            <!-- -------------------------------- -->
+                            <!-- Seperator                        -->
+                            <!-- -------------------------------- -->
+                            <div class="seperator-anthracite-sfd">
+                                <div class="trans-r-90deg"> ‹›</div>
+                            </div>
+
 
                         </div>
+
 
                     </div>
 
-                    <div class="page-content-container">
+                   
+
+                    <div class="page-content-container page-content-layout" style="display: none;">
 
                         <!-- -------------------------------------------------------------------------- -->
-                        <!-- Container | My Business Card                                               -->
+                        <!-- My Business Card | Container                                               -->
                         <!-- -------------------------------------------------------------------------- -->
                         <div id="my-business-card-sfd">
 
@@ -774,7 +852,7 @@
 
                         
                         <!-- -------------------------------------------------------------------------- -->
-                        <!-- Container | My Top 3 Projects  -->
+                        <!--My Top 3 Projects | Container                                               -->
                         <!-- -------------------------------------------------------------------------- -->
                         <div id="my-top-3-projects-sfd" >
 
@@ -1249,7 +1327,7 @@
                     
                         
                         <!-- -------------------------------------------------------------------------- -->
-                        <!-- Container | How to build fresh Projects  -->
+                        <!-- How to build fresh Projects | Container   -->
                         <!-- -------------------------------------------------------------------------- -->
                         <div id="how-to-build-fresh-projects-sfd" class="row-page-container" style="display: none;">
                             
@@ -1274,9 +1352,8 @@
                         </div>
 
 
-
                         <!-- ------------------------------------------------ -->
-                        <!-- Container | My Tech Skills                       -->
+                        <!-- My Tech Skills | Container                       -->
                         <!-- ------------------------------------------------ -->
                         <div id="my-tech-skills-container-sfd">
 
@@ -1587,7 +1664,7 @@
                         </div>
 
                         <!-- -------------------------------------------------------------------------- -->
-                        <!-- Container | Read More About Me  -->
+                        <!-- Read More About Me | Container -->
                         <!-- -------------------------------------------------------------------------- -->
                         <div >
                             
@@ -1627,55 +1704,59 @@
                     <!-- -------------------------------------------------------------------------- -->
                     <!-- Container | My Quote  -->
                     <!-- -------------------------------------------------------------------------- -->
-                    <div id="my-quote-sfd">
+                    <div class="page-100p-content-container" style="display: none;">
 
-                        <!-- ------------------------------------------------ -->
-                        <!-- Background Img - Silicon Valley ( absolute )     --> 
-                        <!-- ------------------------------------------------ -->                            
-                        <img src="media/img/main/about/my-quote/silicon-valley.png" id="img-background-silicon-valley" alt="img">
+                        <div id="my-quote-sfd">
+
+                            <!-- ------------------------------------------------ -->
+                            <!-- Background Img - Silicon Valley ( absolute )     --> 
+                            <!-- ------------------------------------------------ -->                            
+                            <img src="media/img/main/about/my-quote/silicon-valley.png" id="img-background-silicon-valley" alt="img">
 
 
-                        <!-- ------------------------------------------------ -->
-                        <!-- My Quote Handle Container ( relative )           --> 
-                        <!-- ------------------------------------------------ -->             
-                        <div id="my-quote-handle-container">
-                        
-                            <!-- ----------------------------------------------------------- -->
-                            <!-- My Quote Element ( relative )                               -->
-                            <!-- ----------------------------------------------------------- -->
-                            <div id="my-quote-element">
+                            <!-- ------------------------------------------------ -->
+                            <!-- My Quote Handle Container ( relative )           --> 
+                            <!-- ------------------------------------------------ -->             
+                            <div id="my-quote-handle-container">
+                            
+                                <!-- ----------------------------------------------------------- -->
+                                <!-- My Quote Element ( relative )                               -->
+                                <!-- ----------------------------------------------------------- -->
+                                <div id="my-quote-element">
 
-                                Work on things u belive.
-                                Others will not understand.
-                                Only if its done.    
-                                                        
+                                    Work on things u belive.
+                                    Others will not understand.
+                                    Only if its done.    
+                                                            
+                                </div>
+
+                                <!-- ----------------------------------------------------------- -->
+                                <!-- Label Open Close Video Container ( relative )                -->
+                                <!-- ----------------------------------------------------------- -->
+                                <label for="chk-about-open-video-container" id="lbl-open-my-quote-video-container" class="lbl-movie" name="name-about-open-video-container">
+                                                            
+                                    <img src="media/img/default/icons/default-icons/arrow-down-white.png" id="img-arrow-down" alt="img">
+                                    
+                                </label>
+
+                                
                             </div>
 
+
+                                <!-- ----------------------------------------------------------- -->
+                            <!-- My Quote Video Container ( absolute / relative )            -->
                             <!-- ----------------------------------------------------------- -->
-                            <!-- Label Open Close Video Container ( relative )                -->
-                            <!-- ----------------------------------------------------------- -->
-                            <label for="chk-about-open-video-container" id="lbl-open-my-quote-video-container" class="lbl-movie" name="name-about-open-video-container">
-                                                        
-                                <img src="media/img/default/icons/default-icons/arrow-down-white.png" id="img-arrow-down" alt="img">
-                                
-                            </label>
+                            <div id="my-quote-video-container">
 
-                            
-                        </div>
+                                <video controls>
+                                    <source src="media/video/mp4/introduction.mp4" type="video/mp4">                                       
+                                </video>
 
+                            </div>
 
-                            <!-- ----------------------------------------------------------- -->
-                        <!-- My Quote Video Container ( absolute / relative )            -->
-                        <!-- ----------------------------------------------------------- -->
-                        <div id="my-quote-video-container">
-
-                            <video controls>
-                                <source src="media/video/mp4/introduction.mp4" type="video/mp4">                                       
-                            </video>
+                        
 
                         </div>
-
-                    
 
                     </div>
 
@@ -1683,44 +1764,48 @@
                     <!-- -------------------------------------------------------------------------- -->
                     <!-- Container | just for fun -->
                     <!-- -------------------------------------------------------------------------- -->
-                    <div class="row-page-container" >
+                    <div class="page-content-container" style="display: none;">
 
-                        <h3>Just for fun - Container </h3>
-
-                        <div id="just-for-fun-audio-container">
-
-                            <audio id="audio-china" controls >
-                                <source src="media/audio/about/china-rap.mp3" type="audio/mpeg">
-                            </audio>
-                        
-                            <audio id="audio-chinad" controls >
-                                <source src="media/audio/about/come-with-me.mp3" type="audio/mpeg">
-                            </audio>
-
-                            <audio id="audio-chinad" controls >
-                                <source src="media/audio/about/walking-the-san-cs.mp3" type="audio/mpeg">
-                            </audio>
-
-                            <audio id="audio-chinad" controls >
-                                <source src="media/audio/about/i-see-u-cs.mp3" type="audio/mpeg">
-                            </audio>
+                      
+                            <h3>Just for fun - Container </h3>
+    
+                            <div id="just-for-fun-audio-container">
+    
+                                <audio id="audio-china" controls >
+                                    <source src="media/audio/about/china-rap.mp3" type="audio/mpeg">
+                                </audio>
                             
-                            <audio id="audio-chinad" controls >
-                                <source src="media/audio/about/blamless-cs.mp3" type="audio/mpeg">
-                            </audio>
-
-                            <audio id="audio-chinad" controls >
-                                <source src="media/audio/about/Sliding Doors.mp3" type="audio/mpeg">
-                            </audio>
-
-                            <audio id="audio-chinad" controls >
-                                <source src="media/audio/about/mein-ding-ul.mp3" type="audio/mpeg">
-                            </audio>
-
-                        </div>
-                        
+                                <audio id="audio-chinad" controls >
+                                    <source src="media/audio/about/come-with-me.mp3" type="audio/mpeg">
+                                </audio>
+    
+                                <audio id="audio-chinad" controls >
+                                    <source src="media/audio/about/walking-the-san-cs.mp3" type="audio/mpeg">
+                                </audio>
+    
+                                <audio id="audio-chinad" controls >
+                                    <source src="media/audio/about/i-see-u-cs.mp3" type="audio/mpeg">
+                                </audio>
+                                
+                                <audio id="audio-chinad" controls >
+                                    <source src="media/audio/about/blamless-cs.mp3" type="audio/mpeg">
+                                </audio>
+    
+                                <audio id="audio-chinad" controls >
+                                    <source src="media/audio/about/Sliding Doors.mp3" type="audio/mpeg">
+                                </audio>
+    
+                                <audio id="audio-chinad" controls >
+                                    <source src="media/audio/about/mein-ding-ul.mp3" type="audio/mpeg">
+                                </audio>
+    
+                            </div>
+                            
+    
+                       
 
                     </div>
+                   
 
 
                    
