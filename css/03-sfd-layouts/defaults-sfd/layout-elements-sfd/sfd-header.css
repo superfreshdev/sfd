@@ -234,6 +234,42 @@
 
     background-color: var(--c-sfd-light-grey);
 
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+    /* background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%); */
+    
+    /* variante x  */
+    /* background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen; */
+
+    /* variante || Favorite ||   */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+
+    /* background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten; */
+
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
+
+    /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+
+    /* background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen; */
+
+    /* background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%); */
+
+    /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply; */
+
+    /* background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply; */
+
+    /* background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%); */
+
     transition: all .4s ease;
 
 
